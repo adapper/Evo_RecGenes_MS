@@ -43,7 +43,8 @@ Both NCBI & Ensembl versions are the same.
 Macaque - XM_001088572.3
 Not annotated in Ensembl (maybe see RAE1).
 
-Orangutan - XM_009233747.1
+Orangutan - pon_pyg_SPO11
+XM_009233747.1
 NCBI transcript annotation incorrect due to gap in reference genome.  Misses one exon and creates an incorrect one in its place.  Edited by hand.  Same problem with the Ensembl transcript.
 
 Gorilla - XM_004062412.2
@@ -335,7 +336,7 @@ Both NCBI & Ensembl versions are the same.
 Macaque - XM_015143199.1 OR ENSMMUT00000022831.3
 Both NCBI & Ensembl versions are the same.
 
-Orangutan -
+Orangutan - pon_pyg_CCNB1IP1
 XM_002824502.3 OR ENSPPYT00000006583.2
 Both NCBI & Ensembl versions are the same.
 Extra codons at start, not clear if real, but do not match any other sequence so removed for analysis.
@@ -1070,7 +1071,8 @@ Cow - NM_001206255.2
 Sheep - XM_004002088.2 (OR ENSOART00000013835.1)
 NCBI transcript more parsimonious
 
-Pig - XM_021096463.1
+Pig - sus_scr_MSH4
+XM_021096463.1
 *trimmed start
 
 Bat - XM_008139443.1
@@ -1374,10 +1376,11 @@ Rat - rat_nor_SYCP1
 NM_012810.1 OR ENSRNOT00000023333.5
 added start of transcript missing from both databases, but supported by expression data
 
-Tree Shrew - XM_006149647.2
+Tree Shrew - tup_chi_SYCP1
+XM_006149647.2
 trimmed start of transcript
 
-Marmoset - XM_009001949.2 OR ENSCJAT00000024669.2
+Marmoset - (XM_009001949.2) OR ENSCJAT00000024669.2
 Ensembl transcript is more parsimonious.
 
 Macaque - XM_015148835.1 OR ENSMMUT00000024850.3
