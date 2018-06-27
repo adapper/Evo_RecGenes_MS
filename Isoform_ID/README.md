@@ -17,10 +17,20 @@ Use IGVtools (2.4.2 & 2.3.92) to visualize alignments using both NCBI & Ensembl 
 
 Information about transcripts from this step can be found in expression_samples_list.xlsx.
 
+## Download sequences. 
+
+Links that will download the sequences for each species can be found in the transcript-master.md file.  The raw data is in the Data folder by species.
+- gen_speN.fa : sequences from NCBI
+- gen_speE.fa : sequences from Ensembl
+- gen_spe_GENE.fa : edited sequences by gene
+
+Need to do some light edits of the sequence to make sure each sequences is labeled with the common name of the species (i.e. >RAT).  Also, to make sure the name of the gene that the Makefile will recognize is in the informational header.  For example, RNF212 needs to become RNF212A.
+
 ## Re-check alignment.
 
 There are four files in this folder:
-- Excel Spreadsheet
 - README.md
-- Isoform.md
-- Align.md
+- Excel Spreadsheet: expression_samples_list.xlsx contains the transcripts identified in for each gene in each species on the first pass.
+- transcript-master.md: contains links that download sequence data for specific set of transcripts in each species 
+- ALIGNinfo.md: contains the list of transcripts identified in the second pass (used for analyses)
+

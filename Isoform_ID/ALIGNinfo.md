@@ -932,8 +932,8 @@ Both NCBI & Ensembl versions are the same.
 
 ## MLH3
 
-Chicken - gal_gal_TEX11
-stitched together XM_004941803.2 OR ENSGALT00000016763.4
+Chicken - XM_004941803.2
+(stitched together XM_004941803.2 OR ENSGALT00000016763.4???)
 
 Platypus - NA
 XM_007664882.1 & XM_007661587.1
@@ -992,7 +992,8 @@ Both NCBI & Ensembl versions are the same.
 
 ## TEX11
 
-Chicken - ENSGALT00000009276.5
+Chicken - gal_gal_TEX11.fa
+ENSGALT00000009276.5
 
 Platypus - NA
 *BLAST search?
@@ -1234,7 +1235,8 @@ NCBI has a complete ending of the transcript (to stop codon).
 Opossum - XM_001365539.3 (OR ENSMODT00000020467.3)
 NCBI has a complete ending of the transcript (to stop codon).
 
-Cow - ENSBTAT00000037536.2
+Cow - bos_tau_MEIOB
+ENSBTAT00000037536.2
 *Edited to insert last three amino acids (from truncated isoform XM_015460247.1)
 
 Sheep - XM_012103956.2
@@ -1346,7 +1348,8 @@ Ensembl is more parsimonious - missing start of transcript appears to be support
 Opossum - XM_007485237.2 OR ENSMODT00000006036.3
 Both NCBI & Ensembl versions are the same.
 
-Cow - XM_010803140.2 (OR ENSBTAT00000030769.3)
+Cow - bos_tau_SYCP1
+XM_010803140.2 (OR ENSBTAT00000030769.3)
 NCBI is more parsimonious.
 *trimmed start
 

@@ -1,33 +1,68 @@
 ## Bat (ept_fus)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_008157344.1,XM_008155978.1,XM_008141201.1,XM_008139546.1,XM_008160866.1,XM_008157561.1,XM_008155836.1,XM_008142821.1,XM_008150364.1,XM_008144619.1,XM_008143005.1,XM_008154103.1,XM_008138825.1,XM_008158556.1,XM_008155978.1,XM_008160495.1,XM_008149331.1,XM_008139443.1,XM_008157343.1,XM_008154712.1,XM_008158552.1,XM_008140993.1,XM_008146387.1,XM_008156773.1,XM_008147202.1,XM_008157159.1,XM_008150228.1&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_008141201.1,XM_008157561.1,XM_008155836.1,XM_008144619.1,XM_019712467.1,XM_008160495.1,XM_008149331.1,XM_008154712.1,XM_008160866.1,XM_008158556.1,XM_008142821.1,XM_008150364.1,XM_008143005.1,XM_008154103.1,XM_008138825.1,XM_008139443.1,XM_008157343.1,XM_008140993.1,XM_008146387.1,XM_008156773.1,XM_008147202.1, XM_008150228.1,XM_008159532.1,XM_008146941.1,XM_008149225.1,XM_008142454.1,XM_008158869.1,XM_008141800.1&rettype=fasta_cds_na&retmode=text
 
-# Rhinolophus sinicus RNF212
+Also:
+- ept_fus_MEI4.fa
+- ept_fus_REC8.fa
+- ept_fus_SYCP2.fa
+- ept_fus_TEX11.fa
+
+### Rhinolophus sinicus RNF212
 http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_019657950.1,XM_014449324.1,XM_014533507.1,XM_019712467.1 &rettype=fasta_cds_na&retmode=text
 
 ## Bonobo (pan_pan)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_003806159.2,XM_008975281.1,XM_003818569.3,XM_008971826.1,XM_003817290.3,XM_003812011.2,XM_008956714.1,XM_003821593.1,XM_003826585.3,XM_003826110.2,XM_014347587.1,XM_003811293.2,XM_003808095.2,XM_003820153.2,XM_003811719.2,XM_003813917.3,XM_003830571.2,XM_008956893.1,XM_003808406.2,XM_003809069.3,XM_008974724.1,XM_003807700.3,XM_003810239.1,XM_008973531.1,XM_014343106.1,XM_003805463.2&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_003806159.2,XM_003817290.3,XM_003821593.1,XM_003811293.2,XM_003811719.2,XM_003813917.3,XM_003808406.2,XM_003818569.3,XM_008975281.1,XM_003809069.3,XM_003808095.2,XM_003812011.2,XM_008956714.1,XM_003826585.3,XM_003826110.2,XM_014347587.1,XM_003820153.2,XM_003830571.2,XM_008956893.1,XM_008974724.1,XM_003807700.3,XM_003810239.1,XM_008973531.1,XM_014343106.1,XM_003805463.2,XM_003809952.3,XM_008954083.1,XM_008966413.1,XM_003829302.3,XM_003821145.4,XM_008963253.2&rettype=fasta_cds_na&retmode=text
+
+Also:
+- pan_pan_CCDC36.fa
 
 ## Chicken (gal_gal)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_001233098.4,XM_004946690.2,XM_015296432.1,XM_015284163.1,XM_004936904.2,XM_015278658.1,XM_004941803.2,XM_418828.3,XM_015282752.1,XM_004934462.2,XM_004943663.2,XM_015286023.1,XM_015296537.1,XM_004944621.2,XM_004934462.2,XM_004937733.2,XM_015286146.1,XM_004941803.2,XM_015299628.1,XM_004936904.2,XM_004950469.2,XM_004946690.2,XM_015296671.1,XM_015298301.1&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_015296537.1,XM_004944621.2,XM_004937733.2,XM_015286023.1,XM_004934462.2,XM_015286146.1,XM_418828.3,XM_004941803.2,XM_004936904.2,XM_015284163.1,XM_015296432.1,XM_414840.5,XM_004946690.2,XM_015298301.1&rettype=fasta_cds_na&retmode=text
 
-http://www.ensembl.org/biomart/martview/993e53db205f06eb15d7dc39fd808140?VIRTUALSCHEMANAME=default&ATTRIBUTES=ggallus_gene_ensembl.default.sequences.ensembl_gene_id|ggallus_gene_ensembl.default.sequences.ensembl_transcript_id|ggallus_gene_ensembl.default.sequences.coding|ggallus_gene_ensembl.default.sequences.external_gene_name&FILTERS=ggallus_gene_ensembl.default.filters.ensembl_transcript_id."ENSGALT00000081702,ENSGALT00000086157,ENSGALT00000056272,ENSGALT00000068346,ENSGALT00000009276,ENSGALT00000067131,ENSGALT00000039400,ENSGALT00000033814,ENSGALT00000003960"&VISIBLEPANEL=resultspanel
+http://useast.ensembl.org/biomart/martview/0dd8e9878ed75dda2e877c2a39adf506?VIRTUALSCHEMANAME=default&ATTRIBUTES=ggallus_gene_ensembl.default.sequences.ensembl_gene_id|ggallus_gene_ensembl.default.sequences.ensembl_transcript_id|ggallus_gene_ensembl.default.sequences.coding|ggallus_gene_ensembl.default.sequences.external_gene_name&FILTERS=ggallus_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSGALT00000086157.1,ENSGALT00000056272.2,ENSGALT00000009276.5,ENSGALT00000003960.6"&VISIBLEPANEL=resultspanel
+
+Also:
+- gal_gal_HORMAD1.fa
+- gal_gal_CNTD1.fa
+- gal_gal_HFM1.fa
+- gal_gal_TEX11.fa
+
+TBD: SYCP2, BRCC3, MUS81, MRE11, RAD50, NBS1, SHOC1
+
+Might be worth checking TEX11 & MLH3 if I use these sequences in future analyses.  Some inconsistencies between the sequences included and the notes I made in the ALIGNinfo file.
 
 ## Chimpanzee (pan_tro)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_016921991.2,XM_016938204.1,XM_016925115.1,XM_009431542.2,XM_009431544.2,XM_016929181.1,XM_016937282.1,XM_016955173.1,XM_524742.5,XM_016944286.1,XM_016944288.1,XM_001158621.4,XM_001158557.4,XM_001170433.3,XM_016927950.1,XM_003314621.4,XM_016960222.1,XM_001138517.4,XM_001150530.4,NM_001280430.2,XM_001175167.5,XM_009432131.2,XM_001142928.4 ,XM_009438401.2,XM_016926530.1,XM_001162713.4,XM_514741.4,XM_016952718.1,XM_016955885.1&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_514741.4,XM_001162713.4,XM_016926530.1,XM_009438401.2,XM_016952718.1,XM_001142928.4,XM_009432131.2,XM_001175167.5,XM_016955885.1,NM_001280430.2,XM_001150530.4,XM_001138517.4,XM_016960222.1,XM_016927950.1,XM_001170433.3,XM_524742.5,XM_016955173.1,XM_016937282.1,XM_009431542.2,XM_016925115.1,XM_016938204.1,XM_016921991.2,XM_016944629.2,XM_016919866.2,XM_016921830.2,XM_001163412.6,XM_016959657.1,XM_016961425.1&rettype=fasta_cds_na&retmode=text
 
-http://www.ensembl.org/biomart/martview/72dbf29e06c122ca0dbb534d41e5c3e7?VIRTUALSCHEMANAME=default&ATTRIBUTES=ptroglodytes_gene_ensembl.default.sequences.ensembl_gene_id|ptroglodytes_gene_ensembl.default.sequences.ensembl_transcript_id|ptroglodytes_gene_ensembl.default.sequences.coding|ptroglodytes_gene_ensembl.default.sequences.external_gene_name&FILTERS=ptroglodytes_gene_ensembl.default.filters.ensembl_transcript_id."ENSPTRT00000025448,ENSPTRT00000064188,ENSPTRT00000037621,ENSPTRT00000012774,ENSPTRT00000027570,ENSPTRT00000047363,ENSPTRT00000029534,ENSPTRT00000065849,ENSPTRT00000040930,ENSPTRT00000001655,ENSPTRT00000033224,ENSPTRT00000065671,ENSPTRT00000011376,ENSPTRT00000059351,ENSPTRT00000014042,ENSPTRT00000015801,ENSPTRT00000002134,ENSPTRT00000045404,ENSPTRT00000007974"&VISIBLEPANEL=resultspanel
+http://useast.ensembl.org/biomart/martview/22a7ada3b795692cf8355ec25c985259?VIRTUALSCHEMANAME=default&ATTRIBUTES=ptroglodytes_gene_ensembl.default.sequences.ensembl_gene_id|ptroglodytes_gene_ensembl.default.sequences.ensembl_transcript_id|ptroglodytes_gene_ensembl.default.sequences.coding|ptroglodytes_gene_ensembl.default.sequences.external_gene_name&FILTERS=ptroglodytes_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSPTRT00000065671.3,ENSPTRT00000089304.1,ENSPTRT00000014042.5"&VISIBLEPANEL=resultspanel
+
+Also:
+- pan_tro_TEX11.fa
 
 ## Cow (bos_tau)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_001034263.1,XM_015474200.1,XM_010803140.2,XM_015460247.1,XM_015460248.1,XM_010811624.2,XM_010818306.2,XR_809497.2,XM_010809606.2,NM_001075994.2,NM_001046179.2,XM_015474464.1,XM_005218101.3,XM_005211442.3,NM_001191288.1,NM_001205576.2,XM_003587448.4,NM_001191338.1,NM_001046305.2,NM_001205523.2,NM_001193090.1,XM_003583608.4,XM_015472775.1,XM_002690533.5,XM_005208286.2,XM_593293.7,NM_001046565.1,NM_001206255.2,XM_010815932.2&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_001193090.1,NM_001205523.2,NM_001046305.2,NM_001191338.1,XM_005208286.2,NM_001046565.1,XM_003587448.4,NM_001205576.2,XM_002690533.5,XM_015472775.1,NM_001191288.1,XM_005211442.3,XM_005218101.3,XM_015474464.1,NM_001046179.2,NM_001075994.2,XM_593293.7,NM_001206255.2,XM_010818306.2,XM_010811624.2,XM_010815932.2,NM_001034263.1,XM_005227647.4,NM_001192605.1,NM_001206868.1,NM_001075837.2,XM_015472683.2&rettype=fasta_cds_na&retmode=text
 
-http://www.ensembl.org/biomart/martview/6ba70d7c8ba4cab5a24168b93a2165e0?VIRTUALSCHEMANAME=default&ATTRIBUTES=btaurus_gene_ensembl.default.sequences.ensembl_gene_id|btaurus_gene_ensembl.default.sequences.ensembl_transcript_id|btaurus_gene_ensembl.default.sequences.external_gene_name|btaurus_gene_ensembl.default.sequences.coding&FILTERS=btaurus_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSBTAT00000029451.4,ENSBTAT00000000816.3,ENSBTAT00000003788.3,ENSBTAT00000022288.4,ENSBTAT00000061421.2,ENSBTAT00000036401.1,ENSBTAT00000026367.4,ENSBTAT00000027789.5,ENSBTAT00000003504.5,ENSBTAT00000001812.5,ENSBTAT00000037536.2,ENSBTAT00000030769.3,ENSBTAT00000004704.5,ENSBTAT00000022009.3"&VISIBLEPANEL=resultspanel
+http://useast.ensembl.org/biomart/martview/b0ac140a8208f3e70a6373c960876376?VIRTUALSCHEMANAME=default&ATTRIBUTES=btaurus_gene_ensembl.default.sequences.ensembl_gene_id|btaurus_gene_ensembl.default.sequences.ensembl_transcript_id|btaurus_gene_ensembl.default.sequences.external_gene_name|btaurus_gene_ensembl.default.sequences.coding&FILTERS=btaurus_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSBTAT00000053203.2"&VISIBLEPANEL=resultspanel
+
+Also:
+- bos_tau_MLH3.fa
+- bos_tau_MEIOB.fa
+- bos_tau_SYCP1.fa
+- bos_tau_SYCP2.fa
 
 ## Dog (can_fam)
+
+
+
+
+
+
+
 
 http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_848996.5,XM_022408863.1,XM_022408864.1,XM_014107147.2,XM_005624350.2,XM_003434870.4,XM_846853.5,XM_005627746.2,XM_022420621.1, XM_022420618.1,XM_022420620.1,XM_022416057.1,XM_022416058.1,XM_022416059.1,XM_022416061.1,XM_534219.6,NM_001003043.1,XM_544111.6,XM_849626.5,XM_005623231.3,XM_005623258.3,XM_005627549.3,XM_022412964.1,XM_003433938.4 ,XM_005618673.2,XM_003432877.4,XM_848394.4,XM_022404975.1,XM_544111.5,XM_005625879.2,XM_005623668.2,XM_014120721.1&rettype=fasta_cds_na&retmode=text
 
