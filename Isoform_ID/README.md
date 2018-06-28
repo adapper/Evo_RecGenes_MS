@@ -24,7 +24,26 @@ Links that will download the sequences for each species can be found in the tran
 - gen_speE.fa : sequences from Ensembl
 - gen_spe_GENE.fa : edited sequences by gene
 
-Need to do some light edits of the sequence to make sure each sequences is labeled with the common name of the species (i.e. >RAT).  Also, to make sure the name of the gene that the Makefile will recognize is in the informational header.  For example, RNF212 needs to become RNF212A.
+Need to do some light edits of the sequence to make sure each sequences is labeled with the common name of the species (i.e. >RAT).  
+- Make sure the name of the gene that the Makefile will recognize is in the informational header.  For example, RNF212 needs to become RNF212A.  
+- Make sure that the name of one gene isn't in the description of another (i.e. CCDC36).
+- Make sure that each file ends on a new line to prevent problems at 'cat' steps.
+
+## Align the sequences for each gene.
+
+1. Enter the command 'make' in the 'Data' folder:
+
+- The command 'make species' takes the raw data in the 'data' folder and makes a single file for each species (species.fa).
+- The command 'make master' combines all the species files (species.fa) into one large master file (master.fa).
+- The command 'make gene' takes the master file and makes a single file for each gene (gene.fa).
+
+Needs two custom python scripts: gene.py, pairwise.py
+
+Alternative - 'make gene_pw' makes pairwise alignments of two species designated in the Makefile.
+
+2. Enter the command 'make' in the 'Align' folder.
+
+Needs two programs: translatorX & muscle
 
 ## Re-check alignment.
 
