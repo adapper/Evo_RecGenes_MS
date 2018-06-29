@@ -1516,3 +1516,56 @@ Both NCBI & Ensembl versions are the same.
 
 Bonobo - XM_003805463.2
 
+## BRCC3
+
+Cow - XM_005227647.4 (OR ENSBTAT00000010280.4)
+NCBI transcript more parsimonious.
+
+Sheep - XM_012167493.2
+(XM_015104955.1 OR ENSOART00000003871.1)
+NCBI transcript missing start of gene - expression data supports this.
+Ensembl transcript is a better match, fills in the beginning - but no expression data maps there.  The sequence is too different to be very confident in with expression data.
+Using alternative Oori1 sequence instead.
+
+Pig - XM_021079471.1
+NM_001243023.1 OR ENSSSCT00000033371.2 (same)
+023.1 better match with expression data, but 471.1 contains an alternative exon that I have evidence is expressed in other species.  471.1 is more inclusive.
+
+Bat - XM_008159532.1
+Coverage too low to check for alt spliced exon.
+
+Horse - XM_001498791.6
+XM_003365914.4 OR ENSECAT00000023027.1
+914.4 better match with expression data, but 791.6 contains an alternative exon that I have evidence is expressed in other species.  791.6 is more inclusive.
+
+Dog - XM_850374.6 
+
+Mouse - NM_001166457.1 OR ENSMUST00000033544.13
+Both are the same.
+
+Rat - NM_001127300.1 OR ENSRNOT00000071068.2    
+Both are the same.
+One exon ???
+
+Tree Shrew - XM_006171070.2
+
+Marmoset - ENSCJAT00000008283.2 (OR XM_008990134.2)
+NCBI transcript missing alternative exon.  Extra inserted codon in Ensembl sequence - but won't influence results.
+
+Macaque - XM_015128579.1 (OR XM_001097957.3)
+579.1 more parsimonious (1 codon difference)
+
+Orangutan - XM_024240314.1 (OR ENSPPYT00000024377.2)
+Ensembl & NM_001132435.1 missing alt exon.
+
+Gorilla - XM_019019298.1
+ XM_004065160.2 (B) - one codon difference, either ok.
+
+Human - XM_005274751.4 (OR ENST00000369462.5)
+one codon difference, either ok.
+
+Chimpanzee - XM_016944629.2
+
+Bonobo - XM_008962323.2
+XM_003809952.3 - one codon difference, either ok.
+

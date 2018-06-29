@@ -13,7 +13,7 @@ http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_019657
 
 ## Bonobo (pan_pan)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_003806159.2,XM_003817290.3,XM_003821593.1,XM_003811293.2,XM_003811719.2,XM_003813917.3,XM_003808406.2,XM_003818569.3,XM_008975281.1,XM_003809069.3,XM_003808095.2,XM_003812011.2,XM_008956714.1,XM_003826585.3,XM_003826110.2,XM_014347587.1,XM_003820153.2,XM_003830571.2,XM_008956893.1,XM_008974724.1,XM_003807700.3,XM_003810239.1,XM_008973531.1,XM_014343106.1,XM_003805463.2,XM_003809952.3,XM_008954083.1,XM_008966413.1,XM_003829302.3,XM_003821145.4,XM_008963253.2&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_008962323.2,XM_003806159.2,XM_003817290.3,XM_003821593.1,XM_003811293.2,XM_003811719.2,XM_003813917.3,XM_003808406.2,XM_003818569.3,XM_008975281.1,XM_003809069.3,XM_003808095.2,XM_003812011.2,XM_008956714.1,XM_003826585.3,XM_003826110.2,XM_014347587.1,XM_003820153.2,XM_003830571.2,XM_008956893.1,XM_008974724.1,XM_003807700.3,XM_003810239.1,XM_008973531.1,XM_014343106.1,XM_003805463.2,XM_008954083.1,XM_008966413.1,XM_003829302.3,XM_003821145.4,XM_008963253.2&rettype=fasta_cds_na&retmode=text
 
 Also:
 - pan_pan_CCDC36.fa
@@ -53,7 +53,7 @@ Also:
 
 ## Gorilla (gor_gor)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_004062412.2,XM_019023203.1,XM_019021785.1,XM_019017941.1,XM_019009992.1,XM_019026928.1,XM_019038158.1,XM_004056457.2,XM_019028929.1,XM_004054988.2,XM_019018586.1,XM_019032377.1,XM_019011276.1,XM_004033830.2,XM_019009267.1,XM_004064340.2,XM_019037482.1,XM_019028888.1,XM_019017008.1,XM_004056970.2,XM_004058278.2,XM_004062461.1,XM_004052130.2,XM_004065160.2,XM_019036094.1,XM_019037427.1,XM_004042473.2,XM_019032379.1,XM_019033001.1,XM_001150530.4&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_019019298.1,XM_004062412.2,XM_019023203.1,XM_019021785.1,XM_019017941.1,XM_019009992.1,XM_019026928.1,XM_019038158.1,XM_004056457.2,XM_019028929.1,XM_004054988.2,XM_019018586.1,XM_019032377.1,XM_019011276.1,XM_004033830.2,XM_019009267.1,XM_004064340.2,XM_019037482.1,XM_019028888.1,XM_019017008.1,XM_004056970.2,XM_004058278.2,XM_004062461.1,XM_004052130.2,XM_019036094.1,XM_019037427.1,XM_004042473.2,XM_019032379.1,XM_019033001.1,XM_001150530.4&rettype=fasta_cds_na&retmode=text
 
 http://www.ensembl.org/biomart/martview/640ccc4779c3502ea89d55d00ad610f5?VIRTUALSCHEMANAME=default&ATTRIBUTES=ggorilla_gene_ensembl.default.sequences.ensembl_gene_id|ggorilla_gene_ensembl.default.sequences.ensembl_transcript_id|ggorilla_gene_ensembl.default.sequences.coding|ggorilla_gene_ensembl.default.sequences.external_gene_name&FILTERS=ggorilla_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSGGOT00000002204.3"&VISIBLEPANEL=resultspanel
 
@@ -62,7 +62,7 @@ Also:
 
 ## Horse (equ_cab)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_001489926.2,XM_001494366.5,XM_014739928.1,XM_005606637.2,XM_001502548.4,XM_003362549.3,XM_014733869.1,XM_014733672.1,XM_005603229.2,XM_023646875.1,XM_001494432.6,XM_001503522.4,XM_001489218.6,XM_023634526.1,XM_001918273.5,XM_014734309.2,XM_023626262.1,XM_023616606.1,XM_001504720.2,XM_023641375.1,XM_023626839.1,XM_001501892.4,XM_003365914.4,XM_001494546.4,XM_001498350.6,XM_001504442.6,XM_014728036.2,XM_023628652.1&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_001498791.6,XM_001489926.2,XM_001494366.5,XM_014739928.1,XM_005606637.2,XM_001502548.4,XM_003362549.3,XM_014733869.1,XM_014733672.1,XM_005603229.2,XM_023646875.1,XM_001494432.6,XM_001503522.4,XM_001489218.6,XM_023634526.1,XM_001918273.5,XM_014734309.2,XM_023626262.1,XM_023616606.1,XM_001504720.2,XM_023641375.1,XM_023626839.1,XM_001501892.4,XM_001494546.4,XM_001498350.6,XM_001504442.6,XM_014728036.2,XM_023628652.1&rettype=fasta_cds_na&retmode=text
 
 http://www.ensembl.org/biomart/martview/80b8cd262c7a32ec97401187ca097667?VIRTUALSCHEMANAME=default&ATTRIBUTES=ecaballus_gene_ensembl.default.sequences.ensembl_gene_id|ecaballus_gene_ensembl.default.sequences.ensembl_transcript_id|ecaballus_gene_ensembl.default.sequences.coding|ecaballus_gene_ensembl.default.sequences.external_gene_name&FILTERS=ecaballus_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSECAT00000026025.1,ENSECAT00000008383.1"&VISIBLEPANEL=resultspanel
 
@@ -72,13 +72,13 @@ Also:
 
 ## Human (hom_sap)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_012444.2,NM_178173.3,NM_032132.4,NM_007068.3,XM_005272274.2,NM_182852.3,NM_173478.2,NM_001017975.4,NM_001042367.1,NM_001322247.1,NM_005132.2,XM_011536313.2,NM_152510.3,NM_173518.4,NM_002875.4,NM_000249.3,NM_001040108.1,NM_031276.2,NM_002440.3,NM_002441.4,XM_006723605.3,NM_001163560.2,NM_001170698.1,NM_001282541.1,NM_014258.3,NM_031275.4&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_005274751.4,NM_012444.2,NM_178173.3,NM_032132.4,NM_007068.3,XM_005272274.2,NM_182852.3,NM_173478.2,NM_001017975.4,NM_001042367.1,NM_001322247.1,NM_005132.2,XM_011536313.2,NM_152510.3,NM_173518.4,NM_002875.4,NM_000249.3,NM_001040108.1,NM_031276.2,NM_002440.3,NM_002441.4,XM_006723605.3,NM_001163560.2,NM_001170698.1,NM_001282541.1,NM_014258.3,NM_031275.4&rettype=fasta_cds_na&retmode=text
 
-http://www.ensembl.org/biomart/martview/bab6218ebacdba728c9e3e74f4412de8?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.sequences.ensembl_gene_id|hsapiens_gene_ensembl.default.sequences.ensembl_transcript_id|hsapiens_gene_ensembl.default.sequences.coding|hsapiens_gene_ensembl.default.sequences.external_gene_name&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_transcript_id_version."ENST00000369462.5,ENST00000308110.8,ENST00000323929.7,ENST00000378823.7,ENST00000265433.7,ENST00000318737.8"&VISIBLEPANEL=resultspanel
+http://www.ensembl.org/biomart/martview/bab6218ebacdba728c9e3e74f4412de8?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.sequences.ensembl_gene_id|hsapiens_gene_ensembl.default.sequences.ensembl_transcript_id|hsapiens_gene_ensembl.default.sequences.coding|hsapiens_gene_ensembl.default.sequences.external_gene_name&FILTERS=hsapiens_gene_ensembl.default.filters.ensembl_transcript_id_version."ENST00000308110.8,ENST00000323929.7,ENST00000378823.7,ENST00000265433.7,ENST00000318737.8"&VISIBLEPANEL=resultspanel
 
 ## Macaque (mac_mul)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_001088572.3,XM_002802780.2,XM_015151704.1,XM_001094012.3,XM_015143199.1,XM_015119796.1,XM_015144699.1,XM_015142681.1,XM_015136811.1,XM_015143436.1,XM_015143398.1,XM_001107741.3,XM_015145491.1,XM_015141945.1,XM_015131400.1,NM_001257783.1,XM_015142713.1,XM_015135995.1,XM_015149313.1,NM_001193903.1,XM_015118240.1,XM_015148835.1,XM_015148684.1,XM_015115667.1,XM_001097957.3,XM_015113669.1,XM_015115484.1,XM_015140734.1,NM_001265739.1,NM_001194305.2&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_015128579.1,XM_001088572.3,XM_002802780.2,XM_015151704.1,XM_001094012.3,XM_015143199.1,XM_015119796.1,XM_015144699.1,XM_015142681.1,XM_015136811.1,XM_015143436.1,XM_015143398.1,XM_001107741.3,XM_015145491.1,XM_015141945.1,XM_015131400.1,NM_001257783.1,XM_015142713.1,XM_015135995.1,XM_015149313.1,NM_001193903.1,XM_015118240.1,XM_015148835.1,XM_015148684.1,XM_015115667.1,XM_015113669.1,XM_015115484.1,XM_015140734.1,NM_001265739.1,NM_001194305.2&rettype=fasta_cds_na&retmode=text
 
 Also:
 - mac_mul_TEX11
@@ -101,9 +101,9 @@ http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_021669
 
 ## Mouse (mus_mus)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_012046.2,NM_001135198.1,NM_001289532.1,NM_010059.3,NM_001111119.1,NM_177873.3,NM_028598.1,NM_175213.4,NM_020002.3,XM_006519865.2,NM_029458.1,NM_177722.3,NM_011234.4,NM_026810.2,XM_006515703.3,NM_031384.2,NM_013600.3,NM_001276400.1,NM_029197.1,NM_001045531.1,NM_011516.2,NM_177191.3,NM_025687.3&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_001166457.1,NM_012046.2,NM_001135198.1,NM_001289532.1,NM_010059.3,NM_001111119.1,NM_177873.3,NM_028598.1,NM_175213.4,NM_020002.3,XM_006519865.2,NM_029458.1,NM_177722.3,NM_011234.4,NM_026810.2,XM_006515703.3,NM_031384.2,NM_013600.3,NM_001276400.1,NM_029197.1,NM_001045531.1,NM_011516.2,NM_177191.3,NM_025687.3&rettype=fasta_cds_na&retmode=text
 
-http://www.ensembl.org/biomart/martview/c76a3b1155cc4a8249fa07231c102d8d?VIRTUALSCHEMANAME=default&ATTRIBUTES=mmusculus_gene_ensembl.default.sequences.ensembl_gene_id|mmusculus_gene_ensembl.default.sequences.ensembl_transcript_id|mmusculus_gene_ensembl.default.sequences.coding|mmusculus_gene_ensembl.default.sequences.external_gene_name&FILTERS=mmusculus_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSMUST00000212212.1,ENSMUST00000033544.13,ENSMUST00000124334.7,ENSMUST00000034405.10,ENSMUST00000020649.13,ENSMUST00000029879.14,ENSMUST00000107547.1"&VISIBLEPANEL=resultspanel
+http://www.ensembl.org/biomart/martview/c76a3b1155cc4a8249fa07231c102d8d?VIRTUALSCHEMANAME=default&ATTRIBUTES=mmusculus_gene_ensembl.default.sequences.ensembl_gene_id|mmusculus_gene_ensembl.default.sequences.ensembl_transcript_id|mmusculus_gene_ensembl.default.sequences.coding|mmusculus_gene_ensembl.default.sequences.external_gene_name&FILTERS=mmusculus_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSMUST00000212212.1,ENSMUST00000124334.7,ENSMUST00000034405.10,ENSMUST00000020649.13,ENSMUST00000029879.14,ENSMUST00000107547.1"&VISIBLEPANEL=resultspanel
 
 Also:
 - mus_mus_CNTD1
@@ -111,7 +111,7 @@ Also:
 
 ## Orangutan (pon_pyg)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_002813755.2,XM_002810265.3,XM_002810615.3,XM_002825645.3,XM_002817080.3,XM_009248971.1,XM_009248926.1,XM_009234250.1,XM_002819147.3,XM_002825304.2,XM_024245413.1,XM_024248315.1,XM_002830140.1,XM_024234098.1,XM_002826841.2,XM_002810393.2,XM_024238859.1,XM_002822475.3,NM_001132435.1,XM_024254918.1,XM_024255393.1,XM_002815863.3,NM_001131728.1,XM_024252094.1&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_024240314.1,XM_002813755.2,XM_002810265.3,XM_002810615.3,XM_002825645.3,XM_002817080.3,XM_009248971.1,XM_009248926.1,XM_009234250.1,XM_002819147.3,XM_002825304.2,XM_024245413.1,XM_024248315.1,XM_002830140.1,XM_024234098.1,XM_002826841.2,XM_002810393.2,XM_024238859.1,XM_002822475.3,XM_024254918.1,XM_024255393.1,XM_002815863.3,NM_001131728.1,XM_024252094.1&rettype=fasta_cds_na&retmode=text
 
 http://www.ensembl.org/biomart/martview/2fee2780b81d45de14ae22f431167671?VIRTUALSCHEMANAME=default&ATTRIBUTES=pabelii_gene_ensembl.default.sequences.ensembl_gene_id|pabelii_gene_ensembl.default.sequences.ensembl_transcript_id|pabelii_gene_ensembl.default.sequences.external_gene_name|pabelii_gene_ensembl.default.sequences.coding&FILTERS=pabelii_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSPPYT00000013725.1,ENSPPYT00000009794.1,ENSPPYT00000016304.1,ENSPPYT00000007087.2,ENSPPYT00000023845.1"&VISIBLEPANEL=resultspanel
 
@@ -122,7 +122,7 @@ Also:
 
 ## Pig (sus_scr) 
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_005673040.2,XM_005669538.3,NM_001194981.1,XM_005655492.2,XM_013997383.2,XM_001928745.5,XM_021092258.1,XM_005666240.3,XM_021099238.1,XM_005663044.3,NM_001123181.1,XM_003484125.4,XM_021098149.1,NM_001177921.1,XM_021090002.1,XM_021078151.1,XM_005667333.3,NM_001243023.1,XM_003122526.5,XM_003129788.5,XM_003354274.4,XM_021089136.1,XM_021085151.1&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_021079471.1,XM_005673040.2,XM_005669538.3,NM_001194981.1,XM_005655492.2,XM_013997383.2,XM_001928745.5,XM_021092258.1,XM_005666240.3,XM_021099238.1,XM_005663044.3,NM_001123181.1,XM_003484125.4,XM_021098149.1,NM_001177921.1,XM_021090002.1,XM_021078151.1,XM_005667333.3,XM_003122526.5,XM_003129788.5,XM_003354274.4,XM_021089136.1,XM_021085151.1&rettype=fasta_cds_na&retmode=text
 
 http://www.ensembl.org/biomart/martview/bbccf331e58ee35e9739d7cb6dffbd33?VIRTUALSCHEMANAME=default&ATTRIBUTES=sscrofa_gene_ensembl.default.sequences.ensembl_gene_id|sscrofa_gene_ensembl.default.sequences.ensembl_transcript_id|sscrofa_gene_ensembl.default.sequences.external_gene_name|sscrofa_gene_ensembl.default.sequences.coding&FILTERS=sscrofa_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSSSCT00000002398.2,ENSSSCT00000027443.2,ENSSSCT00000045183.1"&VISIBLEPANEL=resultspanel
 
@@ -145,7 +145,7 @@ Also:
 
 ## Sheep (ovi_ari)
 
-http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_012100069.2,XM_012180626.2,XM_012175647.2,XM_015090635.1,XM_012181091.1,XM_004012946.3,XM_015096854.1,XM_012182419.2,XM_015096878.1,XM_004017471.3,XM_015097792.1,XM_004010447.3,XM_004018218.3,XM_012182059.2,XM_015104932.1,XM_004002088.2,XM_015102786.1,XM_012188953.1,XM_012103956.2,XM_012185494.2,XM_015092191.1,XM_012188887.1,XM_015089784.1,XM_015104955.1,XM_004019678.3,XM_012095281.1,XM_004008637.3,XM_004011849.2,XM_012153904.2&rettype=fasta_cds_na&retmode=text
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_012167493.2,XM_012100069.2,XM_012180626.2,XM_012175647.2,XM_015090635.1,XM_012181091.1,XM_004012946.3,XM_015096854.1,XM_012182419.2,XM_015096878.1,XM_004017471.3,XM_015097792.1,XM_004010447.3,XM_004018218.3,XM_012182059.2,XM_015104932.1,XM_004002088.2,XM_015102786.1,XM_012188953.1,XM_012103956.2,XM_012185494.2,XM_015092191.1,XM_012188887.1,XM_015089784.1,XM_004019678.3,XM_012095281.1,XM_004008637.3,XM_004011849.2,XM_012153904.2&rettype=fasta_cds_na&retmode=text
 
 http://www.ensembl.org/biomart/martview/ec4ca73eaae9491d4bdf16e581d74061?VIRTUALSCHEMANAME=default&ATTRIBUTES=oaries_gene_ensembl.default.sequences.ensembl_gene_id|oaries_gene_ensembl.default.sequences.ensembl_transcript_id|oaries_gene_ensembl.default.sequences.external_gene_name|oaries_gene_ensembl.default.sequences.coding&FILTERS=oaries_gene_ensembl.default.filters.ensembl_transcript_id_version."ENSOART00000019594.1,ENSOART00000017229.1,ENSOART00000020906.1"&VISIBLEPANEL=resultspanel
 
