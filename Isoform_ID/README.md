@@ -45,7 +45,13 @@ Alternative - 'make gene_pw' makes pairwise alignments of two species designated
 
 Needs two programs: translatorX & muscle
 
-## Re-check alignment.
+## Re-check alignment visually.
+
+1. Look at the 'aa_based_codon_colored' file for each gene to visualize the alignment.
+2. For each gene load transcripts from both NCBI and Ensembl - selecting the transcript that is the most parsimonious with the other sequences.
+    - The default is NCBI.
+    - The selected transcript and some notes can be found in ALIGNinfo.md.
+3. Refer to expression data to fill in gaps or solve ambiguity.
 
 There are four files in this folder:
 - README.md

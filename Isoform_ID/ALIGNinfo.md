@@ -1190,7 +1190,8 @@ Pig - sus_scr_RAD21L
 Edited XM_021077689.1
 (possibly took too much license with 1bp insertions in the conservative direction.)
 
-Bat - XM_008140993.1
+Bat - ept_fus_RAD21L
+trimmed XM_008140993.1
 
 Horse - XM_023626262.1 (OR ENSECAT00000025198.1)
 Gap in ensembl transcript.
@@ -1568,4 +1569,249 @@ Chimpanzee - XM_016944629.2
 
 Bonobo - XM_008962323.2
 XM_003809952.3 - one codon difference, either ok.
+
+## MRE11
+
+Cow - NM_001192605.1 OR ENSBTAT00000011748.5
+Both are the same.
+
+Sheep - XM_012095281.1 OR ENSOART00000002286.1
+Both are the same.
+
+Pig - XM_003129788.5 (OR ENSSSCT00000050820.1)
+Ensembl transcript missing first exon.
+
+Bat - ept_fus_MRE11
+XM_008149225.1
+original transcript had a stop codon early in gene.  expression data does not map in that region, despite good mapping elsewhere - so removed it.  some assembly gaps in the area.
+
+Horse - XM_001498350.6 OR ENSECAT00000000606.1
+Both are the same.
+
+Dog - XM_005633352.2 OR ENSCAFT00000006688.4
+Both are the same.
+
+Mouse - NM_018736.3 OR ENSMUST00000034405.10
+Both are the same. 
+
+Rat -  (NM_022279.1 OR) ENSRNOT00000012940.4
+Ensembl transcript more parsimonious - small differences.
+
+Tree Shrew - XM_014593321.1  
+
+Marmoset - (XM_002754671.4 OR) ENSCJAT00000007787.3
+Ensemble transcript more parsimonious (one codon)
+
+Macaque - XM_015115484.1 OR  ENSMMUT00000005845.3
+Both are the same.
+
+Orangutan - XM_024255393.1 
+
+Gorilla - ENSGGOT00000022217.2 (OR  XM_019037427.1)
+NCBI transcript very poor quality - don't use.
+
+Human - ENST00000323929.7 OR NM_005591.3
+Both are the same.
+
+Chimpanzee - XM_016921830.2
+Bonobo - XM_008966413.1
+Looked good so didn't compare visually to the ensembl transcripts.
+
+## MUS81
+
+Cow - XM_005227108.3 OR ENSBTAT00000053203.2
+Both are the same.
+
+Sheep - XM_004019678.3 OR ENSOART00000019827.1
+Both are the same.
+
+Pig - XM_003122526.5 OR ENSSSCT00000038064.1
+Both are the same.
+
+Bat - XM_008146941.1
+
+Horse - XM_001494546.4 OR ENSECAT00000021474.1    
+Both are the same.
+
+Dog - XM_533230.6 OR ENSCAFT00000020972.3
+Both are the same.
+
+Mouse - NM_027877.4 OR ENSMUST00000124334.7
+Both are the same.
+
+Rat -  NM_001025645.1 OR ENSRNOT00000028015.6
+Both are the same.
+
+Tree Shrew -  XM_006149912.2
+
+Marmoset - XM_017978286.1 OR ENSCJAT00000003627.3
+Both are the same (unconsequential extra codon in NCBI)
+
+Macaque - XM_015113669.1 OR ENSMMUT00000026719.3
+Both are the same.
+
+Orangutan -  XM_024254919.1 (OR ENSPPYT00000003651.1)
+Ensembl transcript not good.
+
+Gorilla - ENSGGOT00000010866.3 (OR XM_019036094.1)
+Ensembl transcript more parsimonious
+
+Human - NM_025128.4  OR ENST00000308110.8
+Both are the same.
+
+Chimpanzee - XM_016919866.2
+
+Bonobo - XM_008954083.1 OR ENSPPAT00000026695.1
+Both are the same
+
+## NBN
+
+Cow - NM_001075837.2 
+
+Sheep - XM_004011849.2 OR ENSOART00000011759.1
+NCBI more parsimonious.
+
+Pig - XM_021089136.1 OR ENSSSCT00000047583.1
+Both are the same.
+
+Bat - ept_fus_NBN 
+XM_008158869.1 errors
+
+Horse - XM_014728036.2 (OR ENSECAT00000014953.1)
+NCBI more parsimonious.
+
+Dog - XM_005638104.3 ENSCAFT00000014292.4
+NCBI more parsimonious.
+
+Mouse - NM_013752.3 OR ENSMUST00000029879.14
+Both the same.
+
+Rat - NM_138873.2 (OR ENSRNOT00000012377.4)
+Fair number of small differences.  NCBI more parsimonious, I think.
+
+Tree Shrew - XM_006157551.2
+
+Marmoset - XM_003734968.3
+
+Macaque - NM_001265739.1 OR ENSMMUT00000020368.3
+Both are the same.
+
+Orangutan - NM_001204362.1 (OR ENSPPYT00000021851.2)
+Ensembl transcript missing exon.
+
+NM_001131728.1
+
+Gorilla - XM_019032379.1 (OR ENSGGOT00000030987.2)
+Ensembl transcript missing segment.
+
+Human - NM_002485.4 OR ENST00000265433.7
+Both are the same.
+
+Chimpanzee - XM_016959657.1
+
+Bonobo - XM_003821145.4 OR ENSPPAT00000021345.1
+Both are the same.
+
+## RAD50
+* Did not look at ensembl version - very conserved alignment.
+
+Cow -  NM_001206868.1 OR ENSBTAT00000014945.5
+Both are the same.
+
+Sheep - XM_004008637.3
+
+Pig - XM_003354274.4
+
+Bat - XM_008142454.1 
+
+Horse - XM_001504442.6 
+
+Dog - XM_531901.6
+
+Mouse - NM_009012.2 OR ENSMUST00000020649.13
+Both are the same.
+
+Rat - (NM_022246.1 OR) ENSRNOT00000063772.2
+Ensembl transcript is more parsimonious - small differences.
+
+Tree Shrew - XM_014583584.1
+
+Marmoset - ENSCJAT00000059741.2 (OR XM_017965277.1)
+NCBI transcript missing most of gene.
+
+Macaque - XM_015140736.1
+
+Orangutan* - XM_002815863.3
+
+Gorilla* - XM_004042473.2
+
+Human - NM_005732.3 OR ENST00000378823.7
+Both are the same.
+
+Chimpanzee* - XM_001163412.6
+
+Bonobo* - XM_003829302.3
+
+## SHOC1
+
+Cow - bos_tau_SHOC1
+ENSBTAT00000061241.2 - start filled in from expression data.
+XM_015472683.2
+
+Sheep - XM_012153904.2
+
+Pig - sus_scr_SHOC1
+XM_021085151.1 + ENSSSCT00000043427.1
+
+Bat -  XM_008141800.1
+Not enough expression data to reconstruct missing start.
+
+Horse -  equ_cab_SHOC1
+- small gaps / combined for most parsimonious.
+- start filled in from expression data.
+XM_023628652.1 + ENSECAT00000015024.1
+
+Dog - XM_014117920.2
+ENSCAFT00000037679.3 - SHORT
+
+Mouse - XM_017320490.1 OR ENSMUST00000107547.1
+Both are the same.
+
+Rat - XM_017593737.1
+ENSRNOT00000087380.1 (very truncated)
+
+Tree Shrew - XM_006142736.1
+
+Marmoset - cal_jac_SHOC1
+(ENSCJAT00000034319.3 + ENSCJAT00000034362.3)
+ENSCJAT00000034362.3 (OR XM_009001231.2) - SHORT
+NCBI missing one codon.
+
+Macaque - mac_mul_SHOC1
+(NM_001194305.2 + ENSMMUT00000032791.3)
+NM_001194305.2 OR ENSMMUT00000046653.2 - SHORT
+Both are the same.
+
+Orangutan - pon_pyg_SHOC1
+(ENSPPYT00000022745.2, gaps filled in from XM_024252094.1)
+ENSPPYT00000022745.2 (long) (same gap as Gorilla, can fill in from NCBI)
+XM_024252094.1 - SHORT 
+
+Gorilla - 
+(ENSGGOT00000044538.1 + ENSGGOT00000000919.3)
+Ensembl transcript has short gap.
+ENSGGOT00000000919.3 (gap) - SHORT
+
+Human - XM_006716974.2
+NM_173521.4 OR ENST00000318737.8 - SHORT
+Both are the same.
+
+Chimpanzee - XM_016961425.1  
+XM_016961427.1 OR ENSPTRT00000039302.6 - SHORT
+Both are the same.
+
+Bonobo - XM_008963253.2
+XM_003810862.1 OR ENSPPAT00000050343.1 - SHORT
+Both are the same.
+
 
