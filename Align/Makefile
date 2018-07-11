@@ -1,7 +1,8 @@
-## Goal - Phylogenetic Analysis of Recombination Genes
+## Goal - Phylogenetic Analysis of Recombination Genes (Align Sequences)
 
 GENE_REF=$(wildcard ../refA/*.fa)
 GENE_FILES=$(patsubst ../refA/%.fa, ../Data/gene/%.fa, $(GENE_REF))
+GENE_PW_FILES=$(patsubst ../refA/%.fa, ../Data/gene_pw/%.fa, $(GENE_REF))
 ALIGN_FILES=$(patsubst ../refA/%.fa, align/%.nt_ali.fasta, $(GENE_REF))
 ALIGN_PW_FILES=$(patsubst ../refA/%.fa, align_pw/%.nt_ali.fasta, $(GENE_REF))
 

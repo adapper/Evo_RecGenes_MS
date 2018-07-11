@@ -1,0 +1,111 @@
+YN00 Yn00/SHOC1.YN00.fasta
+
+ns =   2	ls =1444
+
+Codon position x base (3x4) table for each sequence.
+
+_HUMAN              
+position  1:    T:0.23684    C:0.19321    A:0.31371    G:0.25623
+position  2:    T:0.29778    C:0.20706    A:0.36565    G:0.12950
+position  3:    T:0.33241    C:0.14266    A:0.36150    G:0.16343
+
+_MACAQUE            
+position  1:    T:0.23546    C:0.19391    A:0.31025    G:0.26039
+position  2:    T:0.29917    C:0.20568    A:0.36911    G:0.12604
+position  3:    T:0.33795    C:0.13643    A:0.36842    G:0.15720
+
+Average
+position  1:    T:0.23615    C:0.19356    A:0.31198    G:0.25831
+position  2:    T:0.29848    C:0.20637    A:0.36738    G:0.12777
+position  3:    T:0.33518    C:0.13954    A:0.36496    G:0.16032
+
+Codon usage for each species
+----------------------------------------------------------------------
+Phe TTT  49  46 | Ser TCT  38  40 | Tyr TAT  25  25 | Cys TGT  27  26
+    TTC  20  23 |     TCC  13  12 |     TAC  14  14 |     TGC  10  10
+Leu TTA  42  45 |     TCA  47  47 | *** TAA   0   0 | *** TGA   0   0
+    TTG  37  34 |     TCG   3   1 |     TAG   0   0 | Trp TGG  17  17
+----------------------------------------------------------------------
+Leu CTT  36  38 | Pro CCT  23  21 | His CAT  23  27 | Arg CGT   4   4
+    CTC  13  12 |     CCC   5   5 |     CAC  11  11 |     CGC   1   0
+    CTA  26  26 |     CCA  32  36 | Gln CAA  43  41 |     CGA   3   3
+    CTG  22  20 |     CCG   5   3 |     CAG  31  30 |     CGG   1   3
+----------------------------------------------------------------------
+Ile ATT  55  52 | Thr ACT  29  30 | Asn AAT  46  52 | Ser AGT  30  30
+    ATC  10  10 |     ACC  16  15 |     AAC  27  23 |     AGC  15  12
+    ATA  29  27 |     ACA  36  36 | Lys AAA  75  74 | Arg AGA  24  25
+Met ATG  22  22 |     ACG   1   2 |     AAG  27  28 |     AGG  11  10
+----------------------------------------------------------------------
+Val GTT  15  18 | Ala GCT  16  15 | Asp GAT  50  49 | Gly GGT  14  15
+    GTC  14  14 |     GCC   6   7 |     GAC  26  26 |     GGC   5   3
+    GTA  19  24 |     GCA  28  26 | Glu GAA  98 102 |     GGA  20  20
+    GTG  21  21 |     GCG   1   1 |     GAG  32  31 |     GGG   5   4
+----------------------------------------------------------------------
+
+
+Sums
+------------------------------------------------------
+Phe TTT  95 | Ser TCT  78 | Tyr TAT  50 | Cys TGT  53
+    TTC  43 |     TCC  25 |     TAC  28 |     TGC  20
+Leu TTA  87 |     TCA  94 | *** TAA   0 | *** TGA   0
+    TTG  71 |     TCG   4 |     TAG   0 | Trp TGG  34
+------------------------------------------------------
+Leu CTT  74 | Pro CCT  44 | His CAT  50 | Arg CGT   8
+    CTC  25 |     CCC  10 |     CAC  22 |     CGC   1
+    CTA  52 |     CCA  68 | Gln CAA  84 |     CGA   6
+    CTG  42 |     CCG   8 |     CAG  61 |     CGG   4
+------------------------------------------------------
+Ile ATT 107 | Thr ACT  59 | Asn AAT  98 | Ser AGT  60
+    ATC  20 |     ACC  31 |     AAC  50 |     AGC  27
+    ATA  56 |     ACA  72 | Lys AAA 149 | Arg AGA  49
+Met ATG  44 |     ACG   3 |     AAG  55 |     AGG  21
+------------------------------------------------------
+Val GTT  33 | Ala GCT  31 | Asp GAT  99 | Gly GGT  29
+    GTC  28 |     GCC  13 |     GAC  52 |     GGC   8
+    GTA  43 |     GCA  54 | Glu GAA 200 |     GGA  40
+    GTG  42 |     GCG   2 |     GAG  63 |     GGG   9
+------------------------------------------------------
+
+
+
+(A) Nei-Gojobori (1986) method
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+_HUMAN              
+_MACAQUE             0.5302 (0.0241 0.0454)
+
+
+(B) Yang & Nielsen (2000) method
+
+Yang Z, Nielsen R (2000) Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models. Mol. Biol. Evol. 17:32-43
+
+(equal weighting of pathways)
+
+seq. seq.     S       N        t   kappa   omega     dN +- SE    dS +- SE
+
+   2    1  1203.0  3129.0   0.0865  9.5737  0.7225 0.0261 +- 0.0029  0.0361 +- 0.0057
+
+
+(C) LWL85, LPB93 & LWLm methods
+
+Li W.-H., C.-I. Wu, Luo (1985) A new method for estimating synonymous and nonsynonymous rates of nucleotide substitutions considering the relative likelihood of nucleotide and codon changes. Mol. Biol. Evol. 2: 150-174.
+Li W-H (1993) Unbiased estimation of the rates of synonymous and nonsynonymous substitution. J. Mol. Evol. 36:96-99
+Pamilo P, Bianchi NO (1993) Evolution of the Zfx and Zfy genes - rates and interdependence between the genes. Mol. Biol. Evol. 10:271-281
+Yang Z (2006) Computational Molecular Evolution. Oxford University Press, Oxford. Eqs. 2.12 & 2.13
+
+2 (_MACAQUE) vs. 1 (_HUMAN)
+
+L(i):     2761.0    1051.0     520.0  sum=   4332.0
+Ns(i):   51.5000   21.0000   17.5000  sum=  90.0000
+Nv(i):   12.5000   15.5000    4.0000  sum=  32.0000
+A(i):     0.0191    0.0206    0.0351
+B(i):     0.0045    0.0150    0.0078
+LWL85:  dS =  0.0505 dN =  0.0234 w = 0.4630 S =  870.3 N = 3461.7
+LWL85m: dS =  0.0319 dN =  0.0274 w = 0.8617 S = 1380.9 N = 2951.1 (rho = 0.819)
+LPB93:  dS =  0.0332 dN =  0.0265 w = 0.7990
+

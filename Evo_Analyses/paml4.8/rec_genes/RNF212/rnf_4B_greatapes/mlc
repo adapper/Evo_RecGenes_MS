@@ -1,0 +1,188 @@
+      4    597
+
+Human                           TAT CTC AGG CTT TCC CGA GGC TGT TGC CGT CTC AAG TTA TGC CCA GCC ACA TCC TCC AAG GAG GTG CCC AGA GGC TCG ACC CAT GGA AGC CAA GCA GCA GCC AGA GAT CCC CAA GAA CAC TGG GTC AGC ACA ACA CGG GCA CCC AGA CCA GGA TGC CGG CGG TCC CAG AGC CAG CCA GAG GCC CAG GGA AAC ACC ATC CAG GAC GCA CCT CAC CCC CTC ACC CTG CTC CAT CCC AGC AGG ACC CTC ATT CAC ACC AAG TCC CCT TGG GGC CAG AAG TTG CTT GAG TTC ATA AAA CAT GTC TGT TAT CAC AGA CAT CAG AGC CAC AGG CCG TGC GCT CCA GGG TGG TTT TGC CAA GTG CTG CAG AGG CCA GGT GCT GTC TCA GGA GAG AAG ACC CAG CAG ACC CGG CCA GCC CCT CCA GCC ACC TGT CTG CTC TGC CTC TCG TGC CTC TCA GGC TTC CGG CAT GGG CCG TGG AGG --- --- --- --- --- --- --- TCA CAG GCT CTG CCC AGT GAC CTC GTG GCC CCA CTG TTT GTC AGT TAC ACT GTG GAG GTG AGC ATC ACA AAC GCA GGG TGG AGT TTT CCC GCA GCT GTG ??? 
+Chimp                           TAT CTC AGG CTT TCC CGA GGC TGT TGC CGT CTC AAG TTA TGC CCA GCC ACA TCC TCC AGG GAG GTG CCC AGA GGC TCG ACC CAT GGA AGC CAA GCA GCA GCC AGA GAT CCC CAA GAA CAC TGG GTC AGC ACA ACA TGG GCA CCC AGA CCA GGA TGC CGG CGG TCC CAG AGC CAA CCA GAG GCC CAT GGA AAC ACC ATC CAG GAC GCA CCT CAC CCC CTC ACC CTG CTC CAT CCC AGC GGG ACC CTC ACT CAC GCC AAG TCC CCT TGG GGC CGG AAG TTG CTT GAG TTC ATA AAA CAT GTC TGT TAT CAC AGA CAT CGG AGC CAC AGG CTG CAC GCT CCA GGG TGG TTT TGC CAA GTG CTG CAG AGG CCA GGT GCT GTC TCA GGA GAG AAG ACC CAG CAG ACC TGG CCA GCC CCT CCA GCC ACC TGT CTG CTC TGC CTC TCG TGC CTC TCA GGC TTC CGG CAT GGA CCG TGG AGA CGG CTG GCT CCA GCC TGG GCA GCA CAG GCT CTG CCC AGT GAC CTC GTG GCC CCA CTG TTT GTC AGT TAC ACC GTG GAG GTG AGC GTC ACA AAC GCA GGG TGG AGT TTT CCC GCA GCT GTG ??? 
+Bonobo                          TAT CTC AGG CTT TCC CGA GGC TGT TGC CGT CTC AAG TTA TGC CCA GCC ACA TCC TCC AGG GAG GTG CCC AGA GGC TCG ACC CAT GGA AGC CAA GCA GCA GCC AGA GAT CCC CAA GAA CAC TGG GTC AGC ACA ACA TGG GCA CCC AGA CCA GGA TGC CGG CGG TCC CAG AGC CAA CCA GAG GCC CAT GGA AAC ACC ATC CAG GAC GCA CCT CAC CCC CTC ACC CTG CTC CAT CCC AGC GGG ACC CTC ACT CAC GCC AAG TCC CCT TGG GGC CGG AAG TTG CTT GAG TTC ATA AAA CAT GTC TGT TAT CAC AGA CAT CGG AGC CAC AGG CTG CAC GCT CCA GGG TGG TTT TGC CAA GTG CTG CAG AGG CCA GGT GCT GTC TCA GGA GAG AAG ACC CAG CAG ACC TGG CCA GCC CCT CCA GCC ACC TGT CTG CTC TGC CTC TCG TGC CTC TCA GGC TTC CGG CAT GGA CCG TGG AGA CGG CTG GCT CCA GCC TGG GCA GCA CAG GCT CTG CCC AGT GAC CTC GTG GCC CCA CTG TTT GTC AGT TAC ACC GTG GAG GTG AGC GTC ACA AAC GCA GGG TGG AGT TTT CCC GCA GCT GTG ??? 
+Gorilla                         TAT CTC AGG CTT TCC CGA GGC TGT TGC CGT CTC AAG TTA TGC CCA GCC ACA TCC TCC AGG GAG GTG CCC AGA GGC TCG AGC CAT GGA AGC CAA GCA GCA GCC AGA GAT CCC CAA GAA CAC TGG GTC AGC ACA ACA CGG GCA CCC AGA CCA GGA TGC CGG CGG TCC CAG AGC CAG CCA GAG GCC CAT GGA AAC ACC ATC CAG GAC GCA CCT CAC CCC CTC ACC CTG CTC CAT CCC AGC AGG ACC CTC ATT CAC GCC AAG TCC CCT TGG GGC CGG AAG TTG CTT GAG TTC ATA AAA CAT GTC TGT TAT CAC AGA CAT CAG AGC CGC AGG CTG CGC GCT CCA GGG TGG TTT TGC CAA GTG CTG CAG AGG CCA GGT GCT GTC TCA GGA GAG AAG ACC CAG CAG ACC CGG CCA GCC CCT CCA GCC ACC TGT CTG CTC TGC CTC TCG TGC CTC TCA GGC TTC CGG CAT GGA CCG CGG AGA CGG CTG GCT CCA GCC TGG GCA GCA CAG GCT CTG CCC AGT GAC CTC GTG GCC CCA CTG TTT GTC AGT TAC ACT GTG GAG CTG AGC GTC ACA AGC GCA GGG TGG AGT TTT CCC GCA GCT GTG ??? 
+
+
+
+Printing out site pattern counts
+
+
+         4        237  P
+
+Human                            --- --- --- --- --- --- --- ??? AAA AAC AAC AAG AAG ACA ACC ACC ACC ACT AGA AGC AGG AGG AGG AGT ATA ATC ATC ATT CAA CAC CAC CAG CAG CAG CAG CAG CAT CCA CCC CCG CCG CCT CGA CGG CGG CGT CTC CTG CTT GAA GAC GAG GAT GCA GCC GCT GGA GGC GGG GGG GGT GTC GTG GTG TAC TAT TCA TCA TCC TCG TGC TGC TGG TGG TGT TTA TTC TTG TTT
+Chimp                            CCA CGG CTG GCA GCC GCT TGG ??? AAA AAC AAC AAG AGG ACA ACC ACC GCC ACC AGA AGC AGA AGG GGG AGT ATA ATC GTC ACT CAA CAC CAC CAA CAG CAT CGG CGG CAT CCA CCC CCG CTG CCT CGA CGG TGG CGT CTC CTG CTT GAA GAC GAG GAT GCA GCC GCT GGA GGC GGA GGG GGT GTC GTG GTG TAC TAT GCA TCA TCC TCG CAC TGC TGG TGG TGT TTA TTC TTG TTT
+Bonobo                           CCA CGG CTG GCA GCC GCT TGG ??? AAA AAC AAC AAG AGG ACA ACC ACC GCC ACC AGA AGC AGA AGG GGG AGT ATA ATC GTC ACT CAA CAC CAC CAA CAG CAT CGG CGG CAT CCA CCC CCG CTG CCT CGA CGG TGG CGT CTC CTG CTT GAA GAC GAG GAT GCA GCC GCT GGA GGC GGA GGG GGT GTC GTG GTG TAC TAT GCA TCA TCC TCG CAC TGC TGG TGG TGT TTA TTC TTG TTT
+Gorilla                          CCA CGG CTG GCA GCC GCT TGG ??? AAA AAC AGC AAG AGG ACA ACC AGC GCC ACT AGA AGC AGA AGG AGG AGT ATA ATC GTC ATT CAA CAC CGC CAG CAG CAT CAG CGG CAT CCA CCC CCG CTG CCT CGA CGG CGG CGT CTC CTG CTT GAA GAC GAG GAT GCA GCC GCT GGA GGC GGA GGG GGT GTC CTG GTG TAC TAT GCA TCA TCC TCG CGC TGC CGG TGG TGT TTA TTC TTG TTT
+
+
+
+    1    1    1    1    1    1    1    1    1    1    1    4    1    4    6
+    1    1    1    4    6    1    3    1    3    1    1    1    1    3    4
+    1    1    6    1    1    1    5    8    7    1    1    3    1    3    2
+    1    9    5    2    1    2    5    1    6    6    4    4    4    1    2
+    1    4    1    5    1    2    1    2    5    2    1    6    1    4    3
+    1    2    1    3
+
+CODONML (in paml version 4.8, March 2014)  rnf212_4B_greatapes.txt
+Model: free dN/dS Ratios for branches for branches, 
+Codon frequency model: F3x4
+ns =   4  ls = 199
+
+Codon usage in sequences
+------------------------------------------------------------------------------------------------------
+Phe TTT   3   3   3   3 | Ser TCT   0   0   0   0 | Tyr TAT   2   2   2   2 | Cys TGT   3   3   3   3
+    TTC   2   2   2   2 |     TCC   5   5   5   5 |     TAC   1   1   1   1 |     TGC   7   6   6   6
+Leu TTA   1   1   1   1 |     TCA   3   2   2   2 | *** TAA   0   0   0   0 | *** TGA   0   0   0   0
+    TTG   1   1   1   1 |     TCG   2   2   2   2 |     TAG   0   0   0   0 | Trp TGG   5   8   8   5
+------------------------------------------------------------------------------------------------------
+Leu CTT   2   2   2   2 | Pro CCT   3   3   3   3 | His CAT   5   6   6   6 | Arg CGT   1   1   1   1
+    CTC   9   9   9   9 |     CCC   7   7   7   7 |     CAC   5   6   6   4 |     CGC   0   0   0   2
+    CTA   0   0   0   0 |     CCA   8   9   9   9 | Gln CAA   3   4   4   3 |     CGA   1   1   1   1
+    CTG   5   7   7   8 |     CCG   2   1   1   1 |     CAG  10   6   6   8 |     CGG   5   6   6   8
+------------------------------------------------------------------------------------------------------
+Ile ATT   1   0   0   1 | Thr ACT   1   1   1   1 | Asn AAT   0   0   0   0 | Ser AGT   3   3   3   3
+    ATC   2   1   1   1 |     ACC   8   8   8   6 |     AAC   2   2   2   1 |     AGC   6   6   6   8
+    ATA   1   1   1   1 |     ACA   4   4   4   4 | Lys AAA   1   1   1   1 | Arg AGA   4   5   5   5
+Met ATG   0   0   0   0 |     ACG   0   0   0   0 |     AAG   5   4   4   4 |     AGG   5   4   4   5
+------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0 | Ala GCT   4   5   5   5 | Asp GAT   1   1   1   1 | Gly GGT   1   1   1   1
+    GTC   4   5   5   5 |     GCC   6   8   8   8 |     GAC   2   2   2   2 |     GGC   4   4   4   4
+    GTA   0   0   0   0 |     GCA   6   8   8   8 | Glu GAA   1   1   1   1 |     GGA   4   5   5   5
+    GTG   6   6   6   5 |     GCG   0   0   0   0 |     GAG   5   5   5   5 |     GGG   3   3   3   2
+------------------------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Human          
+position  1:    T:0.18325    C:0.34555    A:0.22513    G:0.24607
+position  2:    T:0.19372    C:0.30890    A:0.22513    G:0.27225
+position  3:    T:0.15707    C:0.36649    A:0.19372    G:0.28272
+Average         T:0.17801    C:0.34031    A:0.21466    G:0.26702
+
+#2: Chimp          
+position  1:    T:0.18182    C:0.34343    A:0.20202    G:0.27273
+position  2:    T:0.19192    C:0.31818    A:0.20707    G:0.28283
+position  3:    T:0.15657    C:0.36364    A:0.21212    G:0.26768
+Average         T:0.17677    C:0.34175    A:0.20707    G:0.27441
+
+#3: Bonobo         
+position  1:    T:0.18182    C:0.34343    A:0.20202    G:0.27273
+position  2:    T:0.19192    C:0.31818    A:0.20707    G:0.28283
+position  3:    T:0.15657    C:0.36364    A:0.21212    G:0.26768
+Average         T:0.17677    C:0.34175    A:0.20707    G:0.27441
+
+#4: Gorilla        
+position  1:    T:0.16667    C:0.36364    A:0.20707    G:0.26263
+position  2:    T:0.19697    C:0.30808    A:0.19697    G:0.29798
+position  3:    T:0.16162    C:0.35859    A:0.20707    G:0.27273
+Average         T:0.17508    C:0.34343    A:0.20370    G:0.27778
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      12 | Ser S TCT       0 | Tyr Y TAT       8 | Cys C TGT      12
+      TTC       8 |       TCC      20 |       TAC       4 |       TGC      25
+Leu L TTA       4 |       TCA       9 | *** * TAA       0 | *** * TGA       0
+      TTG       4 |       TCG       8 |       TAG       0 | Trp W TGG      26
+------------------------------------------------------------------------------
+Leu L CTT       8 | Pro P CCT      12 | His H CAT      23 | Arg R CGT       4
+      CTC      36 |       CCC      28 |       CAC      21 |       CGC       2
+      CTA       0 |       CCA      35 | Gln Q CAA      14 |       CGA       4
+      CTG      27 |       CCG       5 |       CAG      30 |       CGG      25
+------------------------------------------------------------------------------
+Ile I ATT       2 | Thr T ACT       4 | Asn N AAT       0 | Ser S AGT      12
+      ATC       5 |       ACC      30 |       AAC       7 |       AGC      26
+      ATA       4 |       ACA      16 | Lys K AAA       4 | Arg R AGA      19
+Met M ATG       0 |       ACG       0 |       AAG      17 |       AGG      18
+------------------------------------------------------------------------------
+Val V GTT       0 | Ala A GCT      19 | Asp D GAT       4 | Gly G GGT       4
+      GTC      19 |       GCC      30 |       GAC       8 |       GGC      16
+      GTA       0 |       GCA      30 | Glu E GAA       4 |       GGA      19
+      GTG      23 |       GCG       0 |       GAG      20 |       GGG      11
+------------------------------------------------------------------------------
+
+(Ambiguity data are not used in the counts.)
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.17834    C:0.34904    A:0.20892    G:0.26369
+position  2:    T:0.19363    C:0.31338    A:0.20892    G:0.28408
+position  3:    T:0.15796    C:0.36306    A:0.20637    G:0.27261
+Average         T:0.17665    C:0.34183    A:0.20807    G:0.27346
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.00561375  0.01290257  0.00733409  0.00968824
+  0.00908541  0.02088178  0.01186965  0.01567966
+  0.00605694  0.01392119  0.00000000  0.00000000
+  0.00823596  0.01892942  0.00000000  0.01421367
+  0.01098691  0.02525217  0.01435386  0.01896128
+  0.01778144  0.04086864  0.02323059  0.03068733
+  0.01185429  0.02724576  0.01548706  0.02045822
+  0.01611895  0.03704758  0.02105863  0.02781819
+  0.00657610  0.01511443  0.00859136  0.01134908
+  0.01064291  0.02446152  0.01390444  0.01836760
+  0.00709527  0.01630768  0.00926963  0.01224506
+  0.00964784  0.02217447  0.01260443  0.01665030
+  0.00830033  0.01907737  0.01084398  0.01432476
+  0.01343342  0.03087521  0.01755012  0.02318349
+  0.00895562  0.02058347  0.01170008  0.01545566
+  0.01217745  0.02798850  0.01590925  0.02101593
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Pairwise deletion)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Human               
+Chimp                1.2069 (0.0336 0.0278)
+Bonobo               1.2069 (0.0336 0.0278)-1.0000 (0.0000 0.0000)
+Gorilla              2.2906 (0.0312 0.0136) 1.9649 (0.0255 0.0130) 1.9649 (0.0255 0.0130)
+
+
+TREE #  1:  ((2, 3), 1, 4);   MP score: -1
+lnL(ntime:  5  np: 11):   -927.238770      +0.000000
+   5..6     6..2     6..3     5..1     5..4  
+ 0.041345 0.000004 0.000004 0.054233 0.026148 10.894622 1.349395 0.000100 0.000100 1.782429 999.000000
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length =   0.12173
+
+((2: 0.000004, 3: 0.000004): 0.041345, 1: 0.054233, 4: 0.026148);
+
+((Chimp: 0.000004, Bonobo: 0.000004): 0.041345, Human: 0.054233, Gorilla: 0.026148);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) = 10.89462
+
+w (dN/dS) for branches:  1.34940 0.00010 0.00010 1.78243 999.00000
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+   5..6      0.041   409.2   187.8  1.3494  0.0150  0.0111   6.1   2.1
+   6..2      0.000   409.2   187.8  0.0001  0.0000  0.0000   0.0   0.0
+   6..3      0.000   409.2   187.8  0.0001  0.0000  0.0000   0.0   0.0
+   5..1      0.054   409.2   187.8  1.7824  0.0210  0.0118   8.6   2.2
+   5..4      0.026   409.2   187.8 999.0000  0.0127  0.0000   5.2   0.0
+
+tree length for dN:       0.0487
+tree length for dS:       0.0229
+
+dS tree:
+((Chimp: 0.000004, Bonobo: 0.000004): 0.011119, Human: 0.011767, Gorilla: 0.000013);
+dN tree:
+((Chimp: 0.000000, Bonobo: 0.000000): 0.015004, Human: 0.020973, Gorilla: 0.012709);
+
+w ratios as labels for TreeView:
+((Chimp #0.0001 , Bonobo #0.0001 ) #1.3494 , Human #1.7824 , Gorilla #999.0000 );
+
+
+Time used:  0:04

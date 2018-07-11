@@ -1,0 +1,259 @@
+      4    903
+
+GIBBO                           ATG GAT TGG TTT CAC TGC AAC CAG TGC TTC CGA AAA GAT GGG GCC CAT TTC TTT GTC ACT AGC TGC GGC CAT ATT TTC TGC AAA AAG TGT GTG ACT CTG GAA AAA TGT GCT GTT TGT GGA ACT GCC TGC AAG CAT CTG GCT CTT TCT GAT AAT CTG AAG CCT CAG GAG AAG ATG TTT TTC AAA AGT CCT GTG GAG ACA GCT TTG CAG TAT TTT AGT CAC ATC TCT CAG GTG TGG AAT TTC CAG AAG AAA CAA ACA GAT CTC CTC ATC GCC TTT TAT AAG CAT AGA ATT ACA AAG TTA GAA ACA GCC ATG CAG GAG GCA CAG CAA GCA CTG GTC AGC CAG GAC AAA GAA TTG TCA GTC TTA AGG AAG GAG AAT GGA GAA CTA AAG AAA TTT CTA GCC ATT CTA AAG GAA TCT CCA AGT CGG TAC CAA GGA AGC AGG TCA AAC ACA CCT CGA CCA GTG GGT ATT ACT TCC CCA TCA CAA TCA GTT ACC CCA CGA CCC AGT TTC CAG CAT AGC AGT CAA GTG GTC AGT CGA TCC TCC TCA GCA GAA TCT ATT CCT TAT AGA GAG GCT GGC TTT GGT AGC TTG GGA CAA GGA GGC AGA GGT CTG CAG GGA AGG AGA ACT CCC AGA GAC TCT TAT AAT GAA ACC CCT TCA CCA GCT TCA ACT CAC AGC CTA TCT TAT AGA CCT TCA TCT GCC TCC TCT GGA CAG GGG ATT TTT TCT TTC AGA CCA TCC CCA AAT GGG CAT TCA GGC CAC ACA AGA GTC CTC ACC CCC AAC AAT TTT GCT CAG AGG GAG AGC AGA ACT ACA CTA GAG AGT CTT CCT AGT TTC CAG CTA CCA GTC CTG CAG ACT CTC TAC CAA CAA CAG CGG CAG ATG GGA TTA CCC AGT GGG AGA GAA GCA TGG ACC ACT TCC AGA ??? 
+ORANG                           ATG GAT TGG TTT CAC TGC AAC CAG TGC TTC CGA AAA GAT GGG GCC CAT TTC TTT GTC ACC AGC TGC GGC CAT ATT TTC TGT AAA AAG TGT GTG ACT CTG GAA AAA TGT GCT GTT TGT GGA ACT GCC TGC AAG CAT CTG GCT CTT TCT GAT AAT CTG AAG CCT CAG GAG AAG ATG TTT TTC AAA AGT CCT GTG GAG ACA GCT TTG CAG TAT TTT AGT CAC ATC TCT CAG GTG TGG AGT TTC CAG AAG AAA CAA ACA GAT CTC CTC ATC GCC TTT TAT AAG CAT AGA ATT ACA AAG TTA GAA ACA GCC ATG CAG GAG ACA CAG CAA GCA CTG GTC AGC CAG GAC AAA GAA TTG TCA GTC TTA AGG AAG GAG AAT GGA GAA CTG AAG AAA TTT CTA GCC ATT CTA AAG GAA TCT CCA AGT CGG TAC CAA GGA AGC AGG TCA ATC ACA CCT CGA CCA GTG GCC ATT ACT TCC CCA TCA CAG TCA GTT ACC CCA CGA CCC AGT TTC CAG CAT AGC AGT CAA GTG GTC AGT CGG TCC TCC TCA GTG GAA TCT GTT CCT TAT AGA GAG GCT GGC TTT GGT AGC TTG GGA CAA GGA GGC AGA GGT CTG CAG GGA AGG AGA ACT CCC AGA GAC TCT TAT AAT GAA ACC CCT TCA CCG GCT TCA ACT CAC AGC CTA TCT TAT AGA CCT TCA TCT GCC TCC TCT GGA CAG GGG ATT TTT TCT TTC AGA CCA TCC CCA AAT GGG CAT TCA GGC CAC ACA AGA GTC CTT ACC CCT AAC AAT TTG GCT CAG AGG GAG AGC AGA ACT ACA CTA GAG AGT CTT CCT AGT TTC CAG CTA CCA GTC CTG CAG ACT CCC TAC CAA CAA CAG AGG CAG ATG GGA TTA CCC AGT GGG AGA GAA GCA TGG ACC ACT TCC AGA ??? 
+HUMAN                           ATG GAT TGG TTT CAT TGC AAC CAG TGC TTC CGA AAA GAT GGG GCC CAT TTC TTT GTC ACC AGC TGT GGC CAT ATT TTC TGT AAA AAG TGT GTG ACT CTG GAA AAA TGT GCT GTT TGT GGA ACT GCC TGC AAG CAT CTG GCT CTT TCT GAT AAT CTG AAG CCT CAG GAG AAG ATG TTT TTC AAA AGT CCT GTG GAG ACA GCT TTG CAG TAT TTT AGT CAC ATC TCT CAG GTG TGG AGT TTC CAG AAG AAA CAA ACA GAT CTC CTC ATC GCC TTT TAT AAG CAT AGA ATT ACA AAG TTA GAA ACA GCC ATG CAG GAG GCA CAG CAA GCA CTG GTG AGC CAG GAC AAA GAA TTG TCA GTC TTA AGG AAG GAG AAT GGA GAA CTG AAG AAA TTT CTA GCC ATT CTA AAG GAA TCT CCA AGT CGG TAC CAA GGA AGC AGG TCA ATC ACA CCT CGA CCA GTG GGC ATT ACT TCC CCA TCA CAG TCA GTT ACC CCA CGA CCC AGT TTC CAG CAT AGC AGT CAA GTG GTC AGT CGG TCC TCC TCA GCG GAA TCT ATT CCT TAT AGA GAG GCT GGC TTT GGT AGC TTG GGA CAA GGA GGC AGA GGT CTG CAG GGA AGG AGA ACT CCC AGA GAC TCT TAT AAT GAA ACC CCT TCA CCG GCT TCA ACT CAT AGC CTA TCT TAT AGA ACT TCA TCT GCC TCC TCT GGA CAG GGG ATT TTT TCT TTC AGA CCA TCC CCA AAT GGG CAT TCA GGC CAC ACA AGA GTC CTC ACC CCC AAC AAT TTT GCT CAG AGG GAG AGC ACA ACT ACA CTA GAG AGT CTT CCT AGT TTC CAG CTA CCA GTC CTG CAG ACT CTC TAC CAA CAA CGG AGG CAT ATG GGA TTA CCC AGT GGG AGA GAA GCA TGG ACC ACT TCT AGA ??? 
+CHIMP                           ATG GAT TGG TTT CAT TGC AAC GAG TGC TTC CGA AAA GAT GGG GCC CAT TTC TTT GTC ACC AGC TGC GGC CAT ATT TTC TGT AAA AAG TGT GTG ACT CTG GAA AAA TGT GCT GTT TGT GAA ACT GCC TGC AAG CAT CTG GCT CTT TCT GAT AAT CTG AAG CCT CAG GAG AAG ATG TTT TTC AAA AGT CCT GTG GAG ACA GCT TTG CAG TAT TTT AGT CAC ATC TCT CAG GTG TGG AGT TTC CAG AAG AAA CAA ACA GAT CTC CTC ATC GCC TTT TAT AAG CAT AGA ATT ACA AAG TTA GAA ACA GCC ATG CAG GAG GCA CAG CAA GCA CTG GTG AGC CAG GAC AAA GAA TTG TCA GTC TTA AGG AAG GAG AAT GGA GAA CTG AAG AAA TTT CTA GCC ATT CTA AAG GAA TCT CCA AGT CGG TAC CAA GGA AGC AGG TCA ATC ACA CCT CGA CCA GTG GGC ATT ACT TCC CCG TCA CAG TCA GTT ACC CCA CGA CCC AGT TTC CAG CAT AGC AGT CAA GTG GTC AGT CGG TCC TCC TCA GCG GAA TCT ATT CCT TAT AGA GAG GCT GGC TTT GGT AGC TTG GGA CAA GGA GGC AGA GGT CTG CAG GGA AGG AGA ACT CCC AGA GAC TCT TAT AAT GAA ACC CCT TCA CCG GCT TCA ACT CAC AGC CTA TCT TAT AGA ACT TCA TCT GCC TCC TCT GGA CAG GGG ATT TTT TCT TTC AGA CCA TCC CCA AAT GGG CAT TCA GGC CAC ACA AGA GTC CTC ACC CCC AAC AAT TTT GCT CAG AGG GAG AGC ACA ACT ACA CTA GAG AGT CTT CCT AGT TTC CAG CTA CCA GTC CTG CAG ACT CTC TAC CAA CAA CGG AGG CAT ATG GGA TTA CCC AGT GGG AGA GAA GCA TGG ACC ACT TCT AGA ??? 
+
+
+
+Printing out site pattern counts
+
+
+         4        249  P
+
+GIBBO                            ??? AAA AAC AAC AAG AAT AAT ACA ACC ACT ACT AGA AGA AGC AGG AGT ATC ATG ATT ATT CAA CAA CAC CAC CAC CAG CAG CAG CAG CAT CCA CCA CCA CCC CCC CCT CCT CGA CGA CGG CGG CTA CTA CTC CTC CTC CTG CTT GAA GAC GAG GAT GCA GCA GCA GCC GCT GGA GGA GGC GGG GGT GGT GTC GTC GTG GTT TAC TAT TCA TCC TCC TCT TGC TGC TGC TGG TGT TTA TTC TTG TTT TTT
+ORANG                            ??? AAA AAC ATC AAG AAT AGT ACA ACC ACC ACT AGA AGA AGC AGG AGT ATC ATG ATT GTT CAA CAG CAC CAC CAC CAG CAG CAG CAG CAT CCA CCA CCG CCC CCT CCT CCT CGA CGG AGG CGG CTA CTG CCC CTC CTT CTG CTT GAA GAC GAG GAT ACA GCA GTG GCC GCT GGA GGA GGC GGG GCC GGT GTC GTC GTG GTT TAC TAT TCA TCC TCC TCT TGC TGC TGT TGG TGT TTA TTC TTG TTG TTT
+HUMAN                            ??? AAA AAC ATC AAG AAT AGT ACA ACC ACC ACT ACA AGA AGC AGG AGT ATC ATG ATT ATT CAA CAG CAC CAT CAT CAG CAG CAT CGG CAT CCA CCA CCG CCC CCC ACT CCT CGA CGG AGG CGG CTA CTG CTC CTC CTC CTG CTT GAA GAC GAG GAT GCA GCA GCG GCC GCT GGA GGA GGC GGG GGC GGT GTC GTG GTG GTT TAC TAT TCA TCC TCT TCT TGC TGT TGT TGG TGT TTA TTC TTG TTT TTT
+CHIMP                            ??? AAA AAC ATC AAG AAT AGT ACA ACC ACC ACT ACA AGA AGC AGG AGT ATC ATG ATT ATT CAA CAG CAC CAC CAT CAG GAG CAT CGG CAT CCA CCG CCG CCC CCC ACT CCT CGA CGG AGG CGG CTA CTG CTC CTC CTC CTG CTT GAA GAC GAG GAT GCA GCA GCG GCC GCT GAA GGA GGC GGG GGC GGT GTC GTG GTG GTT TAC TAT TCA TCC TCT TCT TGC TGC TGT TGG TGT TTA TTC TTG TTT TTT
+
+
+
+    1    7    2    1   10    5    1    7    4    1    8    1   10    7    4
+    9    2    4    5    1    7    1    2    1    1   13    1    1    1    6
+    6    1    1    3    1    1    6    3    1    1    1    5    1    1    2
+    1    6    2    8    2    7    4    1    2    1    6    6    1    7    4
+    4    1    2    5    1    5    2    2    5    9    5    1    9    3    1
+    1    3    3    3    8    3    1    8
+
+CODONML (in paml version 4.8, March 2014)  rnf212B_nogoril.txt
+Model: One dN/dS ratio for branches, 
+Codon frequency model: F3x4
+Site-class models: 
+ns =   4  ls = 301
+
+Codon usage in sequences
+------------------------------------------------------------------------------------------------------
+Phe TTT   9   8   9   9 | Ser TCT   9   9  10  10 | Tyr TAT   5   5   5   5 | Cys TGT   3   4   5   4
+    TTC   8   8   8   8 |     TCC   6   6   5   5 |     TAC   2   2   2   2 |     TGC   5   4   3   4
+Leu TTA   3   3   3   3 |     TCA   9   9   9   9 | *** TAA   0   0   0   0 | *** TGA   0   0   0   0
+    TTG   3   4   3   3 |     TCG   0   0   0   0 |     TAG   0   0   0   0 | Trp TGG   3   3   3   3
+------------------------------------------------------------------------------------------------------
+Leu CTT   2   3   2   2 | Pro CCT   7   8   6   6 | His CAT   6   6   9   8 | Arg CGT   0   0   0   0
+    CTC   4   2   4   4 |     CCC   4   4   4   4 |     CAC   4   4   2   3 |     CGC   0   0   0   0
+    CTA   6   5   5   5 |     CCA   8   7   7   6 | Gln CAA   8   7   7   7 |     CGA   4   3   3   3
+    CTG   6   7   7   7 |     CCG   0   1   1   2 |     CAG  16  17  15  14 |     CGG   2   2   3   3
+------------------------------------------------------------------------------------------------------
+Ile ATT   6   5   6   6 | Thr ACT   9   8   9   9 | Asn AAT   6   5   5   5 | Ser AGT   9  10  10  10
+    ATC   2   3   3   3 |     ACC   4   5   5   5 |     AAC   3   2   2   2 |     AGC   7   7   7   7
+    ATA   0   0   0   0 |     ACA   7   8   8   8 | Lys AAA   7   7   7   7 | Arg AGA  11  11  10  10
+Met ATG   4   4   4   4 |     ACG   0   0   0   0 |     AAG  10  10  10  10 |     AGG   4   5   5   5
+------------------------------------------------------------------------------------------------------
+Val GTT   2   3   2   2 | Ala GCT   6   6   6   6 | Asp GAT   4   4   4   4 | Gly GGT   3   2   2   2
+    GTC   6   6   5   5 |     GCC   6   7   6   6 |     GAC   2   2   2   2 |     GGC   4   4   5   5
+    GTA   0   0   0   0 |     GCA   4   2   3   3 | Glu GAA   8   8   8   9 |     GGA   8   8   8   7
+    GTG   5   6   6   6 |     GCG   0   0   1   1 |     GAG   7   7   7   8 |     GGG   4   4   4   4
+------------------------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: GIBBO          
+position  1:    T:0.21667    C:0.25667    A:0.29667    G:0.23000
+position  2:    T:0.22000    C:0.26333    A:0.29333    G:0.22333
+position  3:    T:0.28667    C:0.22333    A:0.27667    G:0.21333
+Average         T:0.24111    C:0.24778    A:0.28889    G:0.22222
+
+#2: ORANG          
+position  1:    T:0.21667    C:0.25333    A:0.30000    G:0.23000
+position  2:    T:0.22333    C:0.26667    A:0.28667    G:0.22333
+position  3:    T:0.28667    C:0.22000    A:0.26000    G:0.23333
+Average         T:0.24222    C:0.24667    A:0.28222    G:0.22889
+
+#3: HUMAN          
+position  1:    T:0.21667    C:0.25000    A:0.30333    G:0.23000
+position  2:    T:0.22333    C:0.26667    A:0.28333    G:0.22667
+position  3:    T:0.30000    C:0.21000    A:0.26000    G:0.23000
+Average         T:0.24667    C:0.24222    A:0.28222    G:0.22889
+
+#4: CHIMP          
+position  1:    T:0.21667    C:0.24667    A:0.30333    G:0.23333
+position  2:    T:0.22333    C:0.26667    A:0.28667    G:0.22333
+position  3:    T:0.29333    C:0.21667    A:0.25667    G:0.23333
+Average         T:0.24444    C:0.24333    A:0.28222    G:0.23000
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      35 | Ser S TCT      38 | Tyr Y TAT      20 | Cys C TGT      16
+      TTC      32 |       TCC      22 |       TAC       8 |       TGC      16
+Leu L TTA      12 |       TCA      36 | *** * TAA       0 | *** * TGA       0
+      TTG      13 |       TCG       0 |       TAG       0 | Trp W TGG      12
+------------------------------------------------------------------------------
+Leu L CTT       9 | Pro P CCT      27 | His H CAT      29 | Arg R CGT       0
+      CTC      14 |       CCC      16 |       CAC      13 |       CGC       0
+      CTA      21 |       CCA      28 | Gln Q CAA      29 |       CGA      13
+      CTG      27 |       CCG       4 |       CAG      62 |       CGG      10
+------------------------------------------------------------------------------
+Ile I ATT      23 | Thr T ACT      35 | Asn N AAT      21 | Ser S AGT      39
+      ATC      11 |       ACC      19 |       AAC       9 |       AGC      28
+      ATA       0 |       ACA      31 | Lys K AAA      28 | Arg R AGA      42
+Met M ATG      16 |       ACG       0 |       AAG      40 |       AGG      19
+------------------------------------------------------------------------------
+Val V GTT       9 | Ala A GCT      24 | Asp D GAT      16 | Gly G GGT       9
+      GTC      22 |       GCC      25 |       GAC       8 |       GGC      18
+      GTA       0 |       GCA      12 | Glu E GAA      33 |       GGA      31
+      GTG      23 |       GCG       2 |       GAG      29 |       GGG      16
+------------------------------------------------------------------------------
+
+(Ambiguity data are not used in the counts.)
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.21667    C:0.25167    A:0.30083    G:0.23083
+position  2:    T:0.22250    C:0.26583    A:0.28750    G:0.22417
+position  3:    T:0.29167    C:0.21750    A:0.26333    G:0.22750
+Average         T:0.24361    C:0.24500    A:0.28389    G:0.22750
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.01469815  0.01096062  0.01327033  0.01146455
+  0.01756071  0.01309527  0.01585481  0.01369735
+  0.01899199  0.01416260  0.00000000  0.00000000
+  0.01480824  0.01104272  0.00000000  0.01155043
+  0.01707246  0.01273118  0.01541399  0.01331652
+  0.02039744  0.01521066  0.01841597  0.01591000
+  0.02205992  0.01645040  0.01991696  0.01720674
+  0.01720035  0.01282654  0.01552945  0.01341627
+  0.02040781  0.01521840  0.01842534  0.01591809
+  0.02438236  0.01818228  0.02201379  0.01901824
+  0.02636964  0.01966422  0.02380802  0.02056832
+  0.02056068  0.01533239  0.01856335  0.01603733
+  0.01565918  0.01167727  0.01413800  0.01221416
+  0.01870891  0.01395150  0.01689147  0.01459295
+  0.02023377  0.01508861  0.01826820  0.01578234
+  0.01577648  0.01176474  0.01424390  0.01230565
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Pairwise deletion)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+GIBBO               
+ORANG                0.2209 (0.0118 0.0532)
+HUMAN                0.1288 (0.0088 0.0683) 0.4415 (0.0147 0.0334)
+CHIMP                0.1855 (0.0118 0.0634) 0.6199 (0.0177 0.0286) 0.2068 (0.0029 0.0141)
+
+
+Model 7: beta (10 categories)
+
+
+TREE #  1:  ((3, 4), 2, 1);   MP score: -1
+lnL(ntime:  5  np:  8):  -1427.865942      +0.000000
+   5..6     6..3     6..4     5..2     5..1  
+ 0.024214 0.006723 0.010224 0.027517 0.037728 3.838070 48.902225 99.000000
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length =   0.10641
+
+((3: 0.006723, 4: 0.010224): 0.024214, 2: 0.027517, 1: 0.037728);
+
+((HUMAN: 0.006723, CHIMP: 0.010224): 0.024214, ORANG: 0.027517, GIBBO: 0.037728);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  3.83807
+
+Parameters in M7 (beta):
+ p =  48.90222  q =  99.00000
+
+
+dN/dS (w) for site classes (K=10)
+
+p:   0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000
+w:   0.26853  0.29064  0.30413  0.31507  0.32502  0.33475  0.34490  0.35632  0.37076  0.39536
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+   5..6       0.024    641.2    261.8   0.3305   0.0051   0.0154    3.3    4.0
+   6..3       0.007    641.2    261.8   0.3305   0.0014   0.0043    0.9    1.1
+   6..4       0.010    641.2    261.8   0.3305   0.0021   0.0065    1.4    1.7
+   5..2       0.028    641.2    261.8   0.3305   0.0058   0.0175    3.7    4.6
+   5..1       0.038    641.2    261.8   0.3305   0.0079   0.0240    5.1    6.3
+
+
+Time used:  0:17
+
+
+Model 8: beta&w>1 (11 categories)
+
+
+TREE #  1:  ((3, 4), 2, 1);   MP score: -1
+lnL(ntime:  5  np: 10):  -1427.867534      +0.000000
+   5..6     6..3     6..4     5..2     5..1  
+ 0.024218 0.006724 0.010225 0.027521 0.037734 3.838064 0.999990 48.934694 99.000000 17.254182
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length =   0.10642
+
+((3: 0.006724, 4: 0.010225): 0.024218, 2: 0.027521, 1: 0.037734);
+
+((HUMAN: 0.006724, CHIMP: 0.010225): 0.024218, ORANG: 0.027521, GIBBO: 0.037734);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  3.83806
+
+Parameters in M8 (beta&w>1):
+  p0 =   0.99999  p =  48.93469 q =  99.00000
+ (p1 =   0.00001) w =  17.25418
+
+
+dN/dS (w) for site classes (K=11)
+
+p:   0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.00001
+w:   0.26867  0.29078  0.30427  0.31522  0.32517  0.33490  0.34505  0.35647  0.37091  0.39551 17.25418
+(note that p[10] is zero)
+
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+   5..6       0.024    641.2    261.8   0.3309   0.0051   0.0154    3.3    4.0
+   6..3       0.007    641.2    261.8   0.3309   0.0014   0.0043    0.9    1.1
+   6..4       0.010    641.2    261.8   0.3309   0.0021   0.0065    1.4    1.7
+   5..2       0.028    641.2    261.8   0.3309   0.0058   0.0175    3.7    4.6
+   5..1       0.038    641.2    261.8   0.3309   0.0079   0.0240    5.1    6.3
+
+
+Naive Empirical Bayes (NEB) analysis
+Bayes Empirical Bayes (BEB) analysis (Yang, Wong & Nielsen 2005. Mol. Biol. Evol. 22:1107-1118)
+Positively selected sites (*: P>95%; **: P>99%)
+(amino acids refer to 1st sequence: GIBBO)
+
+            Pr(w>1)     post mean +- SE for w
+
+
+
+
+The grid 
+
+p0:   0.050  0.150  0.250  0.350  0.450  0.550  0.650  0.750  0.850  0.950
+p :   0.100  0.300  0.500  0.700  0.900  1.100  1.300  1.500  1.700  1.900
+q :   0.100  0.300  0.500  0.700  0.900  1.100  1.300  1.500  1.700  1.900
+ws:   1.500  2.500  3.500  4.500  5.500  6.500  7.500  8.500  9.500 10.500
+
+
+Posterior on the grid
+
+p0:   0.000  0.000  0.000  0.000  0.000  0.001  0.008  0.058  0.210  0.724
+p :   0.229  0.244  0.196  0.134  0.083  0.050  0.030  0.018  0.011  0.007
+q :   0.003  0.034  0.051  0.069  0.090  0.110  0.131  0.151  0.171  0.189
+ws:   0.497  0.224  0.123  0.070  0.040  0.022  0.012  0.007  0.004  0.002
+
+Time used:  0:32
