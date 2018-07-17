@@ -17,7 +17,7 @@ Used PAML version 4.8
 
 
 ## CODEML - Species Tree
-
+Primary Dataset
 ### Format Data:
 - 'make format' takes the output of the alignment software and generates the files of the format required for analysis in PAML.  
 - 'PAML_format.py' is a custom python script I wrote to convert the format.
@@ -25,7 +25,7 @@ Used PAML version 4.8
 
 
 ## CODEML - Gene Tree
-
+Looks for spurious results produced by Incomplete Lineage Sorting (ILS).
 ### Construction of Gene Trees:
 
 
@@ -33,7 +33,7 @@ Used PAML version 4.8
 
 
 ## MNM Analysis
-
+Looks for spurious results produced by Multi-Nucleotide Mutations (MNM).
 ### Construct Ancestral Sequences - PAML
 
 ### Identify & Remove all putative MNM
