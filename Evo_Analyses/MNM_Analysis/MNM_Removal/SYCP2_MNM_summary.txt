@@ -1,0 +1,58 @@
+MOUSE:
+       5
+RAT:
+       8
+Node25 (MOUSE, RAT):
+     126
+CHIMP:
+       3
+BONOBO:
+       5
+Node24 (CHIMP, BONOBO):
+       1
+HUMAN:
+       3
+Node23 (HUMAN, CHIMP, BONOBO):
+       0
+GORILLA:
+       3
+Node22 (GORILLA, HUMAN, CHIMP, BONOBO):
+       0
+ORANGUTAN:
+       4
+Node21 (ORANGUTAN, GORILLA, HUMAN, CHIMP, BONOBO):
+       0
+MACAQUE:
+       7
+Node20 (MACAQUE, ORANGUTAN, GORILLA, HUMAN, CHIMP, BONOBO):
+       0
+MARMOSET:
+      14
+Node19 (MARMOSET, MACAQUE, ORANGUTAN, GORILLA, HUMAN, CHIMP, BONOBO):
+      14
+TREE SHREW:
+      39
+Node18 (TREE_SHREW, MARMOSET, MACAQUE, ORANGUTAN, GORILLA, HUMAN, CHIMP, BONOBO):
+       0
+COW:
+       5
+SHEEP:
+       3
+Node29 (COW, SHEEP):
+      21
+PIG:
+      17
+Node28 (PIG, COW, SHEEP):
+       4
+DOG:
+      35
+Node27 (DOG, PIG, COW, SHEEP):
+       0
+HORSE:
+      14
+BAT:
+      48
+Node30 (HORSE, BAT):
+       0
+Node26 (HORSE, BAT, DOG, PIG, COW, SHEEP):
+       2
