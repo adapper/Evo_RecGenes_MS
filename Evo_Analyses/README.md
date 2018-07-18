@@ -23,7 +23,6 @@ Primary Dataset
 - 'PAML_format.py' is a custom python script I wrote to convert the format.
 - For CODEML, additional edits need to be made before running analysis.  This includes changing the number of sequences in the header of the .fa file from 2 to the appropriate number (usually 16).
 
-
 ## CODEML - Gene Tree
 Looks for spurious results produced by Incomplete Lineage Sorting (ILS).
 ### Construction of Gene Trees - MrBayes:
