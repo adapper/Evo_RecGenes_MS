@@ -1,7 +1,7 @@
 # Evolutionary Analysis
 
-Results summarized in Excel Sheet : Evo_Analyses_Data.xlsx
-Used PAML version 4.8
+- Results summarized in Excel Sheet : Evo_Analyses_Data.xlsx
+- Used PAML version 4.8
 
 ## Divergence (YN00) - Human/Macaque
 
@@ -26,8 +26,16 @@ Primary Dataset
 
 ## CODEML - Gene Tree
 Looks for spurious results produced by Incomplete Lineage Sorting (ILS).
-### Construction of Gene Trees:
-
+### Construction of Gene Trees - MrBayes:
+1.  Generate NEXUS files ('.nex') for the alignments of interest.
+- One way to do this is to use the align files 'Align/GENE.nt_ali.fasta' and the site: http://sequenceconversion.bugaco.com/converter/biology/sequences/fasta_to_nexus.php
+2. Run MrBayes
+- 'mb' - opens MrBayes in Terminal
+- 'execute GENE.nexus' - loads data into MrBayes
+- 'lset nst=6 rates=invgamma' - sets the evolutionary model
+- 'mcmc ngen=200000 samplefreq=1000 printfreq=1000 diagnfreq=10000' - run model until standard deviation of split frequencies is below 0.01.
+- 'sump' - summarize the parameter values. Make sure the potential scale reduction factor (PSRF) is reasonably close to 1.0 for all parameters.
+- 'sumt' - summarize the tree.
 
 ### CODEML
 
