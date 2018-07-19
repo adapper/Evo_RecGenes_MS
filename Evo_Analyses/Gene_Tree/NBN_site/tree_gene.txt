@@ -1,0 +1,6 @@
+15 1
+
+((((((_CHIMP, _GORILLA), _HUMAN), _ORANGUTAN), _MACAQUE), _MARMOSET),(_MOUSE, _RAT),((((_COW, _SHEEP), _PIG), _DOG, _BAT, _HORSE), _TREE_SHREW));
+
+
+

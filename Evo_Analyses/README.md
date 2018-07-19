@@ -28,6 +28,7 @@ Looks for spurious results produced by Incomplete Lineage Sorting (ILS).
 ### Construction of Gene Trees - MrBayes:
 1.  Generate NEXUS files ('.nex') for the alignments of interest.
 - One way to do this is to use the align files 'Align/GENE.nt_ali.fasta' and the site: http://sequenceconversion.bugaco.com/converter/biology/sequences/fasta_to_nexus.php
+- Another site: http://www.sing-group.org/ALTER/
 2. Run MrBayes
 - 'mb' - opens MrBayes in Terminal
 - 'execute GENE.nexus' - loads data into MrBayes

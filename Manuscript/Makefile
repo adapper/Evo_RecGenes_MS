@@ -4,8 +4,8 @@
 .PHONY : pdf
 pdf : DapperPayseur_2018.pdf 
 
-DapperPayseur_2018.pdf : DapperPayseur_2018.md
-	pandoc -V geometry:margin=1in $^ -fmarkdown-implicit_figures -s -o $@
+DapperPayseur_2018.pdf : DapperPayseur_2018.md References.bib
+	pandoc -V geometry:margin=1in --filter=pandoc-citeproc --biblio=References.bib --csl=molecular-biology-and-evolution.csl $< -fmarkdown-implicit_figures -s -o $@
 
 ## clean		: Remove auto-generated files.
 .PHONY : clean
