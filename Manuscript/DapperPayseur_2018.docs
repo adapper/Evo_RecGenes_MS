@@ -1,0 +1,2855 @@
+<p><strong>Molecular Evolution of the Meiotic Recombination Pathway in Mammals</strong></p>
+<p><em>Investigations</em></p>
+<p><span class="math inline"> </span></p>
+<p>Amy L. Dapper<sup>1,2</sup>* and Bret A. Payseur<sup>1</sup></p>
+<p><span class="math inline"> </span></p>
+<p><sup>1</sup> Laboratory of Genetics, University of Wisconsin, Madison, WI 53706, USA</p>
+<p><sup>2</sup> Current Address: Department of Biological Sciences, Mississippi State University, Mississippi State, MS 39762, USA</p>
+
+<p>Running Title: Evolution of the Recombination Pathway</p>
+<p>Keywords: (up to 5)</p>
+<p><span class="math inline"> </span></p>
+<p>* Corresponding Author : Amy L. Dapper</p>
+<p>Address: 295 E. Lee Blvd., P.O. Box GY, Mississippi State, MS 39762</p>
+<p>Phone: (662) 325-7575</p>
+<p>Email: dapper@biology.msstate.edu</p>
+
+<h2 id="abstract">Abstract</h2>
+<p>Meiotic recombination, the exchange of genetic material between homologous chromosomes during meiosis, is required for successful gametogenesis in most sexually reproducing species. Recombination is also a fundamental evolutionary force, influencing the fate of new mutations and determining the genomic scale over which selection shapes genetic variation. Despite the central importance of recombination, basic questions about its evolution have yet to be addressed. Although many genes that play roles in recombination have been identified, the molecular evolution of most of these genes remains uncharacterized. Using a phylogenetic comparative approach, we measure rates of evolution in 32 recombination pathway genes across 16 mammalian species, spanning primates, murids, and laurasithians. By analyzing a carefully-selected panel of genes involved in key components of recombination – spanning double strand break formation, strand invasion, the crossover/non-crossover decision, and resolution – we generate a comprehensive picture of the evolution of the recombination pathway in mammals. Recombination genes exhibit marked heterogeneity in the rate of protein evolution, both across and within genes. We report signatures of rapid evolution and positive selection that could underlie species differences in recombination rate. [WORK HERE]</p>
+<p>Abstract Word Count : (&lt; 250)</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>The reciprocal exchange of DNA between homologous chromosomes during meiosis – recombination – is required for successful gametogenesis in most species that reproduce sexually <span class="citation">(Hassold and Hunt 2001)</span>. The rate of recombination is a major determinant of patterns of genetic diversity in populations, influencing the fate of new mutations <span class="citation">(Hill and Robertson 1966)</span>, the efficacy of selection <span class="citation">(Felsenstein 1974; Charlesworth <em>et al.</em> 1993; Comeron <em>et al.</em> 1999; Gonen <em>et al.</em> 2017)</span>, and important features of the genomic landscape <span class="citation">(Begun and Aquadro 1992; Charlesworth <em>et al.</em> 1994; Duret and Arndt 2008)</span>.</p>
+<p>Although recombination rate is often treated as a constant, this fundamental parameter evolves over time. Genomic regions ranging in size from short sequences to entire chromosomes vary in recombination rate – both within and between species <span class="citation">(Burt and Bell 1987; Broman <em>et al.</em> 1998; Jeffreys <em>et al.</em> 2005; Coop and Przeworski 2007; Kong <em>et al.</em> 2010; Dumont <em>et al.</em> 2011; Smukowski and Noor 2011; Comeron <em>et al.</em> 2012; Segura <em>et al.</em> 2013; Dapper and Payseur 2017; Stapley <em>et al.</em> 2017)</span>.</p>
+<p>Genome-wide association studies are beginning to reveal the genetic basis of differences in recombination rate within species. Individual recombination rates have been associated with variation in specific genes in populations of <em>Drosophila melanogaster</em> <span class="citation">(Hunter <em>et al.</em> 2016)</span>, humans <span class="citation">(Kong <em>et al.</em> 2008, 2014; Chowdhury <em>et al.</em> 2009; Fledel-Alon <em>et al.</em> 2011)</span>, domesticated cattle <span class="citation">(Sandor <em>et al.</em> 2012; Ma <em>et al.</em> 2015; Kadri <em>et al.</em> 2016; Shen <em>et al.</em> 2018)</span>, domesticated sheep <span class="citation">(Petit <em>et al.</em> 2017)</span>, Soay sheep <span class="citation">(Johnston <em>et al.</em> 2016)</span>, and red deer <span class="citation">(Johnston <em>et al.</em> 2018)</span>. Variants in several of these genes correlate with recombination rate in multiple species, including: <em>Rnf212</em> <span class="citation">(Kong <em>et al.</em> 2008; Chowdhury <em>et al.</em> 2009; Fledel-Alon <em>et al.</em> 2011; Sandor <em>et al.</em> 2012; Johnston <em>et al.</em> 2016; Kadri <em>et al.</em> 2016; Petit <em>et al.</em> 2017)</span>, <em>Rnf212B</em> <span class="citation">(Johnston <em>et al.</em> 2016, 2018; Kadri <em>et al.</em> 2016)</span>, <em>Rec8</em> <span class="citation">(Sandor <em>et al.</em> 2012; Johnston <em>et al.</em> 2016, 2018)</span>, <em>Hei10/Ccnb1ip1</em> <span class="citation">(Kong <em>et al.</em> 2014; Petit <em>et al.</em> 2017)</span>, <em>Msh4</em> <span class="citation">(Kong <em>et al.</em> 2014; Ma <em>et al.</em> 2015; Kadri <em>et al.</em> 2016; Shen <em>et al.</em> 2018)</span>, <em>Cplx1</em> <span class="citation">(Kong <em>et al.</em> 2014; Ma <em>et al.</em> 2015; Johnston <em>et al.</em> 2016; Shen <em>et al.</em> 2018)</span> and <em>Prdm9</em> <span class="citation">(Fledel-Alon <em>et al.</em> 2011; Sandor <em>et al.</em> 2012; Kong <em>et al.</em> 2014; Ma <em>et al.</em> 2015; Shen <em>et al.</em> 2018)</span>.</p>
+<p>In contrast, the genetics of recombination rate variation among species remains poorly understood. Divergence at the di-cistronic gene <em>mei-217/mei-218</em> explains much of the disparity in genetic map length between <em>D. melanogaster</em> and <em>D. mauritiana</em> <span class="citation">(Brand <em>et al.</em> 2018)</span>. <em>mei-217/mei-218</em> is the only gene known to confer a recombination rate difference between species, though quantitative trait loci that contribute to shifts in rate among subspecies of house mice have been identified <span class="citation">(Dumont and Payseur 2010; Murdoch <em>et al.</em> 2010; Balcova <em>et al.</em> 2016)</span>.</p>
+<p>One strategy for understanding how species diverge in recombination rate is to inspect patterns of molecular evolution at genes involved in the recombination pathway. This approach incorporates knowledge of the molecular and cellular determinants of recombination and is motivated by successful examples. <em>mei-217/mei-218</em> was targeted for functional analysis based on its profile of rapid evolution between <em>D. melanogaster</em> and <em>D. mauritiana</em> <span class="citation">(Brand <em>et al.</em> 2018)</span>. <em>Prdm9</em>, a protein that positions recombination hotspots in house mice and humans through histone methylation <span class="citation">(Myers <em>et al.</em> 2010; Parvanov <em>et al.</em> 2010; Grey <em>et al.</em> 2011, Paigen2018; 2018)</span>, shows accelerated divergence across mammals <span class="citation">(Oliver <em>et al.</em> 2009)</span>. The rapid evolution of <em>Prdm9</em> – which localizes to its zinc-finger DNA binding domain <span class="citation">(Oliver <em>et al.</em> 2009)</span> – appears to be driven by selective pressure to recognize new hotpot motifs as old ones are destroyed via biased gene conversion <span class="citation">(Myers <em>et al.</em> 2010; Ubeda and Wilkins 2011; Lesecque <em>et al.</em> 2014; Latrille <em>et al.</em> 2017)</span>. Although these examples demonstrate the promise of signatures of molecular evolution for illuminating recombination rate differences between species, patterns of divergence have yet to be reported for most genes involved in meiotic recombination.</p>
+<p>Mammals provide a useful system for dissecting the molecular evolution of the recombination pathway for several reasons. First, the evolution of recombination rate has been measured along the mammalian phylogeny <span class="citation">(Dumont and Payseur 2008; Segura <em>et al.</em> 2013)</span>. Second, recombination rate variation has been associated with specific genes in mammalian populations <span class="citation">(Kong <em>et al.</em> 2008, 2014; Chowdhury <em>et al.</em> 2009; Sandor <em>et al.</em> 2012; Ma <em>et al.</em> 2015; Johnston <em>et al.</em> 2016, 2018; Kadri <em>et al.</em> 2016; Petit <em>et al.</em> 2017; Shen <em>et al.</em> 2018)</span>. Third, laboratory mice have proven to be instrumental in the identification and functional characterization of recombination genes <span class="citation">(Vries <em>et al.</em> 1999; Baudat <em>et al.</em> 2000; Romanienko and Camerini-Otero 2000; Yang <em>et al.</em> 2006; Ward <em>et al.</em> 2007; Schramm <em>et al.</em> 2011; Bisig <em>et al.</em> 2012; Bolcun-Filas and Schimenti 2012; La Salle <em>et al.</em> 2012; Kumar <em>et al.</em> 2015; Finsterbusch <em>et al.</em> 2016; Stanzione <em>et al.</em> 2016)</span> .</p>
+<p>Work in mice indicates that the mammalian recombination pathway is roughly divided into five major steps, each of which is regulated by a handful of genes. The first step is the formation of hundreds of double strand breaks (DSBs) throughout the genome <span class="citation">(Bergerat <em>et al.</em> 1997; Keeney <em>et al.</em> 1997; Baudat <em>et al.</em> 2000; Romanienko and Camerini-Otero 2000; Baudat and Massy 2007; Finsterbusch <em>et al.</em> 2016; Lange <em>et al.</em> 2016)</span>. After formation, DSBs are identified, processed, and paired with their corresponding location on the homologous chromosome through the processes of homology search and strand invasion <span class="citation">(Keeney 2007; Cloud <em>et al.</em> 2012; Brown and Bishop 2014; Finsterbusch <em>et al.</em> 2016; Kobayashi <em>et al.</em> 2016; Oh <em>et al.</em> 2016; Xu <em>et al.</em> 2017)</span>. The pairing of homologous chromosomes is then stabilized by a proteinaceous structure referred to as the synaptonemal complex (SC) <span class="citation">(Meuwissen <em>et al.</em> 1992; Schmekel and Daneholt 1995; Costa <em>et al.</em> 2005; Vries <em>et al.</em> 2005; Hamer <em>et al.</em> 2006; Yang <em>et al.</em> 2006; Schramm <em>et al.</em> 2011; Fraune <em>et al.</em> 2014; Hernández-Hernández <em>et al.</em> 2016)</span>. The SC also forms a substrate on which the eventual crossover events will take place [<strong>citations</strong>]. It is at this point that a small subset of DSBs is designated to mature into crossovers, leaving the majority of DSBs to be resolved as non-crossovers <span class="citation">(Snowden <em>et al.</em> 2004; Yang <em>et al.</em> 2008; Reynolds <em>et al.</em> 2013; Finsterbusch <em>et al.</em> 2016; Rao <em>et al.</em> 2017)</span>. Finally, this designation is followed, and each DSB is repaired as a crossover or a non-crossover <span class="citation">(Baker <em>et al.</em> 1996; Edelmann <em>et al.</em> 1996; Lipkin <em>et al.</em> 2002; Rogacheva <em>et al.</em> 2014; Xu <em>et al.</em> 2017)</span>.</p>
+<p>In this article, we examine the molecular evolution of 32 key recombination genes, evenly distributed across each major step in the recombination pathway, in 16 mammalian species spanning Primates, Rodents and Laurasiatherians. In addition to revealing patterns of divergence across diverse mammalian species, we leverage human polymorphism data to make robust evolutionary inferences. Our results provide a comprehensive picture of evolution in the recombination pathway in mammals and identify steps of the pathway most likely to contribute to differences in recombination rate between species.</p>
+<h2 id="materials-and-methods">Materials and Methods</h2>
+<h3 id="data-acquisition-processing">Data Acquisition &amp; Processing</h3>
+<p>We selected a focal panel of 32 recombination genes (See Table1). The genes included in this panel were selected to: (1) cover each major step in the recombination pathway as evenly as possible, (2) choose genes that we know are have integral functions in each step, and (3) include genes that have been associated with variation in recombination rate within mammalian populations. Reference sequences were downloaded for each gene from both NCBI and Ensembl (Release-89) [citations].</p>
+<p>Alternative splicing is widespread and presents a challenge for molecular evolution studies [citations]. We used available testes expression datasets to select the transcript expressed in tissues of interest and to validate the computationally imputated annotations for each gene in each species. We downloaded the raw testes expression data for each mammalian species from NCBI GEO (Table S1) [citations]. We converted the SRA files into FASTQ files using SRAtoolkit [citation]. The reads were mapped to an indexed reference genome (Table S2,3) [Bowtie2, citation] using tophat [citation]. The resulting bam files were sorted using Samtools and visualized using IGV 2.4.10 [citations]. This allowed us to: (1) identify the transcript that is expressed in the testes tissue, (2) check the reference transcript for errors, (3) revise the reference transcript based upon the transcript data.</p>
+<p>We compared expression data to annotations from both the Ensembl &amp; NCBI [citations]. When both transcripts were identical, we selected he NCBI transcript was the default. Ensembl transcript was used instead when: (1) the NCBI reference sequences was not available for a given gene in a given species, (2) when none of the NCBI matched the expression data, or (3) when there were sequence differences between the two transcripts and the Ensembl transcript was more parsimonious. The use of testes expression data sets was a key data processing step and the inclusion of species in this study was primarily determined by the availability of testes expression data.</p>
+<h3 id="phylogenetic-comparative-approach-in-mammals">Phylogenetic Comparative Approach in Mammals</h3>
+<p>For each genes we conducted a phylogenetic analysis by maximum liklihood (PAML 4.8) to measure the rate of evolution across the mammalian phylogeny and to detect molecular signatures indicative of positive selection [citations]. This approach requires a sequences alignment for each gene and a phylogenetic tree. For each gene, sequences were aligned using Translator X, a codon-based alignment tool powered by MUSCLE v3.8.31 (citations). Each alignment was examined by hand and, as necessary, edited. We selected a species tree for our analyses, based upon our current understanding of the phylogenetic relationship of the mammals included in our study (Figure1) [citations].</p>
+<p>Due to the ambiguity in the relationship between Laurasithians and the placement of Tree Shrews, we also inferred the gene trees using MrBayes [citations]. This also allowed us to control for effects of incomplete lineage sorting (ILS) [citations]. The results using the gene trees did not differ in any significant manner and can be found in the supplemental info (Table S4).</p>
+<p>For the majority of genes, transcripts from all 16 species were used (19 genes). However, for a number of genes, the chimpanzee and bonobo sequences were identical, in which case only the chimpanzee sequence was included in the analyses (11 genes). In one case, the chimpanzee, bonobo and human sequences were all identical, in which case only the human sequence was included in the analyses. In only a small number of instances, a suitable reference sequences could not be identified for a given species.</p>
+<p>We estimated rates of synonymous and nonsynonymous substitutions per site using the CODEML program in PAML4.8 (citations). This program takes into account multiple substitutions per site, different rates of transitions and transversions, and effects of codon usage (citations). Rates of subsitutions were computed for 6 different models: 0,1,2,7,8,8a (Table 2). The fit of each model was compared using a liklihood ratio test and the rates of substitutions are reported for the model of best fit for each gene.</p>
+<p>[TURN INTO TABLE] (1) Comparison 1: Model 0 - one dN/dS ratio for all sites (&lt;1); Model 1 - two dN/dS ratios (&lt;1, =1); Model 2 - three dN/dS ratios (&lt;1, =1, &gt;1). (2) Comparison 2: Model 7 - beta distribution of 10 dN/dS values, all between 0 &amp; 1; Model 8 - beta distribution of 10 dN/dS values, all between 0 &amp; 1, plus 11th category &gt; 1. (3) Comparison 3: Model 8 - beta distribution of 10 dN/dS values, all between 0 &amp; 1, plus 11th category &gt; 1; Model 8a - beta distribution of 5 dN/dS values, all between 0 &amp; 1, plus 6th category =1.</p>
+<h3 id="polymorphism-divergence-in-the-primate-lineage">Polymorphism &amp; Divergence in the Primate Lineage</h3>
+<p>Human polymorphism data was downloaded from ExAC database.</p>
+<p>Not available for 3 genes. Issues with ExAC data for: RNF212, MEI4 (and REC8)?</p>
+<p>Pairwise divergence between humans and macaques was calculated using YN00 package in PAML.</p>
+<p>Compared polymorphism within humans to divergence between human and macaques using the McDonald-Kreitman test.</p>
+<h3 id="identifying-signatures">Identifying Signatures</h3>
+<p>Model comparison</p>
+<h3 id="multinucleotide-mutations">Multinucleotide Mutations</h3>
+<p>Multi-Nucleotide Mutations (MNMs) occur when two mutations happen simultaneously in close proximity (non-independent) [citations]. MNMs violate the assumption of PAMLs maximum likelihood model, which assumes that the probability of two simultaneous mutations in the same codon is zero [citations]. Recent work has shown that MNMs can frequently result in false positive signatures of positive selection in branch-site models in HyPhy [citations]. While we are not using branch-site models, the possibility remains that MNMs could be contributing to the signature of positive selection we are observing in some recombination genes. It is not possible to identify MNMs in our dataset, but we can identify codons with multiple differences (CMDs) that are likely to have arisen on a single branch in the phylogeny. We removed all CMDs that putatively arose on a single branch and then re-analyzed the subset of genes that exhibited a significant signature of positive selection in our original analyses.</p>
+<p>To identify CMDs, we used PAML to reconstruct the ancestral sequence at each node in the phylogeny. For the reconstruction, Model 8 was chosen because we were specifically analyzing genes with a significant signature of positives selection when comparing Model 7 &amp; Model 8. From the ancestrally reconstructed sequences, we identified any codons in which PAML inferred more than one substitution on a single branch. All identified CMDs were removed from the sequences in which they occurred. For example, if a CMD was identified in an external branch, that codon would be replaced with ‘—’ only in the sequence of that species. If a CMD was inferred on an internal branch, the codon would be replaced with ‘—’ in all species connected to that internal branch. We re-ran our analyses in PAML with the sequences in which all CMDs were removed.</p>
+
+<h2 id="results">Results</h2>
+<h3 id="heterogeneous-rates-of-evolution-of-recombination-genes-across-the-mammalian-phylogeny">Heterogeneous rates of evolution of recombination genes across the mammalian phylogeny</h3>
+<p>Do we observe elevated rates of evolution in certain steps in the recombination pathway? No - No significant difference in mean omega values among genes that function (<em>p</em> = 0.09767, Kruskal-Wallis rank sum test).</p>
+<p>Do we observe more genes with signatures of positive selection in certain steps in the recombination pathway? Values too small to compare all 5 groups. Compared earlier steps (N = 15) to later steps (N=17). Signifcantly more genes with signatures of positve selection in the second half of the recombination pathway (<em>p</em> = 0.0457, Pearson’s Chi-squared test)</p>
+<h3 id="evidence-of-positive-selection---paml">Evidence of positive selection - PAML</h3>
+<p>Of the 9 genes with significant signatures of positive selection (7vs8), only one (TEX11) retained the significant signature of selection after removing all CMDs. Two additional genes (REC8, RAD21L), also showed that model 8 was a significantly better fit than model 7. However, this is because models that allow a class of sites with a dN/dS of 1 are preferred over models that require all sites to have dN/dS values &lt; 1. There is limited to no support for a class of sites with dN/dS &gt; 1.</p>
+<h3 id="polymorphism-divergence-data">Polymorphism &amp; Divergence Data</h3>
+<h2 id="discussion">Discussion</h2>
+<p>The rate of meiotic recombination shapes major features of the genomic landscape and influences the efficacy of selection <span class="citation">(<span class="citeproc-not-found" data-reference-id="hill1966"><strong>???</strong></span>)</span>.</p>
+<p>Recombination rate varies between species <span class="citation">(<span class="citeproc-not-found" data-reference-id="burt1987"><strong>???</strong></span>)</span>, between populations <span class="citation">(<span class="citeproc-not-found" data-reference-id="koehler2002"><strong>???</strong></span>)</span>, within populations <span class="citation">(<span class="citeproc-not-found" data-reference-id="broman1998"><strong>???</strong></span>)</span>, and between the sexes <span class="citation">(<span class="citeproc-not-found" data-reference-id="burt1991"><strong>???</strong></span>)</span>.</p>
+<p>Ample evidence indicates that phenotypic variation in recombination rate has a genetic component.</p>
+<p>Recombination rate shows resemblance among relatives in human pedigrees [77,106,107], differs among lines raised in a common environment [74,83,85,96,108,109], and responds to artificial selection in Drosophila melanogaster and other insects.</p>
+<p>Broad-sense or narrow-sense heritability estimates from humans, mice, insects, and maize range from 0.08 to 0.69 [73,106,107,110–115].</p>
+<p>A host of experiments using insects attempted to increase and/or decrease the recombination rate [71,73,110,111,115,145–157], demonstrating the potential for recombination rate to respond to directional selection in nature.</p>
+<p>Phylogenetic comparative methods suggest that the genome-wide recombination rate has increased during mammalian evolution [97].</p>
+<p>PRDM9, a protein that helps determine the position of crossovers in mice and humans, possesses one of the most rapidly evolving (zinc-finger) domains in mammals [163,164].</p>
+<p>Fecundity and recombination rate may be positively correlated in human mothers [77,165,166].</p>
+<p>Finally, cellular needs to avoid nondisjunction (by generating at least one crossover per chromosome or chromosome arm) and to minimize costs of double-strand break repair should impose selective bounds on the genome-wide crossover rate in nature [1–4].</p>
+<p>There is limited empirical evidence for a role of selection in the evolution of recombination rate.</p>
+<ol style="list-style-type: decimal">
+<li>Recombination rate evolves.</li>
+<li>There is a genetic basis.</li>
+<li>The same few genes pop up over and over again, suggesting there may be a relatively simple genetic basis to variation in recombination rate.</li>
+<li>There has recently been an accelleration in our understanding of the genes involved in the recombination pathway.</li>
+<li>Divergence in a subset of these genes is very likely to underlie trait differences.</li>
+<li>This should be true whether or not those trait differences are generated by selection or drift.<br />
+</li>
+<li>Motivates a phylogenetic comparative study of genes in the recombination pathway among mammals.</li>
+<li>Analyzing these genes from a pathway perspective may provide insight into which genes, or steps of the pathway, are most likely to be contributing to variation in recombination rate in mammals.</li>
+<li>Also provides the opportunity to look for molecular signatures of adaptive evolution.</li>
+</ol>
+<p>Meiotic recombination begins with the generation of 100’s of double strand breaks (DSB) across the genome. <strong>SPO11</strong> directly produces the DSBs, but is recruited and activated by a handful of other proteins. The location of DSB are non-randomly distributed across the genome. <strong>PRDM9</strong> lays down methylation patterns via sequence-specific DNA binding.</p>
+
+<h2 id="results-1">Results</h2>
+<h2 id="discussion-1">Discussion</h2>
+<p>Recombination rate shows resemblance among relatives in human pedigrees [citations], differs among lines raised in a common environment [citations], and responds to artificial selection [citations]. Artifical selection experiments to increase and/or decrease the recombination rate [citations], demonstrate the potential for recombination rate to respond to directional selection in nature. Beyond the lab, comparisons between species and between populations have uncovered pervasive, and in some cases, rapid evolution of recombination rate [citations]. There is limited direct, empirical evidence for a role of selection in the evolution of recombination rate. Indirect evidence includes the observation via phylogenetic comparative methods that the genome-wide recombination rate appears to have increased during mammalian evolution [citation] and the observation that fecundity and recombination rate may be positively correlated in human mothers [citations]. However, due to the importance of recombination rate in shaping the genome and response to evolution, the value of understanding its evolution is not strictly tied to the role of selection in shaping the trait.</p>
+<p>While Prdm9 clearly plays a major role in the positioning of recombination events within the genome, it is less clear that Prdm9 significantly impacts the total number of recombination events in the genome [citations]. Prdm9 plays an very early role in the patterning of recombination events.</p>
+<p><strong>Table 1</strong> : Recombination Genes</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Gene</strong></th>
+<th><strong>Function</strong></th>
+<th><strong>Meiosis-Specific?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A)</strong></td>
+<td><strong>DSB Formation</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>HORMAD1</em></td>
+<td>chromosome axis, promotes DSB formation</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>HORMAD2</em></td>
+<td>chromosome axis</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>MEI4</em></td>
+<td>promotes DSB formation (<em>MCD recombinosome</em>)</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>REC114</em></td>
+<td>promotes DSB formation (<em>MCD recombinosome</em>)</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>IHO1</em></td>
+<td>promotes DSB formation (<em>MCD recombinosome</em>)</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>SPO11</em></td>
+<td>transesterase, catalyzes the formation of DSBs</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>B)</strong></td>
+<td><strong>DSB Processing/Strand Invasion</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MRE11</em></td>
+<td>nuclease, required for DSB formation &amp; processing (<em>MRN Complex</em>)</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><em>NBS1</em></td>
+<td>phosphopeptide binding, required for DSB formation</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>—</td>
+<td>&amp; processing (<em>MRN Complex</em>)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>RAD50</em></td>
+<td>ATPase/DNA binding protein, required for DSB formation</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>—</td>
+<td>&amp; processing (<em>MRN Complex</em>)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>BRCC3</em></td>
+<td>deubiquitinase, DSB processing</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>DMC1</em></td>
+<td>recombinase, strand invasion &amp; homologous pairing</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>RAD51</em></td>
+<td>recombinase, strand invasion &amp; homologous pairing</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>SPATA22</em></td>
+<td>strand invasion &amp; homologous pairing</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>MEIOB</em></td>
+<td>oligonucleotide binding, strand invasion &amp; homologous pairing</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MCMDC2</em></td>
+<td>helicase, stabilizes homologous pairing</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>C)</strong></td>
+<td><strong>Homologous Pairing</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>REC8</em></td>
+<td>cohesion core</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>RAD21L</em></td>
+<td>cohesion core</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>SYCP1</em></td>
+<td>synaptonemal complex - transverse filament</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>SYCP2</em></td>
+<td>synaptonemal complex - axial element</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>TEX12</em></td>
+<td>synaptonemal complex - central element</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>D1)</strong></td>
+<td><strong>Crossover vs. Non-Crossover - MutS Recruitment</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>TEX11</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>SHOC1</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>CNTD1</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>RNF212</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>RNF212B</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>MSH4</em></td>
+<td>recombination crossover control</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MSH5</em></td>
+<td>recombination crossover control</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>D2)</strong></td>
+<td><strong>Crossover vs. Non-Crossover - MutL Recruitment</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MER3</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>HEI10</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MLH1</em></td>
+<td>promotion of meiotic crossing over</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>MLH3</em></td>
+<td>promotion of meiotic crossing over</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MUS81</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="results-2">Results</h2>
+
+<p><strong>Table 2</strong>: PAML analysis of 32 recombination genes in mammals <span class="citation">(Yang 2007)</span>.</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Gene</em></strong></th>
+<th><strong><em>bp</em></strong></th>
+<th><strong><em>N</em></strong></th>
+<th><strong><em><span class="math inline"><em>ω</em></span></em></strong></th>
+<th><strong><em>M</em></strong></th>
+<th><strong><em>M1-M2</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+<th><strong><em>M7-M8</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+<th><strong><em>M8a-M8</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>HORMAD1</em></td>
+<td>1212</td>
+<td>16</td>
+<td>0.3036</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>1.795</td>
+<td><em>0.4076</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>HORMAD2</em></td>
+<td>981</td>
+<td>15</td>
+<td>0.3153</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>3.650</td>
+<td><em>0.1612</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MEI4</em></td>
+<td>1170</td>
+<td>16</td>
+<td>0.4332</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.005</td>
+<td><em>0.9976</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>REC114</em></td>
+<td>870</td>
+<td>15</td>
+<td>0.4003</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>5.384</td>
+<td><em>0.0677</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>IHO1</em></td>
+<td>1824</td>
+<td>16</td>
+<td>0.7095</td>
+<td><strong>8</strong></td>
+<td>13.061</td>
+<td><strong><em>0.0015</em></strong></td>
+<td>17.571</td>
+<td><strong><em>0.0002</em></strong></td>
+<td>14.527</td>
+<td><strong><em>0.0001</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>SPO11</em></td>
+<td>1188</td>
+<td>15</td>
+<td>0.1654</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>4.648</td>
+<td><em>0.0980</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>B)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MRE11</em></td>
+<td>2136</td>
+<td>16</td>
+<td>0.1688</td>
+<td><strong>8</strong></td>
+<td>0.363</td>
+<td><em>0.8342</em></td>
+<td>11.931</td>
+<td><strong><em>0.0026</em></strong></td>
+<td>4.706</td>
+<td><strong><em>0.0301</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>NBS1</em></td>
+<td>2289</td>
+<td>15</td>
+<td>0.4183</td>
+<td><strong>8</strong></td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>12.763</td>
+<td><strong><em>0.0017</em></strong></td>
+<td>4.087</td>
+<td><strong><em>0.0432</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>RAD50</em></td>
+<td>3936</td>
+<td>16</td>
+<td>0.1006</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.301</td>
+<td><em>0.8605</em></td>
+<td>—</td>
+<td>—-</td>
+</tr>
+<tr class="even">
+<td><em>BRCC3</em></td>
+<td>954</td>
+<td>15</td>
+<td>0.0602</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.250</td>
+<td><em>0.8826</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>DMC1</em></td>
+<td>1020</td>
+<td>15</td>
+<td>0.0351</td>
+<td>1</td>
+<td>0.488</td>
+<td><em>0.7835</em></td>
+<td>5.000</td>
+<td><em>0.0821</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>RAD51</em></td>
+<td>1017</td>
+<td>16</td>
+<td>0.0268</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>SPATA22</em></td>
+<td>1101</td>
+<td>16</td>
+<td>0.4893</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.429</td>
+<td><em>0.8070</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MEIOB</em></td>
+<td>1425</td>
+<td>16</td>
+<td>0.2341</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.665</td>
+<td><em>0.7172</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>MCMDC2</em></td>
+<td>2052</td>
+<td>16</td>
+<td>0.2239</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.628</td>
+<td><em>0.7307</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>C)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>REC8</em></td>
+<td>1833</td>
+<td>16</td>
+<td>0.3698</td>
+<td><strong>8</strong></td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>14.690</td>
+<td><strong><em>0.0006</em></strong></td>
+<td>5.927</td>
+<td><strong><em>0.0149</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>RAD21L</em></td>
+<td>1686</td>
+<td>15</td>
+<td>0.503</td>
+<td><strong>8</strong></td>
+<td>12.124</td>
+<td><strong><em>0.0023</em></strong></td>
+<td>32.050</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>12.049</td>
+<td><strong><em>0.0005</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>SYCP1</em></td>
+<td>3015</td>
+<td>16</td>
+<td>0.4337</td>
+<td><strong>8</strong></td>
+<td>8.711</td>
+<td><strong><em>0.0128</em></strong></td>
+<td>26.860</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>9.243</td>
+<td><strong><em>0.0024</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>SYCP2</em></td>
+<td>4650</td>
+<td>16</td>
+<td>0.5572</td>
+<td><strong>8</strong></td>
+<td>11.584</td>
+<td><strong><em>0.0031</em></strong></td>
+<td>37.200</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>15.838</td>
+<td><strong><em>0.0001</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>TEX12</em></td>
+<td>369</td>
+<td>14</td>
+<td>0.2297</td>
+<td>7</td>
+<td>0.0565</td>
+<td><em>0.9721</em></td>
+<td>1.549</td>
+<td><em>0.4610</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>D1)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>TEX11</em></td>
+<td>2844</td>
+<td>15</td>
+<td>0.8483</td>
+<td><strong>8</strong></td>
+<td>60.872</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>82.665</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>61.141</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>SHOC1</em></td>
+<td>4644</td>
+<td>16</td>
+<td>0.6113</td>
+<td><strong>8</strong></td>
+<td>12.447</td>
+<td><strong><em>0.0020</em></strong></td>
+<td>30.561</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>15.645</td>
+<td><strong><em>0.0001</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>CNTD1</em></td>
+<td>1026</td>
+<td>15</td>
+<td>0.2496</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.936</td>
+<td><em>0.6263</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>RNF212</em></td>
+<td>948</td>
+<td>16</td>
+<td>0.5014</td>
+<td><strong>8</strong></td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>16.366</td>
+<td><strong><em>0.0003</em></strong></td>
+<td>5.202</td>
+<td><strong><em>0.0226</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>RNF212B</em></td>
+<td>906</td>
+<td>14</td>
+<td>0.4066</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.500</td>
+<td><em>0.7788</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MSH4</em></td>
+<td>2814</td>
+<td>16</td>
+<td>0.2132</td>
+<td><strong>8</strong></td>
+<td>16.608</td>
+<td><strong><em>0.0002</em></strong></td>
+<td>39.447</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>23.238</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>MSH5</em></td>
+<td>2565</td>
+<td>15</td>
+<td>0.1642</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>4.214</td>
+<td><em>0.1216</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>D2)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MER3</em></td>
+<td>4458</td>
+<td>16</td>
+<td>0.3633</td>
+<td>8a</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>12.838</td>
+<td><strong><em>0.0016</em></strong></td>
+<td>3.109</td>
+<td><em>0.0779</em></td>
+</tr>
+<tr class="even">
+<td><em>HEI10</em></td>
+<td>831</td>
+<td>15</td>
+<td>0.1226</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.250</td>
+<td><em>0.8826</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>MLH1</em></td>
+<td>2313</td>
+<td>15</td>
+<td>0.1652</td>
+<td>8a</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>12.221</td>
+<td><strong><em>0.0022</em></strong></td>
+<td>0.280</td>
+<td><em>0.5970</em></td>
+</tr>
+<tr class="even">
+<td><em>MLH3</em></td>
+<td>4419</td>
+<td>16</td>
+<td>0.4444</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>3.757</td>
+<td><em>0.1528</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>MUS81</em></td>
+<td>1665</td>
+<td>16</td>
+<td>0.2124</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.628</td>
+<td><em>0.7304</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Table 3</strong>: PAML - MNM Analysis</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Gene</em></strong></th>
+<th><strong><em>bp</em></strong></th>
+<th><strong><em>N</em></strong></th>
+<th><strong><em><span class="math inline"><em>ω</em></span></em></strong></th>
+<th><strong><em>M</em></strong></th>
+<th><strong><em>M1-M2</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+<th><strong><em>M7-M8</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+<th><strong><em>M8a-M8</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>IHO1</em></td>
+<td>1824</td>
+<td>16</td>
+<td>0.6104</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.258</td>
+<td><em>0.8789</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MRE11</em></td>
+<td>2136</td>
+<td>16</td>
+<td>0.1330</td>
+<td>7</td>
+<td>0.226</td>
+<td><em>0.8930</em></td>
+<td>3.056</td>
+<td><em>0.2169</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>NBS1</em></td>
+<td>2289</td>
+<td>15</td>
+<td>0.3413</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>1.956</td>
+<td><em>0.3761</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>REC8</em></td>
+<td>1833</td>
+<td>16</td>
+<td>0.2905</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>5.321</td>
+<td><em>0.0699</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>RAD21L</em></td>
+<td>1686</td>
+<td>15</td>
+<td>0.4271</td>
+<td>8a</td>
+<td>2.329</td>
+<td><em>0.3121</em></td>
+<td>9.497</td>
+<td><strong><em>0.0087</em></strong></td>
+<td>1.620</td>
+<td><em>0.2031</em></td>
+</tr>
+<tr class="even">
+<td><em>SYCP1</em></td>
+<td>3015</td>
+<td>16</td>
+<td>0.3731</td>
+<td>8a</td>
+<td>3.328</td>
+<td><em>0.1893</em></td>
+<td>13.440</td>
+<td><strong><em>0.0012</em></strong></td>
+<td>2.122</td>
+<td><em>0.1452</em></td>
+</tr>
+<tr class="odd">
+<td><em>SYCP2</em></td>
+<td>4650</td>
+<td>16</td>
+<td>0.4752</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>1.758</td>
+<td><em>0.4151</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>TEX11</em></td>
+<td>2844</td>
+<td>15</td>
+<td>0.7287</td>
+<td><strong>8</strong></td>
+<td>9.989</td>
+<td><strong><em>0.0068</em></strong></td>
+<td>18.776</td>
+<td><strong><em>0.0001</em></strong></td>
+<td>10.656</td>
+<td><strong><em>0.0011</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>SHOC1</em></td>
+<td>4644</td>
+<td>16</td>
+<td>0.5519</td>
+<td>8a</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>7.439</td>
+<td><strong><em>0.0242</em></strong></td>
+<td>0.292</td>
+<td><em>0.5887</em></td>
+</tr>
+<tr class="even">
+<td><em>RNF212</em></td>
+<td>948</td>
+<td>16</td>
+<td>0.3685</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>MSH4</em></td>
+<td>2814</td>
+<td>16</td>
+<td>0.1509</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>2.079</td>
+<td><em>0.3536</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Table 4</strong>: Polymorphism &amp; Divergence Data</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Gene</em></strong></th>
+<th><strong><em>bp</em></strong></th>
+<th><strong><em>Pn</em></strong></th>
+<th><strong><em>Ps</em></strong></th>
+<th><strong><em>Pn/Ps</em></strong></th>
+<th><strong><em>Dn</em></strong></th>
+<th><strong><em>Ds</em></strong></th>
+<th><strong><em>Dn/Ds</em></strong></th>
+<th><strong><em>MK Test</em></strong></th>
+<th><strong><em><span class="math inline"><em>α</em></span></em></strong></th>
+<th><strong><em>NI</em></strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>HORMAD1</em></td>
+<td>XXX</td>
+<td>84</td>
+<td>35</td>
+<td>2.4000</td>
+<td>5</td>
+<td>12</td>
+<td>0.4167</td>
+<td><strong><em>0.0018</em></strong></td>
+<td>-4.7600</td>
+<td>5.7600</td>
+<td>Neg.</td>
+</tr>
+<tr class="odd">
+<td><em>HORMAD2</em></td>
+<td>XXX</td>
+<td>80</td>
+<td>31</td>
+<td>2.5806</td>
+<td>7</td>
+<td>9</td>
+<td>0.7778</td>
+<td><strong><em>0.0404</em></strong></td>
+<td>-2.3180</td>
+<td>3.3180</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>MEI4</em></td>
+<td>XXX</td>
+<td>15</td>
+<td>7</td>
+<td>2.1429</td>
+<td>24</td>
+<td>9</td>
+<td>2.6667</td>
+<td><em>0.7679</em></td>
+<td>0.1964</td>
+<td>0.8036</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>REC114</em></td>
+<td>XXX</td>
+<td>76</td>
+<td>37</td>
+<td>2.0541</td>
+<td>11</td>
+<td>14</td>
+<td>0.7857</td>
+<td><strong><em>0.0392</em></strong></td>
+<td>-1.6143</td>
+<td>2.6143</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>IHO1</em></td>
+<td>XXX</td>
+<td>130</td>
+<td>64</td>
+<td>2.0313</td>
+<td>36</td>
+<td>19</td>
+<td>1.8947</td>
+<td><em>0.8718</em></td>
+<td>-0.0720</td>
+<td>1.0720</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>SPO11</em></td>
+<td>XXX</td>
+<td>118</td>
+<td>52</td>
+<td>2.2692</td>
+<td>11</td>
+<td>22</td>
+<td>0.5000</td>
+<td><strong><em>0.0001</em></strong></td>
+<td>-3.5385</td>
+<td>4.5385</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><strong>B)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MRE11</em></td>
+<td>XXX</td>
+<td>211</td>
+<td>86</td>
+<td>2.4535</td>
+<td>5</td>
+<td>35</td>
+<td>0.1429</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>-16.1744</td>
+<td>17.1744</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>NBS1</em></td>
+<td>XXX</td>
+<td>221</td>
+<td>93</td>
+<td>2.3763</td>
+<td>34</td>
+<td>25</td>
+<td>1.3600</td>
+<td><em>0.0666</em></td>
+<td>-0.7473</td>
+<td>1.7473</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>RAD50</em></td>
+<td>XXX</td>
+<td>303</td>
+<td>118</td>
+<td>2.5678</td>
+<td>8</td>
+<td>43</td>
+<td>0.1860</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>-12.8019</td>
+<td>13.8019</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>BRCC3</em></td>
+<td>XXX</td>
+<td>13</td>
+<td>21</td>
+<td>0.6190</td>
+<td>2</td>
+<td>6</td>
+<td>0.3333</td>
+<td>0.6888</td>
+<td>-0.8571</td>
+<td>1.8571</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>DMC1</em></td>
+<td>XXX</td>
+<td>72</td>
+<td>42</td>
+<td>1.7143</td>
+<td>0</td>
+<td>11</td>
+<td>0.0000</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>—</td>
+<td>—</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>RAD51</em></td>
+<td>XXX</td>
+<td>50</td>
+<td>48</td>
+<td>1.0417</td>
+<td>0</td>
+<td>13</td>
+<td>0.0000</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>—</td>
+<td>—</td>
+<td>Neg.</td>
+</tr>
+<tr class="odd">
+<td><em>SPATA22</em></td>
+<td>XXX</td>
+<td>114</td>
+<td>45</td>
+<td>2.5333</td>
+<td>21</td>
+<td>10</td>
+<td>2.1000</td>
+<td><em>0.6700</em></td>
+<td>-0.2063</td>
+<td>1.2063</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MEIOB</em></td>
+<td>XXX</td>
+<td>91</td>
+<td>40</td>
+<td>2.2750</td>
+<td>20</td>
+<td>22</td>
+<td>0.9091</td>
+<td><strong><em>0.0200</em></strong></td>
+<td>-1.5025</td>
+<td>2.5025</td>
+<td>Neg.</td>
+</tr>
+<tr class="odd">
+<td><em>MCMDC2</em></td>
+<td>XXX</td>
+<td>165</td>
+<td>54</td>
+<td>3.0556</td>
+<td>16</td>
+<td>26</td>
+<td>0.6154</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>-3.9653</td>
+<td>4.9653</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><strong>C)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>REC8</em></td>
+<td>XXX</td>
+<td>147</td>
+<td>76</td>
+<td>1.9342</td>
+<td>38</td>
+<td>31</td>
+<td>1.2258</td>
+<td><em>0.1164</em></td>
+<td>-0.5779</td>
+<td>1.5779</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>RAD21L</em></td>
+<td>XXX</td>
+<td>51</td>
+<td>17</td>
+<td>3.000</td>
+<td>27</td>
+<td>13</td>
+<td>2.0769</td>
+<td><em>0.5051</em></td>
+<td>-0.4444</td>
+<td>1.4444</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>SYCP1</em></td>
+<td>XXX</td>
+<td>213</td>
+<td>100</td>
+<td>2.1300</td>
+<td>33</td>
+<td>37</td>
+<td>1.2222</td>
+<td><em>0.0546</em></td>
+<td>-0.7427</td>
+<td>1.7427</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>SYCP2</em></td>
+<td>XXX</td>
+<td>429</td>
+<td>154</td>
+<td>2.8506</td>
+<td>74</td>
+<td>53</td>
+<td>1.3962</td>
+<td><strong><em>0.0005</em></strong></td>
+<td>-1.0417</td>
+<td>2.0417</td>
+<td>Neg.</td>
+</tr>
+<tr class="odd">
+<td><em>TEX12</em></td>
+<td>XXX</td>
+<td>31</td>
+<td>16</td>
+<td>1.9375</td>
+<td>2</td>
+<td>4</td>
+<td>0.5000</td>
+<td>0.1836</td>
+<td>-2.875</td>
+<td>3.875</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>D1)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>TEX11</em></td>
+<td>XXX</td>
+<td>126</td>
+<td>81</td>
+<td>1.5556</td>
+<td>55</td>
+<td>25</td>
+<td>2.200</td>
+<td><em>0.2234</em></td>
+<td>0.2929</td>
+<td>0.7071</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>SHOC1</em></td>
+<td>XXX</td>
+<td>368</td>
+<td>124</td>
+<td>2.9677</td>
+<td>85</td>
+<td>37</td>
+<td>2.2973</td>
+<td><em>0.2521</em></td>
+<td>-0.2918</td>
+<td>1.2918</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>CNTD1</em></td>
+<td>XXX</td>
+<td>81</td>
+<td>47</td>
+<td>1.7234</td>
+<td>13</td>
+<td>8</td>
+<td>1.6250</td>
+<td><em>1.0000</em></td>
+<td>-0.0606</td>
+<td>1.0606</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>RNF212</em></td>
+<td>XXX</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>17</td>
+<td>18</td>
+<td>0.9444</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>RNF212B</em></td>
+<td>XXX</td>
+<td>368</td>
+<td>124</td>
+<td>2.9677</td>
+<td>8</td>
+<td>12</td>
+<td>0.6667</td>
+<td><strong><em>0.0013</em></strong></td>
+<td>-3.4516</td>
+<td>4.4516</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>MSH4</em></td>
+<td>XXX</td>
+<td>260</td>
+<td>94</td>
+<td>2.7660</td>
+<td>24</td>
+<td>29</td>
+<td>0.8276</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>-2.3422</td>
+<td>3.3422</td>
+<td>Neg.</td>
+</tr>
+<tr class="odd">
+<td><em>MSH5</em></td>
+<td>XXX</td>
+<td>197</td>
+<td>104</td>
+<td>1.8942</td>
+<td>19</td>
+<td>33</td>
+<td>0.5758</td>
+<td><strong><em>0.0002</em></strong></td>
+<td>-2.2900</td>
+<td>3.2900</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><strong>D2)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MER3</em></td>
+<td>XXX</td>
+<td>402</td>
+<td>143</td>
+<td>2.8112</td>
+<td>54</td>
+<td>44</td>
+<td>1.2273</td>
+<td><strong><em>0.0004</em></strong></td>
+<td>-1.2906</td>
+<td>2.2906</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>HEI10</em></td>
+<td>XXX</td>
+<td>73</td>
+<td>33</td>
+<td>2.2121</td>
+<td>4</td>
+<td>5</td>
+<td>0.8000</td>
+<td><em>0.1541</em></td>
+<td>-1.7652</td>
+<td>2.7652</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>MLH1</em></td>
+<td>XXX</td>
+<td>255</td>
+<td>90</td>
+<td>2.8333</td>
+<td>9</td>
+<td>29</td>
+<td>0.3103</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>-8.1296</td>
+<td>9.1296</td>
+<td>Neg.</td>
+</tr>
+<tr class="even">
+<td><em>MLH3</em></td>
+<td>XXX</td>
+<td>437</td>
+<td>167</td>
+<td>2.6168</td>
+<td>77</td>
+<td>57</td>
+<td>1.3509</td>
+<td><strong><em>0.0012</em></strong></td>
+<td>-0.9370869</td>
+<td>1.937087</td>
+<td>Neg.</td>
+</tr>
+<tr class="odd">
+<td><em>MUS81</em></td>
+<td>XXX</td>
+<td>208</td>
+<td>81</td>
+<td>2.5679</td>
+<td>17</td>
+<td>40</td>
+<td>0.4250</td>
+<td><strong><em>&gt;0.0001</em></strong></td>
+<td>-5.0421</td>
+<td>6.0421</td>
+<td>Neg.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>A.L.D. was supported by NHGRI Training Grant to the Genomic Sciences Training Program 5T32HG002760. B.A.P. was supported by NIH grant R01 GM100426A and NSF grant DEB 1353737.</p>
+
+<p><strong>Table R1</strong>: Testes Expression Datasets</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Species</em></strong></th>
+<th><strong>GEO Accession</strong></th>
+<th><strong>Reference</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Bos taurus</em></td>
+<td>GSM1020728 &amp; GSM1020746</td>
+<td><span class="citation">Merkin <em>et al.</em> (2012)</span></td>
+</tr>
+<tr class="even">
+<td><em>Callithrix jacchus</em></td>
+<td>GSM1227961, GSM1227962 &amp; GSM1227963</td>
+<td><span class="citation">Cortez <em>et al.</em> (2014)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Canis lupus familiaris</em></td>
+<td>GSM747469 &amp; GSM1359286</td>
+<td><span class="citation">Derti <em>et al.</em> (2012)</span>, <span class="citation">Vandewege <em>et al.</em> (2016)</span></td>
+</tr>
+<tr class="even">
+<td><em>Eptesicus fuscus</em></td>
+<td>GSM1359287</td>
+<td><span class="citation">Vandewege <em>et al.</em> (2016)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Equus caballus</em></td>
+<td>GSM1139276 &amp; GSM1359288</td>
+<td><span class="citation">Coleman <em>et al.</em> (2013)</span>, <span class="citation">Vandewege <em>et al.</em> (2016)</span></td>
+</tr>
+<tr class="even">
+<td><em>Gorilla gorilla</em></td>
+<td>GSM752663</td>
+<td><span class="citation">Brawand <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Homo sapiens</em></td>
+<td>GSM752707 &amp; GSM752708</td>
+<td><span class="citation">Brawand <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="even">
+<td><em>Macaca mulatta</em></td>
+<td>GSM752642 &amp; GSM752643</td>
+<td><span class="citation">Brawand <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Mus musculus</em></td>
+<td>GSM752629 &amp; GSM752630</td>
+<td><span class="citation">Brawand <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="even">
+<td><em>Ovis aries</em></td>
+<td>GSM1666944 &amp; GSM1666936</td>
+<td><span class="citation">Guan <em>et al.</em> (2017)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Pan paniscus</em></td>
+<td>GSM752690</td>
+<td><span class="citation">Brawand <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="even">
+<td><em>Pan troglodytes</em></td>
+<td>GSM752678</td>
+<td><span class="citation">Brawand <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Pongo pygmaeus</em></td>
+<td>GSM1858310 &amp; GSM1858311</td>
+<td><span class="citation">Carelli <em>et al.</em> (2016)</span></td>
+</tr>
+<tr class="even">
+<td><em>Rattus norvegicus</em></td>
+<td>GSM1278058</td>
+<td><span class="citation">Cortez <em>et al.</em> (2014)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Sus scrofa</em></td>
+<td>GSM1902350, GSM2033157 &amp; GSM2033163</td>
+<td><span class="citation">Li <em>et al.</em> (2016)</span>, <span class="citation">Yang <em>et al.</em> (2017)</span></td>
+</tr>
+<tr class="even">
+<td><em>Tupaia chinensis</em></td>
+<td>GSM957062</td>
+<td><span class="citation">Fan <em>et al.</em> (2013)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table R2</strong>: Reference Genomes <span class="citation">(O’Leary <em>et al.</em> 2015)</span></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Species</em></strong></th>
+<th><strong>Assembly</strong></th>
+<th><strong>RefSeq Accession</strong></th>
+<th><strong>WGS Project Reference</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Bos taurus</em></td>
+<td>Bos_taurus_UMD_3.1.1</td>
+<td>GCF_000003055.6</td>
+<td><span class="citation">Zimin <em>et al.</em> (2009)</span></td>
+</tr>
+<tr class="even">
+<td><em>Callithrix jacchus</em></td>
+<td>Callithrix_jacchus-3.2</td>
+<td>GCF_000004665.1</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><em>Canis lupus familiaris</em></td>
+<td>CanFam3.1</td>
+<td>GCF_000002285.3</td>
+<td><span class="citation">Lindblad-Toh <em>et al.</em> (2005)</span></td>
+</tr>
+<tr class="even">
+<td><em>Eptesicus fuscus</em></td>
+<td>EptFus1.0</td>
+<td>GCF_000308155.1</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><em>Equus caballus</em></td>
+<td>EquCab2.0</td>
+<td>GCF_000002305.2</td>
+<td><span class="citation">Wade <em>et al.</em> (2009)</span></td>
+</tr>
+<tr class="even">
+<td><em>Gorilla gorilla</em></td>
+<td>gorGor4</td>
+<td>GCF_000151905.2</td>
+<td><span class="citation">Scally <em>et al.</em> (2012)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Homo sapiens</em></td>
+<td>GRCh38.p10</td>
+<td>GCF_000001405.36</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><em>Macaca mulatta</em></td>
+<td>Mmul_8.0.1</td>
+<td>GCF_000772875.2</td>
+<td><span class="citation">Zimin <em>et al.</em> (2014)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Mus musculus</em></td>
+<td>GRCm38.p5</td>
+<td>GCF_000001635.25</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><em>Ovis aries</em></td>
+<td>Oar_v4.0</td>
+<td>GCF_000298735.2</td>
+<td><span class="citation">Consortium <em>et al.</em> (2010)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Pan paniscus</em></td>
+<td>panpan1.1</td>
+<td>GCF_000258655.2</td>
+<td><span class="citation">Prüfer <em>et al.</em> (2012)</span></td>
+</tr>
+<tr class="even">
+<td><em>Pan troglodytes</em></td>
+<td>Pan_tro_3.0</td>
+<td>GCF_000001515.7</td>
+<td><span class="citation">Consortium <em>et al.</em> (2005)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Pongo abelii</em></td>
+<td>P_pygmaeus_2.0.2</td>
+<td>GCF_000001545.4</td>
+<td><span class="citation">Locke <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="even">
+<td><em>Rattus norvegicus</em></td>
+<td>Rnor_6.0</td>
+<td>GCF_000001895.5</td>
+<td><span class="citation">Consortium and others (2004)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Sus scrofa</em></td>
+<td>Sscrofa11.1</td>
+<td>GCF_000003025.6</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><em>Tupaia chinensis</em></td>
+<td>TupChi_1.0</td>
+<td>GCF_000334495.1</td>
+<td><span class="citation">Fan <em>et al.</em> (2013)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table R3</strong>: Ensembl Annotations</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Species</em></strong></th>
+<th><strong>Assembly</strong></th>
+<th><strong>RefSeq Accession</strong></th>
+<th><strong>WGS Project Reference</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Bos taurus</em></td>
+<td>Bos_taurus_UMD_3.1</td>
+<td>GCF_000003055.3</td>
+<td><span class="citation">Zimin <em>et al.</em> (2009)</span></td>
+</tr>
+<tr class="even">
+<td><em>Callithrix jacchus</em></td>
+<td>Callithrix_jacchus-3.2</td>
+<td>GCF_000004665.1</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><em>Canis lupus familiaris</em></td>
+<td>CanFam3.1</td>
+<td>GCF_000002285.3</td>
+<td><span class="citation">Lindblad-Toh <em>et al.</em> (2005)</span></td>
+</tr>
+<tr class="even">
+<td><em>Eptesicus fuscus</em></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><em>Equus caballus</em></td>
+<td>EquCab2.0</td>
+<td>GCF_000002305.2</td>
+<td><span class="citation">Wade <em>et al.</em> (2009)</span></td>
+</tr>
+<tr class="even">
+<td><em>Gorilla gorilla</em></td>
+<td>gorGor3.1</td>
+<td>GCF_000151905.1</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><em>Homo sapiens</em></td>
+<td>GRCh38.p10</td>
+<td>GCF_000001405.36</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><em>Macaca mulatta</em></td>
+<td>Mmul_8.0.1</td>
+<td>GCF_000772875.2</td>
+<td><span class="citation">Zimin <em>et al.</em> (2014)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Mus musculus</em></td>
+<td>GRCm38.p5</td>
+<td>GCF_000001635.25</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><em>Ovis aries</em></td>
+<td>Oar_v3.1</td>
+<td>GCF_000298735.1</td>
+<td><span class="citation">Consortium <em>et al.</em> (2010)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Pan paniscus</em></td>
+<td>panpan1.1</td>
+<td>GCF_000258655.2</td>
+<td><span class="citation">Prüfer <em>et al.</em> (2012)</span></td>
+</tr>
+<tr class="even">
+<td><em>Pan troglodytes</em></td>
+<td>CHIMP2.1.4</td>
+<td>GCF_000001515.6</td>
+<td><span class="citation">Consortium <em>et al.</em> (2005)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Pongo abelii</em></td>
+<td>PPYG2</td>
+<td>GCF_000001545.4</td>
+<td><span class="citation">Locke <em>et al.</em> (2011)</span></td>
+</tr>
+<tr class="even">
+<td><em>Rattus norvegicus</em></td>
+<td>Rnor_6.0</td>
+<td>GCF_000001895.5</td>
+<td><span class="citation">Consortium and others (2004)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Sus scrofa</em></td>
+<td>Sscrofa11.1</td>
+<td>GCF_000003025.6</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><em>Tupaia chinensis</em></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table S1</strong>: Sequence divergence between Human (<em>Homo sapiens</em>) and Rhesus Macaque (<em>Macaca mulatta</em>) <span class="citation">(Yang and Nielsen 2000,<span class="citation">Yang (2007)</span>)</span>. Steps: A - double strand break (DSB) formation, B - DSB processing &amp; Strand Invasion, C - Homologous Pairing, D1 - crossover (CO) vs. non-crossover (NCO) step1 - MutS, D2 - CO vs. NCO step 2 - MutL.</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Gene</em></strong></th>
+<th><strong><em>bp</em></strong></th>
+<th><strong><em><span class="math inline"><em>ω</em></span></em></strong></th>
+<th><strong><em>S</em></strong></th>
+<th><strong><em>N</em></strong></th>
+<th><strong><em>t</em></strong></th>
+<th><strong><em><span class="math inline"><em>κ</em></span></em></strong></th>
+<th><strong><em>dN</em></strong></th>
+<th><strong><em>dS</em></strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>HORMAD1</em></td>
+<td>XXX</td>
+<td><strong>0.0901</strong></td>
+<td>273.9</td>
+<td>908.1</td>
+<td>0.0443</td>
+<td>3.8819</td>
+<td>0.0044 +- 0.0022</td>
+<td>0.0490 +- 0.0137</td>
+</tr>
+<tr class="odd">
+<td><em>HORMAD2</em></td>
+<td>XXX</td>
+<td><strong>0.295</strong></td>
+<td>256.7</td>
+<td>664.3</td>
+<td>0.0531</td>
+<td>4.2164</td>
+<td>0.0106 +- 0.0040</td>
+<td>0.0360 +- 0.0121</td>
+</tr>
+<tr class="even">
+<td><em>MEI4</em></td>
+<td>XXX</td>
+<td><strong>0.7252</strong></td>
+<td>331</td>
+<td>824</td>
+<td>0.0822</td>
+<td>4.6295</td>
+<td>0.0247 +/- 0.0056</td>
+<td>0.0341 +/- 0.0104</td>
+</tr>
+<tr class="odd">
+<td><em>REC114</em></td>
+<td>XXX</td>
+<td><strong>0.3239</strong></td>
+<td>237.2</td>
+<td>557.8</td>
+<td>0.0974</td>
+<td>2.9455</td>
+<td>0.0200 +/- 0.0061</td>
+<td>0.0618 +/- 0.0168</td>
+</tr>
+<tr class="even">
+<td><em>IHO1</em></td>
+<td>XXX</td>
+<td><strong>0.6608</strong></td>
+<td>509</td>
+<td>1273</td>
+<td>0.0951</td>
+<td>3.6035</td>
+<td>0.0276 +- 0.0047</td>
+<td>0.0418 +- 0.0094</td>
+</tr>
+<tr class="odd">
+<td><em>SPO11</em></td>
+<td>XXX</td>
+<td><strong>0.1434</strong></td>
+<td>291.2</td>
+<td>896.8</td>
+<td>0.0872</td>
+<td>2.5317</td>
+<td>0.0118 +/- 0.0036</td>
+<td>0.0823 +/- 0.0178</td>
+</tr>
+<tr class="even">
+<td><strong>B)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MRE11</em></td>
+<td>XXX</td>
+<td><strong>0.0392</strong></td>
+<td>479.4</td>
+<td>1644.6</td>
+<td>0.0597</td>
+<td>2.6154</td>
+<td>0.0030 +- 0.0014</td>
+<td>0.0778 +- 0.0135</td>
+</tr>
+<tr class="even">
+<td><em>NBS1</em></td>
+<td>XXX</td>
+<td><strong>0.4155</strong></td>
+<td>553.7</td>
+<td>1705.3</td>
+<td>0.0804</td>
+<td>5.0955</td>
+<td>0.0199 +- 0.0035</td>
+<td>0.0480 +- 0.0097</td>
+</tr>
+<tr class="odd">
+<td><em>RAD50</em></td>
+<td>XXX</td>
+<td><strong>0.0714</strong></td>
+<td>1118.7</td>
+<td>2817.3</td>
+<td>0.0401</td>
+<td>5.0903</td>
+<td>0.0028 +- 0.0010</td>
+<td>0.0399 +- 0.0062</td>
+</tr>
+<tr class="even">
+<td><em>BRCC3</em></td>
+<td>XXX</td>
+<td><strong>0.0979</strong></td>
+<td>264</td>
+<td>609</td>
+<td>0.028</td>
+<td>4.6</td>
+<td>0.0025 +- 0.0020</td>
+<td>0.0252 +- 0.0100</td>
+</tr>
+<tr class="odd">
+<td><em>DMC1</em></td>
+<td>XXX</td>
+<td><strong>0.0000</strong></td>
+<td>273.7</td>
+<td>746.3</td>
+<td>0.0335</td>
+<td>5.1279</td>
+<td>0.0000 +- 0.0000</td>
+<td>0.0416 +- 0.0127</td>
+</tr>
+<tr class="even">
+<td><em>RAD51</em></td>
+<td>XXX</td>
+<td><strong>0.0000</strong></td>
+<td>306.5</td>
+<td>710.5</td>
+<td>0.0398</td>
+<td>6.7467</td>
+<td>0.0000 +- 0.0000</td>
+<td>0.0441 +- 0.0124</td>
+</tr>
+<tr class="odd">
+<td><em>SPATA22</em></td>
+<td>XXX</td>
+<td><strong>0.4523</strong></td>
+<td>247.8</td>
+<td>841.2</td>
+<td>0.0879</td>
+<td>3.6505</td>
+<td>0.0230 +- 0.0053</td>
+<td>0.0508 +- 0.0150</td>
+</tr>
+<tr class="even">
+<td><em>MEIOB</em></td>
+<td>XXX</td>
+<td><strong>0.2462</strong></td>
+<td>348.9</td>
+<td>1064.1</td>
+<td>0.0927</td>
+<td>4.3887</td>
+<td>0.0176 +- 0.0041</td>
+<td>0.0715 +- 0.0151</td>
+</tr>
+<tr class="odd">
+<td><em>MCMDC2</em></td>
+<td>XXX</td>
+<td><strong>0.2108</strong></td>
+<td>534</td>
+<td>1509</td>
+<td>0.0635</td>
+<td>7.8547</td>
+<td>0.0107 +- 0.0027</td>
+<td>0.0507 +- 0.0101</td>
+</tr>
+<tr class="even">
+<td><strong>C)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>REC8</em></td>
+<td>XXX</td>
+<td><strong>0.477</strong></td>
+<td>497</td>
+<td>1138</td>
+<td>0.1293</td>
+<td>2.8869</td>
+<td>0.0323 +- 0.0054</td>
+<td>0.0678 +- 0.0122</td>
+</tr>
+<tr class="even">
+<td><em>RAD21L</em></td>
+<td>XXX</td>
+<td><strong>0.6334</strong></td>
+<td>427.5</td>
+<td>1237.5</td>
+<td>0.0735</td>
+<td>5.6876</td>
+<td>0.0213 +- 0.0042</td>
+<td>0.0337 +- 0.0091</td>
+</tr>
+<tr class="odd">
+<td><em>SYCP1</em></td>
+<td>XXX</td>
+<td><strong>0.3676</strong></td>
+<td>761.6</td>
+<td>2166.4</td>
+<td>0.0628</td>
+<td>4.8307</td>
+<td>0.0145 +- 0.0026</td>
+<td>0.0393 +- 0.0074</td>
+</tr>
+<tr class="even">
+<td><em>SYCP2</em></td>
+<td>XXX</td>
+<td><strong>0.3873</strong></td>
+<td>1070.7</td>
+<td>3519.3</td>
+<td>0.0854</td>
+<td>5.994</td>
+<td>0.0208 +- 0.0025</td>
+<td>0.0537 +- 0.0074</td>
+</tr>
+<tr class="odd">
+<td><em>TEX12</em></td>
+<td>XXX</td>
+<td><strong>0.1349</strong></td>
+<td>80.2</td>
+<td>288.8</td>
+<td>0.05</td>
+<td>1.9678</td>
+<td>0.0070 +- 0.0049</td>
+<td>0.0516 +- 0.0260</td>
+</tr>
+<tr class="even">
+<td><strong>D1)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>TEX11</em></td>
+<td>XXX</td>
+<td><strong>0.9068</strong></td>
+<td>805.9</td>
+<td>1933.1</td>
+<td>0.0897</td>
+<td>7.8022</td>
+<td>0.0290 +- 0.0040</td>
+<td>0.0320 +- 0.0064</td>
+</tr>
+<tr class="even">
+<td><em>SHOC1</em></td>
+<td>XXX</td>
+<td><strong>0.7225</strong></td>
+<td>1203</td>
+<td>3129</td>
+<td>0.0865</td>
+<td>9.5737</td>
+<td>0.0261 +- 0.0029</td>
+<td>0.0361 +- 0.0057</td>
+</tr>
+<tr class="odd">
+<td><em>CNTD1</em></td>
+<td>XXX</td>
+<td><strong>0.6803</strong></td>
+<td>335.3</td>
+<td>651.7</td>
+<td>0.065</td>
+<td>8.0721</td>
+<td>0.0187 +- 0.0054</td>
+<td>0.0274 +- 0.0092</td>
+</tr>
+<tr class="even">
+<td><em>RNF212</em></td>
+<td>XXX</td>
+<td><strong>0.387</strong></td>
+<td>243.2</td>
+<td>572.8</td>
+<td>0.1342</td>
+<td>4.996</td>
+<td>0.0304 +- 0.0074</td>
+<td>0.0785 +- 0.0189</td>
+</tr>
+<tr class="odd">
+<td><em>RNF212B</em></td>
+<td>XXX</td>
+<td><strong>0.2566</strong></td>
+<td>255.6</td>
+<td>644.4</td>
+<td>0.0685</td>
+<td>3.4122</td>
+<td>0.0125 +- 0.0044</td>
+<td>0.0488 +- 0.0143</td>
+</tr>
+<tr class="even">
+<td><em>MSH4</em></td>
+<td>XXX</td>
+<td><strong>0.2635</strong></td>
+<td>731.3</td>
+<td>2073.7</td>
+<td>0.058</td>
+<td>7.5194</td>
+<td>0.0112 +- 0.0023</td>
+<td>0.0425 +- 0.0079</td>
+</tr>
+<tr class="odd">
+<td><em>MSH5</em></td>
+<td>XXX</td>
+<td><strong>0.2106</strong></td>
+<td>728.7</td>
+<td>1770.3</td>
+<td>0.0643</td>
+<td>3.9993</td>
+<td>0.0102 +- 0.0024</td>
+<td>0.0486 +- 0.0085</td>
+</tr>
+<tr class="even">
+<td><strong>D2)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MER3</em></td>
+<td>XXX</td>
+<td><strong>0.3247</strong></td>
+<td>987.6</td>
+<td>3317.4</td>
+<td>0.0703</td>
+<td>7.0099</td>
+<td>0.0159 +- 0.0022</td>
+<td>0.0488 +- 0.0074</td>
+</tr>
+<tr class="even">
+<td><em>HEI10</em></td>
+<td>XXX</td>
+<td><strong>0.3235</strong></td>
+<td>241.5</td>
+<td>589.5</td>
+<td>0.0329</td>
+<td>5.9591</td>
+<td>0.0068 +- 0.0034</td>
+<td>0.0211 +- 0.0095</td>
+</tr>
+<tr class="odd">
+<td><em>MLH1</em></td>
+<td>XXX</td>
+<td><strong>0.0924</strong></td>
+<td>602.3</td>
+<td>1665.7</td>
+<td>0.0522</td>
+<td>2.4752</td>
+<td>0.0048 +- 0.0017</td>
+<td>0.0521 +- 0.0097</td>
+</tr>
+<tr class="even">
+<td><em>MLH3</em></td>
+<td>XXX</td>
+<td><strong>0.4919</strong></td>
+<td>1209.8</td>
+<td>3149.2</td>
+<td>0.0949</td>
+<td>6.4296</td>
+<td>0.0246 +- 0.0028</td>
+<td>0.0500 +- 0.0067</td>
+</tr>
+<tr class="odd">
+<td><em>MUS81</em></td>
+<td>XXX</td>
+<td><strong>0.1299</strong></td>
+<td>465.8</td>
+<td>1187.2</td>
+<td>0.1106</td>
+<td>5.7915</td>
+<td>0.0128 +- 0.0033</td>
+<td>0.0983 +- 0.0158</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Table S2</strong>: PAML - Gene Trees</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong><em>Gene</em></strong></th>
+<th><strong><em>bp</em></strong></th>
+<th><strong><em>N</em></strong></th>
+<th><strong><em><span class="math inline"><em>ω</em></span></em></strong></th>
+<th><strong><em>M</em></strong></th>
+<th><strong><em>M1-M2</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+<th><strong><em>M7-M8</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+<th><strong><em>M8a-M8</em></strong></th>
+<th><strong><em>p-value</em></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>HORMAD1</em></td>
+<td>1212</td>
+<td>16</td>
+<td>0.3037</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>3.135</td>
+<td><em>0.2086</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>HORMAD2</em></td>
+<td>981</td>
+<td>15</td>
+<td>0.3290</td>
+<td>1</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>3.881</td>
+<td><em>0.1436</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MEI4</em></td>
+<td>1170</td>
+<td>16</td>
+<td>0.4310</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.058</td>
+<td><em>0.9715</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>REC114</em></td>
+<td>870</td>
+<td>15</td>
+<td>0.4237</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>4.1874</td>
+<td><em>XXXX</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>IHO1</em></td>
+<td>1824</td>
+<td>16</td>
+<td>0.7099</td>
+<td><strong>8</strong></td>
+<td>13.384</td>
+<td><strong><em>0.0012</em></strong></td>
+<td>17.714</td>
+<td><strong><em>0.0001</em></strong></td>
+<td>14.707</td>
+<td><strong><em>0.0001</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>SPO11</em></td>
+<td>1188</td>
+<td>15</td>
+<td>0.1701</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>4.697</td>
+<td><em>0.0955</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>B)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>MRE11</em></td>
+<td>2136</td>
+<td>16</td>
+<td>0.1686</td>
+<td><strong>8</strong></td>
+<td>0.636</td>
+<td><em>0.7277</em></td>
+<td>12.014</td>
+<td><strong><em>XXXX</em></strong></td>
+<td>4.822</td>
+<td><strong><em>XXXX</em></strong></td>
+</tr>
+<tr class="even">
+<td><em>NBS1</em></td>
+<td>2289</td>
+<td>15</td>
+<td>0.4185</td>
+<td><strong>8</strong></td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>12.899</td>
+<td><strong><em>XXXX</em></strong></td>
+<td>4.298</td>
+<td><strong><em>XXXX</em></strong></td>
+</tr>
+<tr class="odd">
+<td><em>RAD50</em></td>
+<td>3936</td>
+<td>16</td>
+<td>XXXX</td>
+<td>XXXX</td>
+<td>XXXX</td>
+<td><em>XXXX</em></td>
+<td>XXXX</td>
+<td><em>XXXX</em></td>
+<td>—</td>
+<td>—-</td>
+</tr>
+<tr class="even">
+<td><em>BRCC3</em></td>
+<td>954</td>
+<td>15</td>
+<td>0.0601</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.573</td>
+<td><em>XXXX</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>DMC1</em></td>
+<td>1020</td>
+<td>15</td>
+<td>0.0365</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>4.288</td>
+<td><em>0.1172</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>RAD51</em></td>
+<td>1017</td>
+<td>16</td>
+<td>0.0322</td>
+<td>1</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.562</td>
+<td><em>XXXX</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>SPATA22</em></td>
+<td>1101</td>
+<td>16</td>
+<td>0.4932</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.200</td>
+<td><em>XXXX</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><em>MEIOB</em></td>
+<td>1425</td>
+<td>16</td>
+<td>0.2340</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.221</td>
+<td><em>XXXX</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><em>MCMDC2</em></td>
+<td>2052</td>
+<td>16</td>
+<td>0.2242</td>
+<td>7</td>
+<td>0</td>
+<td><em>1.000</em></td>
+<td>0.610</td>
+<td><em>0.7370</em></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>C)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><em>REC8</em> | 1833 | 16 | 0.3698 | <strong>8</strong> | 0 | <em>1.000</em> | 14.690 | <strong><em>0.0006</em></strong> | 5.927 | <strong><em>0.0149</em></strong> |<br />
+<em>RAD21L</em> | 1686 | 15 | 0.503 | <strong>8</strong> | 12.124 | <strong><em>0.0023</em></strong> | 32.050 | <strong><em>&gt;0.0001</em></strong> | 12.049 | <strong><em>0.0005</em></strong> | <em>SYCP1</em> | 3015 | 16 | 0.4337 | <strong>8</strong> | 8.711 | <strong><em>0.0128</em></strong> | 26.860 | <strong><em>&gt;0.0001</em></strong> | 9.243 | <strong><em>0.0024</em></strong> | <em>SYCP2</em> | 4650 | 16 | 0.5572 | <strong>8</strong>| 11.584 | <strong><em>0.0031</em></strong> | 37.200 | <strong><em>&gt;0.0001</em></strong> | 15.838 | <strong><em>0.0001</em></strong> |<br />
+<em>TEX12</em> | 369 | 14 | 0.2297 | 7 | 0.0565 | <em>0.9721</em> | 1.549 | <em>0.4610</em> | — | — <strong>D1)</strong> | | | | | | | | | | | | <em>TEX11</em> | 2844 | 15 | 0.8483 | <strong>8</strong> | 60.872 | <strong><em>&gt;0.0001</em></strong> | 82.665 | <strong><em>&gt;0.0001</em></strong> | 61.141 | <strong><em>&gt;0.0001</em></strong> | <em>SHOC1</em> | 4644 | 16 | 0.6113 | <strong>8</strong> | 12.447 | <strong><em>0.0020</em></strong> | 30.561 | <strong><em>&gt;0.0001</em></strong> | 15.645 | <strong><em>0.0001</em></strong> | <em>CNTD1</em> | 1026 | 15 | 0.2496 | 7 | 0 | <em>1.000</em> | 0.936 | <em>0.6263</em> | — | —<br />
+<em>RNF212</em> | 948 | 16 | 0.5014 | <strong>8</strong> | 0 | <em>1.000</em> | 16.366 | <strong><em>0.0003</em></strong> | 5.202 | <strong><em>0.0226</em></strong> | <em>RNF212B</em> | 906 | 14 | 0.4066 | 7 | 0 | <em>1.000</em> | 0.500 | <em>0.7788</em> | — | — <em>MSH4</em> | 2814 | 16 | 0.2132 | <strong>8</strong> | 16.608 | <strong><em>0.0002</em></strong> | 39.447 | <strong><em>&gt;0.0001</em></strong> | 23.238 | <strong><em>&gt;0.0001</em></strong> | <em>MSH5</em> | 2565 | 15 | 0.1642 | 7 | 0 | <em>1.000</em> | 4.214 | <em>0.1216</em> | — | — <strong>D2)</strong> | | | | | | | | | | | | <em>MER3</em> | 4458 | 16 | 0.3633 | 8a | 0 | <em>1.000</em> | 12.838 | <strong><em>0.0016</em></strong> | 3.109 | <em>0.0779</em> |<br />
+<em>HEI10</em> | 831 | 15 | 0.1226 | 7 | 0 | <em>1.000</em> | 0.250 | <em>0.8826</em> | — | — <em>MLH1</em> | 2313 | 15 | 0.1652 | 8a | 0 | <em>1.000</em> | 12.221 | <strong><em>0.0022</em></strong> | 0.280 | <em>0.5970</em> | <em>MLH3</em> | 4419 | 16 | 0.4444 | 7 | 0 | <em>1.000</em> | 3.757 | <em>0.1528</em> | — | — <em>MUS81</em> | 1665 | 16 | 0.2124 | 7 | 0 | <em>1.000</em> | 0.628 | <em>0.7304</em> | — | —</p>
+<h2 id="references" class="unnumbered">References</h2>
+<div id="refs" class="references">
+<div id="ref-Baker1996">
+<p>Baker S. M., A. W. Plug, T. A. Prolla, C. E. Bronner, and A. C. Harris <em>et al.</em>, 1996 Involvement of mouse mlh1 in dna mismatch repair and meiotic crossing over. Nature genetics 13: 336.</p>
+</div>
+<div id="ref-Balcova2016">
+<p>Balcova M., B. Faltusova, V. Gergelits, T. Bhattacharyya, and O. Mihola <em>et al.</em>, 2016 Hybrid sterility locus on chromosome x controls meiotic recombination rate in mouse. PLoS genetics 12: e1005906.</p>
+</div>
+<div id="ref-Baudat2000">
+<p>Baudat F., K. Manova, J. P. Yuen, M. Jasin, and S. Keeney, 2000 Chromosome synapsis defects and sexually dimorphic meiotic progression in mice lacking spo11. Molecular cell 6: 989–998.</p>
+</div>
+<div id="ref-Baudat2007">
+<p>Baudat F., and B. de Massy, 2007 Regulating double-stranded dna break repair towards crossover or non-crossover during mammalian meiosis. Chromosome research 15: 565–577.</p>
+</div>
+<div id="ref-Begun1992">
+<p>Begun D. J., and C. F. Aquadro, 1992 Levels of naturally occurring dna polymorphism correlate with recombination rates in d. melanogaster. Nature 356: 519.</p>
+</div>
+<div id="ref-Bergerat1997">
+<p>Bergerat A., B. de Massy, D. Gadelle, P.-C. Varoutas, and A. Nicolas <em>et al.</em>, 1997 An atypical topoisomerase ii from archaea with implications for meiotic recombination. Nature 386: 414.</p>
+</div>
+<div id="ref-Bisig2012">
+<p>Bisig C. G., M. F. Guiraldelli, A. Kouznetsova, H. Scherthan, and C. Höög <em>et al.</em>, 2012 Synaptonemal complex components persist at centromeres and are required for homologous centromere pairing in mouse spermatocytes. PLoS genetics 8: e1002701.</p>
+</div>
+<div id="ref-Bolcun-Filas2012">
+<p>Bolcun-Filas E., and J. C. Schimenti, 2012 Genetics of meiosis and recombination in mice. International review of cell and molecular biology 298: 179–227.</p>
+</div>
+<div id="ref-Brand2018">
+<p>Brand C. L., M. V. Cattani, S. B. Kingan, E. L. Landeen, and D. C. Presgraves, 2018 Molecular evolution at a meiosis gene mediates species differences in the rate and patterning of recombination. Current Biology 28: 1289–1295.</p>
+</div>
+<div id="ref-Brawand2011">
+<p>Brawand D., M. Soumillon, A. Necsulea, P. Julien, and G. Csárdi <em>et al.</em>, 2011 The evolution of gene expression levels in mammalian organs. Nature 478: 343.</p>
+</div>
+<div id="ref-Broman1998">
+<p>Broman K. W., J. C. Murray, V. C. Sheffield, R. L. White, and J. L. Weber, 1998 Comprehensive human genetic maps: Individual and sex-specific variation in recombination. The American Journal of Human Genetics 63: 861–869.</p>
+</div>
+<div id="ref-Brown2014">
+<p>Brown M. S., and D. K. Bishop, 2014 DNA strand exchange and reca homologs in meiosis. Cold Spring Harbor perspectives in biology a016659.</p>
+</div>
+<div id="ref-Burt1987">
+<p>Burt A., and G. Bell, 1987 Red queen versus tangled bank models. Nature 330: 118.</p>
+</div>
+<div id="ref-Carelli2016">
+<p>Carelli F. N., T. Hayakawa, Y. Go, H. Imai, and M. Warnefors <em>et al.</em>, 2016 The life history of retrocopies illuminates the evolution of new mammalian genes. Genome research gr–198473.</p>
+</div>
+<div id="ref-Charlesworth1993">
+<p>Charlesworth B., M. Morgan, and D. Charlesworth, 1993 The effect of deleterious mutations on neutral molecular variation. Genetics 134: 1289–1303.</p>
+</div>
+<div id="ref-Charlesworth1994">
+<p>Charlesworth B., P. Jarne, and S. Assimacopoulos, 1994 The distribution of transposable elements within and between chromosomes in a population of drosophila melanogaster. iii. element abundances in heterochromatin. Genetics Research 64: 183–197.</p>
+</div>
+<div id="ref-Chowdhury2009">
+<p>Chowdhury R., P. R. Bois, E. Feingold, S. L. Sherman, and V. G. Cheung, 2009 Genetic analysis of variation in human meiotic recombination. PLoS genetics 5: e1000648.</p>
+</div>
+<div id="ref-Cloud2012">
+<p>Cloud V., Y.-L. Chan, J. Grubb, B. Budke, and D. K. Bishop, 2012 Rad51 is an accessory factor for dmc1-mediated joint molecule formation during meiosis. Science 337: 1222–1225.</p>
+</div>
+<div id="ref-Coleman2013">
+<p>Coleman S. J., Z. Zeng, M. S. Hestand, J. Liu, and J. N. Macleod, 2013 Analysis of unannotated equine transcripts identified by mRNA sequencing. PLoS One 8: e70125.</p>
+</div>
+<div id="ref-Comeron1999">
+<p>Comeron J. M., M. Kreitman, and M. Aguadé, 1999 Natural selection on synonymous sites is correlated with gene length and recombination in drosophila. Genetics 151: 239–249.</p>
+</div>
+<div id="ref-Comeron2012">
+<p>Comeron J. M., R. Ratnappan, and S. Bailin, 2012 The many landscapes of recombination in drosophila melanogaster. PLoS genetics 8: e1002905.</p>
+</div>
+<div id="ref-Rat2004">
+<p>Consortium R. G. S. P., and others, 2004 Genome sequence of the brown norway rat yields insights into mammalian evolution. Nature 428: 493.</p>
+</div>
+<div id="ref-TCsequencing2005">
+<p>Consortium T. C. S. A., R. H. Waterson, E. S. Lander, and R. K. Wilson, 2005 Initial sequence of the chimpanzee genome and comparison with the human genome. Nature 437: 69.</p>
+</div>
+<div id="ref-Sheep2010">
+<p>Consortium I. S. G., A. Archibald, N. Cockett, B. Dalrymple, and T. Faraut <em>et al.</em>, 2010 The sheep genome reference sequence: A work in progress. Animal genetics 41: 449–453.</p>
+</div>
+<div id="ref-Coop2007">
+<p>Coop G., and M. Przeworski, 2007 An evolutionary view of human recombination. Nature Reviews Genetics 8: 23.</p>
+</div>
+<div id="ref-Cortez2014">
+<p>Cortez D., R. Marin, D. Toledo-Flores, L. Froidevaux, and A. Liechti <em>et al.</em>, 2014 Origins and functional evolution of y chromosomes across mammals. Nature 508: 488.</p>
+</div>
+<div id="ref-Costa2005">
+<p>Costa Y., R. Speed, R. Öllinger, M. Alsheimer, and C. A. Semple <em>et al.</em>, 2005 Two novel proteins recruited by synaptonemal complex protein 1 (sycp1) are at the centre of meiosis. Journal of cell science 118: 2755–2762.</p>
+</div>
+<div id="ref-Dapper2017">
+<p>Dapper A. L., and B. A. Payseur, 2017 Connecting theory and data to understand recombination rate evolution. Phil. Trans. R. Soc. B 372: 20160469.</p>
+</div>
+<div id="ref-Derti2012">
+<p>Derti A., P. Garrett-Engele, K. D. MacIsaac, R. C. Stevens, and S. Sriram <em>et al.</em>, 2012 A quantitative atlas of polyadenylation in five mammals. Genome research gr–132563.</p>
+</div>
+<div id="ref-Dumont2010">
+<p>Dumont B. L., and B. A. Payseur, 2010 Evolution of the genomic recombination rate in murid rodents. Genetics.</p>
+</div>
+<div id="ref-Dumont2011B">
+<p>Dumont B. L., M. A. White, B. Steffy, T. Wiltshire, and B. A. Payseur, 2011 Extensive recombination rate variation in the house mouse species complex inferred from genetic linkage maps. Genome research 21: 114–125.</p>
+</div>
+<div id="ref-Duret2008">
+<p>Duret L., and P. F. Arndt, 2008 The impact of recombination on nucleotide substitutions in the human genome. PLoS genetics 4: e1000071.</p>
+</div>
+<div id="ref-Edelmann1996">
+<p>Edelmann W., P. E. Cohen, M. Kane, K. Lau, and B. Morrow <em>et al.</em>, 1996 Meiotic pachytene arrest in mlh1-deficient mice. Cell 85: 1125–1134.</p>
+</div>
+<div id="ref-Fan2013">
+<p>Fan Y., Z.-Y. Huang, C.-C. Cao, C.-S. Chen, and Y.-X. Chen <em>et al.</em>, 2013 Genome of the chinese tree shrew. Nature communications 4: 1426.</p>
+</div>
+<div id="ref-Felsenstein1974">
+<p>Felsenstein J., 1974 The evolutionary advantage of recombination. Genetics 78: 737–756.</p>
+</div>
+<div id="ref-Finsterbusch2016">
+<p>Finsterbusch F., R. Ravindranathan, I. Dereli, M. Stanzione, and D. Tränkner <em>et al.</em>, 2016 Alignment of homologous chromosomes and effective repair of programmed dna double-strand breaks during mouse meiosis require the minichromosome maintenance domain containing 2 (mcmdc2) protein. PLoS genetics 12: e1006393.</p>
+</div>
+<div id="ref-Fledel-Alon2011">
+<p>Fledel-Alon A., E. M. Leffler, Y. Guan, M. Stephens, and G. Coop <em>et al.</em>, 2011 Variation in human recombination rates and its genetic determinants. PloS one 6: e20321.</p>
+</div>
+<div id="ref-Fraune2014">
+<p>Fraune J., M. Alsheimer, J. Redolfi, C. Brochier-Armanet, and R. Benavente, 2014 Protein sycp2 is an ancient component of the metazoan synaptonemal complex. Cytogenetic and genome research 144: 299–305.</p>
+</div>
+<div id="ref-Gonen2017">
+<p>Gonen S., M. Battagin, S. E. Johnston, G. Gorjanc, and J. M. Hickey, 2017 The potential of shifting recombination hotspots to increase genetic gain in livestock breeding. Genetics Selection Evolution 49: 55.</p>
+</div>
+<div id="ref-Grey2011">
+<p>Grey C., P. Barthès, G. Chauveau-Le Friec, F. Langa, and F. Baudat <em>et al.</em>, 2011 Mouse prdm9 dna-binding specificity determines sites of histone h3 lysine 4 trimethylation for initiation of meiotic recombination. PLoS biology 9: e1001176.</p>
+</div>
+<div id="ref-Grey2018">
+<p>Grey C., F. Baudat, and B. de Massy, 2018 PRDM9, a driver of the genetic map. PLoS genetics 14: e1007479.</p>
+</div>
+<div id="ref-Guan2017">
+<p>Guan Y., G. Liang, G. B. Martin, and others, 2017 Functional changes in mRNA expression and alternative pre-mRNA splicing associated with the effects of nutrition on apoptosis and spermatogenesis in the adult testis. BMC genomics 18: 64.</p>
+</div>
+<div id="ref-Hamer2006">
+<p>Hamer G., K. Gell, A. Kouznetsova, I. Novak, and R. Benavente <em>et al.</em>, 2006 Characterization of a novel meiosis-specific protein within the central element of the synaptonemal complex. Journal of cell science 119: 4025–4032.</p>
+</div>
+<div id="ref-Hassold2001">
+<p>Hassold T., and P. Hunt, 2001 To err (meiotically) is human: The genesis of human aneuploidy. Nature Reviews Genetics 2: 280.</p>
+</div>
+<div id="ref-Hernandez2016">
+<p>Hernández-Hernández A., S. Masich, T. Fukuda, A. Kouznetsova, and S. Sandin <em>et al.</em>, 2016 The central element of the synaptonemal complex in mice is organized as a bilayered junction structure. J Cell Sci 129: 2239–2249.</p>
+</div>
+<div id="ref-Hill1966">
+<p>Hill W. G., and A. Robertson, 1966 The effect of linkage on limits to artificial selection. Genetics Research 8: 269–294.</p>
+</div>
+<div id="ref-Hunter2016">
+<p>Hunter C. M., W. Huang, T. F. Mackay, and N. D. Singh, 2016 The genetic architecture of natural variation in recombination rate in drosophila melanogaster. PLoS genetics 12: e1005951.</p>
+</div>
+<div id="ref-Jeffreys2005">
+<p>Jeffreys A. J., R. Neumann, M. Panayi, S. Myers, and P. Donnelly, 2005 Human recombination hot spots hidden in regions of strong marker association. Nature genetics 37: 601.</p>
+</div>
+<div id="ref-Johnston2016">
+<p>Johnston S. E., C. Bérénos, J. Slate, and J. M. Pemberton, 2016 Conserved genetic architecture underlying individual recombination rate variation in a wild population of soay sheep (ovis aries). Genetics genetics–115.</p>
+</div>
+<div id="ref-Johnston2018">
+<p>Johnston S. E., J. Huisman, and J. M. Pemberton, 2018 A genomic region containing rec8 and rnf212b is associated with individual recombination rate variation in a wild population of red deer (cervus elaphus). G3: Genes, Genomes, Genetics g3–200063.</p>
+</div>
+<div id="ref-Kadri2016">
+<p>Kadri N. K., C. Harland, P. Faux, N. Cambisano, and L. Karim <em>et al.</em>, 2016 Coding and noncoding variants in hfm1, mlh3, msh4, msh5, rnf212, and rnf212b affect recombination rate in cattle. Genome research.</p>
+</div>
+<div id="ref-Keeney1997">
+<p>Keeney S., C. N. Giroux, and N. Kleckner, 1997 Meiosis-specific dna double-strand breaks are catalyzed by spo11, a member of a widely conserved protein family. Cell 88: 375–384.</p>
+</div>
+<div id="ref-Keeney2007">
+<p>Keeney S., 2007 Spo11 and the formation of dna double-strand breaks in meiosis, pp. 81–123 in <em>Recombination and meiosis</em>, Springer.</p>
+</div>
+<div id="ref-Kobayashi2016">
+<p>Kobayashi W., M. Takaku, S. Machida, H. Tachiwana, and K. Maehara <em>et al.</em>, 2016 Chromatin architecture may dictate the target site for dmc1, but not for rad51, during homologous pairing. Scientific reports 6: 24228.</p>
+</div>
+<div id="ref-Kong2008">
+<p>Kong A., G. Thorleifsson, H. Stefansson, G. Masson, and A. Helgason <em>et al.</em>, 2008 Sequence variants in the rnf212 gene associate with genome-wide recombination rate. Science 319: 1398–1401.</p>
+</div>
+<div id="ref-Kong2010">
+<p>Kong A., G. Thorleifsson, D. F. Gudbjartsson, G. Masson, and A. Sigurdsson <em>et al.</em>, 2010 Fine-scale recombination rate differences between sexes, populations and individuals. Nature 467: 1099.</p>
+</div>
+<div id="ref-Kong2014">
+<p>Kong A., G. Thorleifsson, M. L. Frigge, G. Masson, and D. F. Gudbjartsson <em>et al.</em>, 2014 Common and low-frequency variants associated with genome-wide recombination rate. Nature genetics 46: 11.</p>
+</div>
+<div id="ref-Kumar2015">
+<p>Kumar R., N. Ghyselinck, K.-i. Ishiguro, Y. Watanabe, and A. Kouznetsova <em>et al.</em>, 2015 MEI4: A central player in the regulation of meiotic dna double strand break formation in the mouse. J Cell Sci jcs–165464.</p>
+</div>
+<div id="ref-LaSalle2012">
+<p>La Salle S., K. Palmer, M. O’Brien, J. C. Schimenti, and J. Eppig <em>et al.</em>, 2012 Spata22, a novel vertebrate-specific gene, is required for meiotic progress in mouse germ cells. Biology of reproduction 86: 45–1.</p>
+</div>
+<div id="ref-Lange2016">
+<p>Lange J., S. Yamada, S. E. Tischfield, J. Pan, and S. Kim <em>et al.</em>, 2016 The landscape of mouse meiotic double-strand break formation, processing, and repair. Cell 167: 695–708.</p>
+</div>
+<div id="ref-Latrille2017">
+<p>Latrille T., L. Duret, and N. Lartillot, 2017 The red queen model of recombination hot-spot evolution: A theoretical investigation. Phil. Trans. R. Soc. B 372: 20160463.</p>
+</div>
+<div id="ref-Lesecque2014">
+<p>Lesecque Y., S. Glémin, N. Lartillot, D. Mouchiroud, and L. Duret, 2014 The red queen model of recombination hotspots evolution in the light of archaic and modern human genomes. PLoS genetics 10: e1004790.</p>
+</div>
+<div id="ref-Li2016">
+<p>Li Y., J. Li, C. Fang, L. Shi, and J. Tan <em>et al.</em>, 2016 Genome-wide differential expression of genes and small rnas in testis of two different porcine breeds and at two different ages. Scientific reports 6: 26852.</p>
+</div>
+<div id="ref-Lindblad2005">
+<p>Lindblad-Toh K., C. M. Wade, T. S. Mikkelsen, E. K. Karlsson, and D. B. Jaffe <em>et al.</em>, 2005 Genome sequence, comparative analysis and haplotype structure of the domestic dog. Nature 438: 803.</p>
+</div>
+<div id="ref-Lipkin2002">
+<p>Lipkin S. M., P. B. Moens, V. Wang, M. Lenzi, and D. Shanmugarajah <em>et al.</em>, 2002 Meiotic arrest and aneuploidy in mlh3-deficient mice. Nature genetics 31: 385.</p>
+</div>
+<div id="ref-Locke2011">
+<p>Locke D. P., L. W. Hillier, W. C. Warren, K. C. Worley, and L. V. Nazareth <em>et al.</em>, 2011 Comparative and demographic analysis of orang-utan genomes. Nature 469: 529.</p>
+</div>
+<div id="ref-Ma2015">
+<p>Ma L., J. R. O’Connell, P. M. VanRaden, B. Shen, and A. Padhi <em>et al.</em>, 2015 Cattle sex-specific recombination and genetic control from a large pedigree analysis. PLoS genetics 11: e1005387.</p>
+</div>
+<div id="ref-Merkin2012">
+<p>Merkin J., C. Russell, P. Chen, and C. B. Burge, 2012 Evolutionary dynamics of gene and isoform regulation in mammalian tissues. Science 338: 1593–1599.</p>
+</div>
+<div id="ref-Meuwissen1992">
+<p>Meuwissen R., H. H. Offenberg, A. Dietrich, A. Riesewijk, and M. van Iersel <em>et al.</em>, 1992 A coiled-coil related protein specific for synapsed regions of meiotic prophase chromosomes. The EMBO Journal 11: 5091.</p>
+</div>
+<div id="ref-Murdoch2010">
+<p>Murdoch B., N. Owen, S. Shirley, S. Crumb, and K. W. Broman <em>et al.</em>, 2010 Multiple loci contribute to genome-wide recombination levels in male mice. Mammalian genome 21: 550–555.</p>
+</div>
+<div id="ref-Myers2010">
+<p>Myers S., R. Bowden, A. Tumian, R. E. Bontrop, and C. Freeman <em>et al.</em>, 2010 Drive against hotspot motifs in primates implicates the prdm9 gene in meiotic recombination. Science 327: 876–879.</p>
+</div>
+<div id="ref-Oh2016">
+<p>Oh J., A. Al-Zain, E. Cannavo, P. Cejka, and L. S. Symington, 2016 Xrs2 dependent and independent functions of the mre11-rad50 complex. Molecular cell 64: 405–415.</p>
+</div>
+<div id="ref-Oliver2009">
+<p>Oliver P. L., L. Goodstadt, J. J. Bayes, Z. Birtle, and K. C. Roach <em>et al.</em>, 2009 Accelerated evolution of the prdm9 speciation gene across diverse metazoan taxa. PLoS genetics 5: e1000753.</p>
+</div>
+<div id="ref-OLeary2015">
+<p>O’Leary N. A., M. W. Wright, J. R. Brister, S. Ciufo, and D. Haddad <em>et al.</em>, 2015 Reference sequence (refseq) database at ncbi: Current status, taxonomic expansion, and functional annotation. Nucleic acids research 44: D733–D745.</p>
+</div>
+<div id="ref-Parvanov2010">
+<p>Parvanov E. D., P. M. Petkov, and K. Paigen, 2010 Prdm9 controls activation of mammalian recombination hotspots. Science 327: 835–835.</p>
+</div>
+<div id="ref-Petit2017">
+<p>Petit M., J.-M. Astruc, J. Sarry, L. Drouilhet, and S. Fabre <em>et al.</em>, 2017 Variation in recombination rate and its genetic determinism in sheep populations. Genetics genetics–300123.</p>
+</div>
+<div id="ref-Prufer2012">
+<p>Prüfer K., K. Munch, I. Hellmann, K. Akagi, and J. R. Miller <em>et al.</em>, 2012 The bonobo genome compared with the chimpanzee and human genomes. Nature 486: 527.</p>
+</div>
+<div id="ref-Rao2017">
+<p>Rao H. P., H. Qiao, S. K. Bhatt, L. R. Bailey, and H. D. Tran <em>et al.</em>, 2017 A sumo-ubiquitin relay recruits proteasomes to chromosome axes to regulate meiotic recombination. Science 355: 403–407.</p>
+</div>
+<div id="ref-Reynolds2013">
+<p>Reynolds A., H. Qiao, Y. Yang, J. K. Chen, and N. Jackson <em>et al.</em>, 2013 RNF212 is a dosage-sensitive regulator of crossing-over during mammalian meiosis. Nature genetics 45: 269.</p>
+</div>
+<div id="ref-Rogacheva2014">
+<p>Rogacheva M. V., C. M. Manhart, C. Chen, A. Guarne, and J. Surtees <em>et al.</em>, 2014 Mlh1-mlh3, a meiotic crossover and dna mismatch repair factor, is a msh2-msh3-stimulated endonuclease. Journal of Biological Chemistry jbc–M113.</p>
+</div>
+<div id="ref-Romanienko2000">
+<p>Romanienko P. J., and R. D. Camerini-Otero, 2000 The mouse spo11 gene is required for meiotic chromosome synapsis. Molecular cell 6: 975–987.</p>
+</div>
+<div id="ref-Sandor2012">
+<p>Sandor C., W. Li, W. Coppieters, T. Druet, and C. Charlier <em>et al.</em>, 2012 Genetic variants in rec8, rnf212, and prdm9 influence male recombination in cattle. PLoS genetics 8: e1002854.</p>
+</div>
+<div id="ref-Scally2012">
+<p>Scally A., J. Y. Dutheil, L. W. Hillier, G. E. Jordan, and I. Goodhead <em>et al.</em>, 2012 Insights into hominid evolution from the gorilla genome sequence. Nature 483: 169.</p>
+</div>
+<div id="ref-Schmekel1995">
+<p>Schmekel K., and B. Daneholt, 1995 The central region of the synaptonemal complex revealed in three dimensions. Trends in cell biology 5: 239–242.</p>
+</div>
+<div id="ref-Schramm2011">
+<p>Schramm S., J. Fraune, R. Naumann, A. Hernandez-Hernandez, and C. Höög <em>et al.</em>, 2011 A novel mouse synaptonemal complex protein is essential for loading of central element proteins, recombination, and fertility. PLoS genetics 7: e1002088.</p>
+</div>
+<div id="ref-Segura2013">
+<p>Segura J., L. Ferretti, S. Ramos-Onsins, L. Capilla, and M. Farré <em>et al.</em>, 2013 Evolution of recombination in eutherian mammals: Insights into mechanisms that affect recombination rates and crossover interference. Proceedings of the Royal Society of London B: Biological Sciences 280: 20131945.</p>
+</div>
+<div id="ref-Shen2018">
+<p>Shen B., J. Jiang, E. Seroussi, G. E. Liu, and L. Ma, 2018 Characterization of recombination features and the genetic basis in multiple cattle breeds. BMC genomics 19: 304.</p>
+</div>
+<div id="ref-Smukowski2011">
+<p>Smukowski C., and M. Noor, 2011 Recombination rate variation in closely related species. Heredity 107: 496.</p>
+</div>
+<div id="ref-Snowden2004">
+<p>Snowden T., S. Acharya, C. Butz, M. Berardini, and R. Fishel, 2004 HMSH4-hMSH5 recognizes holliday junctions and forms a meiosis-specific sliding clamp that embraces homologous chromosomes. Molecular cell 15: 437–451.</p>
+</div>
+<div id="ref-Stanzione2016">
+<p>Stanzione M., M. Baumann, F. Papanikos, I. Dereli, and J. Lange <em>et al.</em>, 2016 Meiotic dna break formation requires the unsynapsed chromosome axis-binding protein iho1 (ccdc36) in mice. Nature cell biology 18: 1208.</p>
+</div>
+<div id="ref-Stapley2017">
+<p>Stapley J., P. G. Feulner, S. E. Johnston, A. W. Santure, and C. M. Smadja, 2017 Variation in recombination frequency and distribution across eukaryotes: Patterns and processes. Phil. Trans. R. Soc. B 372: 20160455.</p>
+</div>
+<div id="ref-Ubeda2011">
+<p>Ubeda F., and J. Wilkins, 2011 The red queen theory of recombination hotspots. Journal of evolutionary biology 24: 541–553.</p>
+</div>
+<div id="ref-Vandewege2016">
+<p>Vandewege M. W., R. N. Platt, D. A. Ray, and F. G. Hoffmann, 2016 Transposable element targeting by piRNAs in laurasiatherians with distinct transposable element histories. Genome biology and evolution 8: 1327–1337.</p>
+</div>
+<div id="ref-deVries1999">
+<p>Vries S. S. de, E. B. Baart, M. Dekker, A. Siezen, and D. G. de Rooij <em>et al.</em>, 1999 Mouse muts-like protein msh5 is required for proper chromosome synapsis in male and female meiosis. Genes &amp; Development 13: 523–531.</p>
+</div>
+<div id="ref-deVries2005">
+<p>Vries F. A. de, E. de Boer, M. van den Bosch, W. M. Baarends, and M. Ooms <em>et al.</em>, 2005 Mouse sycp1 functions in synaptonemal complex assembly, meiotic recombination, and xy body formation. Genes &amp; development 19: 1376–1389.</p>
+</div>
+<div id="ref-Wade2009">
+<p>Wade C., E. Giulotto, S. Sigurdsson, M. Zoli, and S. Gnerre <em>et al.</em>, 2009 Genome sequence, comparative analysis, and population genetics of the domestic horse. Science 326: 865–867.</p>
+</div>
+<div id="ref-Ward2007">
+<p>Ward J. O., L. G. Reinholdt, W. W. Motley, L. M. Niswander, and D. C. Deacon <em>et al.</em>, 2007 Mutation in mouse hei10, an e3 ubiquitin ligase, disrupts meiotic crossing over. PLoS genetics 3: e139.</p>
+</div>
+<div id="ref-Xu2017">
+<p>Xu Y., R. A. Greenberg, E. Schonbrunn, and P. J. Wang, 2017 Meiosis-specific proteins meiob and spata22 cooperatively associate with the single-stranded dna-binding replication protein a complex and dna double-strand breaks. Biology of reproduction 96: 1096–1104.</p>
+</div>
+<div id="ref-Yang2000">
+<p>Yang Z., and R. Nielsen, 2000 Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models. Molecular Biology and Evolution 17: 32–43.</p>
+</div>
+<div id="ref-Yang2006">
+<p>Yang F., R. De La Fuente, N. A. Leu, C. Baumann, and K. J. McLaughlin <em>et al.</em>, 2006 Mouse sycp2 is required for synaptonemal complex assembly and chromosomal synapsis during male meiosis. The Journal of Cell Biology 173: 497–507.</p>
+</div>
+<div id="ref-Yang2007">
+<p>Yang Z., 2007 PAML 4: Phylogenetic analysis by maximum likelihood. Molecular Biology and Evolution 24: 1586–1591. <a href="https://doi.org/10.1093/molbev/msm088" class="uri">https://doi.org/10.1093/molbev/msm088</a></p>
+</div>
+<div id="ref-Yang2008">
+<p>Yang F., K. Gell, G. W. Van Der Heijden, S. Eckardt, and N. A. Leu <em>et al.</em>, 2008 Meiotic failure in male mice lacking an x-linked factor. Genes &amp; development 22: 682–691.</p>
+</div>
+<div id="ref-Yang2017">
+<p>Yang Y., G. Liang, G. Niu, Y. Zhang, and R. Zhou <em>et al.</em>, 2017 Comparative analysis of dna methylome and transcriptome of skeletal muscle in lean-, obese-, and mini-type pigs. Scientific reports 7: 39883.</p>
+</div>
+<div id="ref-Zimin2009">
+<p>Zimin A. V., A. L. Delcher, L. Florea, D. R. Kelley, and M. C. Schatz <em>et al.</em>, 2009 A whole-genome assembly of the domestic cow, bos taurus. Genome biology 10: R42.</p>
+</div>
+<div id="ref-Zimin2014">
+<p>Zimin A. V., A. S. Cornish, M. D. Maudhoo, R. M. Gibbs, and X. Zhang <em>et al.</em>, 2014 A new rhesus macaque assembly and annotation for next-generation sequencing analyses. Biology direct 9: 20.</p>
+</div>
+</div>

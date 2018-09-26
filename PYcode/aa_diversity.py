@@ -10,7 +10,7 @@ from Bio import SeqIO
 g = sys.argv[1]
 
 SEQ = []
-for seq_record in SeqIO.parse('align/%s.aa_ali.fasta' % (g), "fasta"):
+for seq_record in SeqIO.parse('../Align/align/%s.aa_ali.fasta' % (g), "fasta"):
     B = seq_record.seq
     seq = []
     for i in B:
@@ -146,7 +146,7 @@ for j in range(len(POS)):
     if total > 5:
         for k in range(len(aaPos)):
             div = div + (float(aaPos[k])/total)**2
-        print j, div
+        print(j, div)
     diversity.append(div)
 
 

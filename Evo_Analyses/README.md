@@ -15,6 +15,16 @@
 
 ## Divergence vs. Polymorphism (MK Test) - Human/Macaque
 
+### Calculate Divergence:
+- 'python3 PYcode/syn_nonsyn.py Align/align_pw/GENE.nt_ali.fasta'
+
+### Polymorphism:
+- Polymorphism Data from ExAC Database: http://exac.broadinstitute.org
+- Download .csv file (Data/polymorphism/GENE_ExAC.csv)
+- 'Rscript poly_count.R GENE' counts number of synonymous and non-synonymous differences in coding sequences
+
+### MK Test:
+
 
 ## CODEML - Species Tree
 Primary Dataset

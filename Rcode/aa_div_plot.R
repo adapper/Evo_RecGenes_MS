@@ -12,7 +12,7 @@ if (length(args)==0) {
 }
 
 # Import
-gene_aa_div <- read_delim(paste(c('summary/',args[1],'_aa_div.txt'), collapse='')," ", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+gene_aa_div <- read_delim(paste(c('../Data/summary_files/',args[1],'_aa_div.txt'), collapse='')," ", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
 
 # Add empty column for sliding window values
 gene_aa_div$X3 <- NA
@@ -28,13 +28,13 @@ for (i in 1:length(slide)){
 }
 
 # Plot with sliding window averages
-png(paste(c('Figures/',args[1],'_aa_slide.png'), collapse = ''), units = "in", width = 18, height = 10, res = 500)
+png(paste(c(args[1],'_aa_slide.png'), collapse = ''), units = "in", width = 18, height = 10, res = 500)
 plot(gene_aa_div$X1,gene_aa_div$X2, pch = "*", ylim = c(0,1), ylab = "Amino Acid Conservation", xlab = "Position")
 points(gene_aa_div$X1,gene_aa_div$X3, col = "red", lwd = 3)
 dev.off()
 
 # Plot with LOESS smoothing
-png(paste(c('Figures/',args[1],'_aa_div.png'), collapse = ''), units = "in", width = 18, height = 10, res = 500)
+png(paste(c(args[1],'_aa_div.png'), collapse = ''), units = "in", width = 18, height = 10, res = 500)
 ggplot(gene_aa_div, aes(x=gene_aa_div$X1,y=gene_aa_div$X2)) +
   geom_point() +
   geom_smooth(span = 0.5) +
