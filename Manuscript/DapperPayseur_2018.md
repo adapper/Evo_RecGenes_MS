@@ -74,28 +74,33 @@ In this article, we examine the molecular evolution of 32 key recombination gene
 
 ### Data Acquisition & Processing
 
-We selected a focal panel of 32 recombination genes (See Table1). The genes included in this panel were selected to: (1) cover each major step in the recombination pathway as evenly as possible, (2) choose genes that we know are have integral functions in each step, and (3) include genes that have been associated with variation in recombination rate within mammalian populations.  Reference sequences were downloaded for each gene from both NCBI and Ensembl (Release-89) [citations].  
+We selected a focal panel of 32 recombination genes (See Table1). The panel was constructed to: (1) cover each major step in the recombination pathway as evenly as possible, (2) contain genes that have integral functions in each step, and (3) include genes that have been associated with inter-individual differences in recombination rate within mammalian populations. Reference sequences were downloaded for each gene from both NCBI and Ensembl (Release-89)[@Wheeler2016; @Zerbino2017].
 
-Alternative splicing is widespread and presents a challenge for molecular evolution studies [citations].  We used available testes expression datasets to select the transcript expressed in tissues of interest and to validate the computationally imputated annotations for each gene in each species.  We downloaded the raw testes expression data for each mammalian species from NCBI GEO (Table S1) [citations].  We converted the SRA files into FASTQ files using SRAtoolkit [citation].  The reads were mapped to an indexed reference genome (Table S2,3) [Bowtie2, citation] using tophat [citation].  The resulting bam files were sorted using Samtools and visualized using IGV 2.4.10 [citations].  This allowed us to: (1) identify the transcript that is expressed in the testes tissue, (2) check the reference transcript for errors, (3) revise the reference transcript based upon the transcript data.  
+Alternative splicing is widespread and presents a challenge for molecular evolution studies [@Pan2008; @Barbosa2012]. To focus our analyses on coding sequences that are transcribed during meiosis and to validate the computational annotations for each gene in each species, we used available testes expression datasets. We downloaded raw testes expression data for each mammalian species from NCBI Gene Expression Omnibus (GEO) (Table S1)[@Barrett2012]. We converted the SRA files into FASTQ files using SRAtoolkit [@Leinonen2010]. The reads were mapped to an indexed reference genome (Table S2,3) (Bowtie2, [@Langmead2012]) using TopHat [@Trapnell2009]. The resulting bam files were sorted using Samtools [@Li2009] and visualized using IGV 2.4.10 [@Thorvaldsdottir2013]. This allowed us to: (1) identify the transcript expressed in testes, (2) check the reference transcript for errors, and (3) revise the reference transcript based upon the transcript data.
 
-We compared expression data to annotations from both the Ensembl & NCBI [citations].  When both transcripts were identical, we selected he NCBI transcript was the default.  Ensembl transcript was used instead when: (1) the NCBI reference sequences was not available for a given gene in a given species, (2) when none of the NCBI matched the expression data, or (3) when there were sequence differences between the two transcripts and the Ensembl transcript was more parsimonious.  The use of testes expression data sets was a key data processing step and the inclusion of species in this study was primarily determined by the availability of testes expression data.
+We compared expression data to annotations from both Ensembl and NCBI [@Wheeler2016; @Zerbino2017]. When both transcripts were identical, we selected the NCBI transcript.  The Ensembl transcript was used instead when: (1) the NCBI reference sequences was not available for a given gene in a given species, (2) when none of the NCBI transcripts matched the expression data, or (3) when there were sequence differences between the two transcripts and the Ensembl transcript was more parsimonious - i.e. had the fewest differences when compared to the rest of sequences in the alignment.  **The use of testes expression data was a key data processing step and the inclusion of species in this study was primarily determined by the availability of testes expression data.**
 
 ###  Phylogenetic Comparative Approach in Mammals
 
-For each genes we conducted a phylogenetic analysis by maximum liklihood (PAML 4.8) to measure the rate of evolution across the mammalian phylogeny and to detect molecular signatures indicative of positive selection [citations].  This approach requires a sequences alignment for each gene and a phylogenetic tree.  For each gene, sequences were aligned using Translator X, a codon-based alignment tool powered by MUSCLE v3.8.31 (citations).  Each alignment was examined by hand and, as necessary, edited. We selected a species tree for our analyses, based upon our current understanding of the phylogenetic relationship of the mammals included in our study (Figure1) [citations]. 
+For each gene, we used phylogenetic analysis by maximum likelihood (PAML 4.8) to measure the rate of evolution across the mammalian phylogeny and to search for molecular signatures indicative of positive selection (Table 2) [@Yang1997; @Yang2007]. This approach requires a sequence alignment and a phylogenetic tree.  For each gene, sequences were aligned using Translator X, a codon-based alignment tool, powered by MUSCLE v3.8.31 [@Edgar2004; @Abascal2010]. Each alignment was examined by hand and edited as necessary. We used a species tree that reflects current understanding of the phylogenetic relationships of the species included in our study (Figure 1)[@Prasad2008; @Perelman2011; @Fan2013; @Chen2017].
 
-Due to the ambiguity in the relationship between Laurasithians and the placement of Tree Shrews, we also inferred the gene trees using MrBayes [citations].  This also allowed us to control for effects of incomplete lineage sorting (ILS) [citations]. The results using the gene trees did not differ in any significant manner and can be found in the supplemental info (Table S4).
+Due to the ambiguity in the relationship between Laurasithians and the placement of tree shrews, we also inferred gene trees using MrBayes [@Ronquist2012; @Fan2013; @Chen2017]. This approach also allowed us to control for effects of incomplete lineage sorting (ILS) [@Pamilo1988; @Rosenberg2002; @Scornavacca2017].  Using gene trees and using the consensus species tree produced highly similar results (Table S4).
 
-For the majority of genes, transcripts from all 16 species were used (19 genes).  However, for a number of genes, the chimpanzee and bonobo sequences were identical, in which case only the chimpanzee sequence was included in the analyses (11 genes).  In one case, the chimpanzee, bonobo and human sequences were all identical, in which case only the human sequence was included in the analyses.  In only a small number of instances, a suitable reference sequences could not be identified for a given species. 
+For the majority of genes, transcripts from all 16 species were used (19 genes). However, for a number of genes, the chimpanzee and bonobo sequences were identical, in which case only the chimpanzee sequence was included in the analyses (11 genes). In one case, the chimpanzee, bonobo and human sequences were all identical, in which case only the human sequence was included in the analyses. In only a small number of instances, a suitable reference sequence could not be identified for a given species. 
 
-We estimated rates of synonymous and nonsynonymous substitutions per site using the CODEML program in PAML4.8 (citations).  This program takes into account multiple substitutions per site, different rates of transitions and transversions, and effects of codon usage (citations). Rates of subsitutions were computed for 6 different models: 0,1,2,7,8,8a (Table 2).  The fit of each model was compared using a liklihood ratio test and the rates of substitutions are reported for the model of best fit for each gene.
+We estimated rates of synonymous and non-synonymous substitutions per site using the CODEML program in PAML4.8 [@Yang2007]. This program considers multiple substitutions per site, different rates of transitions and transversions, and effects of codon usage [@Yang2007]. Rates of substitution were computed for 6 different models of molecular evolution (Table 2). The fit of each model was compared using a likelihood ratio test. Reported substitution rates assume the best-fit model for each gene.
 
-[TURN INTO TABLE]
-(1) Comparison 1:  Model 0 - one dN/dS ratio for all sites (<1); Model 1 - two dN/dS ratios (<1, =1); Model 2 - three dN/dS ratios (<1, =1, >1).
-(2) Comparison 2: Model 7 - beta distribution of 10 dN/dS values, all between 0 & 1; Model 8 - beta distribution of 10 dN/dS values, all between 0 & 1, plus 11th category > 1.
-(3) Comparison 3: Model 8 -  beta distribution of 10 dN/dS values, all between 0 & 1, plus 11th category > 1; Model 8a - beta distribution of 5 dN/dS values, all between 0 & 1, plus 6th category =1.
+### Identifying Signatures of Selection
+
+To test for positive selection, we compared the fit of models including a class of sites with omega greater than 1 to the fit of models in which all classes of sites have omega values equal to, or less than, 1.  **Specifically, we focused on three comparisons: M1 vs. M2, M7 vs. M8, M8 vs. M8a.** 
+
+### Multinucleotide Mutations
+
+Multi-nucleotide mutations (MNMs) occur when two mutations happen simultaneously in close proximity [@Schrider2011, @Besenbacher2016]. MNMs violate the PAML assumption that the probability of two simultaneous mutations in the same codon is 0 [@Yang2007; @Venkat2018]. Recent work has shown that MNMs can falsely detect positive selection when using branch-site tests in PAML [@Venkat2018]. Although we did not use branch-site tests, it is possible that MNMs contributed to some of the signatures of positive selection we observed. We could not directly identify MNMs in our dataset. Instead, we identified codons with multiple differences (CMDs) that likely arose on a single branch of the phylogeny.  We used PAML to reconstruct the ancestral sequence at each node in the phylogeny [@Yang2007]. For the reconstruction, Model 8 was chosen because we specifically re-analyzed genes that showed evidence for positive selection when comparing Model 7 with Model 8.  From the ancestrally reconstructed sequences, we identified any codons in which PAML inferred more than 1 substitution on a single branch.  All identified CMDs were removed from the sequences in which they occurred. For example, if a CMD was identified in an external branch, that codon was replaced with ‘---’ only in the sequence of that species. If a CMD was inferred on an internal branch, the codon was replaced with ‘---’ in all species descended from that internal branch.  For each gene that showed evidence of positive selection using the unedited sequences, we also conducted PAML analyses using sequences from which all CMDs were removed.
 
 ###  Polymorphism & Divergence in the Primate Lineage
+
+To further examine evidence for selection on recombination genes, we compared divergence between humans and macaque to polymorphism within humans.
 
 Human polymorphism data was downloaded from ExAC database.
 
@@ -106,19 +111,63 @@ Pairwise divergence between humans and macaques was calculated using YN00 packag
 
 Compared polymorphism within humans to divergence between human and macaques using the McDonald-Kreitman test.
 
-### Identifying Signatures
+### Identifying Evolutionary Patterns
 
-Model comparison 
+Statistical Analysis
 
-### Multinucleotide Mutations
-
-Multi-Nucleotide Mutations (MNMs) occur when two mutations happen simultaneously in close proximity (non-independent) [citations].   MNMs violate the assumption of PAMLs maximum likelihood model, which assumes that the probability of two simultaneous mutations in the same codon is zero [citations].  Recent work has shown that MNMs can frequently result in false positive signatures of positive selection in branch-site models in HyPhy [citations].  While we are not using branch-site models, the possibility remains that MNMs could be contributing to the signature of positive selection we are observing in some recombination genes.  It is not possible to identify MNMs in our dataset, but we can identify codons with multiple differences (CMDs) that are likely to have arisen on a single branch in the phylogeny.  We removed all CMDs that putatively arose on a single branch and then re-analyzed the subset of genes that exhibited a significant signature of positive selection in our original analyses.  
-
-To identify CMDs, we used PAML to reconstruct the ancestral sequence at each node in the phylogeny.  For the reconstruction, Model 8 was chosen because we were specifically analyzing genes with a significant signature of positives selection when comparing Model 7 & Model 8.  From the ancestrally reconstructed sequences, we identified any codons in which PAML inferred more than one substitution on a single branch.  All identified CMDs were removed from the sequences in which they occurred. For example, if a CMD was identified in an external branch, that codon would be replaced with ‘---’ only in the sequence of that species.  If a CMD was inferred on an internal branch, the codon would be replaced with ‘---’ in all species connected to that internal branch.  We re-ran our analyses in PAML with the sequences in which all CMDs were removed.
+ERC Analysis
 
 \pagebreak
 
 ## Results
+
+Heterogeneity in the rate of evolution of recombination genes, spanning a range of 0.0268 – 0.8483 (Figure 2A).
+Mean omega = 0.3275, SD = 0.1971, median = 0.30945
+4 genes have omega values more than 1 SD above mean: SYCP2, TEX11, SHOC1, IHO1.
+5 genes have omega values more than 1 SD below mean: BRCC3, HEI10, DMC1, RAD51, RAD50.
+
+Do genes that have been associated with inter-individual differences in recombination rate have higher evolutionary rates? Or more likely to show signature of positive selection?
+Mean omega value trends higher (0.3943 vs. 0.2925), but not significantly so. (p = 0.2381, Mann-Whitney U Test) (p = 0.1787, t-test)
+Higher frequency of genes with a positive signature of selection (45.5% vs. 28.6%), but not significantly so.  (p = 0.4424, Fisher’s Exact Test)
+
+Do the evolutionary rates of genes in different steps of the pathway have different evolutionary rates?  
+Yes, but not significantly so (p = 0.1422, Kruskal-Wallis Test) (p = 0.101, ANOVA) (Figure 3).
+
+How about before vs. after synapsis?
+Mean omega value is higher for genes that function after synapsis (0.3762 v. 0.2723), but not significantly so (p = 0.1425, Mann-Whitney U Test). (p = 0.1392, t-test)
+Significantly higher proportion of genes that function after synapsis have signature of positive selection (53.3% v. 12.5%) (p = 0.0233, Fisher’s Exact Test).
+
+10 genes (31.25%) have a signature of positive selection at some fraction of sites.  These genes include: IHO1, MRE11, SYCP1, SYCP2, REC8, RAD21L, RNF212, TEX11, MSH4, SHOC1.
+
+After removing CMDs, 1 gene (TEX11) retains a robust signature of positive selection.
+
+In general, there is very high concordance between evolutionary rate across mammals and pairwise divergence between humans and macaques (Figure S1).
+Mean omega = 0.3301, SD = 0.2370, median = 0.30925
+6 genes have omega values more than 1 SD above mean: CNTD1, TEX11, SHOC1, IHO1, MEI4, RAD21L.
+6 genes have omega values more than 1 SD below mean: HORMAD1, MRE11, RAD50, DMC1, RAD51, MLH1.
+
+Compared the omega values of recombination genes to a whole-genome distribution of omega values between human & macaque (Gradnigo et al. 2016).
+When randomly sampling 32 omega values from the genome-wide distribution, you get a mean as high (or higher) than the value observed among recombination genes less than 1% of the time (p = 0.075, N = 10,000).
+
+Do genes that have been associated with inter-individual differences in recombination rate have higher evolutionary rates (human-macaque)? Or more likely to show signature of positive selection?
+Mean omega value trends higher (0.4181 vs. 0.2839), but not significantly so. (p = 0.08816, Mann-Whitney U Test). (p = 0.1123, t-test)
+
+Do the evolutionary rates of genes in different steps of the pathway have different evolutionary rates?
+Yes, but not significantly so (p = 0.2682, Kruskal-Wallis Test) (Figure S2). (p = 0.279, ANOVA).
+
+Did you compare rates for genes acting before vs. after synapsis as above?
+Mean omega value is higher for genes that function after synapsis (0.3994 v. 0.2514), but not significantly so (p = 0.05827, Mann-Whitney U Test). (p = 0.07783, t-test).
+
+Comparing polymorphism (humans) and divergence (human-macaque) revealed a general pattern of negative/purifying selection.
+16 of the 29 genes had a significant MK Test – but, all in the direction of negative (purifying) selection (Fisher’s Exact Test).  None had a significant MK test in the direction of positive selection.
+Only one gene (TEX11) had a positive alpha score (alpha = 0.2929) and a corresponding neutrality index less than 1 (NI = 0.7071) – in the direction of positive selection.  
+
+Evidence for correlated evolution of genes in the recombination pathway (mean ERC = 0.134, p = 0.000358, perms = 100,000).  
+Among recombination genes, strong signature of correlated evolution between three genes of interest: SHOC1, TEX11, SYCP2 (mean ERC =  0.42369, p = 0.025, perms = 1,000).
+
+\pagebreak
+
+## Discussion
 
 ### Heterogeneous rates of evolution of recombination genes across the mammalian phylogeny
 
@@ -133,10 +182,6 @@ Values too small to compare all 5 groups.  Compared earlier steps (N = 15) to la
 Of the 9 genes with significant signatures of positive selection (7vs8), only one (TEX11) retained the significant signature of selection after removing all CMDs.  Two additional genes (REC8, RAD21L), also showed that model 8 was a significantly better fit than model 7.  However, this is because models that allow a class of sites with a dN/dS of 1 are preferred over models that require all sites to have dN/dS values < 1.  There is limited to no support for a class of sites with dN/dS > 1.  
 
 ### Polymorphism & Divergence Data
-
-
-## Discussion
-
 
 
 The rate of meiotic recombination shapes major features of the genomic landscape and influences the efficacy of selection [@hill1966; @felsenstein1974; @begun1992; @charlesworth1993; @charlesworth1994; @comeron1999; @duret2008].  
@@ -173,19 +218,11 @@ There is limited empirical evidence for a role of selection in the evolution of 
 
 Meiotic recombination begins with the generation of 100's of double strand breaks (DSB) across the genome.  **SPO11** directly produces the DSBs, but is recruited and activated by a handful of other proteins.  The location of DSB are non-randomly distributed across the genome.  **PRDM9** lays down methylation patterns via sequence-specific DNA binding.
 
-\pagebreak
-
-
-
-
-## Results
-
-
-## Discussion
-
  Recombination rate shows resemblance among relatives in human pedigrees [citations], differs among lines raised in a common environment [citations], and responds to artificial selection [citations].  Artifical selection experiments to increase and/or decrease the recombination rate [citations], demonstrate the potential for recombination rate to respond to directional selection in nature. Beyond the lab, comparisons between species and between populations have uncovered pervasive, and in some cases, rapid evolution of recombination rate [citations].  There is limited direct, empirical evidence for a role of selection in the evolution of recombination rate.  Indirect evidence includes the observation via phylogenetic comparative methods that the genome-wide recombination rate appears to have increased during mammalian evolution [citation] and the observation that fecundity and recombination rate may be positively correlated in human mothers [citations].  However, due to the importance of recombination rate in shaping the genome and response to evolution, the value of understanding its evolution is not strictly tied to the role of selection in shaping the trait. 
  
  While Prdm9 clearly plays a major role in the positioning of recombination events within the genome, it is less clear that Prdm9 significantly impacts the total number of recombination events in the genome [citations].  Prdm9 plays an very early role in the patterning of recombination events. 
+
+\pagebreak
 
 **Table 1** : Recombination Genes
 
