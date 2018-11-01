@@ -1,1340 +1,349 @@
 ---
-bibliography: 'References.bib'
-csl: 'genetics.csl'
+date: \today{}
+geometry: margin=1in
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
+    - \usepackage{lineno}
+    - \linenumbers
 ---
 
-@article{Abascal2010, title={TranslatorX: multiple alignment of
-nucleotide sequences guided by amino acid translations},
-author={Abascal, Federico and Zardoya, Rafael and Telford, Maximilian
-J}, journal={Nucleic acids research}, volume={38}, number={suppl\_2},
-pages={W7--W13}, year={2010} }
-
-@article{Adelman2008, title={ZIP4H (TEX11) deficiency in the mouse
-impairs meiotic double strand break repair and the regulation of
-crossing over}, author={Adelman, Carrie A and Petrini, John HJ},
-journal={PLoS genetics}, volume={4}, number={3}, pages={e1000042},
-year={2008} }
-
-@article{Alani1990, title={Analysis of wild-type and rad50 mutants of
-yeast suggests an intimate relationship between meiotic chromosome
-synapsis and recombination}, author={Alani, Eric and Padmore, Ruth and
-Kleckner, Nancy}, journal={Cell}, volume={61}, number={3},
-pages={419--436}, year={1990} }
-
-@article{Baker1996, title={Involvement of mouse Mlh1 in DNA mismatch
-repair and meiotic crossing over}, author={Baker, Sean M and Plug,
-Annemieke W and Prolla, Tomas A and Bronner, C Eric and Harris, Allie C
-and Yao, Xiang and Christie, Donna-Marie and Monell, Craig and Arnheim,
-Norm and Bradley, Allan and others}, journal={Nature genetics},
-volume={13}, number={3}, pages={336}, year={1996} }
-
-@article{Balcova2016, title={Hybrid sterility locus on chromosome X
-controls meiotic recombination rate in mouse}, author={Balcova, Maria
-and Faltusova, Barbora and Gergelits, Vaclav and Bhattacharyya, Tanmoy
-and Mihola, Ondrej and Trachtulec, Zdenek and Knopf, Corinna and
-Fotopulosova, Vladana and Chvatalova, Irena and Gregorova, Sona and
-others}, journal={PLoS genetics}, volume={12}, number={4},
-pages={e1005906}, year={2016} }
-
-@article{Barbosa2012, title={The evolutionary landscape of alternative
-splicing in vertebrate species}, author={Barbosa-Morais, Nuno L and
-Irimia, Manuel and Pan, Qun and Xiong, Hui Y and Gueroussov, Serge and
-Lee, Leo J and Slobodeniuc, Valentina and Kutter, Claudia and Watt,
-Stephen and {\c{C}}olak, Recep and others}, journal={Science},
-volume={338}, number={6114}, pages={1587--1593}, year={2012} }
-
-@article{Barrett2012, title={NCBI GEO: archive for functional genomics
-data sets---update}, author={Barrett, Tanya and Wilhite, Stephen E and
-Ledoux, Pierre and Evangelista, Carlos and Kim, Irene F and Tomashevsky,
-Maxim and Marshall, Kimberly A and Phillippy, Katherine H and Sherman,
-Patti M and Holko, Michelle and others}, journal={Nucleic acids
-research}, volume={41}, number={D1}, pages={D991--D995}, year={2012} }
-
-@article{Baudat2000, title={Chromosome synapsis defects and sexually
-dimorphic meiotic progression in mice lacking Spo11}, author={Baudat,
-Fr{\'e}d{\'e}ric and Manova, Katia and Yuen, Julie Pui and Jasin, Maria
-and Keeney, Scott}, journal={Molecular cell}, volume={6}, number={5},
-pages={989--998}, year={2000} }
-
-@article{Baudat2007, title={Regulating double-stranded DNA break repair
-towards crossover or non-crossover during mammalian meiosis},
-author={Baudat, Fr{\'e}d{\'e}ric and de Massy, Bernard},
-journal={Chromosome research}, volume={15}, number={5},
-pages={565--577}, year={2007} }
-
-@article{Becker2006, title={Detection of a tandem BRCT in Nbs1 and Xrs2
-with functional implications in the DNA damage response},
-author={Becker, Emmanuelle and Meyer, Vincent and Madaoui, Hocine and
-Guerois, Rapha{\"e}l}, journal={Bioinformatics}, volume={22},
-number={11}, pages={1289--1292}, year={2006} }
-
-@article{Begun1992, title={Levels of naturally occurring DNA
-polymorphism correlate with recombination rates in D. melanogaster},
-author={Begun, David J and Aquadro, Charles F}, journal={Nature},
-volume={356}, number={6369}, pages={519}, year={1992} }
-
-@article{Bergerat1997, title={An atypical topoisomerase II from Archaea
-with implications for meiotic recombination}, author={Bergerat, Agnes
-and de Massy, Bernard and Gadelle, Danielle and Varoutas,
-Paul-Christophe and Nicolas, Alain and Forterre, Patrick},
-journal={Nature}, volume={386}, number={6623}, pages={414}, year={1997}
-}
-
-@article{Besenbacher2016, title={Multi-nucleotide de novo mutations in
-humans}, author={Besenbacher, S{\o}ren and Sulem, Patrick and Helgason,
-Agnar and Helgason, Hannes and Kristjansson, Helgi and Jonasdottir,
-Aslaug and Jonasdottir, Adalbjorg and Magnusson, Olafur Th and
-Thorsteinsdottir, Unnur and Masson, Gisli and others}, journal={PLoS
-genetics}, volume={12}, number={11}, pages={e1006315}, year={2016} }
-
-@article{Bishop1999, title={High copy number suppression of the meiotic
-arrest caused by a dmc1 mutation: REC114 imposes an early recombination
-block and RAD54 promotes a DMC1-independent DSB repair pathway},
-author={Bishop, Douglas K and Nikolski, Yuri and Oshiro, June and Chon,
-Jason and Shinohara, Miki and Chen, Xi}, journal={Genes to Cells},
-volume={4}, number={8}, pages={425--444}, year={1999} }
-
-@article{Bisig2012, title={Synaptonemal complex components persist at
-centromeres and are required for homologous centromere pairing in mouse
-spermatocytes}, author={Bisig, C Gaston and Guiraldelli, Michel F and
-Kouznetsova, Anna and Scherthan, Harry and H{\"o}{\"o}g, Christer and
-Dawson, Dean S and Pezza, Roberto J}, journal={PLoS genetics},
-volume={8}, number={6}, pages={e1002701}, year={2012} }
-
-@article{Blanton2005, title={REC, Drosophila MCM8, drives formation of
-meiotic crossovers}, author={Blanton, Hunter L and Radford, Sarah J and
-McMahan, Susan and Kearney, Hutton M and Ibrahim, Joseph G and Sekelsky,
-Jeff}, journal={PLoS genetics}, volume={1}, number={3}, pages={e40},
-year={2005} }
-
-@article{Bolcun-Filas2012, title={Genetics of meiosis and recombination
-in mice}, author={Bolcun-Filas, Ewelina and Schimenti, John C},
-journal={International review of cell and molecular biology},
-volume={298}, pages={179--227}, year={2012} }
-
-@article{Brand2018, title={Molecular evolution at a meiosis gene
-mediates species differences in the rate and patterning of
-recombination}, author={Brand, Cara L and Cattani, M Victoria and
-Kingan, Sarah B and Landeen, Emily L and Presgraves, Daven C},
-journal={Current Biology}, volume={28}, number={8}, pages={1289--1295},
-year={2018} }
-
-@article{Brawand2011, title={The evolution of gene expression levels in
-mammalian organs}, author={Brawand, David and Soumillon, Magali and
-Necsulea, Anamaria and Julien, Philippe and Cs{\'a}rdi, G{\'a}bor and
-Harrigan, Patrick and Weier, Manuela and Liechti, Ang{\'e}lica and
-Aximu-Petri, Ayinuer and Kircher, Martin and others}, journal={Nature},
-volume={478}, number={7369}, pages={343}, year={2011} }
-
-@article{Brick2012, title={Genetic recombination is directed away from
-functional genomic elements in mice}, author={Brick, Kevin and
-Smagulova, Fatima and Khil, Pavel and Camerini-Otero, R Daniel and
-Petukhova, Galina V}, journal={Nature}, volume={485}, number={7400},
-pages={642}, year={2012} }
-
-@article{Broman1998, title={Comprehensive human genetic maps: individual
-and sex-specific variation in recombination}, author={Broman, Karl W and
-Murray, Jeffrey C and Sheffield, Val C and White, Raymond L and Weber,
-James L}, journal={The American Journal of Human Genetics}, volume={63},
-number={3}, pages={861--869}, year={1998} }
-
-@article{Brown2014, title={DNA strand exchange and RecA homologs in
-meiosis}, author={Brown, M Scott and Bishop, Douglas K}, journal={Cold
-Spring Harbor perspectives in biology}, pages={a016659}, year={2014} }
-
-@article{Bullard1996, title={Double strand breaks at the HIS2
-recombination hot spot in Saccharomyces cerevisiae}, author={Bullard,
-Steven A and Kim, Sangkyu and Galbraith, Anne M and Malone, Robert E},
-journal={Proceedings of the National Academy of Sciences}, volume={93},
-number={23}, pages={13054--13059}, year={1996} }
-
-@article{Burt1987, title={Red queen versus tangled bank models},
-author={Burt, Austin and Bell, Graham}, journal={Nature}, volume={330},
-number={6144}, pages={118}, year={1987} }
-
-@article{Cao1990, title={A pathway for generation and processing of
-double-strand breaks during meiotic recombination in S. cerevisiae},
-author={Cao, Liang and Alani, Eric and Kleckner, Nancy}, journal={Cell},
-volume={61}, number={6}, pages={1089--1101}, year={1990} }
-
-@article{Carelli2016, title={The life history of retrocopies illuminates
-the evolution of new mammalian genes}, author={Carelli, Francesco Nicola
-and Hayakawa, Takashi and Go, Yasuhiro and Imai, Hiroo and Warnefors,
-Maria and Kaessmann, Henrik}, journal={Genome research},
-pages={gr--198473}, year={2016} }
-
-@article{Carney1998, title={The hMre11/hRad50 protein complex and
-Nijmegen breakage syndrome: linkage of double-strand break repair to the
-cellular DNA damage response}, author={Carney, James P and Maser,
-Richard S and Olivares, Heidi and Davis, Elizabeth M and Le Beau,
-Michelle and Yates, John R and Hays, Lara and Morgan, William F and
-Petrini, John HJ}, journal={Cell}, volume={93}, number={3},
-pages={477--486}, year={1998} }
-
-@article{Casey2015, title={Identification and characterisation of
-synaptonemal complex genes in monotremes}, author={Casey, Aaron E and
-Daish, Tasman J and Grutzner, Frank}, journal={Gene}, volume={567},
-number={2}, pages={146--153}, year={2015} }
-
-@article{Chahwan2003, title={The fission yeast Rad32 (Mre11)-Rad50-Nbs1
-complex is required for the S-phase DNA damage checkpoint},
-author={Chahwan, Charly and Nakamura, Toru M and Sivakumar, Sasirekha
-and Russell, Paul and Rhind, Nicholas}, journal={Molecular and cellular
-biology}, volume={23}, number={18}, pages={6564--6573}, year={2003} }
-
-@article{Charlesworth1993, title={The effect of deleterious mutations on
-neutral molecular variation.}, author={Charlesworth, Brian and Morgan,
-MT and Charlesworth, Deborah}, journal={Genetics}, volume={134},
-number={4}, pages={1289--1303}, year={1993} }
-
-@article{Charlesworth1994, title={The distribution of transposable
-elements within and between chromosomes in a population of Drosophila
-melanogaster. III. Element abundances in heterochromatin},
-author={Charlesworth, Brian and Jarne, Philippe and Assimacopoulos,
-Stavroula}, journal={Genetics Research}, volume={64}, number={3},
-pages={183--197}, year={1994} }
-
-@article{Chen2017, title={Phylogenomic resolution of the phylogeny of
-laurasiatherian mammals: Exploring phylogenetic signals within coding
-and noncoding sequences}, author={Chen, Meng-Yun and Liang, Dan and
-Zhang, Peng}, journal={Genome biology and evolution}, volume={9},
-number={8}, pages={1998--2012}, year={2017} }
-
-@article{Chowdhury2009, title={Genetic analysis of variation in human
-meiotic recombination}, author={Chowdhury, Reshmi and Bois, Philippe RJ
-and Feingold, Eleanor and Sherman, Stephanie L and Cheung, Vivian G},
-journal={PLoS genetics}, volume={5}, number={9}, pages={e1000648},
-year={2009} }
-
-@article{Clark2012, title={Evolutionary rate covariation reveals shared
-functionality and coexpression of genes}, author={Clark, Nathan L and
-Alani, Eric and Aquadro, Charles F}, journal={Genome research},
-year={2012} }
-
-@article{Clark2013, title={Evolutionary rate covariation in meiotic
-proteins results from fluctuating evolutionary pressure in yeasts and
-mammals}, author={Clark, Nathan L and Alani, Eric and Aquadro, Charles
-F}, journal={Genetics}, volume={193}, number={2}, pages={529--538},
-year={2013} }
-
-@article{Cloud2012, title={Rad51 is an accessory factor for
-Dmc1-mediated joint molecule formation during meiosis}, author={Cloud,
-Veronica and Chan, Yuen-Ling and Grubb, Jennifer and Budke, Brian and
-Bishop, Douglas K}, journal={Science}, volume={337}, number={6099},
-pages={1222--1225}, year={2012}, publisher={American Association for the
-Advancement of Science} }
-
-@article{Coleman2013, title={Analysis of unannotated equine transcripts
-identified by mRNA sequencing}, author={Coleman, Stephen J and Zeng,
-Zheng and Hestand, Matthew S and Liu, Jinze and Macleod, James N},
-journal={PLoS One}, volume={8}, number={7}, pages={e70125}, year={2013}
-}
-
-@article{Comeron1999, title={Natural selection on synonymous sites is
-correlated with gene length and recombination in Drosophila},
-author={Comeron, Josep M and Kreitman, Martin and Aguad{\'e},
-Montserrat}, journal={Genetics}, volume={151}, number={1},
-pages={239--249}, year={1999} }
-
-@article{Comeron2012, title={The many landscapes of recombination in
-Drosophila melanogaster}, author={Comeron, Josep M and Ratnappan, Ramesh
-and Bailin, Samuel}, journal={PLoS genetics}, volume={8}, number={10},
-pages={e1002905}, year={2012} }
-
-@article{Cortez2014, title={Origins and functional evolution of Y
-chromosomes across mammals}, author={Cortez, Diego and Marin, Ray and
-Toledo-Flores, Deborah and Froidevaux, Laure and Liechti, Angelica and
-Waters, Paul D and Gruetzner, Frank and Kaessmann, Henrik},
-journal={Nature}, volume={508}, number={7497}, pages={488}, year={2014}
-}
-
-@article{Coop2007, title={An evolutionary view of human recombination},
-author={Coop, Graham and Przeworski, Molly}, journal={Nature Reviews
-Genetics}, volume={8}, number={1}, pages={23}, year={2007} }
-
-@article{Costa2005, title={Two novel proteins recruited by synaptonemal
-complex protein 1 (SYCP1) are at the centre of meiosis}, author={Costa,
-Yael and Speed, Robert and {\"O}llinger, Rupert and Alsheimer, Manfred
-and Semple, Colin A and Gautier, Philippe and Maratou, Klio and Novak,
-Ivana and H{\"o}{\"o}g, Christer and Benavente, Ricardo and others},
-journal={Journal of cell science}, volume={118}, number={12},
-pages={2755--2762}, year={2005} }
-
-@article{Daniel2011, title={Meiotic homologue alignment and its quality
-surveillance are controlled by mouse HORMAD1}, author={Daniel, Katrin
-and Lange, Julian and Hached, Khaled and Fu, Jun and Anastassiadis,
-Konstantinos and Roig, Ignasi and Cooke, Howard J and Stewart, A Francis
-and Wassmann, Katja and Jasin, Maria and others}, journal={Nature cell
-biology}, volume={13}, number={5}, pages={599}, year={2011} }
-
-@article{Dapper2017, title={Connecting theory and data to understand
-recombination rate evolution}, author={Dapper, Amy L and Payseur, Bret
-A}, journal={Phil. Trans. R. Soc. B}, volume={372}, number={1736},
-pages={20160469}, year={2017} }
-
-@article{Davies2012, title={Structural analysis of the human
-SYCE2--TEX12 complex provides molecular insights into synaptonemal
-complex assembly}, author={Davies, Owen R and Maman, Joseph D and
-Pellegrini, Luca}, journal={Open biology}, volume={2}, number={7},
-pages={120099}, year={2012}, publisher={Royal Society Journals} }
-
-@article{deBoer2006, title={The diverse roles of transverse filaments of
-synaptonemal complexes in meiosis}, author={de Boer, Esther and Heyting,
-Christa}, journal={Chromosoma}, volume={115}, number={3},
-pages={220--234}, year={2006} }
-
-@article{DelosSantos2003, title={The Mus81/Mms4 endonuclease acts
-independently of double-Holliday junction resolution to promote a
-distinct subset of crossovers during meiosis in budding yeast},
-author={De los Santos, Teresa and Hunter, Neil and Lee, Cindy and
-Larkin, Brittany and Loidl, Josef and Hollingsworth, Nancy M},
-journal={Genetics}, volume={164}, number={1}, pages={81--94},
-year={2003} }
-
-@article{deMassy2013, title={Initiation of meiotic recombination: how
-and where? Conservation and specificities among eukaryotes}, author={de
-Massy, Bernard}, journal={Annual review of genetics}, volume={47},
-pages={563--599}, year={2013} }
-
-@article{Derti2012, title={A quantitative atlas of polyadenylation in
-five mammals}, author={Derti, Adnan and Garrett-Engele, Philip and
-MacIsaac, Kenzie D and Stevens, Richard C and Sriram, Shreedharan and
-Chen, Ronghua and Rohl, Carol A and Johnson, Jason M and Babak, Tomas},
-journal={Genome research}, pages={gr--132563}, year={2012} }
-
-@article{Deveaux1994, title={Region-specific activators of meiotic
-recombination in Schizosaccharomyces pombe.}, author={DeVeaux, Linda C
-and Smith, Gerald R}, journal={Genes & Development}, volume={8},
-number={2}, pages={203--210}, year={1994} }
-
-@article{deVries1999, title={Mouse MutS-like protein Msh5 is required
-for proper chromosome synapsis in male and female meiosis}, author={de
-Vries, Sandra S and Baart, Esther B and Dekker, Marleen and Siezen,
-Ariaan and de Rooij, Dirk G and de Boer, Peter and te Riele, Hein},
-journal={Genes & Development}, volume={13}, number={5},
-pages={523--531}, year={1999} }
-
-@article{deVries2005, title={Mouse Sycp1 functions in synaptonemal
-complex assembly, meiotic recombination, and XY body formation},
-author={de Vries, Femke AT and de Boer, Esther and van den Bosch, Mike
-and Baarends, Willy M and Ooms, Marja and Yuan, Li and Liu, Jian-Guo and
-van Zeeland, Albert A and Heyting, Christa and Pastink, Albert},
-journal={Genes & development}, volume={19}, number={11},
-pages={1376--1389}, year={2005} }
-
-@article{Dumont2010, title={Evolution of the genomic recombination rate
-in murid rodents}, author={Dumont, Beth L and Payseur, Bret A},
-journal={Genetics}, year={2010} }
-
-@article{Dumont2011A, title={Genetic analysis of genome-scale
-recombination rate evolution in house mice}, author={Dumont, Beth L and
-Payseur, Bret A}, journal={PLoS genetics}, volume={7}, number={6},
-pages={e1002116}, year={2011} }
-
-@article{Dumont2011B, title={Extensive recombination rate variation in
-the house mouse species complex inferred from genetic linkage maps},
-author={Dumont, Beth L and White, Michael A and Steffy, Brian and
-Wiltshire, Tim and Payseur, Bret A}, journal={Genome research},
-volume={21}, number={1}, pages={114--125}, year={2011} }
-
-@article{Duret2008, title={The impact of recombination on nucleotide
-substitutions in the human genome}, author={Duret, Laurent and Arndt,
-Peter F}, journal={PLoS genetics}, volume={4}, number={5},
-pages={e1000071}, year={2008} }
-
-@article{Durocher2002, title={The FHA domain}, author={Durocher, Daniel
-and Jackson, Stephen P}, journal={FEBS letters}, volume={513},
-number={1}, pages={58--66}, year={2002} }
-
-@article{Edelmann1996, title={Meiotic pachytene arrest in MLH1-deficient
-mice}, author={Edelmann, Winfried and Cohen, Paula E and Kane, Michael
-and Lau, Kirkland and Morrow, Bernice and Bennett, Samuel and Umar, Asad
-and Kunkel, Thomas and Cattoretti, Giorgio and Chaganti, Raju and
-others}, journal={Cell}, volume={85}, number={7}, pages={1125--1134},
-year={1996} }
-
-@article{Edelmann1999, title={Mammalian MutS homologue 5 is required for
-chromosome pairing in meiosis}, author={Edelmann, Winfried and Cohen,
-Paula E and Kneitz, Burkhard and Winand, Nena and Lia, Marie and Heyer,
-Joerg and Kolodner, Richard and Pollard, Jeffrey W and Kucherlapati,
-Raju}, journal={Nature genetics}, volume={21}, number={1}, pages={123},
-year={1999} }
-
-@article{Edgar2004, title={MUSCLE: multiple sequence alignment with high
-accuracy and high throughput}, author={Edgar, Robert C},
-journal={Nucleic acids research}, volume={32}, number={5},
-pages={1792--1797}, year={2004} }
-
-@article{Ellermeier2005, title={Cohesins are required for meiotic DNA
-breakage and recombination in Schizosaccharomyces pombe},
-author={Ellermeier, Chad and Smith, Gerald R}, journal={Proceedings of
-the National Academy of Sciences}, volume={102}, number={31},
-pages={10952--10957}, year={2005} }
-
-@article{Esposito1969, title={The genetic control of sporulation in
-Saccharomyces I. The isolation of temperature-sensitive
-sporulation-deficient mutants}, author={Esposito, Michael S and
-Esposito, Rochelle E}, journal={Genetics}, volume={61}, number={1},
-pages={79}, year={1969} }
-
-@article{Fan2013, title={Genome of the Chinese tree shrew}, author={Fan,
-Yu and Huang, Zhi-Yong and Cao, Chang-Chang and Chen, Ce-Shi and Chen,
-Yuan-Xin and Fan, Ding-Ding and He, Jing and Hou, Hao-Long and Hu, Li
-and Hu, Xin-Tian and others}, journal={Nature communications},
-volume={4}, pages={1426}, year={2013} }
-
-@article{Felsenstein1974, title={The evolutionary advantage of
-recombination}, author={Felsenstein, Joseph}, journal={Genetics},
-volume={78}, number={2}, pages={737--756}, year={1974} }
-
-@article{Finsterbusch2016, title={Alignment of homologous chromosomes
-and effective repair of programmed DNA double-strand breaks during mouse
-meiosis require the minichromosome maintenance domain containing 2
-(MCMDC2) protein}, author={Finsterbusch, Friederike and Ravindranathan,
-Ramya and Dereli, Ihsan and Stanzione, Marcello and Tr{\"a}nkner, Daniel
-and T{\'o}th, Attila}, journal={PLoS genetics}, volume={12},
-number={10}, pages={e1006393}, year={2016} }
-
-@article{Fledel-Alon2011, title={Variation in human recombination rates
-and its genetic determinants}, author={Fledel-Alon, Adi and Leffler,
-Ellen Miranda and Guan, Yongtao and Stephens, Matthew and Coop, Graham
-and Przeworski, Molly}, journal={PloS one}, volume={6}, number={6},
-pages={e20321}, year={2011} }
-
-@article{Fraune2013, title={Phylogenies of central element proteins
-reveal the dynamic evolutionary history of the mammalian synaptonemal
-complex: ancient and recent components}, author={Fraune, Johanna and
-Brochier-Armanet, C{\'e}line and Alsheimer, Manfred and Benavente,
-Ricardo}, journal={Genetics}, volume={195}, number={3},
-pages={781--793}, year={2013} }
-
-@article{Fraune2014, title={Protein SYCP2 is an ancient component of the
-metazoan synaptonemal complex}, author={Fraune, Johanna and Alsheimer,
-Manfred and Redolfi, Josef and Brochier-Armanet, C{\'e}line and
-Benavente, Ricardo}, journal={Cytogenetic and genome research},
-volume={144}, number={4}, pages={299--305}, year={2014} }
-
-@article{Fukuda2010, title={A novel mammalian HORMA domain-containing
-protein, HORMAD1, preferentially associates with unsynapsed meiotic
-chromosomes}, author={Fukuda, Tomoyuki and Daniel, Katrin and Wojtasz,
-Lukasz and Toth, Attila and H{\"o}{\"o}g, Christer},
-journal={Experimental cell research}, volume={316}, number={2},
-pages={158--171}, year={2010} }
-
-@article{Gadelle2003, title={Phylogenomics of type II DNA
-topoisomerases}, author={Gadelle, Dani{\`e}le and Fil{\'e}e, Jonathan
-and Buhler, Cyril and Forterre, Patrick}, journal={Bioessays},
-volume={25}, number={3}, pages={232--242}, year={2003} }
-
-@article{Glover2004, title={Interactions between BRCT repeats and
-phosphoproteins: tangled up in two}, author={Glover, JN Mark and
-Williams, R Scott and Lee, Megan S}, journal={Trends in biochemical
-sciences}, volume={29}, number={11}, pages={579--585}, year={2004} }
-
-@article{Gomez2016, title={Sororin loads to the synaptonemal complex
-central region independently of meiotic cohesin complexes},
-author={G{\'o}mez, Roc{\'\i}o and Felipe-Medina, Natalia and
-Ruiz-Torres, Miguel and Berenguer, In{\'e}s and Viera, Alberto and
-P{\'e}rez, Sara and Barbero, Jos{\'e} Luis and Llano, Elena and Fukuda,
-Tomoyuki and Alsheimer, Manfred and others}, journal={EMBO reports},
-pages={e201541060}, year={2016} }
-
-@article{Gonen2017, title={The potential of shifting recombination
-hotspots to increase genetic gain in livestock breeding}, author={Gonen,
-Serap and Battagin, Mara and Johnston, Susan E and Gorjanc, Gregor and
-Hickey, John M}, journal={Genetics Selection Evolution}, volume={49},
-number={1}, pages={55}, year={2017} }
-
-@article{Gradnigo2016, title={Advantages of an Improved Rhesus Macaque
-Genome for Evolutionary Analyses}, author={Gradnigo, Julien S and
-Majumdar, Abhishek and Norgren Jr, Robert B and Moriyama, Etsuko N},
-journal={PloS one}, volume={11}, number={12}, pages={e0167376},
-year={2016} }
-
-@article{Grey2011, title={Mouse PRDM9 DNA-binding specificity determines
-sites of histone H3 lysine 4 trimethylation for initiation of meiotic
-recombination}, author={Grey, Corinne and Barth{\`e}s, Pauline and
-Chauveau-Le Friec, Ga{\"e}lle and Langa, Francina and Baudat,
-Fr{\'e}d{\'e}ric and De Massy, Bernard}, journal={PLoS biology},
-volume={9}, number={10}, pages={e1001176}, year={2011} }
-
-@article{Grey2018, title={PRDM9, a driver of the genetic map},
-author={Grey, Corinne and Baudat, Fr{\'e}d{\'e}ric and de Massy,
-Bernard}, journal={PLoS genetics}, volume={14}, number={8},
-pages={e1007479}, year={2018} }
-
-@article{Guan2017, title={Functional changes in mRNA expression and
-alternative pre-mRNA splicing associated with the effects of nutrition
-on apoptosis and spermatogenesis in the adult testis}, author={Guan,
-Yongjuan and Liang, Guanxiang and Martin, Graeme B and others},
-journal={BMC genomics}, volume={18}, number={1}, pages={64}, year={2017}
-}
-
-@article{Guiraldelli2018, title={SHOC1 is a ERCC4-(HhH) 2-like protein,
-integral to the formation of crossover recombination intermediates
-during mammalian meiosis}, author={Guiraldelli, Michel F and Felberg,
-Anna and Almeida, Luciana P and Parikh, Aniruddha and de Castro, Rodrigo
-O and Pezza, Roberto J}, journal={PLoS genetics}, volume={14},
-number={5}, pages={e1007381}, year={2018} }
-
-@article{Hamer2006, title={Characterization of a novel meiosis-specific
-protein within the central element of the synaptonemal complex},
-author={Hamer, Geert and Gell, Katarina and Kouznetsova, Anna and Novak,
-Ivana and Benavente, Ricardo and H{\"o}{\"o}g, Christer},
-journal={Journal of cell science}, volume={119}, number={19},
-pages={4025--4032}, year={2006} }
-
-@article{Hamer2008, title={Progression of meiotic recombination requires
-structural maturation of the central element of the synaptonemal
-complex}, author={Hamer, Geert and Wang, Hong and Bolcun-Filas, Ewelina
-and Cooke, Howard J and Benavente, Ricardo and H{\"o}{\"o}g, Christer},
-journal={Journal of cell science}, volume={121}, number={15},
-pages={2445--2451}, year={2008} }
-
-@article{Hassold2001, title={To err (meiotically) is human: the genesis
-of human aneuploidy}, author={Hassold, Terry and Hunt, Patricia},
-journal={Nature Reviews Genetics}, volume={2}, number={4}, pages={280},
-year={2001} }
-
-@article{Hays2017, title={Spermatogenesis associated 22 is required for
-DNA repair and synapsis of homologous chromosomes in mouse germ cells},
-author={Hays, Emily and Majchrzak, Nicole and Daniel, Vinita and
-Ferguson, Zachary and Brown, Stephanie and Hathorne, Kevin and La Salle,
-Sophie}, journal={Andrology}, volume={5}, number={2}, pages={299--312},
-year={2017} }
-
-@article{Hernandez2016, title={The central element of the synaptonemal
-complex in mice is organized as a bilayered junction structure},
-author={Hern{\'a}ndez-Hern{\'a}ndez, Abrahan and Masich, Sergej and
-Fukuda, Tomoyuki and Kouznetsova, Anna and Sandin, Sara and Daneholt,
-Bertil and H{\"o}{\"o}g, Christer}, journal={J Cell Sci}, volume={129},
-number={11}, pages={2239--2249}, year={2016} }
-
-@article{Heyting1989, title={Synaptonemal complex proteins},
-author={Heyting, C and Dietrich, AJJ and Moens, PB and Dettmers, RJ and
-Offenberg, HH and Redeker, EJW and Vink, ACG}, journal={Genome},
-volume={31}, number={1}, pages={81--87}, year={1989}, }
-
-@article{Hill1966, title={The effect of linkage on limits to artificial
-selection}, author={Hill, William G and Robertson, Alan},
-journal={Genetics Research}, volume={8}, number={3}, pages={269--294},
-year={1966} }
-
-@article{Holloway2008, title={MUS81 generates a subset of
-MLH1-MLH3--independent crossovers in mammalian meiosis},
-author={Holloway, J Kim and Booth, James and Edelmann, Winfried and
-McGowan, Clare H and Cohen, Paula E}, journal={PLoS genetics},
-volume={4}, number={9}, pages={e1000186}, year={2008} }
-
-@article{Holloway2014, title={Mammalian CNTD1 is critical for meiotic
-crossover maturation and deselection of excess precrossover sites},
-author={Holloway, J Kim and Sun, Xianfei and Yokoo, Rayka and
-Villeneuve, Anne M and Cohen, Paula E}, journal={J Cell Biol},
-volume={205}, number={5}, pages={633--641}, year={2014} }
-
-@article{Hopfner2002, title={The Rad50 zinc-hook is a structure joining
-Mre11 complexes in DNA recombination and repair}, author={Hopfner,
-Karl-Peter and Craig, Lisa and Moncalian, Gabriel and Zinkel, Robert A
-and Usui, Takehiko and Owen, Barbara AL and Karcher, Annette and
-Henderson, Brendan and Bodmer, Jean-Luc and McMurray, Cynthia T and
-others}, journal={Nature}, volume={418}, number={6897}, pages={562},
-year={2002} }
-
-@incollection{Hopfner2005, title={Structure and function of Rad50/SMC
-protein complexes in chromosome biology}, author={Hopfner, Karl-Peter},
-booktitle={Genome Integrity}, pages={201--218}, year={2005},
-publisher={Springer} }
-
-@article{Hughes2005, title={Conservation of Y-linked genes during human
-evolution revealed by comparative sequencing in chimpanzee},
-author={Hughes, Jennifer F and Skaletsky, Helen and Pyntikova, Tatyana
-and Minx, Patrick J and Graves, Tina and Rozen, Steve and Wilson,
-Richard K and Page, David C}, journal={Nature}, volume={437},
-number={7055}, pages={100}, year={2005} }
-
-@article{Hunter2015, title={Meiotic recombination: the essence of
-heredity}, author={Hunter, Neil}, journal={Cold Spring Harbor
-perspectives in biology}, pages={a016618}, year={2015} }
-
-@article{Hunter2016, title={The genetic architecture of natural
-variation in recombination rate in Drosophila melanogaster},
-author={Hunter, Chad M and Huang, Wen and Mackay, Trudy FC and Singh,
-Nadia D}, journal={PLoS genetics}, volume={12}, number={4},
-pages={e1005951}, year={2016} }
-
-@article{Ishishita2014, title={Genetic evidence suggests that Spata22 is
-required for the maintenance of Rad51 foci in mammalian meiosis},
-author={Ishishita, Satoshi and Matsuda, Yoichi and Kitada, Kazuhiro},
-journal={Scientific reports}, volume={4}, pages={6148}, year={2014} }
-
-@article{Ivanov1992, title={XRS2, a DNA repair gene of Saccharomyces
-cerevisiae, is needed for meiotic recombination.}, author={Ivanov,
-Evgeny L and Korolev, VG and Fabre, Francis}, journal={Genetics},
-volume={132}, number={3}, pages={651--664}, year={1992},
-publisher={Genetics Soc America} }
-
-@article{Jeffreys2005, title={Human recombination hot spots hidden in
-regions of strong marker association}, author={Jeffreys, Alec J and
-Neumann, Rita and Panayi, Maria and Myers, Simon and Donnelly, Peter},
-journal={Nature genetics}, volume={37}, number={6}, pages={601},
-year={2005} }
-
-@article{Johnston2016, title={Conserved genetic architecture underlying
-individual recombination rate variation in a wild population of Soay
-sheep (Ovis aries)}, author={Johnston, Susan E and B{\'e}r{\'e}nos,
-Camillo and Slate, Jon and Pemberton, Josephine M}, journal={Genetics},
-pages={genetics--115}, year={2016} }
-
-@article{Johnston2018, title={A genomic region containing REC8 and
-RNF212B is associated with individual recombination rate variation in a
-wild population of red deer (Cervus elaphus)}, author={Johnston, Susan E
-and Huisman, Jisca and Pemberton, Josephine M}, journal={G3: Genes,
-Genomes, Genetics}, pages={g3--200063}, year={2018} }
-
-@article{Johzuka1995, title={Interaction of Mre11 and Rad50: two
-proteins required for DNA repair and meiosis-specific double-strand
-break formation in Saccharomyces cerevisiae.}, author={Johzuka, Katsuki
-and Ogawa, Hideyuki}, journal={Genetics}, volume={139}, number={4},
-pages={1521--1532}, year={1995} }
-
-@article{Kadri2016, title={Coding and noncoding variants in HFM1, MLH3,
-MSH4, MSH5, RNF212, and RNF212B affect recombination rate in cattle},
-author={Kadri, Naveen Kumar and Harland, Chad and Faux, Pierre and
-Cambisano, Nadine and Karim, Latifa and Coppieters, Wouter and Fritz,
-S{\'e}bastien and Mullaart, Erik and Baurain, Denis and Boichard, Didier
-and others}, journal={Genome research}, year={2016} }
-
-@article{Keeney1997, title={Meiosis-specific DNA double-strand breaks
-are catalyzed by Spo11, a member of a widely conserved protein family},
-author={Keeney, Scott and Giroux, Craig N and Kleckner, Nancy},
-journal={Cell}, volume={88}, number={3}, pages={375--384}, year={1997} }
-
-@article{Keeney2001, title={Mechanism and control of meiotic
-recombination initiation}, author={Keeney, Scott}, year={2001},
-publisher={Elsevier} }
-
-@incollection{Keeney2007, title={Spo11 and the formation of DNA
-double-strand breaks in meiosis}, author={Keeney, Scott},
-booktitle={Recombination and meiosis}, pages={81--123}, year={2007},
-publisher={Springer} }
-
-@article{Keeney2014, title={Self-organization of meiotic recombination
-initiation: general principles and molecular pathways}, author={Keeney,
-Scott and Lange, Julian and Mohibullah, Neeman}, journal={Annual review
-of genetics}, volume={48}, pages={187--214}, year={2014} }
-
-@article{Kitajima2003, title={Distinct cohesin complexes organize
-meiotic chromosome domains}, author={Kitajima, Tomoya S and Yokobayashi,
-Shihori and Yamamoto, Masayuki and Watanabe, Yoshinori},
-journal={Science}, volume={300}, number={5622}, pages={1152--1155},
-year={2003} }
-
-@article{Klapholz1985, title={The role of the SPO11 gene in meiotic
-recombination in yeast}, author={Klapholz, Sue and Waddell, Candace S
-and Esposito, Rochelle Easton}, journal={Genetics}, volume={110},
-number={2}, pages={187--216}, year={1985} }
-
-@article{Kneitz2000, title={MutS homolog 4 localization to meiotic
-chromosomes is required for chromosome pairing during meiosis in male
-and female mice}, author={Kneitz, Burkhard and Cohen, Paula E and
-Avdievich, Elena and Zhu, Liyin and Kane, Michael F and Hou, Harry and
-Kolodner, Richard D and Kucherlapati, Raju and Pollard, Jeffrey W and
-Edelmann, Winfried}, journal={Genes & Development}, volume={14},
-number={9}, pages={1085--1097}, year={2000}, publisher={Cold Spring
-Harbor Lab} }
-
-@article{Kobayashi2016, title={Chromatin architecture may dictate the
-target site for DMC1, but not for RAD51, during homologous pairing},
-author={Kobayashi, Wataru and Takaku, Motoki and Machida, Shinichi and
-Tachiwana, Hiroaki and Maehara, Kazumitsu and Ohkawa, Yasuyuki and
-Kurumizaka, Hitoshi}, journal={Scientific reports}, volume={6},
-pages={24228}, year={2016} }
-
-@article{Kogo2012, title={HORMAD1-dependent checkpoint/surveillance
-mechanism eliminates asynaptic oocytes}, author={Kogo, Hiroshi and
-Tsutsumi, Makiko and Ohye, Tamae and Inagaki, Hidehito and Abe, Takaya
-and Kurahashi, Hiroki}, journal={Genes to Cells}, volume={17},
-number={6}, pages={439--454}, year={2012} }
-
-@article{Kohl2012, title={Evolution of an MCM complex in flies that
-promotes meiotic crossovers by blocking BLM helicase}, author={Kohl,
-Kathryn P and Jones, Corbin D and Sekelsky, Jeff}, journal={Science},
-volume={338}, number={6112}, pages={1363--1365}, year={2012} }
-
-@article{Kolas2005, title={Localization of MMR proteins on meiotic
-chromosomes in mice indicates distinct functions during prophase I},
-author={Kolas, Nadine K and Svetlanov, Anton and Lenzi, Michelle L and
-Macaluso, Frank P and Lipkin, Steven M and Liskay, R Michael and
-Greally, John and Edelmann, Winfried and Cohen, Paula E}, journal={The
-Journal of cell biology}, volume={171}, number={3}, pages={447--458},
-year={2005} }
-
-@article{Kong2008, title={Sequence variants in the RNF212 gene associate
-with genome-wide recombination rate}, author={Kong, Augustine and
-Thorleifsson, Gudmar and Stefansson, Hreinn and Masson, Gisli and
-Helgason, Agnar and Gudbjartsson, Daniel F and Jonsdottir, Gudrun M and
-Gudjonsson, Sigurjon A and Sverrisson, Sverrir and Thorlacius, Theodora
-and others}, journal={Science}, volume={319}, number={5868},
-pages={1398--1401}, year={2008} }
-
-@article{Kong2010, title={Fine-scale recombination rate differences
-between sexes, populations and individuals}, author={Kong, Augustine and
-Thorleifsson, Gudmar and Gudbjartsson, Daniel F and Masson, Gisli and
-Sigurdsson, Asgeir and Jonasdottir, Aslaug and Walters, G Bragi and
-Jonasdottir, Adalbjorg and Gylfason, Arnaldur and Kristinsson, Kari Th
-and others}, journal={Nature}, volume={467}, number={7319},
-pages={1099}, year={2010} }
-
-@article{Kong2014, title={Common and low-frequency variants associated
-with genome-wide recombination rate}, author={Kong, Augustine and
-Thorleifsson, Gudmar and Frigge, Michael L and Masson, Gisli and
-Gudbjartsson, Daniel F and Villemoes, Rasmus and Magnusdottir, Erna and
-Olafsdottir, Stefania B and Thorsteinsdottir, Unnur and Stefansson,
-Kari}, journal={Nature genetics}, volume={46}, number={1}, pages={11},
-year={2014} }
-
-@article{Krawchuk1999, title={Meiotic chromosome dynamics dependent upon
-the rec8+, rec10+ and rec11+ genes of the fission yeast
-Schizosaccharomyces pombe}, author={Krawchuk, Michelle D and DeVeaux,
-Linda C and Wahls, Wayne P}, journal={Genetics}, volume={153},
-number={1}, pages={57--68}, year={1999} }
-
-@article{Kumar2010, title={Functional conservation of Mei4 for meiotic
-DNA double-strand break formation from yeasts to mice}, author={Kumar,
-Rajeev and Bourbon, Henri-Marc and de Massy, Bernard}, journal={Genes &
-development}, volume={24}, number={12}, pages={1266--1280}, year={2010}
-}
-
-@article{Kumar2015, title={MEI4: a central player in the regulation of
-meiotic DNA double strand break formation in the mouse}, author={Kumar,
-Rajeev and Ghyselinck, Norbert and Ishiguro, Kei-ichiro and Watanabe,
-Yoshinori and Kouznetsova, Anna and H{\"o}{\"o}g, Christer and Strong,
-Edward and Schimenti, John and Daniel, Katrin and Toth, Attila and
-others}, journal={J Cell Sci}, pages={jcs--165464}, year={2015} }
-
-@article{Lange2011, title={ATM controls meiotic double-strand-break
-formation}, author={Lange, Julian and Pan, Jing and Cole, Francesca and
-Thelen, Michael P and Jasin, Maria and Keeney, Scott}, journal={Nature},
-volume={479}, number={7372}, pages={237}, year={2011} }
-
-@article{Lange2016, title={The landscape of mouse meiotic double-strand
-break formation, processing, and repair}, author={Lange, Julian and
-Yamada, Shintaro and Tischfield, Sam E and Pan, Jing and Kim, Seoyoung
-and Zhu, Xuan and Socci, Nicholas D and Jasin, Maria and Keeney, Scott},
-journal={Cell}, volume={167}, number={3}, pages={695--708}, year={2016}
-}
-
-@article{Langmead2012, title={Fast gapped-read alignment with Bowtie 2},
-author={Langmead, Ben and Salzberg, Steven L}, journal={Nature methods},
-volume={9}, number={4}, pages={357}, year={2012} }
-
-@article{LaSalle2012, title={Spata22, a novel vertebrate-specific gene,
-is required for meiotic progress in mouse germ cells}, author={La Salle,
-Sophie and Palmer, Kristina and O'Brien, Marilyn and Schimenti, John C
-and Eppig, John and Handel, Mary Ann}, journal={Biology of
-reproduction}, volume={86}, number={2}, pages={45--1}, year={2012} }
-
-@article{Latrille2017, title={The Red Queen model of recombination
-hot-spot evolution: a theoretical investigation}, author={Latrille,
-Thibault and Duret, Laurent and Lartillot, Nicolas}, journal={Phil.
-Trans. R. Soc. B}, volume={372}, number={1736}, pages={20160463},
-year={2017} }
-
-@article{Leinonen2010, title={The Sequence Read Archive},
-author={Leinonen, Rasko and Sugawara, Hideaki and Shumway, Martin and
-International Nucleotide Sequence Database Collaboration},
-journal={Nucleic acids research}, volume={39}, number={suppl\_1},
-pages={D19--D21}, year={2010} }
-
-@article{Lesecque2014, title={The red queen model of recombination
-hotspots evolution in the light of archaic and modern human genomes},
-author={Lesecque, Yann and Gl{\'e}min, Sylvain and Lartillot, Nicolas
-and Mouchiroud, Dominique and Duret, Laurent}, journal={PLoS genetics},
-volume={10}, number={11}, pages={e1004790}, year={2014} }
-
-@article{Li2009, title={The sequence alignment/map format and SAMtools},
-author={Li, Heng and Handsaker, Bob and Wysoker, Alec and Fennell, Tim
-and Ruan, Jue and Homer, Nils and Marth, Gabor and Abecasis, Goncalo and
-Durbin, Richard}, journal={Bioinformatics}, volume={25}, number={16},
-pages={2078--2079}, year={2009} }
-
-@article{Li2016, title={Genome-wide differential expression of genes and
-small RNAs in testis of two different porcine breeds and at two
-different ages}, author={Li, Yao and Li, Jialian and Fang, Chengchi and
-Shi, Liang and Tan, Jiajian and Xiong, Yuanzhu and Fan, Bin and Li,
-Changchun}, journal={Scientific reports}, volume={6}, pages={26852},
-year={2016} }
-
-@article{Lindblad2005, title={Genome sequence, comparative analysis and
-haplotype structure of the domestic dog}, author={Lindblad-Toh, Kerstin
-and Wade, Claire M and Mikkelsen, Tarjei S and Karlsson, Elinor K and
-Jaffe, David B and Kamal, Michael and Clamp, Michele and Chang, Jean L
-and Kulbokas III, Edward J and Zody, Michael C and others},
-journal={Nature}, volume={438}, number={7069}, pages={803}, year={2005}
-}
-
-@article{Lipkin2002, title={Meiotic arrest and aneuploidy in
-MLH3-deficient mice}, author={Lipkin, Steven M and Moens, Peter B and
-Wang, Victoria and Lenzi, Michelle and Shanmugarajah, Dakshine and
-Gilgeous, Abigail and Thomas, James and Cheng, Jun and Touchman, Jeffrey
-W and Green, Eric D and others}, journal={Nature genetics}, volume={31},
-number={4}, pages={385}, year={2002} }
-
-@article{Locke2011, title={Comparative and demographic analysis of
-orang-utan genomes}, author={Locke, Devin P and Hillier, LaDeana W and
-Warren, Wesley C and Worley, Kim C and Nazareth, Lynne V and Muzny,
-Donna M and Yang, Shiaw-Pyng and Wang, Zhengyuan and Chinwalla, Asif T
-and Minx, Pat and others}, journal={Nature}, volume={469},
-number={7331}, pages={529}, year={2011} }
-
-@article{Luo2013, title={MEIOB exhibits single-stranded DNA-binding and
-exonuclease activities and is essential for meiotic recombination},
-author={Luo, Mengcheng and Yang, Fang and Leu, N Adrian and Landaiche,
-Jessica and Handel, Mary Ann and Benavente, Ricardo and La Salle, Sophie
-and Wang, P Jeremy}, journal={Nature communications}, volume={4},
-pages={2788}, year={2013} }
-
-@article{Ma2015, title={Cattle sex-specific recombination and genetic
-control from a large pedigree analysis}, author={Ma, Li and O'Connell,
-Jeffrey R and VanRaden, Paul M and Shen, Botong and Padhi, Abinash and
-Sun, Chuanyu and Bickhart, Derek M and Cole, John B and Null, Daniel J
-and Liu, George E and others}, journal={PLoS genetics}, volume={11},
-number={11}, pages={e1005387}, year={2015} }
-
-@article{Maiorano2006, title={MCM proteins and DNA replication},
-author={Maiorano, Domenico and Lutzmann, Malik and M{\'e}chali, Marcel},
-journal={Current opinion in cell biology}, volume={18}, number={2},
-pages={130--136}, year={2006} }
-
-@article{Merkin2012, title={Evolutionary dynamics of gene and isoform
-regulation in Mammalian tissues}, author={Merkin, Jason and Russell,
-Caitlin and Chen, Ping and Burge, Christopher B}, journal={Science},
-volume={338}, number={6114}, pages={1593--1599}, year={2012} }
-
-@article{Menees1992, title={MEI4, a meiosis-specific yeast gene required
-for chromosome synapsis.}, author={Menees, THOMAS M and Ross-MacDonald,
-PB and Roeder, G SHIRLEEN}, journal={Molecular and cellular biology},
-volume={12}, number={3}, pages={1340--1351}, year={1992} }
-
-@article{Meuwissen1992, title={A coiled-coil related protein specific
-for synapsed regions of meiotic prophase chromosomes.},
-author={Meuwissen, RL and Offenberg, Hildo H and Dietrich, AJ and
-Riesewijk, Anne and van Iersel, Martijn and Heyting, Christa},
-journal={The EMBO Journal}, volume={11}, number={13}, pages={5091},
-year={1992} }
-
-@article{Murdoch2010, title={Multiple loci contribute to genome-wide
-recombination levels in male mice}, author={Murdoch, Brenda and Owen,
-Nichole and Shirley, Sofia and Crumb, Sara and Broman, Karl W and
-Hassold, Terry}, journal={Mammalian genome}, volume={21},
-number={11-12}, pages={550--555}, year={2010} }
-
-@article{Myers2010, title={Drive against hotspot motifs in primates
-implicates the PRDM9 gene in meiotic recombination}, author={Myers,
-Simon and Bowden, Rory and Tumian, Afidalina and Bontrop, Ronald E and
-Freeman, Colin and MacFie, Tammie S and McVean, Gil and Donnelly,
-Peter}, journal={Science}, volume={327}, number={5967},
-pages={876--879}, year={2010} }
-
-@article{Oh2016, title={Xrs2 dependent and independent functions of the
-Mre11-Rad50 complex}, author={Oh, Julyun and Al-Zain, Amr and Cannavo,
-Elda and Cejka, Petr and Symington, Lorraine S}, journal={Molecular
-cell}, volume={64}, number={2}, pages={405--415}, year={2016} }
-
-@article{OLeary2015, title={Reference sequence (RefSeq) database at
-NCBI: current status, taxonomic expansion, and functional annotation},
-author={O'Leary, Nuala A and Wright, Mathew W and Brister, J Rodney and
-Ciufo, Stacy and Haddad, Diana and McVeigh, Rich and Rajput, Bhanu and
-Robbertse, Barbara and Smith-White, Brian and Ako-Adjei, Danso and
-others}, journal={Nucleic acids research}, volume={44}, number={D1},
-pages={D733--D745}, year={2015} }
-
-@article{Oliver2009, title={Accelerated evolution of the Prdm9
-speciation gene across diverse metazoan taxa}, author={Oliver, Peter L
-and Goodstadt, Leo and Bayes, Joshua J and Birtle, Zo{\"e} and Roach,
-Kevin C and Phadnis, Nitin and Beatson, Scott A and Lunter, Gerton and
-Malik, Harmit S and Ponting, Chris P}, journal={PLoS genetics},
-volume={5}, number={12}, pages={e1000753}, year={2009} }
-
-@article{Ollinger2005, title={Mammalian protein SCP1 forms synaptonemal
-complex-like structures in the absence of meiotic chromosomes},
-author={{\"O}llinger, Rupert and Alsheimer, Manfred and Benavente,
-Ricardo}, journal={Molecular biology of the cell}, volume={16},
-number={1}, pages={212--217}, year={2005} }
-
-@article{Page2004, title={The genetics and molecular biology of the
-synaptonemal complex}, author={Page, Scott L and Hawley, R Scott},
-journal={Annu. Rev. Cell Dev. Biol.}, volume={20}, pages={525--558},
-year={2004} }
-
-@article{Paigen2018, title={PRDM9 and Its Role in Genetic
-Recombination}, author={Paigen, Kenneth and Petkov, Petko M},
-journal={Trends in Genetics}, year={2018} }
-
-@article{Pamilo1988, title={Relationships between gene trees and species
-trees.}, author={Pamilo, Pekka and Nei, Masatoshi}, journal={Molecular
-biology and evolution}, volume={5}, number={5}, pages={568--583},
-year={1988} }
-
-@article{Pan2008, title={Deep surveying of alternative splicing
-complexity in the human transcriptome by high-throughput sequencing},
-author={Pan, Qun and Shai, Ofer and Lee, Leo J and Frey, Brendan J and
-Blencowe, Benjamin J}, journal={Nature genetics}, volume={40},
-number={12}, pages={1413}, year={2008} }
-
-@article{Parisi1999, title={Rec8p, a meiotic recombination and sister
-chromatid cohesion phosphoprotein of the Rad21p family conserved from
-fission yeast to humans}, author={Parisi, Sandro and McKay, Michael J
-and Molnar, Monika and Thompson, M Anne and Van Der Spek, Peter J and
-van Drunen-Schoenmaker, Ellen and Kanaar, Roland and Lehmann, Elisabeth
-and Hoeijmakers, Jan HJ and Kohli, J{\"u}rg}, journal={Molecular and
-cellular biology}, volume={19}, number={5}, pages={3515--3528},
-year={1999} }
-
-@article{Parvanov2010, title={Prdm9 controls activation of mammalian
-recombination hotspots}, author={Parvanov, Emil D and Petkov, Petko M
-and Paigen, Kenneth}, journal={Science}, volume={327}, number={5967},
-pages={835--835}, year={2010} }
-
-@article{Parvanov2017, title={PRDM9 interactions with other proteins
-provide a link between recombination hotspots and the chromosomal axis
-in meiosis}, author={Parvanov, Emil D and Tian, Hui and Billings,
-Timothy and Saxl, Ruth L and Spruce, Catrina and Aithal, Rakesh and
-Krejci, Lumir and Paigen, Kenneth and Petkov, Petko M},
-journal={Molecular biology of the cell}, volume={28}, number={3},
-pages={488--499}, year={2017} }
-
-@article{Perelman2011, title={A molecular phylogeny of living primates},
-author={Perelman, Polina and Johnson, Warren E and Roos, Christian and
-Seu{\'a}nez, Hector N and Horvath, Julie E and Moreira, Miguel AM and
-Kessing, Bailey and Pontius, Joan and Roelke, Melody and Rumpler, Yves
-and others}, journal={PLoS genetics}, volume={7}, number={3},
-pages={e1001342}, year={2011} }
-
-@article{Petit2017, title={Variation in recombination rate and its
-genetic determinism in sheep populations}, author={Petit, Morgane and
-Astruc, Jean-Michel and Sarry, Julien and Drouilhet, Laurence and Fabre,
-St{\'e}phane and Moreno, Carole and Servin, Bertrand},
-journal={Genetics}, pages={genetics--300123}, year={2017} }
-
-@article{Petronczki2003, title={Un menage a quatre: the molecular
-biology of chromosome segregation in meiosis}, author={Petronczki, Mark
-and Siomos, Maria F and Nasmyth, Kim}, journal={Cell}, volume={112},
-number={4}, pages={423--440}, year={2003} }
-
-@article{Prasad2008, title={Confirming the phylogeny of mammals by use
-of large comparative sequence data sets}, author={Prasad, Arjun B and
-Allard, Marc W and NISC Comparative Sequencing Program and Green, Eric
-D}, journal={Molecular Biology and Evolution}, volume={25}, number={9},
-pages={1795--1808}, year={2008} }
-
-@article{Priedigkeit2015, title={Evolutionary signatures amongst disease
-genes permit novel methods for gene prioritization and construction of
-informative gene-based networks}, author={Priedigkeit, Nolan and Wolfe,
-Nicholas and Clark, Nathan L}, journal={PLoS genetics}, volume={11},
-number={2}, pages={e1004967}, year={2015} }
-
-@article{Prufer2012, title={The bonobo genome compared with the
-chimpanzee and human genomes}, author={Pr{\"u}fer, Kay and Munch, Kasper
-and Hellmann, Ines and Akagi, Keiko and Miller, Jason R and Walenz,
-Brian and Koren, Sergey and Sutton, Granger and Kodira, Chinnappa and
-Winer, Roger and others}, journal={Nature}, volume={486}, number={7404},
-pages={527}, year={2012} }
-
-@article{Qiao2014, title={Antagonistic roles of ubiquitin ligase HEI10
-and SUMO ligase RNF212 regulate meiotic recombination}, author={Qiao,
-Huanyu and Rao, HBD Prasada and Yang, Ye and Fong, Jared H and Cloutier,
-Jeffrey M and Deacon, Dekker C and Nagel, Kathryn E and Swartz, Rebecca
-K and Strong, Edward and Holloway, J Kim and others}, journal={Nature
-genetics}, volume={46}, number={2}, pages={194}, year={2014} }
-
-@article{Ramesh2005, title={A phylogenomic inventory of meiotic genes:
-evidence for sex in Giardia and an early eukaryotic origin of meiosis},
-author={Ramesh, Marilee A and Malik, Shehre-Banoo and Logsdon Jr, John
-M}, journal={Current biology}, volume={15}, number={2},
-pages={185--191}, year={2005} }
-
-@article{Rao2017, title={A SUMO-ubiquitin relay recruits proteasomes to
-chromosome axes to regulate meiotic recombination}, author={Rao, HBD
-Prasada and Qiao, Huanyu and Bhatt, Shubhang K and Bailey, Logan RJ and
-Tran, Hung D and Bourne, Sarah L and Qiu, Wendy and Deshpande, Anusha
-and Sharma, Ajay N and Beebout, Connor J and others}, journal={Science},
-volume={355}, number={6323}, pages={403--407}, year={2017} }
-
-@article{Rat2004, title={Genome sequence of the Brown Norway rat yields
-insights into mammalian evolution}, author={Rat Genome Sequencing
-Project Consortium and others}, journal={Nature}, volume={428},
-number={6982}, pages={493}, year={2004} }
-
-@article{Reynolds2013, title={RNF212 is a dosage-sensitive regulator of
-crossing-over during mammalian meiosis}, author={Reynolds, April and
-Qiao, Huanyu and Yang, Ye and Chen, Jefferson K and Jackson, Neil and
-Biswas, Kajal and Holloway, J Kim and Baudat, Fr{\'e}d{\'e}ric and De
-Massy, Bernard and Wang, Jeremy and others}, journal={Nature genetics},
-volume={45}, number={3}, pages={269}, year={2013} }
-
-@article{Richard2005, title={Comparative genomics of hemiascomycete
-yeasts: genes involved in DNA replication, repair, and recombination},
-author={Richard, Guy-Franck and Kerrest, Alix and Lafontaine, Ingrid and
-Dujon, Bernard}, journal={Molecular biology and evolution}, volume={22},
-number={4}, pages={1011--1023}, year={2005} }
-
-@article{Rogacheva2014, title={Mlh1-Mlh3, a meiotic crossover and DNA
-mismatch repair factor, is a Msh2-Msh3-stimulated endonuclease},
-author={Rogacheva, Maria V and Manhart, Carol M and Chen, Cheng and
-Guarne, Alba and Surtees, Jennifer and Alani, Eric}, journal={Journal of
-Biological Chemistry}, pages={jbc--M113}, year={2014} }
-
-@article{Romanienko1999, title={Cloning, characterization, and
-localization of mouse and human SPO11}, author={Romanienko, Peter J and
-Camerini-Otero, R Daniel}, journal={Genomics}, volume={61}, number={2},
-pages={156--169}, year={1999} }
-
-@article{Romanienko2000, title={The mouse Spo11 gene is required for
-meiotic chromosome synapsis}, author={Romanienko, Peter J and
-Camerini-Otero, R Daniel}, journal={Molecular cell}, volume={6},
-number={5}, pages={975--987}, year={2000} }
-
-@article{Ronquist2012, title={MrBayes 3.2: efficient Bayesian
-phylogenetic inference and model choice across a large model space},
-author={Ronquist, Fredrik and Teslenko, Maxim and Van Der Mark, Paul and
-Ayres, Daniel L and Darling, Aaron and H{\"o}hna, Sebastian and Larget,
-Bret and Liu, Liang and Suchard, Marc A and Huelsenbeck, John P},
-journal={Systematic biology}, volume={61}, number={3}, pages={539--542},
-year={2012} }
-
-@article{Rosenberg2002, title={The probability of topological
-concordance of gene trees and species trees}, author={Rosenberg, Noah
-A}, journal={Theoretical population biology}, volume={61}, number={2},
-pages={225--247}, year={2002} }
-
-@article{Sandor2012, title={Genetic variants in REC8, RNF212, and PRDM9
-influence male recombination in cattle}, author={Sandor, Cynthia and Li,
-Wanbo and Coppieters, Wouter and Druet, Tom and Charlier, Carole and
-Georges, Michel}, journal={PLoS genetics}, volume={8}, number={7},
-pages={e1002854}, year={2012} }
-
-@article{Scally2012, title={Insights into hominid evolution from the
-gorilla genome sequence}, author={Scally, Aylwyn and Dutheil, Julien Y
-and Hillier, LaDeana W and Jordan, Gregory E and Goodhead, Ian and
-Herrero, Javier and Hobolth, Asger and Lappalainen, Tuuli and Mailund,
-Thomas and Marques-Bonet, Tomas and others}, journal={Nature},
-volume={483}, number={7388}, pages={169}, year={2012} }
-
-@article{Schmekel1995, title={The central region of the synaptonemal
-complex revealed in three dimensions}, author={Schmekel, Karin and
-Daneholt, Bertil}, journal={Trends in cell biology}, volume={5},
-number={6}, pages={239--242}, year={1995} }
-
-@article{Schmekel1996, title={Organization of SCP1 protein molecules
-within synaptonemal complexes of the rat}, author={Schmekel, Karin and
-Meuwissen, RLJ and Dietrich, AJJ and Vink, ACG and Van Marle, J and Van
-Veen, H and Heyting, C}, journal={Experimental cell research},
-volume={226}, number={1}, pages={20--30}, year={1996} }
-
-@article{Schramm2011, title={A novel mouse synaptonemal complex protein
-is essential for loading of central element proteins, recombination, and
-fertility}, author={Schramm, Sabine and Fraune, Johanna and Naumann,
-Ronald and Hernandez-Hernandez, Abrahan and H{\"o}{\"o}g, Christer and
-Cooke, Howard J and Alsheimer, Manfred and Benavente, Ricardo},
-journal={PLoS genetics}, volume={7}, number={5}, pages={e1002088},
-year={2011} }
-
-@article{Schrider2011, title={Pervasive multinucleotide mutational
-events in eukaryotes}, author={Schrider, Daniel R and Hourmozdi,
-Jonathan N and Hahn, Matthew W}, journal={Current Biology}, volume={21},
-number={12}, pages={1051--1054}, year={2011} }
-
-@article{Scornavacca2017, title={Incomplete lineage sorting in mammalian
-phylogenomics}, author={Scornavacca, Celine and Galtier, Nicolas},
-journal={Systematic biology}, volume={66}, number={1}, pages={112--120},
-year={2017} }
-
-@article{Segura2013, title={Evolution of recombination in eutherian
-mammals: insights into mechanisms that affect recombination rates and
-crossover interference}, author={Segura, Joana and Ferretti, Luca and
-Ramos-Onsins, Sebasti{\'a}n and Capilla, Laia and Farr{\'e}, Marta and
-Reis, Fernanda and Oliver-Bonet, Maria and Fern{\'a}ndez-Bell{\'o}n,
-Hugo and Garcia, Francisca and Garcia-Cald{\'e}s, Montserrat and
-others}, journal={Proceedings of the Royal Society of London B:
-Biological Sciences}, volume={280}, number={1771}, pages={20131945},
-year={2013} }
-
-@article{Seo2016, title={Crystal Structure of C-Terminal Coiled-Coil
-Domain of SYCP1 Reveals Non-Canonical Anti-Parallel Dimeric Structure of
-Transverse Filament at the Synaptonemal Complex}, author={Seo, Eun Kyung
-and Choi, Jae Young and Jeong, Jae-Hee and Kim, Yeon-Gil and Park, Hyun
-Ho}, journal={PloS one}, volume={11}, number={8}, pages={e0161379},
-year={2016} }
-
-@article{Sheep2010, title={The sheep genome reference sequence: a work
-in progress}, author={International Sheep Genomics Consortium and
-Archibald, AL and Cockett, NE and Dalrymple, BP and Faraut, T and Kijas,
-JW and Maddox, JF and McEwan, JC and Hutton Oddy, V and Raadsma, HW and
-others}, journal={Animal genetics}, volume={41}, number={5},
-pages={449--453}, year={2010} }
-
-@article{Shen2018, title={Characterization of recombination features and
-the genetic basis in multiple cattle breeds}, author={Shen, Botong and
-Jiang, Jicai and Seroussi, Eyal and Liu, George E and Ma, Li},
-journal={BMC genomics}, volume={19}, number={1}, pages={304},
-year={2018} }
-
-@article{Shima2005, title={Isolation and characterization of novel xrs2
-mutations in Saccharomyces cerevisiae}, author={Shima, Hiroki and
-Suzuki, Masakatu and Shinohara, Miki}, journal={Genetics}, volume={170},
-number={1}, pages={71--85}, year={2005} }
-
-@article{Shin2010, title={Hormad1 mutation disrupts synaptonemal complex
-formation, recombination, and chromosome segregation in mammalian
-meiosis}, author={Shin, Yong-Hyun and Choi, Youngsok and Erdin, Serpil
-Uckac and Yatsenko, Svetlana A and Kloc, Malgorzata and Yang, Fang and
-Wang, P Jeremy and Meistrich, Marvin L and Rajkovic, Aleksandar},
-journal={PLoS genetics}, volume={6}, number={11}, pages={e1001190},
-year={2010} }
-
-@article{Shin2013, title={Mouse HORMAD1 is a meiosis i checkpoint
-protein that modulates DNA double-strand break repair during female
-meiosis}, author={Shin, Yong-Hyun and McGuire, Megan M and Rajkovic,
-Aleksandar}, journal={Biology of reproduction}, volume={89}, number={2},
-year={2013} }
-
-@article{Smagulova2016, title={The evolutionary turnover of
-recombination hot spots contributes to speciation in mice},
-author={Smagulova, Fatima and Brick, Kevin and Pu, Yongmei and
-Camerini-Otero, R Daniel and Petukhova, Galina V}, journal={Genes &
-development}, volume={30}, number={3}, pages={266--280}, year={2016} }
-
-@article{Smukowski2011, title={Recombination rate variation in closely
-related species}, author={Smukowski, CS and Noor, MAF},
-journal={Heredity}, volume={107}, number={6}, pages={496}, year={2011} }
-
-@article{Snowden2004, title={hMSH4-hMSH5 recognizes Holliday Junctions
-and forms a meiosis-specific sliding clamp that embraces homologous
-chromosomes}, author={Snowden, Timothy and Acharya, Samir and Butz,
-Charles and Berardini, Mark and Fishel, Richard}, journal={Molecular
-cell}, volume={15}, number={3}, pages={437--451}, year={2004} }
-
-@article{Souquet2013, title={MEIOB targets single-strand DNA and is
-necessary for meiotic recombination}, author={Souquet, Benoit and Abby,
-Emilie and Herv{\'e}, Roxane and Finsterbusch, Friederike and Tourpin,
-Sophie and Le Bouffant, Ronan and Duquenne, Clotilde and Messiaen,
-S{\'e}bastien and Martini, Emmanuelle and Bernardino-Sgherri, Jacqueline
-and others}, journal={PLoS genetics}, volume={9}, number={9},
-pages={e1003784}, year={2013} }
-
-@article{Stanzione2016, title={Meiotic DNA break formation requires the
-unsynapsed chromosome axis-binding protein IHO1 (CCDC36) in mice},
-author={Stanzione, Marcello and Baumann, Marek and Papanikos,
-Frantzeskos and Dereli, Ihsan and Lange, Julian and Ramlal, Angelique
-and Tr{\"a}nkner, Daniel and Shibuya, Hiroki and de Massy, Bernard and
-Watanabe, Yoshinori and others}, journal={Nature cell biology},
-volume={18}, number={11}, pages={1208}, year={2016} }
-
-@article{Stapley2017, title={Variation in recombination frequency and
-distribution across eukaryotes: patterns and processes},
-author={Stapley, Jessica and Feulner, Philine GD and Johnston, Susan E
-and Santure, Anna W and Smadja, Carole M}, journal={Phil. Trans. R. Soc.
-B}, volume={372}, number={1736}, pages={20160455}, year={2017} }
-
-@article{Stracker2011, title={The MRE11 complex: starting from the
-ends}, author={Stracker, Travis H and Petrini, John HJ}, journal={Nature
-reviews Molecular cell biology}, volume={12}, number={2}, pages={90},
-year={2011} }
-
-@article{Tang2011, title={Characterization of the porcine
-testis-expressed gene 11 (Tex11)}, author={Tang, Lin and Zeng, Wenxian
-and Clark, Robert K and Dobrinski, Ina}, journal={Spermatogenesis},
-volume={1}, number={2}, pages={147--151}, year={2011} }
-
-@article{TCsequencing2005, title={Initial sequence of the chimpanzee
-genome and comparison with the human genome}, author={The Chimpanzee
-Sequencing Analysis Consortium and Waterson, Robert H and Lander, Eric S
-and Wilson, Richard K}, journal={Nature}, volume={437}, number={7055},
-pages={69}, year={2005} }
-
-@article{Thacker2014, title={Homologue engagement controls meiotic DNA
-break number and distribution}, author={Thacker, Drew and Mohibullah,
-Neeman and Zhu, Xuan and Keeney, Scott}, journal={Nature}, volume={510},
-number={7504}, pages={241}, year={2014} }
-
-@article{Theunissen2003, title={Checkpoint failure and chromosomal
-instability without lymphomagenesis in Mre11ATLD1/ATLD1 mice},
-author={Theunissen, Jan-Willem F and Kaplan, Mark I and Hunt, Patricia A
-and Williams, Bret R and Ferguson, David O and Alt, Frederick W and
-Petrini, John HJ}, journal={Molecular cell}, volume={12}, number={6},
-pages={1511--1523}, year={2003} }
-
-@article{Thorvaldsdottir2013, title={Integrative Genomics Viewer (IGV):
-high-performance genomics data visualization and exploration},
-author={Thorvaldsd{\'o}ttir, Helga and Robinson, James T and Mesirov,
-Jill P}, journal={Briefings in bioinformatics}, volume={14}, number={2},
-pages={178--192}, year={2013} }
-
-@article{Trapnell2009, title={TopHat: discovering splice junctions with
-RNA-Seq}, author={Trapnell, Cole and Pachter, Lior and Salzberg, Steven
-L}, journal={Bioinformatics}, volume={25}, number={9},
-pages={1105--1111}, year={2009} }
-
-@article{Tsukamoto2005, title={Xrs2p regulates Mre11p translocation to
-the nucleus and plays a role in telomere elongation and meiotic
-recombination}, author={Tsukamoto, Yasumasa and Mitsuoka, Chikako and
-Terasawa, Masahiro and Ogawa, Hideyuki and Ogawa, Tomoko},
-journal={Molecular biology of the cell}, volume={16}, number={2},
-pages={597--608}, year={2005} }
-
-@article{Ubeda2011, title={The Red Queen theory of recombination
-hotspots}, author={Ubeda, F and Wilkins, JF}, journal={Journal of
-evolutionary biology}, volume={24}, number={3}, pages={541--553},
-year={2011} }
-
-@article{Usui1998, title={Complex formation and functional versatility
-of Mre11 of budding yeast in recombination}, author={Usui, Takehiko and
-Ohta, Tsutomu and Oshiumi, Hiroyuki and Tomizawa, Jun-ichi and Ogawa,
-Hideyuki and Ogawa, Tomoko}, journal={Cell}, volume={95}, number={5},
-pages={705--716}, year={1998} }
-
-@article{Vandewege2016, title={Transposable element targeting by piRNAs
-in Laurasiatherians with distinct transposable element histories},
-author={Vandewege, Michael W and Platt, Roy N and Ray, David A and
-Hoffmann, Federico G}, journal={Genome biology and evolution},
-volume={8}, number={5}, pages={1327--1337}, year={2016} }
-
-@article{Venkat2018, title={Multinucleotide mutations cause false
-inferences of lineage-specific positive selection}, author={Venkat,
-Aarti and Hahn, Matthew W and Thornton, Joseph W}, journal={Nature
-ecology & evolution}, volume={2}, number={8}, pages={1280}, year={2018}
-}
-
-@article{Wade2009, title={Genome sequence, comparative analysis, and
-population genetics of the domestic horse}, author={Wade, CM and
-Giulotto, E and Sigurdsson, Snaevar and Zoli, M and Gnerre, S and
-Imsland, Freyja and Lear, TL and Adelson, DL and Bailey, E and Bellone,
-RR and others}, journal={Science}, volume={326}, number={5954},
-pages={865--867}, year={2009} }
-
-@article{Ward2007, title={Mutation in mouse hei10, an e3 ubiquitin
-ligase, disrupts meiotic crossing over}, author={Ward, Jeremy O and
-Reinholdt, Laura G and Motley, William W and Niswander, Lisa M and
-Deacon, Dekker C and Griffin, Laurie B and Langlais, Kristofor K and
-Backus, Vickie L and Schimenti, Kerry J and O'Brien, Marilyn J and
-others}, journal={PLoS genetics}, volume={3}, number={8}, pages={e139},
-year={2007} }
-
-@article{Watanabe1999, title={Cohesin Rec8 is required for reductional
-chromosome segregation at meiosis}, author={Watanabe, Yoshinori and
-Nurse, Paul}, journal={Nature}, volume={400}, number={6743},
-pages={461}, year={1999} }
-
-@article{Wheeler2006, title={Database resources of the national center
-for biotechnology information}, author={Wheeler, David L and Barrett,
-Tanya and Benson, Dennis A and Bryant, Stephen H and Canese, Kathi and
-Chetvernin, Vyacheslav and Church, Deanna M and DiCuccio, Michael and
-Edgar, Ron and Federhen, Scott and others}, journal={Nucleic acids
-research}, volume={35}, number={suppl\_1}, pages={D5--D12}, year={2006}
-}
-
-@article{Wiltzius2005, title={The Rad50 hook domain is a critical
-determinant of Mre11 complex functions}, author={Wiltzius, Jed JW and
-Hohl, Marcel and Fleming, James C and Petrini, John HJ}, journal={Nature
-Structural and Molecular Biology}, volume={12}, number={5}, pages={403},
-year={2005} }
-
-@article{Winkel2009, title={Protein SYCP2 provides a link between
-transverse filaments and lateral elements of mammalian synaptonemal
-complexes}, author={Winkel, Karoline and Alsheimer, Manfred and
-{\"O}llinger, Rupert and Benavente, Ricardo}, journal={Chromosoma},
-volume={118}, number={2}, pages={259--267}, year={2009} }
-
-@article{Wojtasz2009, title={Mouse HORMAD1 and HORMAD2, two conserved
-meiotic chromosomal proteins, are depleted from synapsed chromosome axes
-with the help of TRIP13 AAA-ATPase}, author={Wojtasz, Lukasz and Daniel,
-Katrin and Roig, Ignasi and Bolcun-Filas, Ewelina and Xu, Huiling and
-Boonsanay, Verawan and Eckmann, Christian R and Cooke, Howard J and
-Jasin, Maria and Keeney, Scott and others}, journal={PLoS genetics},
-volume={5}, number={10}, pages={e1000702}, year={2009} }
-
-@article{Xu2017, title={Meiosis-specific proteins MEIOB and SPATA22
-cooperatively associate with the single-stranded DNA-binding replication
-protein A complex and DNA double-strand breaks}, author={Xu, Yang and
-Greenberg, Roger A and Schonbrunn, Ernst and Wang, P Jeremy},
-journal={Biology of reproduction}, volume={96}, number={5},
-pages={1096--1104}, year={2017} }
-
-@article{Yang1997, title={PAML: a program package for phylogenetic
-analysis by maximum likelihood}, author={Yang, Ziheng},
-journal={Bioinformatics}, volume={13}, number={5}, pages={555--556},
-year={1997} }
-
-@article{Yang2000, title={Estimating synonymous and nonsynonymous
-substitution rates under realistic evolutionary models}, author={Yang,
-Ziheng and Nielsen, Rasmus}, journal={Molecular Biology and Evolution},
-volume={17}, number={1}, pages={32--43}, year={2000}, publisher={Oxford
-University Press} }
-
-@article{Yang2006, title={Mouse SYCP2 is required for synaptonemal
-complex assembly and chromosomal synapsis during male meiosis},
-author={Yang, Fang and De La Fuente, Rabindranath and Leu, N Adrian and
-Baumann, Claudia and McLaughlin, K John and Wang, P Jeremy},
-journal={The Journal of Cell Biology}, volume={173}, number={4},
-pages={497--507}, year={2006} }
-
-@article{Yang2007, author = {Yang, Ziheng}, title = {PAML 4:
-Phylogenetic Analysis by Maximum Likelihood}, journal = {Molecular
-Biology and Evolution}, volume = {24}, number = {8}, pages =
-{1586-1591}, year = {2007}, doi = {10.1093/molbev/msm088} }
-
-@article{Yang2008, title={Meiotic failure in male mice lacking an
-X-linked factor}, author={Yang, Fang and Gell, Katarina and Van Der
-Heijden, Godfried W and Eckardt, Sigrid and Leu, N Adrian and Page,
-David C and Benavente, Ricardo and Her, Chengtao and H{\"o}{\"o}g,
-Christer and McLaughlin, K John and others}, journal={Genes &
-development}, volume={22}, number={5}, pages={682--691}, year={2008} }
-
-@article{Yang2015, title={TEX11 is mutated in infertile men with
-azoospermia and regulates genome-wide recombination rates in mouse},
-author={Yang, Fang and Silber, Sherman and Leu, N Adrian and Oates,
-Robert D and Marszalek, Janet D and Skaletsky, Helen and Brown, Laura G
-and Rozen, Steve and Page, David C and Wang, P Jeremy}, journal={EMBO
-molecular medicine}, volume={7}, number={9}, pages={1198--1210},
-year={2015} }
-
-@article{Yang2017, title={Comparative analysis of DNA methylome and
-transcriptome of skeletal muscle in lean-, obese-, and mini-type pigs},
-author={Yang, Yalan and Liang, Guoming and Niu, Guanglin and Zhang,
-Yuanyuan and Zhou, Rong and Wang, Yanfang and Mu, Yulian and Tang,
-Zhonglin and Li, Kui}, journal={Scientific reports}, volume={7},
-pages={39883}, year={2017} }
-
-@article{Zerbino2017, title={Ensembl 2018}, author={Zerbino, Daniel R
-and Achuthan, Premanand and Akanni, Wasiu and Amode, M Ridwan and
-Barrell, Daniel and Bhai, Jyothish and Billis, Konstantinos and Cummins,
-Carla and Gall, Astrid and Gir{\'o}n, Carlos Garc{\'\i}a and others},
-journal={Nucleic acids research}, volume={46}, number={D1},
-pages={D754--D761}, year={2017} }
-
-@article{Zheng2009, title={Expression pattern of meiosis associated SYCP
-family members during germline development in chickens}, author={Zheng,
-Ying Hui and Rengaraj, Deivendran and Choi, Jin Won and Park, Kyung Je
-and Lee, Sang In and Han, Jae Yong}, journal={Reproduction},
-volume={138}, number={3}, pages={483--492}, year={2009} }
-
-@article{Zimin2009, title={A whole-genome assembly of the domestic cow,
-Bos taurus}, author={Zimin, Aleksey V and Delcher, Arthur L and Florea,
-Liliana and Kelley, David R and Schatz, Michael C and Puiu, Daniela and
-Hanrahan, Finnian and Pertea, Geo and Van Tassell, Curtis P and
-Sonstegard, Tad S and others}, journal={Genome biology}, volume={10},
-number={4}, pages={R42}, year={2009} }
-
-@article{Zimin2014, title={A new rhesus macaque assembly and annotation
-for next-generation sequencing analyses}, author={Zimin, Aleksey V and
-Cornish, Adam S and Maudhoo, Mnirnal D and Gibbs, Robert M and Zhang,
-Xiongfei and Pandey, Sanjit and Meehan, Daniel T and Wipfler, Kristin
-and Bosinger, Steven E and Johnson, Zachary P and others},
-journal={Biology direct}, volume={9}, number={1}, pages={20},
-year={2014} }
-
-@article{Zickler1999, title={Meiotic chromosomes: integrating structure
-and function}, author={Zickler, Denise and Kleckner, Nancy},
-journal={Annual review of genetics}, volume={33}, number={1},
-pages={603--754}, year={1999} }
+
+**Molecular Evolution of the Meiotic Recombination Pathway in Mammals**
+
+*Investigations*
+
+$~$
+
+Amy L. Dapper^1,2^* and Bret A. Payseur^1^
+
+$~$
+
+^1^ Laboratory of Genetics, University of Wisconsin, Madison, WI 53706, USA
+
+^2^ Department of Biological Sciences, Mississippi State University, Mississippi State, MS 39762, USA
+
+
+\pagebreak
+
+Running Title: Evolution of the Recombination Pathway
+
+Keywords: (up to 5)
+
+$~$
+
+\* Corresponding Author : Amy L. Dapper
+
+Address: 295 E. Lee Blvd., P.O. Box GY, Mississippi State, MS 39762
+
+Phone: (662) 325-7575
+
+Email: dapper@biology.msstate.edu
+
+
+\pagebreak
+
+## Abstract
+
+Meiotic recombination, the exchange of genetic material between homologous chromosomes during meiosis, is required for successful gametogenesis in most sexually reproducing species. Recombination is also a fundamental evolutionary force, influencing the fate of new mutations and determining the genomic scale over which selection shapes genetic variation. Despite the central importance of recombination, basic questions about its evolution have yet to be addressed.  Although many genes that play roles in recombination have been identified, the molecular evolution of most of these genes remains uncharacterized.  Using a phylogenetic comparative approach, we measure rates of evolution in 32 recombination pathway genes across 16 mammalian species, spanning primates, murids, and laurasithians.  By analyzing a carefully-selected panel of genes involved in key components of recombination – spanning double strand break formation, strand invasion, the crossover/non-crossover decision, and resolution – we generate a comprehensive picture of the evolution of the recombination pathway in mammals. Recombination genes exhibit marked heterogeneity in the rate of protein evolution, both across and within genes.  We report signatures of rapid evolution and positive selection that could underlie species differences in recombination rate.  **[NEEDS WORK HERE]**
+
+Abstract Word Count : (< 250)
+
+
+\pagebreak
+
+## Introduction
+
+The reciprocal exchange of DNA between homologous chromosomes during meiosis – recombination – is required for successful gametogenesis in most species that reproduce sexually [@Hassold2001]. The rate of recombination is a major determinant of patterns of genetic diversity in populations, influencing the fate of new mutations [@Hill1966], the efficacy of selection [@Felsenstein1974; @Charlesworth1993; @Comeron1999; @Gonen2017], and important features of the genomic landscape [@Begun1992; @Charlesworth1994; @Duret2008]. 
+
+Although recombination rate is often treated as a constant, this fundamental parameter evolves over time. Genomic regions ranging in size from short sequences to entire chromosomes vary in recombination rate – both within and between species [@Burt1987; @Broman1998; @Jeffreys2005; @Coop2007; @Kong2010; @Smukowski2011; @Dumont2011B; @Comeron2012; @Segura2013; @Dapper2017; @Stapley2017].
+
+Genome-wide association studies are beginning to reveal the genetic basis of differences in recombination rate within species. Individual recombination rates have been associated with variation in specific genes in populations of *Drosophila melanogaster* [@Hunter2016], humans [@Kong2008; @Chowdhury2009; @Fledel-Alon2011; @Kong2014], domesticated cattle [@Sandor2012; @Ma2015; @Kadri2016; @Shen2018], domesticated sheep [@Petit2017], Soay sheep [@Johnston2016], and red deer [@Johnston2018]. Variants in several of these genes correlate with recombination rate in multiple species, including: *Rnf212* [@Kong2008; @Chowdhury2009; @Fledel-Alon2011; @Sandor2012; @Johnston2016; @Kadri2016; @Petit2017], *Rnf212B* [@Johnston2016; @Kadri2016; @Johnston2018], *Rec8* [@Sandor2012; @Johnston2016; @Johnston2018], *Hei10/Ccnb1ip1* [@Kong2014; @Petit2017], *Msh4* [@Kong2014; @Ma2015; @Kadri2016; @Shen2018], *Cplx1* [@Kong2014; @Ma2015; @Johnston2016; @Shen2018] and *Prdm9* [@Fledel-Alon2011; @Sandor2012; @Kong2014; @Ma2015; @Shen2018].  
+
+In contrast, the genetics of recombination rate variation among species remains poorly understood. Divergence at the di-cistronic gene *mei-217/mei-218* explains much of the disparity in genetic map length between *D. melanogaster* and *D. mauritiana* [@Brand2018]. *mei-217/mei-218* is the only gene known to confer a recombination rate difference between species, though quantitative trait loci that contribute to shifts in rate among subspecies of house mice have been identified [@Dumont2010; @Murdoch2010; @Balcova2016]. 
+
+One strategy for understanding how species diverge in recombination rate is to inspect patterns of molecular evolution at genes involved in the recombination pathway. This approach incorporates knowledge of the molecular and cellular determinants of recombination and is motivated by successful examples. *mei-217/mei-218* was targeted for functional analysis based on its profile of rapid evolution between *D. melanogaster* and *D. mauritiana* [@Brand2018]. *Prdm9*, a protein that positions recombination hotspots in house mice and humans through histone methylation [@Myers2010; @Parvanov2010; @Grey2011; Paigen2018; @Grey2018], shows accelerated divergence across mammals [@Oliver2009]. The rapid evolution of *Prdm9* – which localizes to its zinc-finger DNA binding domain [@Oliver2009] – appears to be driven by selective pressure to recognize new hotpot motifs as old ones are destroyed via biased gene conversion [@Myers2010; @Ubeda2011; @Lesecque2014; @Latrille2017]. Although these examples demonstrate the promise of signatures of molecular evolution for illuminating recombination rate differences between species, patterns of divergence have yet to be reported for most genes involved in meiotic recombination.
+
+Mammals provide a useful system for dissecting the molecular evolution of the recombination pathway for several reasons. First, the evolution of recombination rate has been measured along the mammalian phylogeny [Dumont and Payseur 2008; @Segura2013]. Second, recombination rate variation has been associated with specific genes in mammalian populations [@Kong2008; @Chowdhury2009; @Sandor2012; @Kong2014; @Ma2015; @Johnston2016; @Kadri2016; @Petit2017; @Johnston2018; @Shen2018]. Third, laboratory mice have proven to be instrumental in the identification and functional characterization of recombination genes [@deVries1999; @Yang2006; @Ward2007; @Baudat2000; @Romanienko2000; @LaSalle2012; @Schramm2011; @Bisig2012; @Bolcun-Filas2012; @Kumar2015; @Finsterbusch2016; @Stanzione2016] .
+
+Work in mice indicates that the mammalian recombination pathway is roughly divided into five major steps, each of which is regulated by a handful of genes. The first step is the formation of hundreds of double strand breaks (DSBs) throughout the genome [@Keeney1997; @Bergerat1997; @Baudat2000; @Romanienko2000; @Baudat2007; @Finsterbusch2016; @Lange2016]. After formation, DSBs are identified, processed, and paired with their corresponding location on the homologous chromosome through the processes of homology search and strand invasion [@Keeney2007; @Cloud2012; @Brown2014; @Oh2016; @Kobayashi2016; @Finsterbusch2016; @Xu2017]. The pairing of homologous chromosomes is then stabilized by a proteinaceous structure referred to as the synaptonemal complex (SC) [@Meuwissen1992; @Schmekel1995; @Costa2005; @deVries2005; @Hamer2006; @Yang2006; @Schramm2011; @Fraune2014; @Hernandez2016]. The SC also forms a substrate on which the eventual crossover events will take place [**citations**].  It is at this point that a small subset of DSBs is designated to mature into crossovers, leaving the majority of DSBs to be resolved as non-crossovers [@Snowden2004; @Yang2008; @Reynolds2013; @Finsterbusch2016; @Rao2017].  Finally, this designation is followed, and each DSB is repaired as a crossover or a non-crossover [@Baker1996; @Edelmann1996; @Lipkin2002; @Rogacheva2014; @Xu2017].  
+
+In this article, we examine the molecular evolution of 32 key recombination genes, evenly distributed across each major step in the recombination pathway, in 16 mammalian species spanning Primates, Rodents and Laurasiatherians. In addition to revealing patterns of divergence across diverse mammalian species, we leverage human polymorphism data to make robust evolutionary inferences. Our results provide a comprehensive picture of evolution in the recombination pathway in mammals and identify steps of the pathway most likely to contribute to differences in recombination rate between species.  
+
+## Materials and Methods
+
+### Data Acquisition & Processing
+
+We selected a focal panel of 32 recombination genes (See Table1). The panel was constructed to: (1) cover each major step in the recombination pathway as evenly as possible, (2) contain genes that have integral functions in each step, and (3) include genes that have been associated with inter-individual differences in recombination rate within mammalian populations. Reference sequences were downloaded for each gene in 16
+110 mammalian species from both NCBI and Ensembl (Release-89)[@Wheeler2006; @Zerbino2017].
+
+Alternative splicing is widespread and presents a challenge for molecular evolution studies [@Pan2008; @Barbosa2012]. To focus our analyses on coding sequences that are transcribed during meiosis and to validate the computational annotations for each gene in each species, we used available testes expression datasets. We downloaded raw testes expression data for each mammalian species from NCBI Gene Expression Omnibus (GEO) (Table S1)[@Barrett2012]. We converted the SRA files into FASTQ files using SRAtoolkit [@Leinonen2010]. The reads were mapped to an indexed reference genome (Table S2,3) (Bowtie2, [@Langmead2012]) using TopHat [@Trapnell2009]. The resulting bam files were sorted using Samtools [@Li2009] and visualized using IGV 2.4.10 [@Thorvaldsdottir2013]. This allowed us to: (1) identify the transcript expressed in testes, (2) check the reference transcript for errors, and (3) revise the reference transcript based upon the transcript data.
+
+We compared expression data to annotations from both Ensembl and NCBI [@Wheeler2006; @Zerbino2017]. When both transcripts were identical, we selected the NCBI transcript.  The Ensembl transcript was used instead when: (1) the NCBI reference sequences was not available for a given gene in a given species, (2) when none of the NCBI transcripts matched the expression data, or (3) when there were sequence differences between the two transcripts and the Ensembl transcript was more parsimonious - i.e. had the fewest differences when compared to the rest of sequences in the alignment.  **The use of testes expression data was a key data processing step and the inclusion of species in this study was primarily determined by the availability of testes expression data.**
+
+###  Phylogenetic Comparative Approach in Mammals
+
+For each gene, we used phylogenetic analysis by maximum likelihood (PAML 4.8) to measure the rate of evolution across the mammalian phylogeny and to search for molecular signatures indicative of positive selection (Table 2) [@Yang1997; @Yang2007]. This approach requires a sequence alignment and a phylogenetic tree.  For each gene, sequences were aligned using Translator X, a codon-based alignment tool, powered by MUSCLE v3.8.31 [@Edgar2004; @Abascal2010]. Each alignment was examined by hand and edited as necessary. We used a species tree that reflects current understanding of the phylogenetic relationships of the species included in our study (Figure 1)[@Prasad2008; @Perelman2011; @Fan2013; @Chen2017].
+
+Due to the ambiguity in the relationship between Laurasithians and the placement of tree shrews, we also inferred gene trees using MrBayes [@Ronquist2012; @Fan2013; @Chen2017]. This approach also allowed us to control for effects of incomplete lineage sorting (ILS) [@Pamilo1988; @Rosenberg2002; @Scornavacca2017].  Using gene trees and using the consensus species tree produced highly similar results (Table S4).
+
+For the majority of genes, transcripts from all 16 species were used (19 genes). However, for a number of genes, the chimpanzee and bonobo sequences were identical, in which case only the chimpanzee sequence was included in the analyses (11 genes). In one case, the chimpanzee, bonobo and human sequences were all identical, in which case only the human sequence was included in the analyses. In only a small number of instances, a suitable reference sequence could not be identified for a given species. 
+
+We estimated rates of synonymous and non-synonymous substitutions per site using the CODEML program in PAML4.8 [@Yang2007]. This program considers multiple substitutions per site, different rates of transitions and transversions, and effects of codon usage [@Yang2007]. Rates of substitution were computed for 6 different models of molecular evolution (Table 2). The fit of each model was compared using a likelihood ratio test. Reported substitution rates assume the best-fit model for each gene.
+
+### Identifying Signatures of Selection
+
+To test for positive selection, we compared the fit of models including a class of sites with $\omega$ greater than 1 to the fit of models in which all classes of sites have $\omega$ values equal to, or less than, 1.  Specifically, we report three comparisons: M1 vs. M2, M7 vs. M8, M8 vs. M8a (Table 2). The first comparison, M1 vs. M2, compares a model with two classes of sites ($\omega$  < 1, $\omega$ = 1) to a model with a third class of sites where $\omega$ is greater than 1, indicative of positive selection [@Yang2007]. More complex models (M7 & M8) were developed to take into account variation in $\omega$ less than one among sites within genes and thus, include 10 site classes drawn from a beta distribution between 0 and 1 [@Yang2007]. In this case, Model 8 includes an additional 11 class of sites in which $\omega$ is greater than 1, allowing for the identification of signatures of positive selection [@Yang2007]. In cases in which a large fraction of sites within a gene are evolving neutrally ($\omega$ = 1), Model 8 will fit significantly better due to a very poor fit of Model 7 rather than a signature of positive selection. To avoid incorrectly identifying signature of positive selection, Model 8 is also compared to Model 8a which contains a larger fraction of neutrally evolving sites than Model 7 [citations].
+
+### Multinucleotide Mutations
+
+Multi-nucleotide mutations (MNMs) occur when two mutations happen simultaneously in close proximity [@Schrider2011; @Besenbacher2016]. MNMs violate the PAML assumption that the probability of two simultaneous mutations in the same codon is 0 [@Yang2007; @Venkat2018]. Recent work has shown that MNMs can falsely detect positive selection when using branch-site tests in PAML [@Venkat2018]. Although we did not use branch-site tests, it is possible that MNMs contributed to some of the signatures of positive selection we observed. We could not directly identify MNMs in our dataset. Instead, we identified codons with multiple differences (CMDs) that likely arose on a single branch of the phylogeny.  We used PAML to reconstruct the ancestral sequence at each node in the phylogeny [@Yang2007]. For the reconstruction, Model 8 was chosen because we specifically re-analyzed genes that showed evidence for positive selection when comparing Model 7 with Model 8.  From the ancestrally reconstructed sequences, we identified any codons in which PAML inferred more than 1 substitution on a single branch.  All identified CMDs were removed from the sequences in which they occurred. For example, if a CMD was identified in an external branch, that codon was replaced with ‘---’ only in the sequence of that species. If a CMD was inferred on an internal branch, the codon was replaced with ‘---’ in all species descended from that internal branch.  For each gene that showed evidence of positive selection using the unedited sequences, we also conducted PAML analyses using sequences from which all CMDs were removed.
+
+###  Polymorphism & Divergence in the Primate Lineage
+
+To further examine evidence for selection on recombination genes, we compared divergence between humans and macaque to polymorphism within humans in 29 recombination genes. Human polymorphism data was downloaded from ExAC database. Polymorphism data was not available for 3 genes (*RNF212, MEI4,* and *REC8*), and thus these genes were not included in this analysis. By comparing counts of non-synonymous and synonymous polymorphisms to counts of non-synonymous and synonymous substitutions using the McDonald-Kreitman test, we can identify either an excess of non-synonymous substitutions, indicative of positive selection, or a paucity of non-synonymous substitutions, indicative of negative selection [**citation**]. Additionally, pairwise divergence between humans and macaques was calculated using yn00 package in PAML [@Yang2007].
+
+### Identifying Evolutionary Patterns
+
+To identify evolutionary patterns among our recombination genes, we compared the rate of evolution and the proportion of genes experiencing positive selection among groups of interest. We asked: (1) Do genes that function in different steps of the pathway exhibit different rates of evolution? (2) Do genes that function post-synapsis evolve more rapidly than genes that function pre-synapsis? and (3) Do genes associated with between-individual variation in recombination rate diverge more rapidly between species? All statistical analyses were performed in R [**citation**].
+
+Evolutionary rate covariation (ERC) metric is the correlation coefficient between branch-specific rates between two proteins [@Clark2012]. ERC is typically elevated among interacting proteins and is assumed to result from: (1) concordance in fluctuating evolutionary pressures, (2) parallel evolution of expression level, or (3) compensatory changes between co-evolving genes [@Clark2012; @Clark2013]. We used a publicly available ERC dataset (https://csb.pitt.edu/erc_analysis/index.php) to compare the median ERC-value among a subset of our focal recombination genes (N = 25) to the genome as a whole, as described in [@Priedigkeit2015].
+
+To control for this general elevation in ERC among recombination genes and test for relationships between specific groups between them, we calculated ERC values for only our focal set of 32 recombination genes. Branch lengths were calculated using aaML package in PAML [@Yang2007] and pairwise ERC values were calculated following the methods of [@Clark2012]. Using this approach, we specifically compared the
+211 ERC values among three of the most rapidly evolving recombination genes (*TEX11, SHOC1, and SYCP2*).
+
+\pagebreak
+
+## Results
+
+
+### Heterogeneity in evolutionary rate among recombination genes
+
+We observed substantial heterogeneity in the rate of evolution of recombination genes, spanning a range of 0.0268 – 0.8483 (mean $\omega$ = 0.3275, SD = 0.1971, median = 0.30945) (Figure 2A, Figure 3, Table 3). Four genes exhibit particularly rapid evolution compared to other recombination genes, having evolutionary rates greater than 1 SD above mean (*SYCP2, TEX11, SHOC1, IHO1*). At the other end of the spectrum, five genes have evolutionary rates more than 1 SD below mean and are highly conserved across the mammalian phylogeny (*BRCC3, HEI10, DMC1, RAD51, RAD50*). In general, there is very high concordance between evolutionary rate across mammals and pairwise divergence between humans and macaques (mean $\omega$ = 0.3301, SD = 0.2370, median = 0.30925) (Figure 2B, Table 4). It should be noted, however, that these two measures are not independent - divergence between human and macaque sequences is incorporated in the phylogenetic analysis. Six genes have evolutionary rates more than 1 SD above mean (*CNTD1, TEX11, SHOC1, IHO1, MEI4, RAD21L*). Likewise, six genes have evolutionary rates more than 1 SD below mean (*HORMAD1, MRE11, RAD50, DMC1, RAD51, MLH1*).
+
+The genes that show the most rapid and most conserved rates of divergence between humans and macaques largely, but not completely, overlaps with the genes showing extreme evolutionary rates across the mammalian phylogeny.There are a few notable outliers that show much more rapid divergence between humans and macaques than across the mammalian phylogeny as a whole. These include MEI4 ($\omega$~mammals~ = 0.4332, $\omega$~human-macaque~ = 0.7252), CNTD1 ($\omega$~mammals~ = 0.2496, $\omega$~human-macaque~ = 0.6803), and HEI10 ($\omega$~mammals~ = 0.1226, $\omega$~human-macaque~ = 0.3235).
+
+### Elevated evolutionary rate among recombination genes
+
+Gradnigo et al. (2016) measured the rate of divergence between human and macaque for 3,606 genes throughout the genome. We used this dataset to ask whether the rate of evolution of recombination genes as a group is different than expected from the genome-wide distribution. We randomly sampling 32 $\omega$ values from this larger dataset and asked how frequently we observed average evolutionary rates as high or higher than observed among our focal set of recombination genes (mean $\omega$ = 0.3301). We found evidence for a significantly elevated evolutionary rate among recombination genes, observing a mean as high (or higher) than the value observed among recombination genes less than 1% of the time (*p* = 0.0075, sample size = 10,000) (Figure 4).
+
+### Evidence of positive selection across the mammalian phylogeny
+
+We identified signatures of positive selection in 10 recombination genes (31.25%) using site models in CODEML. These genes include: *IHO1, MRE11, SYCP1, SYCP2, REC8, RAD21L, RNF212, TEX11, MSH4, SHOC1* (Table 2). For each of these genes, models that include a fraction of sites where the rate of non-synonymous substitutions is estimated to be greater than the rate of synonymous substitutions ($\omega$ > 1, Model 8) had a significantly better fit than models that did not include such a class of sites (Model 7, 8a). Due to the potential for multi-nucleotide mutations to produce erroneous signatures of positive selection, we re-analyzed this subset of genes removing any codons inferred to have accumulated multiple changes on a single branch (CMDs). After removing all CMDs, 1 gene (*TEX11*) retained a significant signature of positive selection (Table 5).
+
+Comparing polymorphism within humans to divergence between humans and macaques revealed a general pattern of negative selection among recombination genes in the primate lineage. A majority of the recombination genes (16 genes, 55.17%) had a significant paucity of non-synonymous substitutions, indicative of negative (purifying) selection (Fisher’s Exact Test, Table 4). None of the genes had a significant excess of non-synonymous substitutions, which would indicate a significant signature of positive selection. Only one gene (*TEX11*) had a positive alpha score ($\alpha$ = 0.2929) and a corresponding neutrality index less than 1 (*NI* = 0.7071), indicating a higher fraction of non-synonymous substitutions than non-synonymous polymorphisms
+(Table 4).
+
+### Recombination genes associated with inter-individual differences do not diverge more rapidly between species 
+
+We did not find evidence that recombination genes associated with inter-individual differences in recombination rate evolve more rapidly than other recombination genes. While we observed a higher mean evolutionary rate among genes associated with inter-individual differences ($\omega$ = 0.3943 v. $\omega$ = 0.2925, respectively), the difference was not significant (*p* = 0.2381, Mann-Whitney U Test). Likewise, we observed a greater proportion of genes associated with inter-individual variation exhibited signatures of positive selection (5/11 vs. 5/21, respectively), this difference was also not significant (*p* = 0.210, Chi-Squared Test). The difference in evolutionary rates between these two classes of genes was greater when considering only divergence between humans and macaques ($\omega$ = 0.4181 vs. $\omega$ = 0.2839)(*p* = 0.08816, Mann-Whitney U Test).
+
+### Genes that function post-synapsis are more likely to exhibit signatures of positive selection
+
+We did not find evidence that recombination genes that in different steps of the pathway exhibit different evolutionary rates. This was the case both when comparing the 6 major steps in the recombination pathway (*p* = 0.1422, Kruskal-Wallis Test)(Figure 6) and when comparing more generally between genes that function pre- and post-synapsis ($\omega$ = 0.3762 vs. $\omega$ = 0.2723, respectively)(*p* = 0.1425, Mann-Whitney U Test). Likewise, we didn’t observed significant differences between recombination genes by step in the pathway when comparing just divergence between humans and macaques (*p* = 0.1422, Kruskal-Wallis Test). However, the rate of divergence between humans and macaques of post-synapsis genes was borderline significantly higher when compared to pre-synapsis recombination genes ($\omega$ = 0.3994 v. $\omega$ = 0.2514, respectively)(*p* = 0.05827, Mann-Whitney U Test). Interestingly, we did observe that a significantly higher fraction of post-synapsis recombination genes exhibited signatures of positive selection in comparison with pre-synapsis recombination genes (8/17 v. 2/15, respectively) (*p* = 0.03998, Chi-Squared Test).
+
+### Evolutionary rates among recombination genes are correlated  
+
+Meiotic genes have been shown to exhibit statistically significant, but not strong, ERC among mammals [@Clark2013]. Similarly, we identified significant evidence for correlated evolution among genes in the recombination pathway (mean ERC = 0.134, permutation *p* = 0.000358). After factoring out the general elevation of ERC values among recombination genes, the mean ERC value among our focal set of genes was approximately zero (mean ERC = 0.000358). Among recombination genes, we detected strong signature of correlated evolution between our three genes of interest: *SHOC1, TEX11, SYCP2* (mean ERC = 0.42369, permutation *p* = 0.025). Thus, the coevolutionary pattern among these three genes is statistically stronger than that observed generally among recombination genes.
+
+\pagebreak
+
+## Discussion
+
+\pagebreak
+
+**Table 1** : List of 32 recombination genes surveyed by step in the recombination pathway. Genes in bold have been associated with inter-individual differences in recombination rate in at least one species of mammals.  
+
+**Pathway Step** | **Genes** 
+---|---
+DSB Formation | *HORMAD1, MEI4, **REC114**, IHO1, SPO11*
+DSB Processing | *HORMAD2, MRE11, NBS1, RAD50, BRCC3*
+Strand Invasion | *DMC1, RAD51, SPATA22, MEIOB, MCMDC2*
+Homologous Pairing | ***REC8**, **RAD21L**, SYCP1, SYCP2, TEX11*
+CO vs. NCO Decision | ***TEX11**, SHOC1, **RNF212**, **RNF212B**, **MSH4**, **MSH5***
+Resolution | ***MER3**, CNTD1, **HEI10**, MLH1, **MLH3**, MUS81*
+
+\bigbreak
+
+**Table 2**: Six PAML site models used to measure evolutionary rate and test for positive selection.  Models varied in the number of $\omega$ classes, the range of $\omega$ for each of these classes, and whether a class of sites subject to positive selection was included.
+
+**Model** | **# Site Classes** | **$\omega$ Range** | **Pos. Selection?**
+---|---|---|---
+0 | 1 | <1 | No
+1 | 2 | <1, =1 | No
+2 | 3 | <1, =1, >1 | Yes
+7 | 10 | 0-1 | No
+8 | 11 | 0-1, >1 | Yes
+8a | 6 | 0-1, =1 | No
+
+\pagebreak
+
+**Figure 1**: Species tree assumed in analyses of molecular evolution.
+
+\bigbreak
+
+![Figure 1](../Figures/Species_Tree.pdf)
+
+\pagebreak
+
+**Figure 2**:Distribution of $\omega$ for 32 recombination genes.  Bar shows the mean +/- 1 standard deviation. (A) Divergence estimated across the mammalian phylogeny. (B) Pairwise divergence between human and macaque.
+
+(A)
+
+![Figure 2A](../Figures/omega_dist.png)
+
+(B)
+
+![Figure 2B](../Figures/div_dist.png)
+
+\pagebreak
+
+**Figure 3**: **Pathway Figure Description** The color of each gene represents its evolutionary rate relative to the average rate of evolution of recombination genes ($\omega$ = 0.3275): more rapidly evolving genes are depicted in darker shades of red and the more conserved genes are depicted in darker shades of blue. Genes that exhibit a signature of positive selection are in bold.
+
+\bigbreak
+
+![Figure 3](../Figures/PATHWAY_fig.pdf)
+
+\pagebreak
+
+**Figure 4**: Distribution of the mean divergence ($\omega$) between human and macaque of 10,000 random draws from the entire genome. Mean $\omega$ among these random draws was observed to be equal to or greater than that observed among recombination genes less than 1% of the time (*p* = 0.0075, 10,000 random draws).
+
+\bigbreak
+
+![Figure 4](../Figures/RandSamp_DivergenceFig.pdf)
+
+\pagebreak
+
+**Figure 5**: High concordance between there rate of evolution of recombination gene between human and macaques and the rate of evolution among mammals. The linear regression is shown in red and the 1:1 line is shown as a dashed line.
+
+\bigbreak
+
+![Figure 5](../Figures/DivVDiv_plot.png)
+
+\pagebreak
+
+**Figure 6**: Boxplot of $\omega$ by step in recombination pathway.
+
+\bigbreak
+
+![Figure 6](../Figures/step_boxplot.png)
+
+\pagebreak
+
+**Table 3**: PAML analysis of 32 recombination genes in mammals [@Yang2007].  
+
+***Gene*** | ***bp*** | ***N*** | ***$\omega$*** | ***M*** | ***M1-M2*** | ***p-value*** | ***M7-M8*** | ***p-value*** | ***M8a-M8*** | ***p-value*** 
+---|---|---|---|---|---|---|---|---|---|---
+**A)** | | | | | | | | | | | | 
+*HORMAD1* | 1212 | 16 | 0.3036 | 7 | 0 | *1.000* | 1.795 | *0.4076* | --- | --- 
+*MEI4* | 1170 | 16 | 0.4332 | 7 | 0 | *1.000* | 0.005 | *0.9976* | --- | --- 
+*REC114* | 870 | 15 | 0.4003 | 7 | 0 | *1.000* | 5.384 | *0.0677* | --- | --- 
+*IHO1* | 1824 | 16 | 0.7095 | **8** | 13.061 | ***0.0015*** | 17.571 | ***0.0002*** | 14.527 | ***0.0001*** 
+*SPO11* | 1188 | 15 | 0.1654 | 7 | 0 | *1.000* | 4.648 | *0.0980* | --- | --- |
+**B)** | | | | | | | | | | | | 
+*HORMAD2* | 981 | 15 | 0.3153 | 7 | 0 | *1.000* | 3.650 | *0.1612* | --- | --- 
+*MRE11* | 2136 | 16 | 0.1688 | **8** | 0.363 | *0.8342* | 11.931 | ***0.0026*** | 4.706 | ***0.0301***
+*NBS1* | 2289 | 15 | 0.4183 | **8** | 0 | *1.000* | 12.763 | ***0.0017*** | 4.087 |  ***0.0432***
+*RAD50* | 3936 | 16 | 0.1006 | 7 | 0 | *1.000* | 0.301 | *0.8605* | --- | ----
+*BRCC3* | 954 | 15 | 0.0602 | 7 | 0 | *1.000* | 0.250 | *0.8826* | --- | --- 
+**C)** | | | | | | | | | | | | 
+*DMC1* | 1020 | 15 | 0.0351 | 1 | 0.488 | *0.7835* | 5.000 | *0.0821* | --- | --- 
+*RAD51* | 1017 | 16 | 0.0268 | 7 | 0 | *1.000* | 0 | *1.000* | --- | ---
+*SPATA22* | 1101 | 16 | 0.4893 | 7 | 0 | *1.000* | 0.429 | *0.8070* | --- | --- 
+*MEIOB* | 1425 | 16 | 0.2341 | 7 | 0 | *1.000* | 0.665 | *0.7172* | --- | ---
+*MCMDC2* | 2052 | 16 | 0.2239 | 7 | 0 | *1.000* | 0.628 | *0.7307* | --- | ---
+**D)** | | | | | | | | | | | | 
+*REC8* | 1833 | 16 | 0.3698 | **8** | 0 | *1.000* | 14.690 | ***0.0006*** | 5.927 | ***0.0149*** |  
+*RAD21L* | 1686 | 15 | 0.503 | **8** | 12.124 | ***0.0023*** | 32.050 | ***>0.0001*** | 12.049 | ***0.0005*** | 
+*SYCP1* | 3015 | 16 | 0.4337 | **8** | 8.711 | ***0.0128*** | 26.860 | ***>0.0001*** | 9.243 | ***0.0024*** | 
+*SYCP2* | 4650 | 16 | 0.5572 | **8**| 11.584 | ***0.0031*** | 37.200 | ***>0.0001*** | 15.838  | ***0.0001*** |  
+*TEX12* | 369 | 14 | 0.2297 | 7 | 0.0565 | *0.9721* | 1.549 | *0.4610* | --- | ---
+**E)** | | | | | | | | | | | | 
+*TEX11* | 2844 | 15 | 0.8483 | **8** | 60.872 | ***>0.0001***  | 82.665 | ***>0.0001***  | 61.141 | ***>0.0001***  | 
+*SHOC1* | 4644 | 16 | 0.6113 | **8** | 12.447 | ***0.0020*** | 30.561 | ***>0.0001*** | 15.645 | ***0.0001*** |
+*RNF212* | 948 | 16  | 0.5014 | **8** | 0 | *1.000* | 16.366 | ***0.0003*** | 5.202 | ***0.0226*** |
+*RNF212B* | 906 | 14 | 0.4066 | 7 | 0 | *1.000* | 0.500 | *0.7788* | --- | ---
+*MSH4* | 2814 | 16 | 0.2132 | **8** | 16.608 | ***0.0002*** | 39.447 | ***>0.0001*** | 23.238 | ***>0.0001*** | 
+*MSH5* | 2565 | 15 | 0.1642 | 7 | 0 | *1.000* | 4.214 | *0.1216* | --- | ---
+**F)** | | | | | | | | | | | |
+*MER3* | 4458 | 16 | 0.3633 | 8a | 0 | *1.000* | 12.838 | ***0.0016*** | 3.109 | *0.0779* | 
+*CNTD1* | 1026 | 15 | 0.2496 | 7 | 0 | *1.000* | 0.936 | *0.6263* | --- | ---  
+*HEI10* | 831 | 15 | 0.1226 | 7 | 0 | *1.000* | 0.250 | *0.8826* | --- | ---
+*MLH1* | 2313 | 15 | 0.1652 | 8a | 0 | *1.000* | 12.221 | ***0.0022*** | 0.280 | *0.5970* | 
+*MLH3* | 4419 | 16 | 0.4444 | 7 | 0 | *1.000* | 3.757 | *0.1528* | --- | ---
+*MUS81* | 1665 | 16 | 0.2124 | 7 | 0 | *1.000* | 0.628 | *0.7304* | --- | ---
+
+\pagebreak
+
+**Table 5**: Polymorphism & Divergence Data
+
+***Gene*** | ***$\omega$*** | ***Pn*** | ***Ps*** | ***Pn/Ps*** | ***Dn*** | ***Ds*** | ***Dn/Ds*** | ***MK Test*** | ***$\alpha$*** | ***NI*** |  |
+---|---|---|---|---|---|---|---|---|---|---|---|
+**A)** | | | | | | | | | |
+*HORMAD1* | 0.0901 | 84 | 35 | 2.4000 | 5 | 12 | 0.4167 | ***0.0018*** | -4.7600 | 5.7600 | Neg. 
+*MEI4* | 0.7252 | 15 | 7 | 2.1429 | 24 | 9 | 2.6667 | *0.7679* | 0.1964 | 0.8036 | ---
+*REC114* | 0.3239 | 76 | 37 | 2.0541 | 11 | 14 | 0.7857 | ***0.0392*** | -1.6143 | 2.6143 | Neg.
+*IHO1* | 0.6608 | 130 | 64 | 2.0313 | 36 | 19 | 1.8947 | *0.8718* | -0.0720 | 1.0720 | ---
+*SPO11* | 0.1434 | 118 | 52 | 2.2692 | 11 | 22 | 0.5000 | ***0.0001*** | -3.5385 | 4.5385 | Neg.
+**B)** | | | | | | | | | |
+*HORMAD2* | 0.295 | 80 | 31 | 2.5806 | 7 | 9 | 0.7778 | ***0.0404*** | -2.3180 | 3.3180 | Neg. 
+*MRE11* | 0.0392 | 211 | 86 | 2.4535 | 5 | 35 | 0.1429 | ***>0.0001*** | -16.1744 | 17.1744 | Neg.
+*NBS1* | 0.4155 | 221 | 93 | 2.3763 | 34 | 25 | 1.3600 | *0.0666* | -0.7473 | 1.7473 | ---
+*RAD50* | 0.0714 | 303 | 118 | 2.5678 | 8 | 43 | 0.1860 | ***>0.0001*** | -12.8019 | 13.8019 | Neg.
+*BRCC3* | 0.0979 | 13 | 21 | 0.6190 | 2 | 6 | 0.3333 | 0.6888 | -0.8571 | 1.8571 | ---
+**C)** | | | | | | | | | |
+*DMC1* | 0.000 | 72 | 42 | 1.7143 | 0 | 11 | 0.0000 | ***>0.0001*** | --- | --- | Neg.
+*RAD51* | 0.000 | 50 | 48 | 1.0417 | 0 | 13 | 0.0000 | ***>0.0001*** | --- | --- | Neg.
+*SPATA22* | 0.4523 | 114 | 45 | 2.5333 | 21 | 10 | 2.1000 | *0.6700* | -0.2063 | 1.2063 | ---
+*MEIOB* | 0.2462 | 91 | 40 | 2.2750 | 20 | 22 | 0.9091 | ***0.0200*** | -1.5025 | 2.5025 | Neg. 
+*MCMDC2* | 0.2108 | 165 | 54 | 3.0556 | 16 | 26 | 0.6154 | ***>0.0001*** | -3.9653 | 4.9653 | Neg.
+**D)** | | | | | | | | | |
+*REC8* | 0.477 | 147 | 76 | 1.9342 | 38 | 31 | 1.2258 | *0.1164* | -0.5779 | 1.5779 | ---
+*RAD21L* | 0.6334 | 51 | 17 | 3.000 | 27 | 13 | 2.0769 | *0.5051* | -0.4444 | 1.4444 | ---
+*SYCP1* | 0.3676 | 213 | 100 | 2.1300 | 33 | 37 | 1.2222 | *0.0546* | -0.7427 | 1.7427 | ---
+*SYCP2* | 0.3676 | 429 | 154 | 2.8506 | 74 | 53 | 1.3962 | ***0.0005*** | -1.0417 | 2.0417 | Neg.
+*TEX12* | 0.1349 | 31 | 16 | 1.9375 | 2 | 4 | 0.5000 | 0.1836 | -2.875 | 3.875 | ---
+**E)** | | | | | | | | | |
+*TEX11* | 0.9068 | 126 | 81 | 1.5556 | 55 | 25 | 2.200 | *0.2234* | 0.2929 | 0.7071 | ---
+*SHOC1* | 0.7225 | 368 | 124 | 2.9677 | 85 | 37 | 2.2973 | *0.2521* | -0.2918 | 1.2918 | ---
+*RNF212* | 0.387 | --- | --- | --- | 17 | 18 | 0.9444 | --- | --- | --- | ---
+*RNF212B* | 0.2566 | 368 | 124 | 2.9677 | 8 | 12 | 0.6667 | ***0.0013*** | -3.4516 | 4.4516 | Neg.
+*MSH4* | 0.2635 | 260 | 94 | 2.7660 | 24 | 29 | 0.8276 | ***>0.0001*** | -2.3422 | 3.3422 | Neg.
+*MSH5* | 0.2106 | 197 | 104 | 1.8942 | 19 | 33 | 0.5758 | ***0.0002*** | -2.2900 | 3.2900 | Neg.
+**F)** | | | | | | | | | |
+*MER3* | 0.3247 | 402 | 143 | 2.8112 | 54 | 44 | 1.2273 | ***0.0004*** | -1.2906 | 2.2906 | Neg.
+*CNTD1* | 0.6803 | 81 | 47 | 1.7234 | 13 | 8 | 1.6250 | *1.0000* | -0.0606 | 1.0606 | ---
+*HEI10* | 0.3235 | 73 | 33 | 2.2121 | 4 | 5 | 0.8000 | *0.1541* | -1.7652 | 2.7652 | ---
+*MLH1* | 0.0924 | 255 | 90 | 2.8333 | 9 | 29 | 0.3103 | ***>0.0001*** | -8.1296 | 9.1296 | Neg.
+*MLH3* | 0.4919 | 437 | 167 | 2.6168 | 77 | 57 | 1.3509 | ***0.0012*** | -0.9370869 | 1.937087 | Neg.
+*MUS81* | 0.1299 | 208 | 81 | 2.5679 | 17 | 40 | 0.4250 | ***>0.0001*** | -5.0421 | 6.0421 | Neg.
+
+\pagebreak
+
+**Table 4**: PAML - MNM Analysis
+
+***Gene*** | ***bp*** | ***N*** | ***$\omega$*** | ***M*** | ***M1-M2*** | ***p-value*** | ***M7-M8*** | ***p-value*** | ***M8a-M8*** | ***p-value*** 
+---|---|---|---|---|---|---|---|---|---|---
+*IHO1* | 1824 | 16 | 0.6104 | 7 | 0 | *1.000* | 0.258 | *0.8789* | --- | ---
+*MRE11* | 2136 | 16 | 0.1330 | 7 | 0.226 | *0.8930* | 3.056 | *0.2169* | --- | ---
+*NBS1* | 2289 | 15 | 0.3413 | 7 | 0 | *1.000* | 1.956 | *0.3761* | --- | ---
+*REC8* | 1833 | 16 | 0.2905 | 7 | 0 | *1.000* | 5.321 | *0.0699* | --- | --- 
+*RAD21L* | 1686 | 15 | 0.4271 | 8a | 2.329 | *0.3121* | 9.497 | ***0.0087*** | 1.620 | *0.2031* 
+*SYCP1* | 3015 | 16 | 0.3731 | 8a | 3.328 | *0.1893* | 13.440 | ***0.0012*** | 2.122 | *0.1452* 
+*SYCP2* | 4650 | 16 | 0.4752 | 7 | 0 | *1.000* | 1.758 | *0.4151* | --- | ---  
+*TEX11* | 2844 | 15 | 0.7287 | **8** | 9.989 | ***0.0068***  | 18.776 | ***0.0001***  | 10.656 | ***0.0011*** | 
+*SHOC1* | 4644 | 16 | 0.5519 | 8a | 0 | *1.000* | 7.439 | ***0.0242*** | 0.292| *0.5887* |
+*RNF212* | 948 | 16  | 0.3685 | 7 | 0 | *1.000* | 0 | *1.000* | --- | --- 
+*MSH4* | 2814 | 16 | 0.1509 | 7 |  0 | *1.000* | 2.079 | *0.3536* | --- | ---  
+
+\pagebreak
+
+## Acknowledgements 
+
+A.L.D. was supported by NHGRI Training Grant to the Genomic Sciences Training Program
+5T32HG002760. B.A.P. was supported by NIH grant R01 GM100426A and NSF grant DEB
+1353737.
+
+## References
+
+
