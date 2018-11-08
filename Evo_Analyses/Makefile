@@ -2,11 +2,20 @@
 
 GENE_REF=$(wildcard ../refA/*.fa)
 GENE_FILES=$(patsubst ../refA/%.fa, ../Data/gene/%.fa, $(GENE_REF))
+AA_FILES=$(patsubst ../refA/%.fa, ../Align/align/%.aa_ali.fasta, $(GENE_REF))
 ALIGN_FILES=$(patsubst ../refA/%.fa, ../Align/align/%.nt_ali.fasta, $(GENE_REF))
 ALIGN_PW_FILES=$(patsubst ../refA/%.fa, ../Align/align_pw/%.nt_ali.fasta, $(GENE_REF))
 YN00_FILES=$(patsubst ../refA/%.fa, Yn00/%.YN00.fasta, $(GENE_REF))
 yn00_FILES=$(patsubst ../refA/%.fa, Yn00/%_yn, $(GENE_REF))
 CODEML_FILES=$(patsubst ../refA/%.fa, Codeml/%.CODEML.fasta, $(GENE_REF))
+AAML_FILES=$(patsubst ../refA/%.fa, aaML/%.aaML.fasta, $(GENE_REF))
+
+## aaML		: Estimate phylogenetic distance.
+.PHONY : aaML
+aaML : $(AAML_FILES)
+
+aaML/%_aaML : $(AAML_FILES)
+	paml4.8/src/codeml aaML/$*_aaML.ctl
 
 ## yn00		: Calculate pairwise divergence.
 .PHONY : yn00
@@ -18,13 +27,16 @@ Yn00/%_yn : $(YN00_FILES)
 
 ## format		: Format pairwise alignments for use with PAML.
 .PHONY : format
-format : $(YN00_FILES) $(CODEML_FILES)
+format : $(AAML_FILES) #$(YN00_FILES) $(CODEML_FILES)
 
-Yn00/%.YN00.fasta : $(ALIGN_PW_FILES) ../PYcode/PAML_format.py
-	python3 ../PYcode/PAML_format.py $* ../Align/align_pw > $@
+#Yn00/%.YN00.fasta : $(ALIGN_PW_FILES) ../PYcode/PAML_format.py
+#	python3 ../PYcode/PAML_format.py $* ../Align/align_pw > $@
 
-Codeml/%.CODEML.fasta : $(ALIGN_FILES) ../PYcode/PAML_format.py
-	python3 ../PYcode/PAML_format.py $* ../Align/align > $@
+#Codeml/%.CODEML.fasta : $(ALIGN_FILES) ../PYcode/PAML_format.py
+#	python3 ../PYcode/PAML_format.py $* ../Align/align > $@
+
+aaML/%.aaML.fasta : $(AA_FILES) ../PYcode/PAML_aa_format.py
+	python3 ../PYcode/PAML_aa_format.py $* ../Align/align > $@
 
 ## variables	: Print variables.
 .PHONY : variables
