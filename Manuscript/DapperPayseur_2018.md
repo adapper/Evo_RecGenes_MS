@@ -79,7 +79,7 @@ We selected a focal panel of 32 recombination genes (See Table1). The panel was 
 
 Alternative splicing is widespread and presents a challenge for molecular evolution studies [@Pan2008; @Barbosa2012]. To focus our analyses on coding sequences that are transcribed during meiosis and to validate the computational annotations for each gene in each species, we used available testes expression datasets. We downloaded raw testes expression data for each mammalian species from NCBI Gene Expression Omnibus (GEO) (Table S1)[@Barrett2012]. We converted the SRA files into FASTQ files using SRAtoolkit [@Leinonen2010]. The reads were mapped to an indexed reference genome (Table S2,3) (Bowtie2, [@Langmead2012]) using TopHat [@Trapnell2009]. The resulting bam files were sorted using Samtools [@Li2009] and visualized using IGV 2.4.10 [@Thorvaldsdottir2013]. This allowed us to: (1) identify the transcript expressed in testes, (2) check the reference transcript for errors, and (3) revise the reference transcript based upon the transcript data.
 
-We compared expression data to annotations from both Ensembl and NCBI [@Wheeler2006; @Zerbino2017]. When both transcripts were identical, we selected the NCBI transcript.  The Ensembl transcript was used instead when: (1) the NCBI reference sequences was not available for a given gene in a given species, (2) when none of the NCBI transcripts matched the expression data, or (3) when there were sequence differences between the two transcripts and the Ensembl transcript was more parsimonious - i.e. had the fewest differences when compared to the rest of sequences in the alignment.  **The use of testes expression data was a key data processing step and the inclusion of species in this study was primarily determined by the availability of testes expression data.**
+We compared expression data to annotations from both Ensembl and NCBI [@Wheeler2006; @Zerbino2017]. When both transcripts were identical, we selected the NCBI transcript.  The Ensembl transcript was used instead when: (1) the NCBI reference sequences was not available for a given gene in a given species, (2) when none of the NCBI transcripts matched the expression data, or (3) when there were sequence differences between the two transcripts and the Ensembl transcript was more parsimonious - i.e. had the fewest differences when compared to the rest of sequences in the alignment.  The use of testes expression data was a key data processing step and the inclusion of species in this study was primarily determined by the availability of testes expression data.
 
 ###  Phylogenetic Comparative Approach in Mammals
 
@@ -93,7 +93,7 @@ We estimated rates of synonymous and non-synonymous substitutions per site using
 
 ### Identifying Signatures of Selection
 
-To test for positive selection, we compared the fit of models including a class of sites with $\omega$ greater than 1 to the fit of models in which all classes of sites have $\omega$ values equal to, or less than, 1.  Specifically, we report three comparisons: M1 vs. M2, M7 vs. M8, M8 vs. M8a (Table 2). The first comparison, M1 vs. M2, compares a model with two classes of sites ($\omega$  < 1, $\omega$ = 1) to a model with a third class of sites where $\omega$ is greater than 1, indicative of positive selection [@Yang2007]. More complex models (M7 & M8) were developed to take into account variation in $\omega$ less than one among sites within genes and thus, include 10 site classes drawn from a beta distribution between 0 and 1 [@Yang2007]. In this case, Model 8 includes an additional 11 class of sites in which $\omega$ is greater than 1, allowing for the identification of signatures of positive selection [@Yang2007]. In cases in which a large fraction of sites within a gene are evolving neutrally ($\omega$ = 1), Model 8 will fit significantly better due to a very poor fit of Model 7 rather than a signature of positive selection. To avoid incorrectly identifying signature of positive selection, Model 8 is also compared to Model 8a which contains a larger fraction of neutrally evolving sites than Model 7 [citations].
+To test for positive selection, we compared the fit of models including a class of sites with $\omega$ greater than 1 to the fit of models in which all classes of sites have $\omega$ values equal to, or less than, 1.  Specifically, we report three comparisons: M1 vs. M2, M7 vs. M8, M8 vs. M8a (Table 2). The first comparison, M1 vs. M2, compares a model with two classes of sites ($\omega$  < 1, $\omega$ = 1) to a model with a third class of sites where $\omega$ is greater than 1, indicative of positive selection [@Yang2007]. More complex models (M7 & M8) were developed to take into account variation in $\omega$ less than one among sites within genes and thus, include 10 site classes drawn from a beta distribution between 0 and 1 [@Yang2007]. In this case, Model 8 includes an additional 11 class of sites in which $\omega$ is greater than 1, allowing for the identification of signatures of positive selection [@Yang2007]. In cases in which a large fraction of sites within a gene are evolving neutrally ($\omega$ = 1), Model 8 will fit significantly better due to a very poor fit of Model 7 rather than a signature of positive selection. To avoid incorrectly identifying signature of positive selection, Model 8 is also compared to Model 8a which contains a larger fraction of neutrally evolving sites than Model 7 [**citations**].  We also report the number of significant Bayes-Empirical-Bayes (BEB) $\omega$ estimates for individual codons in each gene. 
 
 ### Multinucleotide Mutations
 
@@ -101,54 +101,152 @@ Multi-nucleotide mutations (MNMs) occur when two mutations happen simultaneously
 
 ###  Polymorphism & Divergence in the Primate Lineage
 
-To further examine evidence for selection on recombination genes, we compared divergence between humans and macaque to polymorphism within humans in 29 recombination genes. Human polymorphism data was downloaded from ExAC database. Polymorphism data was not available for 3 genes (*RNF212, MEI4,* and *REC8*), and thus these genes were not included in this analysis. By comparing counts of non-synonymous and synonymous polymorphisms to counts of non-synonymous and synonymous substitutions using the McDonald-Kreitman test, we can identify either an excess of non-synonymous substitutions, indicative of positive selection, or a paucity of non-synonymous substitutions, indicative of negative selection [**citation**]. Additionally, pairwise divergence between humans and macaques was calculated using yn00 package in PAML [@Yang2007].
+To further examine evidence for selection on recombination genes, we compared divergence between humans and macaque to polymorphism within humans in the recombination genes.  Human polymorphism data was downloaded from ExAC database [@Lek2016]. The ExAC database spans 60,706 unrelated individuals sequenced as part of both disease-specific and population genetic studies [@Lek2016].  To avoid biases introduced by population structure, we restricted our analyses to the population with the largest representation in the database: European, non-Finnish, individuals (*N* = 33,370)[@Lek2016].  Polymorphism data for the correct transcript of RNF212 (based upon expression data) was not available in the ExAC database, and thus this gene was not included in this analysis.     
+
+We compared counts of non-synonymous and synonymous polymorphisms to counts of non-synonymous and synonymous substitutions using the McDonald-Kreitman test [@Mcdonald1991].  The neutral expectation is that the ratio of non-synonymous to synonymous substitutions is equal to the ratio of non-synonymous to synonymous polymorphisms [@Mcdonald1991].  Significant deviations can provide evidence of positive or negative selection.  The neutrality index (NI) measures the direction and degree of departures from the neutral expectation [@Charlesworth1994B].  A NI of less than one is indicative of positive selection and the fraction of adaptive amino acid substitutions can be estimated as 1 - NI [@Charlesworth1994B; @Fay2001; @Smith2002].  We also measure the direction of selection (DoS) for each gene, an additional statistic that measures the direction and degree of neutral expectations and has been shown to be less sensitive to bias than NI under certain conditions [@Stoletzki2010].  A positive DoS is consistent with positive selection, and vice versa [@Stoletzki2010].  Additionally, we estimated pairwise divergence ($\omega$) between humans and macaques using the *yn00* package in PAML [@Yang2007].
 
 ### Identifying Evolutionary Patterns
 
 To identify evolutionary patterns among our recombination genes, we compared the rate of evolution and the proportion of genes experiencing positive selection among groups of interest. We asked: (1) Do genes that function in different steps of the pathway exhibit different rates of evolution? (2) Do genes that function post-synapsis evolve more rapidly than genes that function pre-synapsis? and (3) Do genes associated with between-individual variation in recombination rate diverge more rapidly between species? All statistical analyses were performed in R [**citation**].
 
-Evolutionary rate covariation (ERC) metric is the correlation coefficient between branch-specific rates between two proteins [@Clark2012]. ERC is typically elevated among interacting proteins and is assumed to result from: (1) concordance in fluctuating evolutionary pressures, (2) parallel evolution of expression level, or (3) compensatory changes between co-evolving genes [@Clark2012; @Clark2013]. We used a publicly available ERC dataset (https://csb.pitt.edu/erc_analysis/index.php) to compare the median ERC-value among a subset of our focal recombination genes (N = 25) to the genome as a whole, as described in [@Priedigkeit2015].
+The evolutionary rate covariation (ERC) metric is the correlation coefficient between branch-specific rates between two proteins [@Clark2012]. ERC is frequently elevated among interacting proteins [@Pazos2001; @Hakes2007; @Clark2009] and is assumed to result from: (1) concordance in fluctuating evolutionary pressures, (2) parallel evolution of expression level, or (3) compensatory changes between co-evolving genes [@Clark2012; @Clark2013]. We used a publicly available ERC dataset (https://csb.pitt.edu/erc_analysis/index.php) to compare the median ERC-value among a subset of the focal recombination genes (*N* = 25) to other genes in the genome, as described in [@Priedigkeit2015].
 
-To control for this general elevation in ERC among recombination genes and test for relationships between specific groups between them, we calculated ERC values for only our focal set of 32 recombination genes. Branch lengths were calculated using aaML package in PAML [@Yang2007] and pairwise ERC values were calculated following the methods of [@Clark2012]. Using this approach, we specifically compared the
-211 ERC values among three of the most rapidly evolving recombination genes (*TEX11, SHOC1, and SYCP2*).
+To control for an observed elevation in ERC among recombination genes and test for relationships between specific groups, we also conducted an ERC analysis that was restricted to the focal set of 32 recombination genes.  Branch lengths were calculated using the *aaML* package in PAML [@Yang2007] and pairwise ERC values were calculated following the methods of [@Clark2012]. Using this approach, we specifically compared the ERC values among three of the most rapidly evolving recombination genes (*TEX11*, *SHOC1*, and *SYCP2*) to the rest of the recombination genes.
 
 \pagebreak
 
 ## Results
 
+### Recombination genes evolve at different rates in mammals
 
-### Heterogeneity in evolutionary rate among recombination genes
+We observed substantial heterogeneity in the rate of evolution of recombination genes, spanning a range of 0.0268 – 0.8483 (mean $\omega$ = 0.3275, SD = 0.1971, median = 0.30945) (Figure 2A, Figure 3, Table 3). Four genes exhibit particularly rapid evolution compared to other recombination genes, with evolutionary rates greater than 1 SD above the mean (*IHO1*, *SHOC1*, *SYCP2*, *TEX11*). At the other end of the spectrum, five genes have evolutionary rates more than 1 SD below the mean and are highly conserved across the mammalian phylogeny (*BRCC3*, *DMC1*, *HEI10*, *RAD50*, *RAD51*). In general, there is very high concordance between evolutionary rate across mammals and pairwise divergence between humans and macaques (mean $\omega$ = 0.3301, SD = 0.2370, median = 0.30925)($\rho$ = 0.833774, *p* = 3.11e-9, Spearman's correlation)(Figure 2B, Table 4). It should be noted, however, that these two measures are not independent - divergence between human and macaque sequences was incorporated in the phylogenetic analysis. In comparisons between human and macaque sequences, six genes have evolutionary rates more than 1 SD above the mean (*CNTD1*, *IHO1*, *MEI4*, *RAD21L*, *SHOC1*, *TEX11*) and six genes have evolutionary rates more than 1 SD below the mean (*DMC1*, *HORMAD1*, *MLH1*, *MRE11*, *RAD50*, *RAD51*).
 
-We observed substantial heterogeneity in the rate of evolution of recombination genes, spanning a range of 0.0268 – 0.8483 (mean $\omega$ = 0.3275, SD = 0.1971, median = 0.30945) (Figure 2A, Figure 3, Table 3). Four genes exhibit particularly rapid evolution compared to other recombination genes, having evolutionary rates greater than 1 SD above mean (*SYCP2, TEX11, SHOC1, IHO1*). At the other end of the spectrum, five genes have evolutionary rates more than 1 SD below mean and are highly conserved across the mammalian phylogeny (*BRCC3, HEI10, DMC1, RAD51, RAD50*). In general, there is very high concordance between evolutionary rate across mammals and pairwise divergence between humans and macaques (mean $\omega$ = 0.3301, SD = 0.2370, median = 0.30925) (Figure 2B, Table 4). It should be noted, however, that these two measures are not independent - divergence between human and macaque sequences is incorporated in the phylogenetic analysis. Six genes have evolutionary rates more than 1 SD above mean (*CNTD1, TEX11, SHOC1, IHO1, MEI4, RAD21L*). Likewise, six genes have evolutionary rates more than 1 SD below mean (*HORMAD1, MRE11, RAD50, DMC1, RAD51, MLH1*).
+The genes that show the most rapid and most conserved rates of divergence between humans and macaques are mostly the same genes that show extreme evolutionary rates across the mammalian phylogeny.  Notable exceptions include *MEI4* ($\omega$~mammals~ = 0.4332, $\omega$~human-macaque~ = 0.7252), *CNTD1* ($\omega$~mammals~ = 0.2496, $\omega$~human-macaque~ = 0.6803), *HEI10* ($\omega$~mammals~ = 0.1226, $\omega$~human-macaque~ = 0.3235), and *HORMAD1* ($\omega$~mammals~ = 0.3036, $\omega$~human-macaque~ = 0.0901.
 
-The genes that show the most rapid and most conserved rates of divergence between humans and macaques largely, but not completely, overlaps with the genes showing extreme evolutionary rates across the mammalian phylogeny.There are a few notable outliers that show much more rapid divergence between humans and macaques than across the mammalian phylogeny as a whole. These include MEI4 ($\omega$~mammals~ = 0.4332, $\omega$~human-macaque~ = 0.7252), CNTD1 ($\omega$~mammals~ = 0.2496, $\omega$~human-macaque~ = 0.6803), and HEI10 ($\omega$~mammals~ = 0.1226, $\omega$~human-macaque~ = 0.3235).
+### Recombination genes evolve faster than other genes in primates
 
-### Elevated evolutionary rate among recombination genes
+Gradnigo et al. (2016) measured the rate of divergence between human and macaque for 3,606 genes throughout the genome. We used this dataset to ask whether the rate of evolution of recombination genes as a group is different than expected from the genome-wide distribution. Mean rates for sets of 32 $\omega$ values randomly sampled from the 3,606-gene list rarely exceeded the mean rate for recombination genes (*p* = 0.0075, 10,000 random draws) (Figure 4), suggesting that recombination genes evolve faster on average. 
 
-Gradnigo et al. (2016) measured the rate of divergence between human and macaque for 3,606 genes throughout the genome. We used this dataset to ask whether the rate of evolution of recombination genes as a group is different than expected from the genome-wide distribution. We randomly sampling 32 $\omega$ values from this larger dataset and asked how frequently we observed average evolutionary rates as high or higher than observed among our focal set of recombination genes (mean $\omega$ = 0.3301). We found evidence for a significantly elevated evolutionary rate among recombination genes, observing a mean as high (or higher) than the value observed among recombination genes less than 1% of the time (*p* = 0.0075, sample size = 10,000) (Figure 4).
+### Recombination genes display signatures of positive selection across mammals
 
-### Evidence of positive selection across the mammalian phylogeny
+Comparing polymorphism within humans to divergence between humans and macaques revealed an excess of non-synonymous polymorphisms at 16 genes (Fisher’s Exact Test, Table 4). This pattern suggests the presence of weakly deleterious mutations at recombination genes in human populations.  None of the recombination genes we surveyed had displayed a significant excess of non-synonymous substitutions, the expected signature of positive selection. Only one gene (*TEX11*) had a higher fraction ratio  of non-synonymous to synonymous substitutions than non-synonymous to synonymous polymorphisms (*NI* = 0.7879; *DoS* = 0.0534)(Table 4).  However, we did not observe higher allele frequencies among non-synonymous polymorphism than synonymous polymorphism, which is expected if most non-synonymous polymorphisms were weakly deleterious.  
 
-We identified signatures of positive selection in 10 recombination genes (31.25%) using site models in CODEML. These genes include: *IHO1, MRE11, SYCP1, SYCP2, REC8, RAD21L, RNF212, TEX11, MSH4, SHOC1* (Table 2). For each of these genes, models that include a fraction of sites where the rate of non-synonymous substitutions is estimated to be greater than the rate of synonymous substitutions ($\omega$ > 1, Model 8) had a significantly better fit than models that did not include such a class of sites (Model 7, 8a). Due to the potential for multi-nucleotide mutations to produce erroneous signatures of positive selection, we re-analyzed this subset of genes removing any codons inferred to have accumulated multiple changes on a single branch (CMDs). After removing all CMDs, 1 gene (*TEX11*) retained a significant signature of positive selection (Table 5).
-
-Comparing polymorphism within humans to divergence between humans and macaques revealed a general pattern of negative selection among recombination genes in the primate lineage. A majority of the recombination genes (16 genes, 55.17%) had a significant paucity of non-synonymous substitutions, indicative of negative (purifying) selection (Fisher’s Exact Test, Table 4). None of the genes had a significant excess of non-synonymous substitutions, which would indicate a significant signature of positive selection. Only one gene (*TEX11*) had a positive alpha score ($\alpha$ = 0.2929) and a corresponding neutrality index less than 1 (*NI* = 0.7071), indicating a higher fraction of non-synonymous substitutions than non-synonymous polymorphisms
-(Table 4).
+Comparative phylogenetic methods allow for the identification of signatures of selection acting on a subset of sites within a gene.  We identified signatures of positive selection in 11 recombination genes (34.3%) using site models in *CODEML*. These genes include: *IHO1*, *MSH4*, *MRE11*, *NBS1*, *RAD21L*, *REC8*, *RNF212*, *SHOC1*, *SYCP1*, *SYCP2*, and *TEX11* (Table 2). For each of these genes, models that include a fraction of sites where the rate of non-synonymous substitutions is estimated to be greater than the rate of synonymous substitutions ($\omega$ > 1, Model 8) fit better than models that did not include such a class of sites (Model 7, 8a). Due to the potential for multi-nucleotide mutations to produce false signatures of positive selection, we re-analyzed this subset of genes after removing any codons inferred to have accumulated multiple changes on a single branch (CMDs). After removing all CMDs, 1 gene (*TEX11*) retained a significant signature of positive selection (Table 5).
 
 ### Recombination genes associated with inter-individual differences do not diverge more rapidly between species 
 
-We did not find evidence that recombination genes associated with inter-individual differences in recombination rate evolve more rapidly than other recombination genes. While we observed a higher mean evolutionary rate among genes associated with inter-individual differences ($\omega$ = 0.3943 v. $\omega$ = 0.2925, respectively), the difference was not significant (*p* = 0.2381, Mann-Whitney U Test). Likewise, we observed a greater proportion of genes associated with inter-individual variation exhibited signatures of positive selection (5/11 vs. 5/21, respectively), this difference was also not significant (*p* = 0.210, Chi-Squared Test). The difference in evolutionary rates between these two classes of genes was greater when considering only divergence between humans and macaques ($\omega$ = 0.4181 vs. $\omega$ = 0.2839)(*p* = 0.08816, Mann-Whitney U Test).
+Recombination genes previously associated with inter-individual differences in recombination rate do not evolve faster in mammals (average $\omega$ = 0.3943 vs. average $\omega$ = 0.2925, respectively; *p* = 0.2381, Mann-Whitney U Test), though the difference in evolutionary rates between these two classes of genes is greater when considering only divergence between humans and macaques (average $\omega$ = 0.4181 vs. average $\omega$ = 0.2839, respectively; *p* = 0.08816, Mann-Whitney U Test).  Likewise, the proportion of recombination genes that exhibit signatures of positive selection is not higher among genes that have been associated with inter-individual differences (5/11 vs. 6/21; *p* = 0.719, **Fisher's Exact Test**). 
 
-### Genes that function post-synapsis are more likely to exhibit signatures of positive selection
-
-We did not find evidence that recombination genes that in different steps of the pathway exhibit different evolutionary rates. This was the case both when comparing the 6 major steps in the recombination pathway (*p* = 0.1422, Kruskal-Wallis Test)(Figure 6) and when comparing more generally between genes that function pre- and post-synapsis ($\omega$ = 0.3762 vs. $\omega$ = 0.2723, respectively)(*p* = 0.1425, Mann-Whitney U Test). Likewise, we didn’t observed significant differences between recombination genes by step in the pathway when comparing just divergence between humans and macaques (*p* = 0.1422, Kruskal-Wallis Test). However, the rate of divergence between humans and macaques of post-synapsis genes was borderline significantly higher when compared to pre-synapsis recombination genes ($\omega$ = 0.3994 v. $\omega$ = 0.2514, respectively)(*p* = 0.05827, Mann-Whitney U Test). Interestingly, we did observe that a significantly higher fraction of post-synapsis recombination genes exhibited signatures of positive selection in comparison with pre-synapsis recombination genes (8/17 v. 2/15, respectively) (*p* = 0.03998, Chi-Squared Test).
+A comparison among groups of genes assigned to six major steps in the recombination pathway yielded no significant differences (mammals: *p* = 0.1422, Kruskal-Wallis Test; human vs. macaque: *p* = 0.2682, Kruskal-Wallis Test)(Figure 6).  Similarly, genes acting before and after synapsis show similar evolutionary rates across mammals (average $\omega$_before = 0.2723 vs. $\omega$_after = 0.3762, *p* = 0.1425, Mann-Whitney U Test), though - again - the difference in evolutionary rates is greater when considering only divergence between humans and macaques (average $\omega$_before = 0.2514 vs. $\omega$_after = 0.3994, *p* = 0.05827, Mann-Whitney U Test).
 
 ### Evolutionary rates among recombination genes are correlated  
 
-Meiotic genes have been shown to exhibit statistically significant, but not strong, ERC among mammals [@Clark2013]. Similarly, we identified significant evidence for correlated evolution among genes in the recombination pathway (mean ERC = 0.134, permutation *p* = 0.000358). After factoring out the general elevation of ERC values among recombination genes, the mean ERC value among our focal set of genes was approximately zero (mean ERC = 0.000358). Among recombination genes, we detected strong signature of correlated evolution between our three genes of interest: *SHOC1, TEX11, SYCP2* (mean ERC = 0.42369, permutation *p* = 0.025). Thus, the coevolutionary pattern among these three genes is statistically stronger than that observed generally among recombination genes.
+To determine the degree to which recombination genes exhibit correlated evolutionary rates across the mammalian phylogeny, we used a publicly available ERC database (https://csb.pitt.edu/erc_analysis/index.php) to measure pairwise ERC among recombination genes.  Recombination genes show correlated evolutionary rates (mean ERC = 0.134) that are significantly higher than expected by randomly sampling the genome-wide distribution (permutation *p* = 0.000358).
+
+*TEX11*, *SYCP2*, and *SHOC1* are three of the most rapidly evolving recombination genes among mammals (Table 3).  Additionally, molecular genetics studies indicate that *TEX11* has direct protein-to-protein interactions with both *SHOC1* and *SYCP2* [@Yang2008; @Guiraldelli2018].  *TEX11*, *SYCP2*, and *SHOC1* show correlated evolutionary rates (mean ERC = 0.42369) that are significantly higher than expected by randomly sampling among recombination genes (permutation *p* = 0.025). 
 
 \pagebreak
 
 ## Discussion
+
+### Observations about recombination genes as group:
+
+We observed substantial variation in the rate of evolution of genes in the recombination pathway.  However, there are a number of observations we can make about how recombination genes evolve as a group:
+
+**1)** Rate correlations among recombination genes are higher than expected from rate correlations among other genes - evidence that the recombination pathway shapes the evolution of recombination genes.
+
+**2)** In general, there is very high concordance between the rate of evolution of recombination genes in primates (human vs. macaque) and across the mammalian phylogeny, suggesting that the strength and direction of selection on recombination genes may be quite similar across mammals. 
+
+* Caveat: These two measures are not independent, divergence between humans and macaques is part of the measurement of divergence across mammals.
+
+Note, there are some notable exceptions to the general concordance between the rate of evolution in primates and mammals – which may highlight genes that have experienced differences in the strength and direction of selection along the primate lineage. 
+
+* CNTD1, HORMAD1, and MEI4 have relatively average rates of evolution across the mammalian phylogeny.  However, MEI4 and CNTD1 are among the most rapidly evolving recombination genes along the primate lineage, while HORMAD1 is one of the most conserved.  
+
+**3)** As a group, recombination genes tend to evolve more rapidly than other genes in primates.  There are a couple of explanations as to why a group of genes may exhibited elevated rates of evolution:
+ 
+* (1) Expression Level – genes with lower breadth of expression tend to evolve more rapidly.  Recombination genes tend to be tissue-specific with low overall levels of expression. Sex-specific expression can also relax selection and elevate divergence.  However, these genes are unlikely to be sex-specific as they affect recombination phenotypes in both sexes. 
+* (2) Positive Selection – it is possible that on average, recombination genes are more frequently subject to positive selection, elevating divergence between species.
+
+### Observations about groups of recombination genes:
+
+**1)** We did not find evidence that genes previously associated with inter-individual variation in recombination rate show more rapid or adaptive evolution than other genes in the genome.  There are two interpretations of this observation:
+
+* (1) genes that produce inter-individual variation in recombination rate are unlikely to contribute to between species differences.
+* (2) we did not detect an association because we have imperfect knowledge of the genes responsible for inter-individual variation.
+
+**2)** We did not see a strong pattern that the rate of evolution of a gene could be predicted by the step in the pathway in which it functions.  There are two interpretations of this observation:
+
+* (1) The step of the recombination pathway a recombination functions in is not a good proxy for the selection pressures acting on a gene.
+* (2) Due to the significant variation in evolutionary rates between genes, we do not have enough power to detect similarity in selection pressures within step with our dataset.  
+
+Heterogeneity within steps of the recombination pathway motivates a more careful investigation of the specific role of genes in the pathway.
+
+### Signatures of Selection:
+
+Many gene (~50%) have evidence of negative selection in primates – diagnosed by an excess of non-synonymous polymorphisms in human populations.  These results highlight a pattern of conservation among recombination genes.
+
+This approach identifies patterns of selection at the level of the entire gene and positive selection is often thought to target certain domains within proteins.  For example, the majority of PRDM9 sequence is conserved and the signature of rapid divergence is constrained to a specific domain.  Phylogenetic comparative methods leverage more sequences to allow a more sensitive test for sites of selection.  
+
+A sizable fraction of the recombination genes we analyzed (~1/3) showed evidence for positive selection at a subset of sites.  These genes are predominantly found in two steps of the pathway:
+
+* (1) genes that form the synaptonemal complex 
+* (2) the genes that regulate the first steps of the crossover vs. non-crossover decision
+
+PAML has been shown to be susceptible to false positives when assumptions are violated.  One potentially pervasive issue are multi-nucleotide mutations, which violate the assumption that the probability of two simultaneous mutations in a single codon is zero.  
+
+It is not possible to directly identify MNMs in our dataset, so we choose a highly conservative approach of removing all codons that are inferred to have accumulated multiple mutations on a single branch in the phylogeny.  Codons removed using this approach could be MNMs, but they also likely include codons that:
+
+* have accumulated sequential mutations along the long branches in the mammalian phylogeny.
+* are neither MNMs or CMDs, due to uncertainty in the inference of ancestral sequences.  
+
+ Despite the conservative nature of this approach, we still found a signature of positive selection in TEX11 even when all putative CMDs were removed.  While this result suggests that MNMs are unlikely to have produced an erroneous signature of selection in TEX11, the conservative nature of the filter makes it difficult to draw conclusions about the nature of the signals of selection in the other recombination genes.  It is always to prudent to consider the possibility that relaxed selection has led to elevated rates of evolution.
+
+### Observations about specific recombination genes:
+
+The population genetic patterns, paired with knowledge of the molecular function, nominate TEX11 as a very interesting candidate for further investigation:
+TEX11 exhibits rapid evolution and a robust signature of positive selection.
+
+* TEX11 is the most rapidly evolving recombination gene within primates and across mammals.
+* TEX11 exhibits a robust signature of positive selection across mammals.
+* 14 residues distributed throughout TEX11 exhibit signatures of positive selection.
+* TEX11 is the only gene we surveyed that had more non-synonymous substitutions than non-synonymous polymorphisms.
+
+TEX11 is known to directly interact with of two of the three other genes that evolve most rapidly across the mammalian phylogeny (SHOC1, SYCP2).
+
+Rate correlations among TEX11-SYCP2-SHOC1 are higher than expected from rate correlations among recombination genes – evidence of correlated evolution.  This correlation suggests that either:
+
+* (1) all three genes experience concordant selection pressures due to their closely-related functions in the recombination pathway
+* (2) rapid evolution of TEX11 is driving compensatory changes in two proteins with which it directly interacts (SYCP2 & SHOC1).
+
+TEX11 is thought to function by binding to the synaptonemal complex (SYCP2) and recruit factors that regulate the first step of the crossover vs. non-crossover decision (SHOC1).
+
+* TEX11 has 3 TRP domains [@Guiraldelli2018] and most of the residues with signatures of selection localize to two of the domains – one of which is known to bind to SHOC1.
+* “a TRP-like domain, a ubiquitous protein interaction domain that adopts a modular antiparallel array of $\alpha$-helices”
+
+Caveats: 
+
+* (1) genes without signatures of positive selection may contribute to species differences in recombination rate, and genes with evidence of positive selection may not contribute; 
+* (2) we did not consider all genes in the recombination pathway, nor did we consider the evolution of non-coding sequences
+
+### Other Notable Patterns:
+
+IHO1 is also a very interesting gene:
+
+* IHO1 evolves rapidly and has a signature of positive selection.
+* IHO1 is a recently discovered gene that is required for DSB formation, it recruits and activated SPO11, a topoisomerase-like gene that generates DSBs.
+
+The genes that are most highly conserved across mammals are exclusively involved in the detection and processing of DSBs.  Some of these genes function in DSB detection and repair which may exert non-recombination related selection pressures, however, meiosis-specific genes are among this group.
+ 
+### Comparisons to other observed patterns:
+
+Highlight comparisons to genes specifically mentioned in the introduction:
+
+We do not observe any recombination genes with as extreme a pattern of divergence as PRDM9.  However, TEX11 comes close.
+
+* Most of the PRDM9 allele is highly conserved.  The zinc-finger domains are highly divergent.  28 of 36 ZF residues differ between human and chimpanzee.  32 sites with evidence of positive selection (dN/dS >> 1). [@Thomas2009]
+
+MCMDC2 - homolog of MEI-217/MEI-218 - contrasting patterns highlight differences between *Drosophila* and mammals.
 
 \pagebreak
 
@@ -156,12 +254,12 @@ Meiotic genes have been shown to exhibit statistically significant, but not stro
 
 **Pathway Step** | **Genes** 
 ---|---
-DSB Formation | *HORMAD1, MEI4, **REC114**, IHO1, SPO11*
-DSB Processing | *HORMAD2, MRE11, NBS1, RAD50, BRCC3*
-Strand Invasion | *DMC1, RAD51, SPATA22, MEIOB, MCMDC2*
-Homologous Pairing | ***REC8**, **RAD21L**, SYCP1, SYCP2, TEX11*
-CO vs. NCO Decision | ***TEX11**, SHOC1, **RNF212**, **RNF212B**, **MSH4**, **MSH5***
-Resolution | ***MER3**, CNTD1, **HEI10**, MLH1, **MLH3**, MUS81*
+DSB Formation | *HORMAD1, IHO1, MEI4, SPO11, **REC114***
+DSB Processing | *BRCC3, HORMAD2, MRE11, NBS1, RAD50*
+Strand Invasion | *DMC1, MEIOB, MCMDC2, SPATA22, RAD51*
+Homologous Pairing | *SYCP1, SYCP2, **RAD21L**, **REC8**, TEX12*
+CO vs. NCO Decision | ***MSH4**, **MSH5**, **RNF212**, **RNF212B**, **TEX11**, SHOC1*
+Resolution | *CNTD1, **HEI10**, **MER3**, MLH1, **MLH3**, MUS81*
 
 \bigbreak
 
@@ -232,91 +330,46 @@ Resolution | ***MER3**, CNTD1, **HEI10**, MLH1, **MLH3**, MUS81*
 
 **Table 3**: PAML analysis of 32 recombination genes in mammals [@Yang2007].  
 
-***Gene*** | ***bp*** | ***N*** | ***$\omega$*** | ***M*** | ***M1-M2*** | ***p-value*** | ***M7-M8*** | ***p-value*** | ***M8a-M8*** | ***p-value*** 
----|---|---|---|---|---|---|---|---|---|---
+***Gene*** | ***bp*** | ***N*** | ***$\omega$*** | ***M*** | ***M1-M2*** | ***p-value*** | ***M7-M8*** | ***p-value*** | ***M8a-M8*** | ***p-value*** | ***BEB***
+---|---|---|---|---|---|---|---|---|---|---|---
 **A)** | | | | | | | | | | | | 
-*HORMAD1* | 1212 | 16 | 0.3036 | 7 | 0 | *1.000* | 1.795 | *0.4076* | --- | --- 
-*MEI4* | 1170 | 16 | 0.4332 | 7 | 0 | *1.000* | 0.005 | *0.9976* | --- | --- 
-*REC114* | 870 | 15 | 0.4003 | 7 | 0 | *1.000* | 5.384 | *0.0677* | --- | --- 
-*IHO1* | 1824 | 16 | 0.7095 | **8** | 13.061 | ***0.0015*** | 17.571 | ***0.0002*** | 14.527 | ***0.0001*** 
-*SPO11* | 1188 | 15 | 0.1654 | 7 | 0 | *1.000* | 4.648 | *0.0980* | --- | --- |
+*HORMAD1* | 1212 | 16 | 0.3036 | 7 | 0 | *1.000* | 1.795 | *0.4076* | --- | --- | 0
+*MEI4* | 1170 | 16 | 0.4332 | 7 | 0 | *1.000* | 0.005 | *0.9976* | --- | --- | 0
+*REC114* | 870 | 15 | 0.4003 | 7 | 0 | *1.000* | 5.384 | *0.0677* | --- | --- | 0
+*IHO1* | 1824 | 16 | 0.7095 | **8** | 13.061 | ***0.0015*** | 17.571 | ***0.0002*** | 14.527 | ***0.0001*** | **1**
+*SPO11* | 1188 | 15 | 0.1654 | 7 | 0 | *1.000* | 4.648 | *0.0980* | --- | --- | 0
 **B)** | | | | | | | | | | | | 
-*HORMAD2* | 981 | 15 | 0.3153 | 7 | 0 | *1.000* | 3.650 | *0.1612* | --- | --- 
-*MRE11* | 2136 | 16 | 0.1688 | **8** | 0.363 | *0.8342* | 11.931 | ***0.0026*** | 4.706 | ***0.0301***
-*NBS1* | 2289 | 15 | 0.4183 | **8** | 0 | *1.000* | 12.763 | ***0.0017*** | 4.087 |  ***0.0432***
-*RAD50* | 3936 | 16 | 0.1006 | 7 | 0 | *1.000* | 0.301 | *0.8605* | --- | ----
-*BRCC3* | 954 | 15 | 0.0602 | 7 | 0 | *1.000* | 0.250 | *0.8826* | --- | --- 
+*HORMAD2* | 981 | 15 | 0.3153 | 7 | 0 | *1.000* | 3.650 | *0.1612* | --- | --- | 0
+*MRE11* | 2136 | 16 | 0.1688 | **8** | 0.363 | *0.8342* | 11.931 | ***0.0026*** | 4.706 | ***0.0301*** | 0 
+*NBS1* | 2289 | 15 | 0.4183 | **8** | 0 | *1.000* | 12.763 | ***0.0017*** | 4.087 |  ***0.0432*** | 0
+*RAD50* | 3936 | 16 | 0.1006 | 7 | 0 | *1.000* | 0.301 | *0.8605* | --- | ---- | 0
+*BRCC3* | 954 | 15 | 0.0602 | 7 | 0 | *1.000* | 0.250 | *0.8826* | --- | --- | 0
 **C)** | | | | | | | | | | | | 
-*DMC1* | 1020 | 15 | 0.0351 | 1 | 0.488 | *0.7835* | 5.000 | *0.0821* | --- | --- 
-*RAD51* | 1017 | 16 | 0.0268 | 7 | 0 | *1.000* | 0 | *1.000* | --- | ---
-*SPATA22* | 1101 | 16 | 0.4893 | 7 | 0 | *1.000* | 0.429 | *0.8070* | --- | --- 
-*MEIOB* | 1425 | 16 | 0.2341 | 7 | 0 | *1.000* | 0.665 | *0.7172* | --- | ---
-*MCMDC2* | 2052 | 16 | 0.2239 | 7 | 0 | *1.000* | 0.628 | *0.7307* | --- | ---
+*DMC1* | 1020 | 15 | 0.0351 | 1 | 0.488 | *0.7835* | 5.000 | *0.0821* | --- | --- | **1** 
+*RAD51* | 1017 | 16 | 0.0268 | 7 | 0 | *1.000* | 0 | *1.000* | --- | --- | 0
+*SPATA22* | 1101 | 16 | 0.4893 | 7 | 0 | *1.000* | 0.429 | *0.8070* | --- | --- | 0
+*MEIOB* | 1425 | 16 | 0.2341 | 7 | 0 | *1.000* | 0.665 | *0.7172* | --- | --- | 0
+*MCMDC2* | 2052 | 16 | 0.2239 | 7 | 0 | *1.000* | 0.628 | *0.7307* | --- | --- | 0
 **D)** | | | | | | | | | | | | 
-*REC8* | 1833 | 16 | 0.3698 | **8** | 0 | *1.000* | 14.690 | ***0.0006*** | 5.927 | ***0.0149*** |  
-*RAD21L* | 1686 | 15 | 0.503 | **8** | 12.124 | ***0.0023*** | 32.050 | ***>0.0001*** | 12.049 | ***0.0005*** | 
-*SYCP1* | 3015 | 16 | 0.4337 | **8** | 8.711 | ***0.0128*** | 26.860 | ***>0.0001*** | 9.243 | ***0.0024*** | 
-*SYCP2* | 4650 | 16 | 0.5572 | **8**| 11.584 | ***0.0031*** | 37.200 | ***>0.0001*** | 15.838  | ***0.0001*** |  
-*TEX12* | 369 | 14 | 0.2297 | 7 | 0.0565 | *0.9721* | 1.549 | *0.4610* | --- | ---
+*REC8* | 1833 | 16 | 0.3698 | **8** | 0 | *1.000* | 14.690 | ***0.0006*** | 5.927 | ***0.0149*** | 0 
+*RAD21L* | 1686 | 15 | 0.503 | **8** | 12.124 | ***0.0023*** | 32.050 | ***>0.0001*** | 12.049 | ***0.0005*** | **4**
+*SYCP1* | 3015 | 16 | 0.4337 | **8** | 8.711 | ***0.0128*** | 26.860 | ***>0.0001*** | 9.243 | ***0.0024*** | **3**
+*SYCP2* | 4650 | 16 | 0.5572 | **8**| 11.584 | ***0.0031*** | 37.200 | ***>0.0001*** | 15.838  | ***0.0001*** | 0 
+*TEX12* | 369 | 14 | 0.2297 | 7 | 0.0565 | *0.9721* | 1.549 | *0.4610* | --- | --- | 0
 **E)** | | | | | | | | | | | | 
-*TEX11* | 2844 | 15 | 0.8483 | **8** | 60.872 | ***>0.0001***  | 82.665 | ***>0.0001***  | 61.141 | ***>0.0001***  | 
-*SHOC1* | 4644 | 16 | 0.6113 | **8** | 12.447 | ***0.0020*** | 30.561 | ***>0.0001*** | 15.645 | ***0.0001*** |
-*RNF212* | 948 | 16  | 0.5014 | **8** | 0 | *1.000* | 16.366 | ***0.0003*** | 5.202 | ***0.0226*** |
-*RNF212B* | 906 | 14 | 0.4066 | 7 | 0 | *1.000* | 0.500 | *0.7788* | --- | ---
-*MSH4* | 2814 | 16 | 0.2132 | **8** | 16.608 | ***0.0002*** | 39.447 | ***>0.0001*** | 23.238 | ***>0.0001*** | 
-*MSH5* | 2565 | 15 | 0.1642 | 7 | 0 | *1.000* | 4.214 | *0.1216* | --- | ---
+*TEX11* | 2844 | 15 | 0.8483 | **8** | 60.872 | ***>0.0001***  | 82.665 | ***>0.0001***  | 61.141 | ***>0.0001***  | **14**
+*SHOC1* | 4644 | 16 | 0.6113 | **8** | 12.447 | ***0.0020*** | 30.561 | ***>0.0001*** | 15.645 | ***0.0001*** | 0
+*RNF212* | 948 | 16  | 0.5014 | **8** | 0 | *1.000* | 16.366 | ***0.0003*** | 5.202 | ***0.0226*** | **1**
+*RNF212B* | 906 | 14 | 0.4066 | 7 | 0 | *1.000* | 0.500 | *0.7788* | --- | --- | 0
+*MSH4* | 2814 | 16 | 0.2132 | **8** | 16.608 | ***0.0002*** | 39.447 | ***>0.0001*** | 23.238 | ***>0.0001*** | **6**
+*MSH5* | 2565 | 15 | 0.1642 | 7 | 0 | *1.000* | 4.214 | *0.1216* | --- | --- | 0
 **F)** | | | | | | | | | | | |
-*MER3* | 4458 | 16 | 0.3633 | 8a | 0 | *1.000* | 12.838 | ***0.0016*** | 3.109 | *0.0779* | 
-*CNTD1* | 1026 | 15 | 0.2496 | 7 | 0 | *1.000* | 0.936 | *0.6263* | --- | ---  
-*HEI10* | 831 | 15 | 0.1226 | 7 | 0 | *1.000* | 0.250 | *0.8826* | --- | ---
-*MLH1* | 2313 | 15 | 0.1652 | 8a | 0 | *1.000* | 12.221 | ***0.0022*** | 0.280 | *0.5970* | 
-*MLH3* | 4419 | 16 | 0.4444 | 7 | 0 | *1.000* | 3.757 | *0.1528* | --- | ---
-*MUS81* | 1665 | 16 | 0.2124 | 7 | 0 | *1.000* | 0.628 | *0.7304* | --- | ---
-
-\pagebreak
-
-**Table 5**: Polymorphism & Divergence Data
-
-***Gene*** | ***$\omega$*** | ***Pn*** | ***Ps*** | ***Pn/Ps*** | ***Dn*** | ***Ds*** | ***Dn/Ds*** | ***MK Test*** | ***$\alpha$*** | ***NI*** |  |
----|---|---|---|---|---|---|---|---|---|---|---|
-**A)** | | | | | | | | | |
-*HORMAD1* | 0.0901 | 84 | 35 | 2.4000 | 5 | 12 | 0.4167 | ***0.0018*** | -4.7600 | 5.7600 | Neg. 
-*MEI4* | 0.7252 | 15 | 7 | 2.1429 | 24 | 9 | 2.6667 | *0.7679* | 0.1964 | 0.8036 | ---
-*REC114* | 0.3239 | 76 | 37 | 2.0541 | 11 | 14 | 0.7857 | ***0.0392*** | -1.6143 | 2.6143 | Neg.
-*IHO1* | 0.6608 | 130 | 64 | 2.0313 | 36 | 19 | 1.8947 | *0.8718* | -0.0720 | 1.0720 | ---
-*SPO11* | 0.1434 | 118 | 52 | 2.2692 | 11 | 22 | 0.5000 | ***0.0001*** | -3.5385 | 4.5385 | Neg.
-**B)** | | | | | | | | | |
-*HORMAD2* | 0.295 | 80 | 31 | 2.5806 | 7 | 9 | 0.7778 | ***0.0404*** | -2.3180 | 3.3180 | Neg. 
-*MRE11* | 0.0392 | 211 | 86 | 2.4535 | 5 | 35 | 0.1429 | ***>0.0001*** | -16.1744 | 17.1744 | Neg.
-*NBS1* | 0.4155 | 221 | 93 | 2.3763 | 34 | 25 | 1.3600 | *0.0666* | -0.7473 | 1.7473 | ---
-*RAD50* | 0.0714 | 303 | 118 | 2.5678 | 8 | 43 | 0.1860 | ***>0.0001*** | -12.8019 | 13.8019 | Neg.
-*BRCC3* | 0.0979 | 13 | 21 | 0.6190 | 2 | 6 | 0.3333 | 0.6888 | -0.8571 | 1.8571 | ---
-**C)** | | | | | | | | | |
-*DMC1* | 0.000 | 72 | 42 | 1.7143 | 0 | 11 | 0.0000 | ***>0.0001*** | --- | --- | Neg.
-*RAD51* | 0.000 | 50 | 48 | 1.0417 | 0 | 13 | 0.0000 | ***>0.0001*** | --- | --- | Neg.
-*SPATA22* | 0.4523 | 114 | 45 | 2.5333 | 21 | 10 | 2.1000 | *0.6700* | -0.2063 | 1.2063 | ---
-*MEIOB* | 0.2462 | 91 | 40 | 2.2750 | 20 | 22 | 0.9091 | ***0.0200*** | -1.5025 | 2.5025 | Neg. 
-*MCMDC2* | 0.2108 | 165 | 54 | 3.0556 | 16 | 26 | 0.6154 | ***>0.0001*** | -3.9653 | 4.9653 | Neg.
-**D)** | | | | | | | | | |
-*REC8* | 0.477 | 147 | 76 | 1.9342 | 38 | 31 | 1.2258 | *0.1164* | -0.5779 | 1.5779 | ---
-*RAD21L* | 0.6334 | 51 | 17 | 3.000 | 27 | 13 | 2.0769 | *0.5051* | -0.4444 | 1.4444 | ---
-*SYCP1* | 0.3676 | 213 | 100 | 2.1300 | 33 | 37 | 1.2222 | *0.0546* | -0.7427 | 1.7427 | ---
-*SYCP2* | 0.3676 | 429 | 154 | 2.8506 | 74 | 53 | 1.3962 | ***0.0005*** | -1.0417 | 2.0417 | Neg.
-*TEX12* | 0.1349 | 31 | 16 | 1.9375 | 2 | 4 | 0.5000 | 0.1836 | -2.875 | 3.875 | ---
-**E)** | | | | | | | | | |
-*TEX11* | 0.9068 | 126 | 81 | 1.5556 | 55 | 25 | 2.200 | *0.2234* | 0.2929 | 0.7071 | ---
-*SHOC1* | 0.7225 | 368 | 124 | 2.9677 | 85 | 37 | 2.2973 | *0.2521* | -0.2918 | 1.2918 | ---
-*RNF212* | 0.387 | --- | --- | --- | 17 | 18 | 0.9444 | --- | --- | --- | ---
-*RNF212B* | 0.2566 | 368 | 124 | 2.9677 | 8 | 12 | 0.6667 | ***0.0013*** | -3.4516 | 4.4516 | Neg.
-*MSH4* | 0.2635 | 260 | 94 | 2.7660 | 24 | 29 | 0.8276 | ***>0.0001*** | -2.3422 | 3.3422 | Neg.
-*MSH5* | 0.2106 | 197 | 104 | 1.8942 | 19 | 33 | 0.5758 | ***0.0002*** | -2.2900 | 3.2900 | Neg.
-**F)** | | | | | | | | | |
-*MER3* | 0.3247 | 402 | 143 | 2.8112 | 54 | 44 | 1.2273 | ***0.0004*** | -1.2906 | 2.2906 | Neg.
-*CNTD1* | 0.6803 | 81 | 47 | 1.7234 | 13 | 8 | 1.6250 | *1.0000* | -0.0606 | 1.0606 | ---
-*HEI10* | 0.3235 | 73 | 33 | 2.2121 | 4 | 5 | 0.8000 | *0.1541* | -1.7652 | 2.7652 | ---
-*MLH1* | 0.0924 | 255 | 90 | 2.8333 | 9 | 29 | 0.3103 | ***>0.0001*** | -8.1296 | 9.1296 | Neg.
-*MLH3* | 0.4919 | 437 | 167 | 2.6168 | 77 | 57 | 1.3509 | ***0.0012*** | -0.9370869 | 1.937087 | Neg.
-*MUS81* | 0.1299 | 208 | 81 | 2.5679 | 17 | 40 | 0.4250 | ***>0.0001*** | -5.0421 | 6.0421 | Neg.
+*MER3* | 4458 | 16 | 0.3633 | 8a | 0 | *1.000* | 12.838 | ***0.0016*** | 3.109 | *0.0779* | 0
+*CNTD1* | 1026 | 15 | 0.2496 | 7 | 0 | *1.000* | 0.936 | *0.6263* | --- | --- | 0
+*HEI10* | 831 | 15 | 0.1226 | 7 | 0 | *1.000* | 0.250 | *0.8826* | --- | --- | 0
+*MLH1* | 2313 | 15 | 0.1652 | 8a | 0 | *1.000* | 12.221 | ***0.0022*** | 0.280 | *0.5970* | 0
+*MLH3* | 4419 | 16 | 0.4444 | 7 | 0 | *1.000* | 3.757 | *0.1528* | --- | --- | 0
+*MUS81* | 1665 | 16 | 0.2124 | 7 | 0 | *1.000* | 0.628 | *0.7304* | --- | --- | 0
 
 \pagebreak
 
@@ -338,11 +391,56 @@ Resolution | ***MER3**, CNTD1, **HEI10**, MLH1, **MLH3**, MUS81*
 
 \pagebreak
 
+**Table 5**: Polymorphism & Divergence Data
+
+***Gene*** | ***$\omega$*** | ***Pn*** | ***Ps*** | ***Pn/Ps*** | ***Dn*** | ***Ds*** | ***Dn/Ds*** | ***MK Test*** | ***NI*** | ***DoS*** |  |
+---|---|---|---|---|---|---|---|---|---|---|---|
+**A)** | | | | | | | | | |
+*HORMAD1* | 0.0901 | 43 | 10 | 4.3 | 5 | 12 | 0.4167 | ***0.0002*** | 10.32 | -0.5172 | Neg. 
+*MEI4* | 0.7252 | 9 | 2 | 4.5 | 24 | 9 | 2.6667 | *0.7013* | 1.6875 | -0.0909 | ---
+*REC114* | 0.3239 | 49 | 21 | 2.3333 | 11 | 14 | 0.7857 | ***0.02949*** | 2.9700 | -0.2600 | Neg.
+*IHO1* | 0.6608 | 72 | 28 | 2.5714 | 36 | 19 | 1.8947 | *0.4658* | 1.3571 | -0.0645 | ---
+*SPO11* | 0.1434 | 62 | 28 | 2.2143 | 11 | 22 | 0.5000 | ***0.0008*** | 4.4286 | -0.3556 | Neg.
+**B)** | | | | | | | | | |
+*HORMAD2* | 0.295 | 50 | 16 | 3.125 | 7 | 9 | 0.7778 | ***0.0177*** | 4.0179 | -0.3201 | Neg. 
+*MRE11* | 0.0392 | 139 | 48 | 2.8958 | 5 | 35 | 0.1429 | ***>0.0001*** | 20.2708 | -0.6183 | Neg.
+*NBS1* | 0.4155 | 119 | 58 | 2.0517 | 34 | 25 | 1.3600 | *0.2086* | 1.5086 | -0.0960 | ---
+*RAD50* | 0.0714 | 168 | 55 | 3.0517 | 8 | 43 | 0.1860 | ***>0.0001*** | 16.4182 | -0.5965 | Neg.
+*BRCC3* | 0.0979 | 7 | 12 | 0.5833 | 2 | 6 | 0.3333 | *0.6758* | 1.7500 | -0.1184 | ---
+**C)** | | | | | | | | | |
+*DMC1* | 0.000 | 43 | 25 | 1.72 | 0 | 11 | 0.0000 | ***<0.0001*** | --- | -0.6324 | Neg.
+*RAD51* | 0.000 | 27 | 29 | 0.9310 | 0 | 13 | 0.0000 | ***0.0010*** | --- | -0.4821 | Neg.
+*SPATA22* | 0.4523 | 67 | 26 | 2.5769 | 21 | 10 | 2.1000 | *0.6535* | 1.2271 | -0.0430 | ---
+*MEIOB* | 0.2462 | 45 | 17 | 2.6471 | 20 | 22 | 0.9091 | ***0.0094*** | 2.9118 | -0.2496 | Neg. 
+*MCMDC2* | 0.2108 | 90 | 24 | 3.7500 | 16 | 26 | 0.6154 | ***<0.0001*** | 6.0938 | -0.4085 | Neg.
+**D)** | | | | | | | | | |
+*REC8* | 0.477 | 90 | 45 | 2.000 | 38 | 31 | 1.2258 | *0.1264* | 1.6316 | -0.1159 | ---
+*RAD21L* | 0.6334 | 21 | 6 | 3.500 | 27 | 13 | 2.0769 | *0.4176* | 1.6852 | -0.1028 | ---
+*SYCP1* | 0.3676 | 122 | 60 | 2.033 | 33 | 37 | 1.2222 | *0.1204* | 1.6636 | -0.1203 | ---
+*SYCP2* | 0.3676 | 246 | 87 | 2.8276 | 74 | 53 | 1.3962 | ***0.0015*** | 2.0252 | -0.1561 | Neg.
+*TEX12* | 0.1349 | 15 | 9 | 1.6667 | 2 | 4 | 0.5000 | *0.3598* | 3.3333 | -0.2917 | ---
+**E)** | | | | | | | | | |
+*TEX11* | 0.9068 | 78 | 45 | 1.7333 | 55 | 25 | 2.200 | *0.4541* | 0.7879 | 0.05335 | ---
+*SHOC1* | 0.7225 | 227 | 72 | 3.1528 | 85 | 37 | 2.2973 | *0.2199* | 1.3724 | -0.0625 | ---
+*RNF212* | 0.387 | --- | --- | --- | 17 | 18 | 0.9444 | --- | --- | --- | ---
+*RNF212B* | 0.2566 | 9 | 3 | 3.000 | 8 | 12 | 0.6667 | *0.0759* | 4.5000 | -0.3500 | ---
+*MSH4* | 0.2635 | 149 | 50 | 2.9800 | 24 | 29 | 0.8276 | ***<0.0001*** | 3.6008 | -0.2959 | Neg.
+*MSH5* | 0.2106 | 129 | 64 | 2.0156 | 19 | 33 | 0.5758 | ***0.0001*** | 3.5008 | -0.3030 | Neg.
+**F)** | | | | | | | | | |
+*MER3* | 0.3247 | 236 | 92 | 2.5652 | 54 | 44 | 1.2273 | ***0.0029*** | 2.0902 | -0.1685 | Neg.
+*CNTD1* | 0.6803 | 56 | 29 | 1.9310 | 13 | 8 | 1.6250 | *0.8001* | 1.1883 | -0.0398 | ---
+*HEI10* | 0.3235 | 50 | 21 | 2.3810 | 4 | 5 | 0.8000 | *0.1417* | 2.9762 | -0.2598 | ---
+*MLH1* | 0.0924 | 161 | 48 | 3.3542 | 9 | 29 | 0.3103 | ***>0.0001*** | 10.8079 | -0.5335 | Neg.
+*MLH3* | 0.4919 | 252 | 90 | 2.8 | 77 | 57 | 1.3509 | ***0.0009*** | 2.0727 | -0.1622 | Neg.
+*MUS81* | 0.1299 | 129 | 49 | 2.6327 | 17 | 40 | 0.4250 | ***>0.0001*** | 6.1945 | -0.4265 | Neg.
+
+\pagebreak
+
+
 ## Acknowledgements 
 
-A.L.D. was supported by NHGRI Training Grant to the Genomic Sciences Training Program
-5T32HG002760. B.A.P. was supported by NIH grant R01 GM100426A and NSF grant DEB
-1353737.
+We thank Nathan Clark for assistance with evolutionary covariation rate analyses. A.L.D. was supported by NHGRI Training Grant to the Genomic Sciences Training Program
+5T32HG002760. B.A.P. was supported by NIH grant NIH grant R01 GM120051.
 
 ## References
 
