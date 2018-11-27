@@ -150,104 +150,33 @@ Motivated by the findings that *TEX11*, *SYCP2*, and *SHOC1* are three of the mo
 
 ## Discussion
 
-### Observations about recombination genes as group:
+While substantial variation in recombination rate has been observed between mammalian species (**citations**), the genetic changes underlying this divergence remain poorly understood.  By measuring the rate of molecular evolution of key genes across the mammalian phylogeny, we have uncovered a detailed portrait of genetic divergence in the recombination pathway. Notably, we observed substantial variation in the rate of evolution of genes in the recombination pathway, ranging from highly conserved genes ($\omega$ = 0.0268) to rapidly diverging genes ($\omega$ = 0.8483).  Importantly, genetic divergence is likely to underlie the observed phenotypic divergence, allowing us to nominate genes and steps of the pathway that have likely contributed to the evolution of recombination rate.  
 
-We observed substantial variation in the rate of evolution of genes in the recombination pathway.  However, there are a number of observations we can make about how recombination genes evolve as a group:
+Inter-individual variation in recombination rate has been linked to a handful of recombination genes in mammals (**citations**), providing an intriguing set of candidate genes for inter-species variation in recombination rate (Table 1).  However, we did not find evidence that genes associated with inter-individual variation in recombination rate evolve more rapidly, or are more likely to have signatures of adaptive evolution, than recombination genes without such associations. This observation indicates that genes that produce inter-individual variation in recombination rate are not more likely to contribute to between species differences than other genes in the recombination pathway. This lack of an association may suggest that genes underlie species differences in recombination rate are subject to strong directional selection within populations, reducing their contribution inter-individual variation, or that genes that are responsible for within-species rate difference may often be targets of diversifying or antagonistic selection, limiting their divergence between species.  This is supported by the observation that variants of RNF212, a gene repeatably associated with inter-individual variation in recombination rate, have different effects on recombination rate in female and male humans [**citations**]. Alternatively, it is possible we did not detect an association because we have imperfect knowledge of the genes responsible for inter-individual variation.  However, the repeated discovery that the same genes are associated with inter-individual variation in recombination rate in diverse species reduces the likelihood of this possibility (**citations**).  
 
-**1)** Rate correlations among recombination genes are higher than expected from rate correlations among other genes - evidence that the recombination pathway shapes the evolution of recombination genes.
+Work in mice indicates that the mammalian recombination pathway is divided into a series of functionally distinct steps, suggesting that position in the recombination pathway may be a good predictor of evolutionary rate.  However, we did not see a strong pattern that the rate of evolution of a gene could be predicted by the step in the recombination pathway in which a gene functions (Figure 6). The heterogeneity in evolutionary rate of genes with steps suggests position in the recombination pathway is not a good proxy for the selection pressures acting on a gene.  It is possible that this association is obscured by rate heterogeneity among protein domains.  For example, the signal of rapid and adaptive evolution in *PRDM9* is restricted to the zinc finger residues, with much of the gene sequence being conserved between species [**citations**]. Rate heterogeneity between genes within steps of the recombination pathway motivates a more careful investigation of the specific role of genes in the pathway, as well as variation in functional domains within gene of interest.
 
-**2)** In general, there is very high concordance between the rate of evolution of recombination genes in primates (human vs. macaque) and across the mammalian phylogeny, suggesting that the strength and direction of selection on recombination genes may be quite similar across mammals. 
+Genes that exhibit particularly rapid evolution compared to other recombination genes present compelling candidates for driving between species differences.  Four genes exhibit particularly rapid evolution across the mammalian phylogeny compared to other recombination genes (average $\omega$ = 0.3275), with evolutionary rates greater than 1 SD above the mean (*IHO1*: $\omega$ = 0.7095 , *SHOC1*: $\omega$ = 0.6113, *SYCP2*: $\omega$ = 0.5572, *TEX11*: $\omega$ = 0.8483). Interestingly, *TEX11* is known to directly interact with of two of the three other genes that evolve most rapidly across the mammalian phylogeny - functioning by binding to the synaptonemal complex (*SYCP2*) and recruiting factors that regulate the first step of the crossover vs. non-crossover decision (*SHOC1*)(**citations**).  The forth gene, *IHO1*, is a recently discovered gene that recruits and activated *SPO11*, a topoisomerase-like gene that generates DSBs [**citations**].  Thus, all four rapidly evolving recombination genes are well-positioned to potentially influence the rate of recombination rate, either by influencing the number of DSBs formed or the designation of which DSBs will mature into crossovers. At the other end of the spectrum, five genes have evolutionary rates more than 1 SD below the mean and are highly conserved across the mammalian phylogeny (*BRCC3*, *DMC1*, *HEI10*, *RAD50*, *RAD51*).  With the exception of *HEI10*, these genes predominantly function in the detection and processing of DSB breaks (**citations**).  
 
-* Caveat: These two measures are not independent, divergence between humans and macaques is part of the measurement of divergence across mammals.
+It is very important to note that rapid evolution does mean adaptive evolution.  Furthermore, as the role of adaptive evolution in shaping divergence in recombination rate between species is unclear (**citations**), it is also worth noting that there only limited evidence to suggest that the genes that underlie species difference should be expected to have signatures of adaptive evolution.  Surprisingly, we identified a significant signature of positive selection in 11 of the 32 recombination genes we analyzed using phylogenetic comparative methods.  These 11 genes include the 4 recombination genes identified as rapidly evolving and are predominantly found in two steps of the pathway: genes that form the synaptonemal complex and (*REC8*, *RAD21L*, *SYCP1*, and *SYCP2*) and genes that regulate the first steps of the crossover vs. non-crossover decision (*TEX11*, *SHOC1*, *RNF212*, and *MSH4*).  
 
-Note, there are some notable exceptions to the general concordance between the rate of evolution in primates and mammals – which may highlight genes that have experienced differences in the strength and direction of selection along the primate lineage. 
+Seemingly in contrast with these results, many recombination gene (17/31) have evidence of negative selection in primates – diagnosed by an excess of non-synonymous polymorphisms in human populations. These results highlight a pattern of conservation among recombination genes. However, this approach identifies patterns of selection at the level of the entire gene and positive selection is often thought to target certain domains within proteins, as observed in *PRDM9* [**citations**]. Phylogenetic comparative methods leverage more sequence data to allow for a more sensitive test for sites of selection, potentially resulting in this discrepancy.  In fact, this pattern is exemplified with *MSH4*.  *MSH4* exhibits a significant signature of positive selection, but a lower than average evolutionary rate along the mammalian phylogeny ($\omega$ = 0.2132, Table 3). *MSH4* also exhibits an excess of non-synonymous polymorphism within humans, a significant signature of negative selection (*DoS* = -0.2959, Table 5).  These two seemingly disparate results are unified by the observation that all 6 codons in *MSH4* with significant signatures of positive selection (BEB, ***p* < 0.05**) are highly localized in the first 100 bp in a putative DNA binding domain (**citations**).     
 
-* CNTD1, HORMAD1, and MEI4 have relatively average rates of evolution across the mammalian phylogeny.  However, MEI4 and CNTD1 are among the most rapidly evolving recombination genes along the primate lineage, while HORMAD1 is one of the most conserved.  
+However, the increased sensitivity of PAML is not without tradeoffs.  PAML has been shown to be susceptible to false positives when assumptions are violated.  One potentially pervasive issue are multi-nucleotide mutations, which violate the assumption that the probability of two simultaneous mutations in a single codon is zero [**citations**]. It is not possible to directly identify MNMs in our dataset, so we choose a highly conservative approach of removing all codons that are inferred to have accumulated multiple mutations on a single branch in the phylogeny.  Codons removed using this approach could be MNMs, but they also likely include codons that either have accumulated sequential mutations along the long branches in the mammalian phylogeny or are neither MNMs or CMDs, due to uncertainty in the inference of ancestral sequences. Despite the conservative nature of this approach, we still found a signature of positive selection in *TEX11*, even when all putative CMDs were removed.  While this result suggests that MNMs are unlikely to have produced an erroneous signature of selection in *TEX11*, the conservative nature of the filter makes it difficult to draw conclusions about the nature of the signals of selection in the other recombination genes.  It is always to prudent to consider the possibility that relaxed selection has led to elevated rates of evolution.
 
-**3)** As a group, recombination genes tend to evolve more rapidly than other genes in primates.  There are a couple of explanations as to why a group of genes may exhibited elevated rates of evolution:
- 
-* (1) Expression Level – genes with lower breadth of expression tend to evolve more rapidly.  Recombination genes tend to be tissue-specific with low overall levels of expression. Sex-specific expression can also relax selection and elevate divergence.  However, these genes are unlikely to be sex-specific as they affect recombination phenotypes in both sexes. 
-* (2) Positive Selection – it is possible that on average, recombination genes are more frequently subject to positive selection, elevating divergence between species.
+The population genetic patterns, paired with knowledge of the molecular function, nominate *TEX11* as a very interesting candidate for further investigation. *TEX11* is the most rapidly evolving recombination gene in primates ($\omega$ = 0.9068) and mammals ($\omega$ = 0.8483) and exhibits a robust signature of positive selection even in conservative analyses.  While *TEX11* does not exhibit an excess of non-synonymous substitutions between humans and macaques, it is the only recombination gene that we surveyed that had more non-synonymous substitutions than expected based upon the patterns of polymorphism in humans, indicated by a neutrality index less than one (0.7879) and positive DoS (0.05335).  Interestingly, *TEX11* also has 14 individual residues that exhibit signatures of positive selection (BEB, ***p* < 0.05**). Unlike *PRDM9* or *MSH4*, these residues are distributed across the length of the gene.  The lack of such a discrete, localized signature of selection is likely due to the fact that the majority of *TEX11* is encompassed by 3 large TRP domains [@Guiraldelli2018], ubiquitous protein interaction domains.  Most of the residues with signatures of selection localize to two of the large TRP domains - one of which is known to bind to *SHOC1* [**citations**].
 
-### Observations about groups of recombination genes:
+The position on *TEX11* at the very beginning of the crossover vs. non-crossover decision, provides some interesting suggestions as to how recombination rate may be evolving across mammals.  If recombination rate is under directional selection across mammals, as suggested by Segura et al. (2013), a key role of *TEX11* suggests that variation in crossover number maybe generated very early during the crossover vs. non-crossover decision.  Alternatively, the positioning of *TEX11* at this particular stage in the pathway may instead suggest that selection favors a consistent recombination rate across the mammalian phylogeny.  In this case, the signature of positive selection in *TEX11* could be driven by its role in maintaining crossover homeostasis despite the accumulation of changes in other genes in the pathway.  Interestingly, the correlation in evolutionary rates between *TEX11*, *SYCP2*, and *SHOC1* can support either scenario - either all three genes experience concordant selection pressures due to their closely-related functions in the recombination pathway or the correlation in evolutionary rate is driven by compensatory changes in *TEX11*.
 
-**1)** We did not find evidence that genes previously associated with inter-individual variation in recombination rate show more rapid or adaptive evolution than other genes in the genome.  There are two interpretations of this observation:
+While our analysis of the molecular evolution highlights key genes, such as *TEX11*, that provide excellent candidates for genes underlying the evolution of recombination rate between species, it is important to note that our results do not exclude the possibility that other genes play important roles in between species divergence.  For example, genes without signatures of positive selection may contribute to species differences in recombination rate, and genes with evidence of positive selection may not contribute.  Additionally, we did not consider all genes in the recombination pathway, nor did we consider the evolution of non-coding sequences. 
 
-* (1) genes that produce inter-individual variation in recombination rate are unlikely to contribute to between species differences.
-* (2) we did not detect an association because we have imperfect knowledge of the genes responsible for inter-individual variation.
+### WHERE SHOULD THIS GO???
 
-**2)** We did not see a strong pattern that the rate of evolution of a gene could be predicted by the step in the pathway in which it functions.  There are two interpretations of this observation:
+While we focus primarily on differences between recombination genes, our analyses also allow us to make observations about the evolution of recombination genes as a group.  Rate correlations among recombination genes are higher than expected from rate correlations among other genes - evidence that the recombination pathway shapes the evolution of recombination genes. 
 
-* (1) The step of the recombination pathway a recombination functions in is not a good proxy for the selection pressures acting on a gene.
-* (2) Due to the significant variation in evolutionary rates between genes, we do not have enough power to detect similarity in selection pressures within step with our dataset.  
+As a group, recombination genes tend to evolve more rapidly than other genes in primates.  There are a couple of explanations as to why a group of genes may exhibited elevated rates of evolution. Genes with lower breadth of expression tend to evolve more rapidly.  Consistent with this explanation, recombination genes tend to be tissue-specific with low overall levels of expression. It is worth noting that reproductive genes, a group in which recombination genes can be included, have been observed to evolve more rapidly than other genes. This pattern of rapid divergence is generally thought to be driven by strong post-copulatory sexual selection or via a relaxation of selection due to sex-specific expression and low female re-mating rates. However, these genes are unlikely to be sex-specific as they affect recombination phenotypes in both sexes. Furthermore, recombination occurs prior to copulation in mammals making it a poor candidate for involvement in post-copulatory sexual selection.  However, it is possible that on average, recombination genes are more frequently subject to positive selection, elevating divergence between species.  
 
-Heterogeneity within steps of the recombination pathway motivates a more careful investigation of the specific role of genes in the pathway.
-
-### Signatures of Selection:
-
-Many gene (~50%) have evidence of negative selection in primates – diagnosed by an excess of non-synonymous polymorphisms in human populations.  These results highlight a pattern of conservation among recombination genes.
-
-This approach identifies patterns of selection at the level of the entire gene and positive selection is often thought to target certain domains within proteins.  For example, the majority of PRDM9 sequence is conserved and the signature of rapid divergence is constrained to a specific domain.  Phylogenetic comparative methods leverage more sequences to allow a more sensitive test for sites of selection.  
-
-A sizable fraction of the recombination genes we analyzed (~1/3) showed evidence for positive selection at a subset of sites.  These genes are predominantly found in two steps of the pathway:
-
-* (1) genes that form the synaptonemal complex 
-* (2) the genes that regulate the first steps of the crossover vs. non-crossover decision
-
-PAML has been shown to be susceptible to false positives when assumptions are violated.  One potentially pervasive issue are multi-nucleotide mutations, which violate the assumption that the probability of two simultaneous mutations in a single codon is zero.  
-
-It is not possible to directly identify MNMs in our dataset, so we choose a highly conservative approach of removing all codons that are inferred to have accumulated multiple mutations on a single branch in the phylogeny.  Codons removed using this approach could be MNMs, but they also likely include codons that:
-
-* have accumulated sequential mutations along the long branches in the mammalian phylogeny.
-* are neither MNMs or CMDs, due to uncertainty in the inference of ancestral sequences.  
-
- Despite the conservative nature of this approach, we still found a signature of positive selection in TEX11 even when all putative CMDs were removed.  While this result suggests that MNMs are unlikely to have produced an erroneous signature of selection in TEX11, the conservative nature of the filter makes it difficult to draw conclusions about the nature of the signals of selection in the other recombination genes.  It is always to prudent to consider the possibility that relaxed selection has led to elevated rates of evolution.
-
-### Observations about specific recombination genes:
-
-The population genetic patterns, paired with knowledge of the molecular function, nominate TEX11 as a very interesting candidate for further investigation:
-TEX11 exhibits rapid evolution and a robust signature of positive selection.
-
-* TEX11 is the most rapidly evolving recombination gene within primates and across mammals.
-* TEX11 exhibits a robust signature of positive selection across mammals.
-* 14 residues distributed throughout TEX11 exhibit signatures of positive selection.
-* TEX11 is the only gene we surveyed that had more non-synonymous substitutions than non-synonymous polymorphisms.
-
-TEX11 is known to directly interact with of two of the three other genes that evolve most rapidly across the mammalian phylogeny (SHOC1, SYCP2).
-
-Rate correlations among TEX11-SYCP2-SHOC1 are higher than expected from rate correlations among recombination genes – evidence of correlated evolution.  This correlation suggests that either:
-
-* (1) all three genes experience concordant selection pressures due to their closely-related functions in the recombination pathway
-* (2) rapid evolution of TEX11 is driving compensatory changes in two proteins with which it directly interacts (SYCP2 & SHOC1).
-
-TEX11 is thought to function by binding to the synaptonemal complex (SYCP2) and recruit factors that regulate the first step of the crossover vs. non-crossover decision (SHOC1).
-
-* TEX11 has 3 TRP domains [@Guiraldelli2018] and most of the residues with signatures of selection localize to two of the domains – one of which is known to bind to SHOC1.
-* “a TRP-like domain, a ubiquitous protein interaction domain that adopts a modular antiparallel array of $\alpha$-helices”
-
-Caveats: 
-
-* (1) genes without signatures of positive selection may contribute to species differences in recombination rate, and genes with evidence of positive selection may not contribute; 
-* (2) we did not consider all genes in the recombination pathway, nor did we consider the evolution of non-coding sequences
-
-### Other Notable Patterns:
-
-IHO1 is also a very interesting gene:
-
-* IHO1 evolves rapidly and has a signature of positive selection.
-* IHO1 is a recently discovered gene that is required for DSB formation, it recruits and activated SPO11, a topoisomerase-like gene that generates DSBs.
-
-The genes that are most highly conserved across mammals are exclusively involved in the detection and processing of DSBs.  Some of these genes function in DSB detection and repair which may exert non-recombination related selection pressures, however, meiosis-specific genes are among this group.
- 
-### Comparisons to other observed patterns:
-
-Highlight comparisons to genes specifically mentioned in the introduction:
-
-We do not observe any recombination genes with as extreme a pattern of divergence as PRDM9.  However, TEX11 comes close.
-
-* Most of the PRDM9 allele is highly conserved.  The zinc-finger domains are highly divergent.  28 of 36 ZF residues differ between human and chimpanzee.  32 sites with evidence of positive selection (dN/dS >> 1). [@Thomas2009]
-
-MCMDC2 - homolog of MEI-217/MEI-218 - contrasting patterns highlight differences between *Drosophila* and mammals.
+In general, there is very high concordance between the rate of evolution of recombination genes in primates (human vs. macaque) and across the mammalian phylogeny, suggesting that the strength and direction of selection on recombination genes may be quite similar across mammals.  The caveat here is that these two measures are not independent, divergence between humans and macaques is part of the measurement of divergence across mammals. Note, there are some notable exceptions to the general concordance between the rate of evolution in primates and mammals – which may highlight genes that have experienced differences in the strength and direction of selection along the primate lineage. In particular, *CNTD1*, *HORMAD1*, and *MEI4* have relatively average rates of evolution across the mammalian phylogeny.  However, *MEI4* and *CNTD1* are among the most rapidly evolving recombination genes along the primate lineage, while *HORMAD1* is one of the most conserved.    
 
 \pagebreak
 
