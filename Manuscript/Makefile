@@ -5,7 +5,7 @@
 pdf : DapperPayseur_2018.pdf 
 
 DapperPayseur_2018.pdf : DapperPayseur_2018.md References.bib
-	pandoc -V geometry:margin=1in --filter=pandoc-citeproc --biblio=References.bib --csl=genetics.csl $< -fmarkdown-implicit_figures -s -o $@
+	pandoc -V geometry:margin=1in --filter=pandoc-citeproc --biblio=References.bib --csl=molecular-biology-and-evolution.csl $< -fmarkdown-implicit_figures -s -o $@
 
 ## info		: Generate pdf.
 .PHONY : info
