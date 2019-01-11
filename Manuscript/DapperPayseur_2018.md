@@ -172,7 +172,7 @@ Another caveat concerns the interpretation of our findings. Although we would pr
 
 ## Acknowledgements 
 
-We thank Nathan Clark for assistance with evolutionary covariation rate analyses and Francesca Cole for advice on selection of recombination genes. A.L.D. was supported by NHGRI Training Grant to the Genomic Sciences Training Program 5T32HG002760. B.A.P. was supported by NIH grant NIH grant R01 GM120051.   
+We thank Nathan Clark for assistance with evolutionary covariation rate analyses and Francesca Cole for advice on selection of recombination genes. A.L.D. was supported by NHGRI Training Grant to the Genomic Sciences Training Program 5T32HG002760. B.A.P. was supported by NIH grant R01 GM120051.   
 
 \pagebreak
 
